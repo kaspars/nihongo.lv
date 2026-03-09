@@ -1,5 +1,4 @@
 import {
-  boolean,
   char,
   integer,
   pgEnum,
@@ -53,8 +52,8 @@ export const characters = pgTable("characters", {
   // The character itself
   literal: char("literal", { length: 1 }).notNull().unique(),
   strokeCount: smallint("stroke_count"),
-  // Kangxi radical
-  radical: char("radical", { length: 1 }),
+  // Kangxi radical number (1-214). Display forms resolved via static lookup.
+  radical: smallint("radical"),
   createdAt: timestamp("created_at").notNull().defaultNow(),
   updatedAt: timestamp("updated_at")
     .notNull()

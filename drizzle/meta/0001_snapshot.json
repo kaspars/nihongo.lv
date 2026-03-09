@@ -1,0 +1,370 @@
+{
+  "id": "96641a28-dd73-4142-a8f2-caf4cc0ec78d",
+  "prevId": "ed33d490-5d5c-4ac5-91b7-d2ac2d8d1960",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.character_meanings": {
+      "name": "character_meanings",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "character_id": {
+          "name": "character_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "source_language": {
+          "name": "source_language",
+          "type": "cjk_language",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "meaning_language": {
+          "name": "meaning_language",
+          "type": "meaning_language",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "keyword": {
+          "name": "keyword",
+          "type": "varchar(50)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "meanings": {
+          "name": "meanings",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "character_meanings_character_id_characters_id_fk": {
+          "name": "character_meanings_character_id_characters_id_fk",
+          "tableFrom": "character_meanings",
+          "tableTo": "characters",
+          "columnsFrom": [
+            "character_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "character_meanings_unique": {
+          "name": "character_meanings_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "character_id",
+            "source_language",
+            "meaning_language"
+          ]
+        },
+        "character_meanings_keyword_unique": {
+          "name": "character_meanings_keyword_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "source_language",
+            "meaning_language",
+            "keyword"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.character_readings": {
+      "name": "character_readings",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "character_id": {
+          "name": "character_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "language": {
+          "name": "language",
+          "type": "cjk_language",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "type": {
+          "name": "type",
+          "type": "reading_type",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "value": {
+          "name": "value",
+          "type": "varchar(30)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "position": {
+          "name": "position",
+          "type": "smallint",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 0
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "character_readings_character_id_characters_id_fk": {
+          "name": "character_readings_character_id_characters_id_fk",
+          "tableFrom": "character_readings",
+          "tableTo": "characters",
+          "columnsFrom": [
+            "character_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "character_readings_unique": {
+          "name": "character_readings_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "character_id",
+            "language",
+            "type",
+            "value"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.characters": {
+      "name": "characters",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "literal": {
+          "name": "literal",
+          "type": "char(1)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "stroke_count": {
+          "name": "stroke_count",
+          "type": "smallint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "radical": {
+          "name": "radical",
+          "type": "smallint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "characters_literal_unique": {
+          "name": "characters_literal_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "literal"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.japanese_kanji": {
+      "name": "japanese_kanji",
+      "schema": "",
+      "columns": {
+        "character_id": {
+          "name": "character_id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "grade": {
+          "name": "grade",
+          "type": "varchar(4)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "jlpt": {
+          "name": "jlpt",
+          "type": "smallint",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "category": {
+          "name": "category",
+          "type": "kanji_category",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "sort_heisig": {
+          "name": "sort_heisig",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "sort_tuttle": {
+          "name": "sort_tuttle",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "sort_kodansha": {
+          "name": "sort_kodansha",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "sort_joyo": {
+          "name": "sort_joyo",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "japanese_kanji_character_id_characters_id_fk": {
+          "name": "japanese_kanji_character_id_characters_id_fk",
+          "tableFrom": "japanese_kanji",
+          "tableTo": "characters",
+          "columnsFrom": [
+            "character_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {
+    "public.cjk_language": {
+      "name": "cjk_language",
+      "schema": "public",
+      "values": [
+        "ja",
+        "ko",
+        "zh",
+        "yue",
+        "vi"
+      ]
+    },
+    "public.kanji_category": {
+      "name": "kanji_category",
+      "schema": "public",
+      "values": [
+        "jouyou",
+        "jinmei",
+        "hyougai"
+      ]
+    },
+    "public.meaning_language": {
+      "name": "meaning_language",
+      "schema": "public",
+      "values": [
+        "lv",
+        "en"
+      ]
+    },
+    "public.reading_type": {
+      "name": "reading_type",
+      "schema": "public",
+      "values": [
+        "onyomi",
+        "kunyomi",
+        "pinyin",
+        "jyutping",
+        "hangul",
+        "hanviet"
+      ]
+    }
+  },
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}
