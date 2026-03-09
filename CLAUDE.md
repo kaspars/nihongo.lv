@@ -35,6 +35,14 @@ nihongo.lv — a Japanese language learning web application for Latvian speakers
 - **3D learning spaces:** Spatial memory / mind palace approach to kanji learning. First-person exploration of 3D environments with kanji placed in space. Tech: React Three Fiber (r3f) + Drei
 - **Data migration:** Selective migration from old PostgreSQL database (different schema)
 
+### Long-term vision: Multi-language CJK platform
+- Chinese characters (hanzi) are the shared foundation across Japanese, Mandarin, Cantonese, Korean
+- Sino-Japanese (on'yomi), Sino-Korean, and Mandarin readings share systematic etymological/phonetic parallels (e.g., 図書館: toshokan / túshūguǎn / doseogwan)
+- **Data model:** Design schema to be language-aware from the start — base character table with shared properties, language-specific reading/vocabulary tables referencing it. Base table includes all forms: kanji (shinjitai/kyūjitai), hanzi (simplified + traditional), hanja. A relationship table cross-references corresponding forms (many-to-many, since e.g. one simplified Chinese form can map to multiple traditional forms). Relationship types: traditional↔simplified, shinjitai↔kyūjitai, etc.
+- **UI:** Japanese-first, but users can optionally see Mandarin/Korean/Cantonese cross-references
+- **Future:** Fork the project for dedicated Mandarin/Korean apps reusing the same character database and codebase
+- **Discipline:** Don't over-generalize prematurely. Build Japanese-first, but avoid hardcoding Japanese assumptions into table structures
+
 ### Discarded from old app
 - Blog system, comments, image library/Unsplash integration
 
