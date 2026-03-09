@@ -64,9 +64,42 @@ High test coverage (~90%) is a hard requirement. Tests must not be an afterthoug
 - Every module should be testable. If it's hard to test, refactor the design.
 - Write tests alongside implementation, not after.
 
+## Local Development Setup
+
+1. `nvm use` — Use the pinned Node version (see `.nvmrc`)
+2. `npm install`
+3. `cp .env.example .env.local` — Fill in secrets (Google OAuth, AWS, etc.)
+4. `docker compose -f docker-compose.dev.yml up -d` — Start PostgreSQL (port 5433)
+5. `npm run db:migrate` — Apply migrations
+6. `npm run dev` — Start Next.js dev server with hot reload
+
+PostgreSQL runs in Docker; the app runs natively for full hot reload. The dev DB uses port **5433** to avoid conflicts with any local PostgreSQL on 5432.
+
+To stop the dev DB: `docker compose -f docker-compose.dev.yml down`
+
 ## Commands
 
-<!-- Update these as the project takes shape -->
+- `npm run dev` — Start dev server (Turbopack)
+- `npm run build` — Production build
+- `npm run start` — Start production server
+- `npm run lint` — ESLint
+- `npm test` — Run all tests (Vitest)
+- `npm run test:watch` — Run tests in watch mode
+- `npm run db:generate` — Generate Drizzle migrations from schema changes
+- `npm run db:migrate` — Apply migrations to database
+- `npm run db:studio` — Open Drizzle Studio (DB browser)
+
+## Project Structure
+
+```
+src/
+├── app/          # Next.js App Router (pages, layouts, API routes)
+├── components/   # React components
+├── db/           # Drizzle schema and database connection
+├── lib/          # Shared utilities (auth, formatting, etc.)
+└── test/         # Test setup and shared test utilities
+drizzle/          # Generated migration files
+```
 
 ## Old Codebase Reference
 
