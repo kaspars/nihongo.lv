@@ -16,4 +16,22 @@
     "license": "public-domain",
     "file": "soseki-natsume/kokoro/kokoro.txt"
   }
+  ,
+  {
+    "id": "tanizaki-junichiro/in-ei-raisan",
+    "author": {
+      "ja": "谷崎潤一郎",
+      "romanized": "Tanizaki Jun'ichirō"
+    },
+    "title": {
+      "ja": "陰翳礼讃",
+      "romanized": "In'ei Raisan"
+    },
+    "year": 1933,
+    "source": "aozora",
+    "source_url": "https://www.aozora.gr.jp/cards/001383/card56642.html",
+    "format": "aozora-ruby",
+    "license": "public-domain",
+    "file": "tanizaki-junichiro/in-ei-raisan/in-ei-raisan.txt"
+  }
 ]
