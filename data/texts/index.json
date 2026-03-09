@@ -1,0 +1,19 @@
+[
+  {
+    "id": "soseki-natsume/kokoro",
+    "author": {
+      "ja": "夏目漱石",
+      "romanized": "Natsume Sōseki"
+    },
+    "title": {
+      "ja": "こころ",
+      "romanized": "Kokoro"
+    },
+    "year": 1914,
+    "source": "aozora",
+    "source_url": "https://www.aozora.gr.jp/cards/000148/card773.html",
+    "format": "aozora-ruby",
+    "license": "public-domain",
+    "file": "soseki-natsume/kokoro/kokoro.txt"
+  }
+]
