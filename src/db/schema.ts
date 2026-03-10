@@ -13,13 +13,18 @@ import {
 
 // --- Enums ---
 
-// ja = Japanese, ko = Korean, zh = Mandarin Chinese, yue = Cantonese, vi = Vietnamese
+// Languages: ja = Japanese, ko = Korean, cmn = Mandarin Chinese, yue = Cantonese, vi = Vietnamese
+// Character classes: zhs = Simplified Chinese, zht = Traditional Chinese
+// zhs/zht are used as namespaces for character-class-specific data (e.g. Heisig keywords).
+// Language codes (cmn, yue, ...) are used for readings and meanings in a specific language context.
 export const cjkLanguageEnum = pgEnum("cjk_language", [
   "ja",
   "ko",
-  "zh",
+  "cmn",
   "yue",
   "vi",
+  "zhs",
+  "zht",
 ]);
 
 // onyomi/kunyomi = Japanese, pinyin = Mandarin, jyutping = Cantonese,
@@ -95,6 +100,22 @@ export const simplifiedHanzi = pgTable("simplified_hanzi", {
   hsk2Level: smallint("hsk2_level"),
   // HSK 3.0 (2021 revision), levels 1-9 (3 stages × 3 levels)
   hsk3Level: smallint("hsk3_level"),
+  // Index in "Remembering Simplified Hanzi" by Heisig & Richardson
+  sortHeisig: integer("sort_heisig"),
+  createdAt: timestamp("created_at").notNull().defaultNow(),
+  updatedAt: timestamp("updated_at")
+    .notNull()
+    .defaultNow()
+    .$onUpdate(() => new Date()),
+});
+
+// Traditional Chinese hanzi properties
+export const traditionalHanzi = pgTable("traditional_hanzi", {
+  characterId: integer("character_id")
+    .primaryKey()
+    .references(() => characters.id),
+  // Index in "Remembering Traditional Hanzi" by Heisig & Richardson
+  sortHeisig: integer("sort_heisig"),
   createdAt: timestamp("created_at").notNull().defaultNow(),
   updatedAt: timestamp("updated_at")
     .notNull()
