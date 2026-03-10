@@ -1,0 +1,2489 @@
+1. Laikapstākļi šodien ir jauki.
+2. Es neesmu bagāts.
+3. Šī soma ir smaga.
+4. Šīs somas ir smagas.
+5. Redz, tur ir mans draugs!
+7. Viņa mamma ir mājās.
+8. Viņas bērni ir skolā.
+9. Es esmu taksists.
+10. Mana māsa ir medmāsa.
+11. Viņš ir slims.
+12. Es neesmu izsalcis, bet es esmu izslāpis.
+13. Viņš ir ļoti vecs vīrs.
+15. Laikapstākļi šodien ir silti un saulaini.
+16. Tu esi nokavējis (nokavējusi). - Nē, es neesmu! Es esmu par agru.
+17. Viņas nav mājās.
+18. Šeit ir tavs mētelis.
+19. Kā tevi sauc?
+20. Mani sauc Alans.
+21. No kurienes tu esi?
+22. Es esmu no Ņujorkas.
+23. Cik tev gadu?
+24. Man ir divdesmit gadi.
+25. Kāds ir tavs darbs? > Kāda ir tava profesija?
+26. Es esmu skolotājs.
+27. Kāda ir tava mīļākā krāsa?
+28. Mana mīļākā krāsa ir zila.
+29. Kas tev patīk? > Kādas ir tavas intereses?
+30. Man patīk mūzika. > Mani interesē mūzika.
+31. Šodien ir karsts.
+32. Šodien nav karsts.
+33. Šodien ir vējains.
+34. Šodien nav vējains.
+35. Manas rokas ir aukstas.
+36. Brazīlija ir ļoti liela valsts.
+37. Dimanti nav lēti.
+38. Toronto neatrodas Amerikas Savienotajās Valstīs.
+39. Es esmu noguris (nogurusi).
+40. Es neesmu noguris.
+41. Es esmu izsalcis (izsalkusi).
+42. Es neesmu izsalcis.
+43. Viņš ir labs peldētājs.
+45. Kāds ir tavs vārds? - Mans vārds ir Amanda.
+48. Nē, es esmu viens. > Nē, es esmu neprecējies.
+50. Man ir divdesmit pieci.
+52. Jā, es esmu.
+53. Vai es esmu par vēlu?
+54. Nē, tu esi laikā.
+55. Vai tava mamma ir mājās? - Nē, viņa ir izgājusi.
+57. Vai tavi vecāki ir mājās? - Nē, viņi ir izgājuši.
+59. Vai tavā istabā ir auksti? - Jā, mazliet.
+61. Tev ir skaistas kurpes. Vai tās ir jaunas? - Jā, tās ir jaunas.
+63. Kur ir tava mamma? Vai viņa ir mājās?
+64. No kurienes tu esi? - Es esmu no Kanādas.
+66. Kādā krāsā ir tava mašīna? - Tā ir sarkana.
+68. Cik vecs ir Hasans?
+69. Viņam ir divdesmit četri.
+70. Kā iet taviem vecākiem? - Viņiem iet labi.
+72. Šīs pastkartes ir jaukas. Cik tās maksā?
+73. Tās maksā vienu dolāru.
+75. Kāds ir tavs telefona numurs?
+76. Kas ir tas vīrietis?
+77. Viņš ir mans priekšnieks.
+78. Kur ir tavs (tava) draugs (draudzene)?
+79. Viņš (viņa) ir vannas istabā.
+80. Kā iet tavam tētim? - Viņam iet lieliski.
+82. Vai tu esi noguris (nogurusi)? - Jā, es esmu noguris (nogurusi).
+84. Vai tu esi izsalcis? - Nē, bet es esmu izslāpis.
+86. Vai tavs (tava) draugs (draudzene) ir ķīnietis (ķīniete)? - Jā, viņš (viņa) ir ķīnietis (ķīniete).
+88. Vai tās ir tavas atslēgas? - Jā, tās ir manas.
+90. Tā ir mana vieta. - Nē, tā nav tava vieta.
+92. Kur ir kamera? - Tā ir tavā somā.
+94. Vai tava mašīna ir zila? - Nē, tā ir melna.
+96. Vai Lisa ir no Toronto? - Nē, viņa ir amerikāniete.
+98. Vai es esmu nokavējis (nokavējusi)? - Jā, tu esi nokavējis (nokavējusi).
+100. No kurienes ir Laila? - Viņa ir no Londonas.
+102. Kādā krāsā ir tava soma? - Tā ir melna.
+104. Vai tu esi izsalcis (izsalkusi)? - Nē, es neesmu izsalcis (izsalkusi).
+106. Kā iet Džonam? - Viņam iet labi.
+108. Kas ir tā sieviete?
+109. Viņa ir mana māsa.
+110. Vai tava mamma ir mājās?
+111. Kā iet taviem vecākiem?
+112. Vai tavs darbs ir interesants?
+113. Vai veikali šodien ir atvērti?
+115. Vai tev patīk sports?
+116. Vai pasts ir tuvu no šejienes?
+117. Vai tavi bērni ir skolā?
+118. Kāpēc tu esi tik vēlu?
+119. Kā iet taviem bērniem? - Viņiem iet labi.
+121. Kur ir autobusu pietura? - Pie luksofora.
+123. Cik veci ir tavi bērni? - Piecus, septiņus un desmit gadus veci.
+125. Cik maksā šie apelsīni? - Dolārs un piecdesmit centi par mārciņu. Divi eiro trīsdesmit centi par kilogramu.
+127. Kas ir tavs mīļākais sporta veids?
+129. Kas ir tas vīrietis šajā fotogrāfijā? - Tas ir mans tētis.
+131. Kādā krāsā ir tavas jaunās kurpes? - Tās ir melnas.
+133. Kāds ir tavs vārds? - Es esmu Braiens.
+135. Vai tu esi austrālietis (austrāliete)? - Nē, es esmu kanādietis (kanādiete).
+137. Cik tev ir gadu? Cik vecs (veca) tu esi? - Man ir trīsdesmit trīs gadi.
+139. Vai tu esi skolotājs? - Nē, es esmu ārsts.
+142. Jā, es esmu precējies (precējusies).
+143. Vai tava sieva ir ārste? - Nē, viņa ir skolotāja.
+145. No kurienes viņa ir? - Viņa ir no Meksikas.
+147. Kā viņu sauc? - Viņu sauc Barbara.
+149. Cik viņai ir gadu? - Viņai ir divdesmit seši.
+152. Vai tu esi izslāpis (izslāpusi)? - Jā, es esmu.
+153. Vai šodien ārā ir auksti? - Nē, nav.
+154. Vai tavas rokas ir aukstas? - Nē, tās nav.
+155. Vai ārā ir tumšs? - Jā, ir.
+156. Vai tu esi skolotājs (skolotāja)? - Jā, es esmu.
+157. Es strādāju. Es neskatos televizoru.
+158. Barbara lasa avīzi.
+159. Viņa neēd.
+160. Telefons zvana.
+161. Mēs vakariņojam.
+162. Tu manī neklausies.
+163. Bērni pilda mājasdarbus.
+164. Lūdzu, paklusē. Es strādāju.
+165. Laiks ir jauks. Ārā nelīst.
+166. Kur ir bērni? - Viņi spēlējās parkā.
+167. Mums šobrīd ir vakariņas. Vai es varu tev piezvanīt vēlāk?
+168. Es neskatos televizoru.
+169. Viņa ēd ābolu.
+170. Viņa gaida autobusu.
+171. Viņi spēlē futbolu.
+172. Viņš guļ uz grīdas.
+173. Mēs ēdam brokastis.
+174. Viņa sēž uz galda.
+175. Viņš ir virtuvē. Viņš gatavo ēst.
+176. Tu uzkāpi man uz kājas. - Piedod.
+177. Kāds peldas upē.
+179. Kur ir Tara? - Viņa ir dušā.
+181. Es dodos prom, uz redzēšanos.
+182. Viņa pašlaik neēd vakariņas.
+183. Viņa skatās televizoru.
+184. Viņa sēž uz grīdas.
+185. Viņa lasa grāmatu.
+186. Viņš nespēlē klavieres.
+187. Viņš smejas.
+188. Viņš valkā cepuri.
+189. Viņš neraksta vēstuli.
+190. Šobrīd es nemazgāju savus matus.
+191. Ārā nesnieg.
+192. Es sēžu uz krēsla.
+193. Šobrīd es neēdu.
+194. Šobrīd ārā līst.
+195. Es nemācos angļu valodu.
+196. Es klausos mūziku.
+197. Ārā nespīd saule.
+198. Es valkāju savas kurpes.
+199. Es nelasu avīzi.
+200. Vai tu jūties labi? - Jā, es jūtos labi.
+202. Vai ārā līst? - Jā, paņem lietussargu.
+204. Kāpēc tu esi uzvilcis mēteli?
+205. Ārā nav auksts.
+206. Ko viņš dara?
+207. Viņš lasa avīzi.
+208. Ko bērni dara?
+209. Viņi skatās televizoru.
+210. Kur viņa iet?
+211. Ko tu gaidi?
+212. Vai tu gaidi Džonu?
+213. Vai tu dodies prom? - Jā, es dodos prom.
+215. Vai Kriss šodien strādā? - Nē, viņš nestrādā.
+217. Vai ārā spīd saule? - Jā, ārā spīd saule.
+219. Vai tavi draugi paliek viesnīcā? - Nē, viņi paliek pie manis.
+221. Vai tu skaties televizoru? - Nē, tu vari to izslēgt.
+223. Vai tu dodies prom? - Jā, tiekamies rīt.
+225. Vai ārā līst? - Pašlaik nē.
+227. Vai tev patīk filma? - Jā, tā ir ļoti smieklīga.
+229. Vai šis pulkstenis iet? - Nē, tas ir saplīsis.
+231. Vai tu gaidi autobusu? - Nē, es gaidu taksi.
+233. Ko tu lasi?
+234. Kur viņa iet?
+235. Ko tu ēd?
+236. Kāpēc tu raudi?
+237. Uz ko viņi skatās?
+238. Kāpēc viņš smejas?
+239. Vai tu manī klausies?
+240. Kur dodas tavi draugi?
+241. Vai tavi vecāki pašlaik skatās televizoru?
+242. Ko gatavo Klēra?
+244. Vai autobuss tuvojas?
+245. Vai tu skaties televizoru? - Nē, es neskatos.
+247. Vai tu nēsā pulksteni? - Nē, es nenēsāju.
+249. Vai viņš kaut ko ēd? - Nē, viņš neēd.
+251. Vai ārā līst? - Nē, nelīst.
+253. Vai tu sēdi uz grīdas? - Jā, es sēžu [uz grīdas].
+255. Vai tu jūties labi? - Nē, nejūtos [labi].
+258. Viņi daudz lasa.
+261. Es strādāju ofisā.
+262. Mans brālis strādā bankā.
+263. Viņa dzīvo Ņujorkā.
+264. Viņas vecāki dzīvo Čikāgā.
+265. Ziemā daudz līst.
+266. Maikls pusdieno mājās katru dienu.
+267. Man patīk lielas pilsētas.
+268. Tev ir laba angļu valoda.
+269. Tu ļoti labi runā angliski.
+270. Minoru ļoti smagi strādā.
+271. Viņš sāk septiņos trīsdesmit.
+272. Un viņš beidz astoņos vakarā.
+273. Zeme griežas apkārt saulei.
+274. Mēs darām daudz dažādas lietas savā brīvajā laikā.
+275. Tas maksā daudz naudas.
+276. Viņa vienmēr dodas uz darbu agri.
+277. Viņa vienmēr dodas uz darbu agri.
+278. Nedēļas nogalēs mēs bieži guļam ilgi.
+279. Megumi parasti spēlē tenisu svētdienās.
+280. Es dažreiz dodos uz darbu kājām, bet ne bieži.
+281. Viņa lasa.
+282. Viņš domā.
+283. Tas lido.
+284. Viņš dejo.
+285. Viņai ir.
+286. Tas beidzas.
+287. Viņš spēlē klavieres.
+288. Viņi dzīvo ļoti lielā mājā.
+289. Viņa daudz ēd augļus.
+290. Viņš spēlē tenisu.
+291. Mēs bieži ejam uz kino.
+292. Viņš naktī guļ septiņas stundas.
+293. Viņa runā četrās valodās.
+294. Bankas parasti atveras deviņos no rīta.
+295. Muzejs veras ciet piecos pēcpusdienā.
+297. Mans darbs ir ļoti interesants. Es satieku daudz jaunu cilvēku.
+298. Viņa mašīna ir vienmēr netīra. Viņš nekad to netīra.
+299. Pārtika ir dārga. Tā maksā daudz naudas.
+300. Kurpes ir dārgas. Tās maksā daudz naudas.
+302. Mēs esam labi draugi.
+303. Viņa vienmēr ierodas agri.
+304. Es nekad neeju uz kino viena.
+305. Viņa vienmēr smagi strādā.
+306. Bērniem garšo šokolāde.
+307. Viņai vienmēr patīk ballītes.
+308. Es bieži aizmirstu cilvēku vārdus.
+309. Viņš nekad neskatās televizoru.
+310. Mums parasti ir vakariņas sešos trīsdesmit.
+311. Viņa vienmēr valkā skaistu apģērbu.
+312. Vakarā es parasti skatos televizoru.
+313. Es nekad nelasu gultā.
+314. Es bieži ceļos pirms septiņiem.
+315. Es vienmēr braucu uz darbu ar autobusu.
+316. Es parasti braucu uz skolu ar autobusu.
+317. No rīta es vienmēr dzeru kafiju.
+318. Viņa nedzer kafiju.
+319. Viņam nepatīk viņa darbs.
+320. Es dzeru kafiju, bet es nedzeru tēju.
+321. Viņa dzer tēju, bet viņa nedzer kafiju.
+322. Tu nestrādā ļoti smagi.
+323. Mēs neskatāmies televizoru ļoti bieži.
+324. Laikapstākļi parasti ir labi.
+325. Šeit nelīst ļoti bieži.
+326. Viņi nepazīst daudzus cilvēkus.
+327. Viņiem nav daudz draugu.
+328. Man nepatīk futbols.
+329. Viņam nepatīk futbols.
+330. Man nepatīk viņš, un viņam nepatīku es.
+331. Mana mašīna nepatērē daudz degvielas.
+332. Dažreiz viņš kavējas, bet ne bieži.
+333. Man nepatīk mazgāt mašīnu.
+334. Es to nedaru ļoti bieži.
+335. Viņa runā spāniski, bet viņa nerunā itāliski.
+336. Viņš nedara savu darbu kārtīgi.
+337. Viņa parasti neēd brokastis.
+338. Es nespēlēju klavieres ļoti labi.
+339. Viņa nespēlē klavieres ļoti labi.
+340. Viņi nezina manu telefona numuru.
+341. Mēs nestrādājam ļoti smagi.
+342. Dāvidam nav mašīnas.
+343. Tu nedari to pašu lietu katru dienu.
+346. Man patīk rokenrols.
+348. Viņai nepatīk basketbols.
+349. Man patīk teniss.
+351. Viņai nepatīk spraiga sižeta filmas.
+353. Es nekad neskatos televizoru.
+354. Es neskatos televizoru ļoti bieži.
+355. Man nepatīk bieži apmeklēt bārus.
+356. Viņai patīk braukt ar riteni katru dienu.
+357. Viņiem vienmēr patīk ēst restorānos.
+358. Man nekad nepatīk ceļot ar vilcienu.
+359. Es saņemu ziņas katru dienu, bet dažreiz es tās nelasu.
+360. Viņam ir mašīna, bet viņš to nelieto bieži.
+361. Viņa draugiem patīk filmas, bet viņi parasti skatās tās mājās.
+362. Viņa ir precējusies, bet viņa nenēsā gredzenu.
+364. Šī viesnīca nav dārga. Tur nakšņot nemaksā dārgi.
+365. Viņš dzīvo tuvu mums, bet mēs neredzam viņu bieži.
+367. Man nepatīk mans darbs. Tas ir ļoti garlaicīgs.
+368. Kur viņš ir? - Piedodiet, es nezinu.
+369. Viņa ir ļoti klusa.
+370. Viņš daudz dzer kafiju. Tas ir viņa mīļākais dzēriens.
+371. Tā nav taisnība. Es tam neticu.
+372. Tā ir ļoti skaista bilde. Man tā ļoti patīk.
+374. Vai tu strādā svētdienā?
+375. Vai tavi draugi dzīvo tuvu?
+376. Vai Emīlija spēlē tenisu?
+377. Kur dzīvo tavi vecāki?
+378. Cik bieži tu mazgā savus matus?
+379. Ko nozīmē šis vārds?
+380. Cik maksā lidojums uz Ņujorku?
+381. Vai tu vienmēr ēd brokastis?
+383. Ko tu parasti dari nedēļas nogalēs?
+384. Vai viņiem patīk mūzika?
+385. Vai viņam patīk mūzika?
+386. Vai tavi vecāki runā angliski?
+387. Vai tavs tētis smagi strādā?
+388. Vai tava māsa dzīvo Kanādā?
+389. Man garšo šokolāde. Un tev?
+390. Es spēlēju tenisu. Un tu?
+391. Tu dzīvo tuvu. Un Freds?
+393. Tu runā angliski. Un tavs brālis?
+396. Es gribu būt slavens. Un tu?
+399. Vai tu vienmēr celies agri?
+400. Cik bieži tu skaties televizoru?
+401. Ko tu vēlies vakariņās?
+402. Vai tev patīk futbols?
+403. Vai tavam brālim patīk futbols?
+404. Ko tu dari savā brīvajā laikā?
+405. Kur strādā tava māsa?
+406. Vai tu kādreiz ej uz kino?
+408. Cik bieži šeit snieg?
+409. Cikos tu parasti ej gulēt?
+410. Cik maksā zvans uz Meksiku?
+411. Ko tu parasti ēd brokastīs?
+412. Vai tu skaties daudz televizoru? - Nē, neskatos.
+413. Vai tu dzīvo lielpilsētā? - Nē, nedzīvoju.
+414. Vai tu brauc ar riteni? - Parasti nē.
+415. Vait tur, kur tu dzīvo bieži līst? - Ne pārāk.
+416. Vai tu spēlē klavieres? - Nē, nespēlēju.
+417. Žirongs skatās televizoru.
+425. Lūdzu, esi kluss (klusa)!
+426. Jītinga ir šobrīd dušā.
+427. Paņem līdzi lietussargu.
+428. Tu vari izslēgt televizoru. Es to neskatos.
+429. Kāpēc tu esi zem galda?
+430. Es strādāju katru dienu no deviņiem līdz pieciem trīsdesmit.
+431. Hovards mazgājas dušā katru rītu.
+435. Vai tev viņa patīk?
+436. Vai tu mīli viņu?
+437. Vai tu gribi zināt atbildi?
+438. Vai tu mani saproti?
+439. Vai tu atceries to dienu?
+441. Kam tu dod priekšroku?
+442. Vai tu mani ienīsti?
+443. Ko tev vajag?
+444. Ko tu ar to domā?
+445. Vai tu man tici?
+446. Es tev neticu.
+447. Vai esi aizmirsis atbildi?
+448. Vai viņš prot fotogrāfēt?
+449. Vai viņš fotogrāfē?
+450. Ko viņš šobrīd dara?
+451. Vai viņa šobrīd stūrē autobusu?
+452. Vai viņa stūrē autobusu?
+453. Ko viņa šobrīd dara?
+454. Vai viņš mazgā logus?
+455. Vai viņš šobrīd mazgā logu?
+457. Vai viņi šobrīd māca?
+458. Vai viņi māca?
+459. Ko viņi dara?
+460. Atvainojiet, vai jūs runājat angliski? > Atvaino, vai tu runā angliski?
+461. Kur ir Kellija? - Es nezinu.
+462. Kas ir tik smieklīgs?
+463. Ko dara tava māsa? - Viņa ir zobārste.
+464. Es negribu iet ārā lietū.
+465. No kurienes tu esi?
+466. Cik maksā nosūtīt paciņu uz Kanādu?
+470. Kāds šobrīd dzied.
+472. Cik bieži tu lasi ziņas?
+474. Piedod, es nesaprotu.
+475. Ir vēls. Es tagad iešu mājās.
+476. Cikos tavs tētis katru dienu beidz darbu?
+477. Tu vari izslēgt mūziku. Es to neklausos.
+478. Viņš kaut ko gatavo virtuvē.
+480. Lūcijai negaršo kafija.
+481. Man ir zilas acis.
+483. Mūsu mašīnai ir četras durvis.
+484. Viņa nejūtas labi.
+485. Viņiem patīk dzīvnieki.
+486. Man ir ritenis, bet man nav mašīnas.
+487. Viņiem nav bērnu.
+489. Lilai nav darba.
+490. Vai tavam telefonam ir kamera?
+491. Vai Nikolai ir mašīna?
+492. Kāda viņai ir mašīna?
+493. Kas tev somā?
+494. Vai tev ir kamera? - Nē, man nav.
+495. Vai tev ir kamera? - Nē, man nav.
+496. Vai viņai ir mašīna? - Nē, viņai nav.
+498. Pajautā, vai viņam ir suns.
+499. Pajautā, vai viņam ir skārienjūtīgs telefons.
+500. Pajautā, vai viņam ir pulkstenis.
+501. Pajautā, vai viņam ir brāļi vai māsas?
+502. Man nav datora.
+503. Tev nav suņa.
+504. Viņai nav riteņa.
+505. Viņam ir daži brāļi un māsas.
+506. Viņiem ir divi bērni.
+507. Viņai nav atslēgas.
+508. Viņam ir jauns darbs.
+509. Viņiem nav daudz naudas.
+510. Vai tev ir lietussargs?
+511. Mums ir daudz darba.
+512. Man nav tava telefona numura.
+513. Vai tavam tētim ir mašīna?
+514. Cik daudz naudas tev ir līdzi?
+515. Viņai nav mašīnas.
+518. Viņi nelasa daudz.
+520. Kur ir mans telefons? - Es nezinu. Man tā nav.
+522. Es nejūtos labi.
+525. Visiem viņš patīk.
+526. Es nevaru atvērt durvis.
+528. Pasteidzies, mums nav daudz laika.
+529. Šobrīd viņš ir darbā.
+530. Pagājušajā vakarā viņa nebija darbā.
+531. Viņš bija gultā.
+532. Viņš bija aizmidzis.
+533. Viņš bija gultā, aizmidzis.
+534. Pagājušajā naktī es biju noguris (nogurusi).
+536. Laiks pagājušajā nedēļā bija jauks.
+537. Tu vakar nokavēji.
+538. Pagājušajā svētdienā viņi nebija šeit.
+539. Pagājušajā gadā Rebekai bija divdesmit divi , tātad tagad viņai ir divdesmit trīs.
+540. Kad es biju bērns, es baidījos no suņiem.
+541. Mēs bijām izsalkuši pēc brauciena, bet mēs nebijām noguruši.
+544. Tavas kurpes ir skaistas.
+545. Kāpēc tu šorīt nokavēji?
+546. Vai tu nokavēji? - Nē.
+547. Vai Pauls bija vakar darbā? - Jā, viņš bija.
+548. Vai viņi bija ballītē? - Nē, viņu nebija.
+549. Šodien laiks ir jauks, bet vakar bija auksti.
+551. Šorīt es jūtos labi, bet pagājušajā naktī es biju ļoti noguris.
+552. Kur tu biji vienpadsmitos no rīta pagājušās piektdienas rītā?
+553. Nepērc tās kurpes.
+555. Šajā laikā pagājušajā gadā es biju Parīzē.
+556. Kur ir bērni?
+558. Antonio nebija darbā pagājušajā nedēļā, jo viņš bija slims.
+559. Vakar bija brīvdiena, tāpēc bankas bija slēgtas. Tās ir atvērtas šodien.
+560. Vai Anabella un Ričards bija ballītē?
+561. Kur ir manas atslēgas?
+562. Tevis nebija mājās pagājušajā naktī. Kur tu biji?
+564. Vai tavs eksāmens bija grūts? - Nē, tas bija viegls.
+566. Cik maksāja tava jaunā kamera? - Trīssimt dolārus.
+567. Kāpēc tu vakar biji dusmīgs? - Tāpēc, ka tu biji vēlu.
+568. Vai laikapstākļi bija labi pagājušajā nedēļā? - Jā, tie bija lieliski.
+570. Terija strādāja bankā no tūkstoš deviņi simti deviņdesmit piektā līdz divtūkstoši pirmajam gadam.
+571. Vakar lija visu rītu. Līt pārstāja pusdienlaikā.
+572. Mums patika ballīte pagājušajā naktī.
+573. Mēs daudz dejojām un runājām ar daudziem cilvēkiem.
+576. Mēs vakar daudz izdarījām.
+577. Sonja devās uz kino trīs reizes pagājušajā nedēļā.
+579. Istabā bija karsts, tāpēc es atvēru logu.
+582. Negadījums notika pagājušās svētdienas pēcpusdienā.
+583. Šodien ir jauka diena, bet vakar lija visu dienu.
+585. Cecīlijas vectētiņš nomira, kad viņš bija deviņdesmit gadus vecs.
+587. Es apmeklēju viņu pagājušajā nedēļā.
+588. Es nopirku biļetes internetā.
+590. Es noliku savu somu uz galda.
+591. Es runāju ar viņu vakar pa telefonu.
+592. Pagājušajā otrdienā Vanesa lidoja no Losandželosas uz Mehiko.
+599. Stīvs vienmēr dodas uz darbu ar mašīnu.
+600. Hanna bieži pazaudē savas atslēgas.
+601. Zoja satiek savus draugus katru vakaru.
+602. Es parasti pērku divas avīzes katru dienu.
+603. Mēs bieži ejam uz kino nedēļas nogalēs.
+604. Es ēdu apelsīnus katru dienu.
+605. Toms vienmēr iet dušā no rīta.
+606. Mūsu draugi bieži mūs apciemo.
+608. Es vakar neskatījos televizoru.
+609. Vai viņa bieži iet ārā?
+610. Vai viņa devās ārā pagājušajā vakarā?
+612. Vai tu jau izpildīji savu mājasdarbu? - Nē, man nebija laika.
+614. Vai tu vakar redzēji Fabianu? - Nē.
+615. Vai svētdien lija? - Jā, lija.
+616. Vai Evelīna ieradās ballītē? - Nē, viņas nebija.
+617. Vai taviem vecākiem bija labs ceļojums? - Jā.
+619. Viņi strādāja pirmdien, bet ne otrdien.
+620. Mēs gājām uz pastu, bet mēs neaizgājām uz banku.
+621. Viņai bija pildspalva, bet viņai nebija papīra.
+623. Es skatījos televizoru pagājušajā naktī. Un tu?
+624. Man patika ballīte. Un tev?
+626. Es beidzu darbu agri. Un tu?
+627. Es labi gulēju pagājušajā naktī. Un tu?
+628. Es skatījos televizoru.
+629. Es piecēlos pirms septiņiem no rīta.
+630. Es biju dušā.
+632. Es devos gulēt pirms desmitiem trīsdesmit.
+633. Mēs devāmies uz Honkongu pagājušajā mēnesī.
+634. Kur tu paliki?
+635. Mēs palikām pie draugiem.
+636. Es nokavēju tikšanos.
+637. Cikos tu nokļuvi tur?
+639. Es spēlēju tenisu šajā pēcpusdienā.
+640. Vai tu uzvarēji? - Nē, es zaudēju.
+644. Es devos uz kalniem.
+645. Mēs atbraucām mājās ar taksometru.
+647. Cik tas maksāja? - Tas maksāja trīsdesmit eiro.
+648. šorīt es esmu noguris (nogurusi).
+649. Vai tu labi gulēji pagājušajā naktī? - Nē, es negulēju ļoti labi.
+651. Vakar mēs devāmies uz pludmali.
+652. Vai laikapstākļi bija labi?
+653. Jā, laikapstākļi bija lieliski.
+659. Vai vakar lija? - Nē, vakar bija jauka diena.
+660. Mēs bijām noguruši, tāpēc mēs nepalikām ballītē ilgi.
+661. Istabā bija ļoti silts, tāpēc es atvēru logu.
+662. Vai tu šorīt piezvanīji Ingrīdai? - Nē, man nebija laika.
+663. Šorīt es sagriezu savu roku. - Kā tu to izdarīji?
+664. Kāpēc tu vakar nebiji sapulcē?
+665. Šobrīd ir pulksten seši.
+666. Pulksten četros viņa nebija mājās.
+667. Viņš peldēja baseinā, nevis skatījās televizoru.
+668. Ko tu darīji vakar vienpadsmitos trīsdesmit? Vai tu strādāji?
+669. Ko viņš teica? - Es nezinu, es neklausījos.
+670. Ārā lija, tāpēc mēs negājām ārā.
+671. Divi tūkstoši pirmajā gadā mēs dzīvojām Japānā.
+673. Vakar es pamodos agri.
+674. Saule spīdēja un putni dziedāja.
+675. Pagājušajā vakarā desmitos trīsdesmit es strādāju.
+676. Kad mēs gājām ārā vairs nelija.
+677. Ko tu darīji pulksten trijos?
+679. Santo brauca savā mašīnā.
+680. Deniss bija stacijā, gaidīdams vilcienu.
+682. Astoņos četrdesmit piecās viņa mazgāja savu mašīnu.
+683. Desmitos četrdesmit piecās viņa spēlēja tenisu.
+684. Pulksten astoņos viņa lasīja ziņas.
+686. Septiņos piecpadsmit viņa ēda brokastis.
+687. Deviņos trīsdesmit viņa tīrīja virtuvi.
+688. Kur tu dzīvoji tūkstoš deviņi simti deviņdesmit devītajā (1999.) gadā?
+689. Ko tu darīji pulksten divos?
+690. Kad tu piecēlies vai ārā lija?
+691. Kāpēc viņa brauca tik ātri?
+694. Viņš nesa somu.
+697. Viņš nenesa lietussargu.
+698. Viņš negāja mājās.
+699. Viņam galvā bija cepure.
+700. Viņš nebrauca ar riteni.
+701. Ko Jāzeps darīja, kad zvanīja telefons?
+702. Viņš lasīja grāmatu.
+703. Ko viņš darīja, kad zvanīja telefons?
+704. Viņš pārtrauca lasīt un atbildēja uz zvanu.
+705. Ko tu darīji vakar no rīta?
+706. Ko tu darīji desmitos trīsdesmit?
+707. Mēs spēlējām tenisu no desmitiem līdz vienpadsmitiem trīsdesmit.
+708. Mēs spēlējām tenisu.
+709. Vai tu vakar pa televizoru skatījies basketbola spēli?
+710. Vai tu skatījies televizoru, kad es tev zvanīju?
+712. Kad es piecēlos ārā nelija.
+714. Kad mēs devāmies laukā ārā lija.
+715. Es redzēju viņus šorīt.
+718. Tas notika, kad viņš krāsoja savu istabu.
+721. Divas viņas draudzenes sagaidīja viņu.
+722. Vakar kad viņa gāja pa ielu, viņa satika Albertu.
+723. Viņš gāja uz staciju, lai paspētu uz vilcienu, un viņam līdzi bija soma.
+724. Viņi apstājās uz dažām minūtēm, lai parunātos.
+725. Vai Lara bija aizņemta, kad tu devies viņu satikt?
+726. Jā, viņa mācījās.
+727. Cikos šorīt atnāca pasts?
+729. Vai Marta šodien bija darbā?
+730. Nē, viņa neaizgāja uz darbu. Viņa bija slima.
+731. Cik ātri tu brauci, kad policija tevi apturēja?
+732. Es neesmu pārliecināts, bet es nebraucu ļoti ātri.
+734. Nē, laikapstākļi bija ļoti slikti, tāpēc mēs nespēlējām.
+735. Mēs spēlējām beisbolu, kad es trāpīju ar bumbu un saplēsu logu.
+736. Vai tu vakar redzēji Klāru?
+738. Ko tu darīji divos naktī?
+739. Es gulēju.
+740. Es biju tur deviņos trīsdesmit.
+741. Kā tu tiki savā dzīvoklī?
+742. Es iekāpu caur logu.
+746. Es mēdzu lasīt daudz grāmatu, bet tagad es vairs nelasu daudz.
+747. Emīlijai tagad ir īsi mati, bet tie kādreiz bija ļoti gari.
+748. Viņi mēdza dzīvot tajā pašā ielā kur mēs.
+749. Mēs mēdzām viņus bieži satikt, bet tagad mēs vairs neredzam viņus ļoti bieži.
+750. Nadjai bija klavieres, bet viņa pārdeva tās pirms dažiem gadiem.
+753. Viņš kādreiz spēlēja basketbolu.
+754. Viņš kādreiz bija taksists.
+755. Viņi kādreiz dzīvoja laukos.
+756. Es mēdzu nēsāt brilles.
+758. Vai tu nodarbojies ar sportu?
+759. Vai tu bieži ej ārā?
+761. Vai tev patīk lasīt?
+762. Vai tu daudz ceļo? - Es gribētu.
+764. Vai tu nodarbojies ar kādu sporta veidu? - Jā, es spēlēju basketbolu.
+765. Vai tev ir mašīna?
+767. Vai to dodies uz darbu ar mašīnu?
+768. Kad es biju bērns, es nekad neēdu gaļu, bet tagad es to ēdu.
+769. Andželai patīk skatīties televizoru.
+772. Kādas spēles tu mēdzi spēlēt, kad tu biji bērns?
+773. Vai tu esi bijis Francijā? - Nē, es neesmu.
+774. Mēs esam bijuši Kanādā, bet mēs neesam bijuši Aļaskā.
+775. Šakira ir interesanta personība.
+776. Es esmu redzējis šo vīrieti iepriekš, bet es nevaru atcerēties, kur?
+778. Vai tu esi lasījis šo grāmatu?
+779. Vai viņa ir kādreiz bijusi Austrālijā? - Jā, vienreiz.
+780. Vai tu esi kādreiz spēlējis golfu? - Jā, es bieži spēlēju.
+782. Es nekad neesmu jājis ar zirgu.
+783. Kas ir tas vīrietis?
+784. Vai tu esi kādreiz bijis Monreālā? - Nē, nekad.
+785. Vai tu esi kādreiz spēlējis golfu? - Nē, nekad.
+786. Vai tu esi kādreiz bijis Dienvidkorejā? - Jā, vienreiz.
+789. Vai tu esi kādreiz uzvarējis sacensībās? - Jā, dažas reizes.
+790. Vai tu esi kādreiz bijis Peru? - Jā, divreiz.
+792. Vai tu esi kādreiz salauzis savu kāju? - Jā, vienreiz.
+793. Viņa ir divreiz bijusi Spānijā.
+794. Viņa ir vienreiz bijusi Japānā.
+795. Viņa ir uzvarējusi sacensībās vairākas reizes.
+797. Es esmu vienreiz bijis Ņujorkā.
+800. Es esmu vairākas reizes nokavējis skolu.
+801. Viņai ir bijuši daudz dažādi darbi.
+802. Viņa ir uzrakstījusi desmit grāmatas.
+803. Viņa ir uzrakstījusi daudz interesantu lietu.
+805. Viņa ir bijusi precējusies trīs reizes.
+806. Viņa ir satikusi daudz interesantu cilvēku.
+807. Es esmu redzējis šo sievieti iepriekš, bet es nevaru atcerēties viņas vārdu.
+808. Vai tu esi kādreiz spēlējis basketbolu? - Tikai vienreiz.
+810. Vai viņa pazīst Klodu?
+811. Viņiem ir daudz grāmatu, un viņi ir tās visas izlasījuši.
+812. Es nekad neesmu bijis Jaunzēlandē, bet mans brālis tur ir bijis divreiz.
+813. Gintera mīļākā filma ir "Zvaigžņu kari".
+816. Viņa ieradās Brazīlijā pirmdien. Šodien ir ceturtdiena.
+817. Cik ilgi viņa jau ir Brazīlijā?
+818. Viņa ir Brazīlijā kopš pirmdienas.
+819. Viņa ir Brazīlijā jau trīs dienas.
+821. Cik ilgi tu esi bijis precējies?
+822. Vai tu viņu pazīsti?
+824. Karla dzīvo Tokijā.
+825. Viņa ir tur dzīvojusi visu savu dzīvi.
+826. Man ir mašīna.
+827. Man tā ir kopš aprīļa.
+828. Es mācos vācu valodu.
+829. Es esmu mācījies vācu valodu divus gadus.
+830. Gerards skatās televizoru.
+831. Viņš skatās televizoru jau kopš pulksten pieciem.
+832. Visu dienu ir lijis.
+834. Severo ir slims.
+835. Mēs dzīvojam Meina ielā.
+836. Florentīne strādā bankā.
+838. Es mācos angļu valodu.
+839. Cik ilgi viņi ir bijuši Brazīlijā?
+840. Cik ilgi tu jau pazīsti Olīviju?
+841. Cik ilgi viņa ir mācījusies itāļu valodu?
+842. Cik ilgi viņš ir dzīvojis Sietlā?
+843. Cik ilgi tu esi bijis skolotājs?
+844. Cik ilgi ir lijis?
+845. Viņi ir precējušies desmit gadus.
+846. Leonardo dzīvo Kanādā kopš aprīļa.
+847. Žizele un es esam draugi.
+848. Luisa un es esam draugi.
+849. Piedod, ka kavēju.
+850. Džens pašlaik strādā viesnīcā.
+851. Izabella lasa avīzi.
+852. Cik ilgi tu esi dzīvojis šajā mājā?
+853. Vai tas ir jauns mētelis?
+855. Jasmīna ir Brazīlijā.
+857. Luciens ir bijis Kanādā sešus mēnešus.
+858. Luciens ir Kanādā kopš janvāra.
+859. Mēs esam gaidījuši divas stundas.
+860. Mēs esam gaidījuši kopš pulksten deviņiem.
+861. Es ilgu laiku esmu dzīvojis Čikāgā.
+862. Es dzīvoju Čikāgā kopš desmit gadu vecuma.
+864. Kad Noboru aizgāja?
+865. Man bija pusdienas pirms stundas.
+867. Kad Mičiko ieradās Brazīlijā?
+868. Viņa ieradās Brazīlijā pirms trim dienām.
+869. Cik ilgi viņa ir bijusi Brazīlijā?
+871. Mana tante dzīvo Austrālijā jau piecpadsmit gadus.
+872. Lilianna ir savā ofisā.
+874. Autobuss kavējas.
+875. Neviens nedzīvo tajās mājās.
+876. Mičels ir bijis slims ilgu laiku.
+877. Kad tu pēdējo reizi ēdi?
+878. Kad tu biji pēdējo reizi slims (slima)?
+879. Kad tu pēdējo reizi devies uz kino?
+880. Kad tu biji pēdējo reizi mašīnā?
+884. Nikolass ieradās pirms stundas.
+885. Es nopirku šīs kurpes pirms dažām dienām.
+886. Mirjama ir mācījusies angļu valodu sešus mēnešus.
+888. Natālija ir bijusi Brazīlijā jau trīs dienas.
+890. Ārā līst jau stundu.
+892. Remī un Paulīne ir precējušies jau sešus mēnešus.
+895. Viņa mašīna ir netīra.
+896. Viņi (Viņas) ir mājās.
+898. Kur ir Renē?
+899. Mēs esam nopirkuši jaunu mašīnu.
+902. Vai tu esi jau saticis manu brāli vai man vajadzētu jūs iepazīstināt?
+904. Kur ir tava atslēga?
+905. Vai Olivers ir šeit?
+907. Es vakar pazaudēju savas atslēgas.
+909. Es esmu pazaudējis savas atslēgas piecas reizes šajā mēnesī.
+910. Mēs vakar nopirkām jaunu mašīnu.
+911. Mēs pagājušajā nedēļā nopirkām jaunu mašīnu.
+912. Mēs esam nopirkuši divas jaunas mašīnas pēdējo trīs gadu laikā.
+914. Man nevajag viņiem zvanīt.
+916. Mans brālis un viņa sieva vairs nedzīvo šeit.
+917. Es pieļāvu kļūdu.
+919. Vai tu to kaut kur redzēji?
+920. Vai tu dzirdēji?
+921. Teo apprecējās.
+922. Es esmu iepircies.
+924. Vai tu esi pateicis labās ziņas saviem draugiem?
+926. Vai Vincents un Valērija ir šeit? - Jā, viņi tikko ieradās.
+927. Vai tu esi izsalcis (izsalkusi)?
+929. Cikos ieradīsies Nikolais un Viktorija?
+931. Šī ir Ivonna.
+932. Vai Izidors un Sandra ir šeit?
+938. Cikos ieradīsies Stens?
+939. Vai tavi draugi grib redzēt filmu?
+941. Kad Hideki ies uz darbu?
+943. Vai Tamāra ir jau uzsākusi savu jauno darbu?
+944. Vai tu esi jau teicis savam tētim par negadījumu?
+945. Es esmu tikko paēdis lielas pusdienas, tāpēc es neesmu izsalcis.
+947. Tu nevari iet gulēt.
+950. Vai tu esi jau iedevis pastā mūsu jauno adresi?
+951. Pastnieks vēl nav atnācis.
+952. Es tikko runāju ar tavu māsu.
+956. Es tikko nopeldēju jūdzi un jūtos lieliski. Es tikko nopeldēju kilometru un jūtos lieliski.
+957. Tavai draudzenei ir jauns darbs.
+958. Tavam draugam ir daži jauni kaimiņi.
+959. Tavai draudzenei ir jāsamaksā savs telefona rēķins.
+961. Es vakar redzēju Maliku.
+962. Kur tu biji svētdienas pēcpusdienā?
+964. Ko tu darīji pagājušajā naktī?
+968. Kendzi aizgāja mājās.
+969. Vai tev šodien bija pusdienas?
+971. Vai tu esi kādreiz bijis Spānijā?
+972. Mans draugs ir sarakstījis daudzas grāmatas.
+974. Mēs esam nodzīvojuši Parīzē sešus gadus.
+975. Es ēdu pusdienas pirms stundas.
+976. Es sāku savu jauno darbu pagājušajā nedēļā.
+977. Mani draugi ieradās piektdien.
+980. Vai tu esi redzējis Vedu?
+981. Es esmu pabeidzis savu darbu.
+982. Vai tu esi pabeidzis?
+983. Litingas šeit nav.
+984. Sandžita vecmāmiņa ir mirusi.
+985. Kur tu esi bijis?
+986. Mans draugs ir rakstnieks un ir sarakstījis daudzas grāmatas.
+987. Es vakar pēcpusdienā spēlēju tenisu.
+988. Cikos tu devies gulēt pagājušajā naktī?
+990. Laikapstākļi vakar nebija īpaši labi.
+991. Mira daudz ceļo.
+992. Es izslēdzu gaismu, pirms šorīt devos prom.
+993. Es šobrīd dzīvoju Ņujorkā, bet es esmu dzīvojis daudzus gadus Meksikā.
+994. Kāda ir Taivāna? - Es nezinu. Es neesmu tur nekad bijis.
+995. Vai tu esi kādreiz bijis Floridā?
+997. Vai tu labi pavadīji laiku?
+998. Mēs lieliski pavadījām laiku.Tas bija brīnišķīgi.
+999. Ko dara tava draudzene?
+1000. Viņa ir gleznotāja.
+1001. Vai tu esi redzējis kādu no viņas gleznām?
+1002. Es redzēju dažus viņas darbus pagājušajā nedēļā.
+1004. Pirms pieciem gadiem viņa bija viesmīle restorānā.
+1007. Es esmu viņu dažas reizes redzējis, bet es nekad neesmu ar viņu runājis.
+1008. Vai tu esi kādreiz ar viņu runājis?
+1009. Es satiku viņu ballītē pagājušajā nedēļā.
+1010. Kāds tīra ofisu katru dienu. > Ofiss tiek tīrīts katru dienu.
+1012. Sviests tiek gatavots no piena.
+1014. Cik bieži tiek tīrītas šīs istabas?
+1016. Šī māja tika celta pirms simts gadiem.
+1017. Šīs mājas tika celtas pirms simts gadiem.
+1021. Divi cilvēki tika nogādāti slimnīcā.
+1022. Es esmu dzimis Kolumbijā tūkstoš deviņi simti astoņdesmit devitajā gadā.
+1023. Kur tu esi dzimis (dzimusi)? - Taipejā.
+1025. Mani pirms dažām dienām sakoda suns.
+1026. Vai tev patīk šīs gleznas? Tās gleznoja mans draugs.
+1027. Vai šīs istabas tiek tīrītas katru dienu?
+1028. Stikls tiek izgatavots no smiltīm.
+1029. Pastmarkas tiek pārdotas pastā.
+1030. Šis vārds netiek bieži lietots.
+1031. Vai šeit ir atļauts novietot mašīnu?
+1032. Kā izrunā šo vārdu?
+1033. Māja tika krāsota pagājušajā mēnesī.
+1034. Mans telefons tika nozagts pirms dažām dienām.
+1038. Kā šie logi tika saplēsti?
+1040. Futbols tiek spēlēts lielākajā daļā pasaules valstu.
+1043. Kad tu esi dzimis (dzimusi)?
+1044. Cik valodās runā Šveicē?
+1047. Es vakar redzēju avāriju. Divus cilvēkus aizveda uz slimnīcu.
+1048. Papīru izgatavo no koka.
+1049. Viesnīcā pagājušajā nedēļā notika ugunsgrēks. Divas istabas tika sabojātas.
+1050. Kur tu dabūji šo bildi?
+1051. Daudzas britu programmas rāda amerikāņu televīzijā.
+1053. Cik veca ir šī filma?
+1055. Arturo ir dzimis Havannā.
+1056. Anna ir dzimusi Romā.
+1057. Viņas vecāki ir dzimuši Riodežaneiro.
+1058. Es esmu dzimis (dzimusi) Londonā.
+1059. Mana mamma ir dzimusi Parīzē.
+1060. Kāds krāso durvis.
+1062. Dažas jaunas mājas tiek celtas pretī parkam.
+1063. Ofiss tiek šobrīd tīrīts.
+1064. Ofiss tiek tīrīts katru dienu.
+1065. Amerikas Savienotajās Valstīs futbola spēles tiek spēlētas nedēļas nogalēs, bet nākošajā nedēļas nogalē nebūs spēļu.
+1066. Kāds ir nokrāsojis durvis.
+1067. Kāds ir nozadzis manu atslēgu.
+1068. Kāds ir nozadzis manas atslēgas.
+1070. Vai kāds ir izmazgājis šo kreklu?
+1071. Istaba nav vairs netīra. Tā ir iztīrīta.
+1072. Istaba tika iztīrīta vakar.
+1073. Es nevaru atrast savas atslēgas. Man šķiet, ka tās ir nozagtas.
+1074. Manas atslēgas tika nozagtas pagājušajā nedēļā.
+1077. Logi tiek mazgāti.
+1078. Zāle tiek pļauta.
+1079. Ofiss tiek tīrīts.
+1080. Krekli ir tikuši izgludināti.
+1081. Logs ir saplēsts.
+1083. Mašīna ir sabojāta.
+1084. Mājas tiek nojauktas.
+1085. Koki ir nocirsti.
+1087. Es nevaru šobrīd lietot savu ofisu.
+1088. Mēs negājām uz ballīti.
+1089. Veļas mašīna bija saplīsusi.
+1091. Fabrika ir vieta, kur ražo preces.
+1092. Cik vecas ir šīs mājas? Kad tās uzcēla?
+1093. Vai dators tiek lietots šajā mirklī?
+1094. Es nekad iepriekš neesmu redzējis šīs puķes.
+1095. Manas saulesbrilles vakar nozaga pludmalē.
+1099. Ārā šobrīd nelīst.
+1100. Ko tu darīsi šovakar?
+1102. Ārā nelija, tāpēc mums nevajadzēja lietussargu.
+1103. Ko tu darīji pulksten trijos?
+1104. Šie ofisi tiek tīrīti katru dienu.
+1105. Ofiss tika tīrīts vakar.
+1106. Kā logs tika saplēsts?
+1107. Es esmu dzīvojis šajā mājā desmit gadus.
+1109. Filipa nav bijusi Dienvidamerikā.
+1111. Man garšo kafija, bet man negaršo tēja.
+1112. Gabriele nedodas ārā ļoti bieži.
+1116. Pagājušajā nedēļā nelija.
+1117. Cikos izgāja Fabio un Donatella?
+1118. Vai tu strādā naktīs?
+1119. Kur viņi iet?
+1122. Vai tev patīk gatavot?
+1123. Vai spīd saule?
+1124. Cikos tiek aizvērti veikali?
+1125. Vai Francis šodien strādā?
+1127. Vai tu jūties labi?
+1128. Heidija nestrādā naktī.
+1130. Es esmu ļoti noguris (nogurusi).
+1132. Mani vecāki parasti ir mājās.
+1134. Tu vari izslēgt televizoru.
+1136. Kur izgatavoja tavas kurpes?
+1137. Vai tu gāji ārā pagājušajā naktī?
+1139. Kur ir dzimusi tava mamma?
+1140. Vai Marko is devies mājās?
+1141. Cikos viņš devās prom?
+1142. Kad šīs mājas tika celtas?
+1144. Kāpēc tu agri devies mājās?
+1145. Cik ilgi viņi ir bijuši precējušies?
+1148. Vai tu esi jau pabeidzis savu darbu?
+1149. Šī pilsēta ir vienmēr tīra.
+1150. Es tikko pagatavoju kafiju.
+1152. Paolo ir nopircis jaunu mašīnu.
+1153. Es paņemšu līdzi lietussargu.
+1154. Kāpēc tu esi tik noguris?
+1156. Kāds ir tavs jaunais darbs?
+1160. Es nesaprotu problēmu.
+1162. Es nezinu, kā pateikt šo vārdu.
+1164. Es vakar iztīrīju savu istabu.
+1166. Es esmu iztīrījis savu istabu.
+1167. Magda ir dzīvojusi trīspadsmit gadus Maiami.
+1168. Šīs istabas tiek tīrītas katru dienu.
+1170. Es vakar izcepu kūku.
+1171. Es esmu pagatavojis kafiju.
+1172. Kāds saplēsa šo logu pagājušajā naktī.
+1173. Kāds ir saplēsis šo logu.
+1174. Šis logs tika saplēsts pagājušajā naktī.
+1175. Es nomazgāju savas rokas, jo tās bija netīras.
+1176. Es jūtos labi.
+1177. Mēs vakar redzējām ļoti labu filmu.
+1179. Es esmu pazaudējis savu somu.
+1180. Lindas ritenis tika nozagts pagājušajā nedēļā.
+1181. Es devos gulēt agri, jo es biju noguris.
+1182. Tirdzniecības centrs tika uzcelts apmēram pirms divdesmit gadiem.
+1183. Pietro iemācījās braukt ar mašīnu, kad viņam bija sešpadsmit gadi.
+1185. Monika ir mana laba draudzene.
+1186. Vakar es nokritu un sasitu savu kāju.
+1188. Vai tu esi pateicis Hermanim par savu jauno darbu?
+1189. Mēs spēlējām basketbolu svētdien.
+1193. Vai tev patika filma?
+1194. Filipīnās runā daudzās valodās.
+1200. Pāvels rīt spēlēs tenisu.
+1201. Es nestrādāšu nākamnedēļ.
+1202. Juliana piektdien ies pie zobārsta.
+1203. Mums būs ballīte nākošajā nedēļā.
+1204. Vai tu satiksi savus draugus šovakar?
+1207. Es palikšu šovakar mājās.
+1208. Vai tu dosies šovakar ārā?
+1209. Vilma nenāks uz ballīti nākošajā nedēļā.
+1210. Lidmašīna ieradīsies Ņujorkā septiņos trīsdesmit rīt no rīta.
+1211. Cikos šovakar beigsies filma?
+1214. Cikos tu dosies prom?
+1215. Cikos izlido tava lidmašīna?
+1216. Džulius sestdien spēlēs tenisu.
+1217. Klaudio ies uz kino.
+1218. Kamilla satiksies ar Valerio.
+1221. Vai tu strādāsi nākošajā nedēļā?
+1222. Cikos nāks tavi draugi?
+1224. Es pirmdien iešu uz kino.
+1225. Klausies! Elisa precēsies nākošajā mēnesī.
+1228. Rītvakar būs ballīte, bet es neiešu.
+1229. Es šovakar došos ārā ar dažiem draugiem.
+1230. Mēs tiekamies Rajas mājās astoņos.
+1231. Kā tu tiksi rīt mājās pēc ballītes?
+1232. Es varu doties ar autobusu.
+1233. Vai tu gribi iet uz kino šovakar?
+1234. Ko tu darīsi rīt pēcpusdienā?
+1235. Es šovakar grasos skatīties televizoru.
+1236. Viņa šovakar grasās skatīties televizoru.
+1237. Es rīt plānoju nopirkt dažas grāmatas.
+1239. Es šorīt neēdīšu brokastis.
+1240. Ko tu plāno vilkt mugurā nākošās nedēļas kāzās?
+1241. Es nomazgāšu savas rokas.
+1243. Es rīt spēlēšu tenisu ar Satomi.
+1244. Kaut kas notiks.
+1245. Paskaties uz debesīm!
+1246. Ir deviņi un es neesmu gatavs (gatava).
+1247. Ko tu vilksi mugurā uz šīvakara ballīti?
+1248. Šī ir jauka diena.
+1251. Nākamnedēļ ir Violetas dzimšanas diena.
+1252. Feliciana saka, ka viņa jūtas ļoti nogurusi.
+1256. Tagad ir vienpadsmit.
+1257. Vakar vienpadsmitos viņa bija darbā.
+1259. Juko daudz ceļo.
+1260. Tu vari man piezvanīt šovakar.
+1262. Mēs, iespējams, šovakar iesim ārā.
+1263. Vai tu šovakar būsi mājās?
+1264. Rīt manis šeit nebūs.
+1267. Es nedomāju, ka šajā pēcpusdienā līs.
+1268. Vai tu domā, ka pārbaudes darbs būs grūts?
+1269. Mēs sestdien iesim uz kino.
+1270. Es rīt nestrādāšu.
+1271. Vai tu rīt kārtosi savu braukšanas eksāmenu?
+1272. Vakar viņa bija Riodežaneiro.
+1274. Pagājušajā nedēļā viņa bija Limā.
+1276. Tieši šobrīd viņa ir Buonesairesā.
+1277. Pirms trim dienām viņa bija Santjago.
+1279. Es būšu kino pēc stundas.
+1280. Šonakt pusnaktī es būšu aizmidzis.
+1281. Es strādāšu rīt trijos pēcpusdienā.
+1282. Es būšu jaunajā darbā pēc diviem gadiem.
+1283. Vai tu esi jau gatavs (gatava)? - Vēl nē.
+1284. Es došos prom uz dažām dienām.
+1285. Lietus nelīs, tāpēc tev nevajag ņemt lietussargu.
+1286. Es šovakar nejūtos ļoti labi.
+1287. Nu, tad dodies agri gulēt un tu jutīsies labāk no rīta.
+1289. Es atvainojos, ka šorīt nokavēju.
+1292. Es domāju, ka mēs uzvarēsim spēli.
+1294. Es domāju, ka Īrisai patiks viņas dāvana.
+1295. Viņi neapprecēsies.
+1296. Tev nepatiks filma.
+1299. Viņi dosies prom rīt no rīta.
+1300. Kāpēc tu velc savu mēteli?
+1301. Vai tu domā, ka Horhe mums šovakar piezvanīs?
+1304. Kādi ir tavi plāni nedēļas nogalei?
+1305. Daži draugi paliks pie mums.
+1306. Mans koferis ir ļoti smags.
+1307. Es tev rīt piezvanīšu, labi?
+1308. Man šķiet, ka es šovakar došos agri gulēt.
+1309. Man šķiet, ka es sēdēšu ārā.
+1310. Es nedomāju, ka es iešu ārā.
+1311. Es rīt strādāšu.
+1312. Televīzijā šovakar rādīs labu programmu.
+1313. Ko tu darīsi šajā nedēļas nogalē?
+1314. Šajā istabā ir ļoti silts.
+1315. Vai man tev šovakar piezvanīt?
+1316. Ejam pastaigāties?
+1317. Ko mēs ēdīsim vakariņās?
+1318. Vai man tev vajadzētu šovakar piezvanīt?
+1319. Vai mums vajadzētu iet pastaigāties?
+1320. Ko mēs varētu ēst vakariņās?
+1322. Es negribu šo banānu.
+1323. Vai tev ir nepieciešams krēsls?
+1325. Vai tu nāksi ar mani?
+1327. Šodien ir auksts.
+1328. Es domāju, ka es nopirkšu kaut ko ēdamu.
+1329. Es jūtos ļoti noguris (nogurusi).
+1330. Man patīk šī cepure.
+1331. Šī kamera ir pārāk dārga.
+1332. Es neesmu vēl iepircies.
+1333. Man patīk sports.
+1334. Man vajag izkustēties.
+1336. Šī vēstule ir priekš Sačiko.
+1337. Vai tu šovakar kaut ko darīsi?
+1338. Jā, es iešu ārā ar dažiem draugiem.
+1339. Es nevaru iet ārā ar tevi rītvakar, tā kā es strādāju.
+1340. Šajā istabā ir tumšs.
+1341. Vai man pagaidīt šeit?
+1342. Vai man vajadzētu aiziet uz veikalu? - Nē, es aiziešu.
+1343. Vai mums vajadzētu sarīkot ballīti?
+1345. Izskatās, ka varētu līt.
+1346. Es varētu šovakar doties uz kino, bet es neesmu drošs.
+1350. Vai tu plāno iet šovakar ārā? - Iespējams.
+1351. Es rīt spēlēšu tenisu.
+1354. Es rīt varētu neiet uz darbu.
+1356. Es šovakar varētu iet uz kino.
+1358. Vai es varētu uzdot jautājumu?
+1359. Vai es varu sēdēt šeit? - Protams.
+1360. Iespējams, ka es iešu uz kino.
+1361. Iespējams, ka es redzēšu tevi rīt.
+1363. Iespējams, ka šodien snigs.
+1364. Iespējams, ka es šovakar būšu vēlu.
+1366. Iespējams, ka man nebūs laika iet ārā.
+1369. Kad tu atkal satiksi Pablo?
+1370. Ko tu gatavojies ēst pusdienās?
+1371. Kā tu grasies šonakt tikt mājās?
+1372. Es dzirdēju, ka tu vinnēji naudu.
+1373. Viņš spēlēs tenisu rīt pēcpusdienā.
+1374. Viņš rītvakar varētu iet ārā.
+1375. Viņš varētu celties agri.
+1376. Viņš rīt nestrādās.
+1377. Viņš varētu būt mājās rīt no rīta.
+1378. Viņš varētu skatīties televīziju.
+1379. Viņš noteikti ies ārā pēcpusdienā.
+1380. Viņš varētu iet iepirkties, bet viņš nav drošs.
+1381. Es māku spēlēt klavieres.
+1383. Vai tu vari peldēt?
+1384. Vai tu vari izmainīt divdesmit eiro banknoti?
+1386. Kad es biju jauns, es varēju skriet ļoti ātri.
+1390. Vai tu, lūdzu,vari atvērt durvis?
+1391. Vai tu, lūdzu, vari minūtīti pagaidīt?
+1392. Vai jūs,lūdzu, varētu izmanīt eiro,?
+1393. Silvio, vai es varu aizņemties tavu lietussargu?
+1394. Sveiki, vai es, lūdzu, varu runāt ar Tomasu? >
+1399. Vai tu māki braukt ar mašīnu?
+1401. Vai tu māki jāt ar zirgu?
+1402. Piedod, bet mēs nevaram atnākt uz tavu ballīti nākošajā nedēļā.
+1403. Man patīk šī viesnīcas istaba.
+1405. Vai tu esi redzējis (redzējusi) manu koferi?
+1406. Olga dabūja darbu, jo viņa māk runāt piecās valodās.
+1407. Es biju noguris, bet es nevarēju gulēt.
+1408. Vakar es nebiju izsalcis (izsalkusi).
+1410. Es vakar gribēju runāt ar Šakiru, bet es nevarēju viņu atrast.
+1413. Tu šodien strādāji desmit stundas.
+1414. Mans brālis daudzus gadus ir strādājis tavā uzņēmumā.
+1418. Haviers brauc visur ar autobusu.
+1419. Silvu ģimene piektdienās ir vienmēr mājās.
+1420. Tev jābūt uzmanīgam (uzmanīgai) ar šo nazi.
+1422. Savienotajās Valstīs tev ir jābūt astoņpadsmit gadus vecam, lai balsotu.
+1425. Riteņbraucēji nedrīkst braukt pa ietvi.
+1426. Tu nedrīksti atkal nokavēt skolu.
+1427. Ir vakars un tu neesi neko ēdis visu dienu.
+1429. Es dabūju darbu. - Tiešām?
+1431. Manas atslēgas nav dzīvojamā istabā, tātad tām jābūt virtuvē.
+1432. Renāte velk kaut ko zilu katru dienu.
+1433. Garsiju ģimenei ir seši bērni un trīs suņi.
+1436. Šī nav Karlsonu ģimene?
+1437. Omars ir ļoti tievs.
+1438. Es nekad neredzu savu kaimiņu no rīta.
+1443. Priekš šī darba tev jāzina abas valodas - spāņu un vācu.
+1448. Mēs nedrīkstam aizmirst aizsūtīt Ritai dzimšanas dienas kartiņu.
+1450. Kāpēc tu biji tik vēlu?
+1453. Mēs nedrīkstam aizmirst izslēgt gaismas, kad mēs aizejam.
+1454. Es parasti nestrādāju sestdienās, bet pagājušajā sestdienā man bija jāstrādā.
+1456. Tā ir laba filma.
+1461. Tu skaties televizoru visu laiku.
+1463. Ir vēls.
+1464. Vai man pirkt šo mēteli?
+1465. Es nedomāju, ka tev vajadzētu strādāt tik smagi.
+1466. Es nedomāju, ka mums jau vajadzētu iet.
+1467. Vai tu domā, ka man vajadzētu nopirkt šo cepuri?
+1468. Cikos, tavuprāt, mums vajadzētu iet mājās?
+1469. Man vajadzētu šovakar mācīties, bet man šķiet, ka es iešu uz kino.
+1470. Man ir šovakar jāmācās.
+1471. Man vajadzētu šovakar mācīties, bet es domāju, ka es iešu uz kino.
+1473. Ir vēls, un tu esi ļoti noguris (nogurusi).
+1477. Tā ir ļoti laba grāmata.
+1478. Viņai nevajadzētu skatīties tik daudz televizoru.
+1479. Viņam nevajadzētu ēst tik daudz.
+1480. Tev nevajadzētu strādāt tik smagi.
+1481. Man nevajadzētu braukt tik ātri.
+1483. Tu nemāki braukt ar mašīnu.
+1484. Tev nepatīk tavs darbs.
+1485. Tu gatavojies rīkot ballīti.
+1486. Mums rīt ir jāceļas agri.
+1487. Tas mētelis ir pārāk liels priekš tevis.
+1488. Tava mašīna tev nav vajadzīga.
+1489. Valentīnai vajag pārmaiņas.
+1491. Tu joprojām esi slims (slima).
+1492. Simons šodien nejūtas labi.
+1493. Viesnīca ir pārāk dārga priekš mums.
+1494. Es domāju, ka ikvienam vajadzētu iemācīties citu valodu.
+1495. Es domāju, ka ikvienam vajadzētu aizceļot uz citu valsti.
+1496. Es nedomāju, ka cilvēkiem vajadzētu smēķēt.
+1497. Es domāju, ka man vajadzētu vairāk taupīt naudu.
+1498. Es rīt kavēšu darbu.
+1502. Es vakar biju vēlu darbā.
+1503. Pagājušajā naktī mums bija jāiet kājām mājās.
+1504. Cikos tev rīt ir jāiet pie zobārsta?
+1505. Vai Amandai ir jāstrādā sestdienās?
+1506. Kāpēc viņiem bija agri jāatstāj ballīte?
+1507. Es nestrādāšu rīt, tāpēc man nav jāceļas agri.
+1508. Alanam nav jāstrādā ļoti smagi.
+1509. Mums nebija jāgaida autobuss ļoti ilgi.
+1511. Manas acis nerāda īpaši labi.
+1512. Kursa beigās visiem studentiem bija jāveic tests.
+1514. Hasans nesaprot angļu valodu.
+1515. Barbaras bieži nav mājās.
+1518. Man tagad ir jāiet.
+1519. Es aizgāju uz veikalu vakar pēc darba.
+1521. Mēs vakar izpildījām testu.
+1522. Es eju gulēt.
+1524. Man rīt ir jāceļas agri.
+1525. Krisam bija ilgi jāgaida.
+1526. Klērai ir jāiet kaut kur.
+1527. Mums bija jāmaksā daudz naudas.
+1528. Man ir jāveic kāds darbs.
+1529. Viņiem bija jādodas agri prom.
+1530. Minoru ir jādodas uz Maskavu.
+1531. Kāpēc tu ej ārā?
+1533. Kāpēc tu piecēlies agri?
+1534. Kāpēc Dāvids strādā tik smagi?
+1535. Kāpēc tu tagad gribi doties prom?
+1536. Kāpēc viņi man teica to, ko es jau zinu?
+1537. Man katru dienu ir jābrauc piecdesmit kilometri uz darbu.
+1539. Man vakar bija jāēd pusdienas ar savu ģimeni.
+1540. Man bija jāapciemo slimnīcā mans vectētiņš pagājušajā nedēļā.
+1542. Vai tu gribētu kafiju?
+1543. Vai tu gribētu konfekti?
+1544. Ko tu gribētu - tēju vai kafiju?
+1545. Vai tu gribētu iet pastaigāties?
+1546. Vai tu gribētu svētdien pusdienot kopā ar mums?
+1547. Es gribētu pusdienot svētdien.
+1548. Ko tu gribētu darīt šovakar?
+1549. Es esmu izslāpis (izslāpusi).
+1551. Es jūtos noguris (nogurusi).
+1552. Vai tu gribētu šovakar iet uz kino?
+1553. Vai tev patīk iet uz kino?
+1554. Es gribētu apelsīnu sulu, lūdzu.
+1555. Man garšo apelsīnu sula.
+1556. Ko tu gribētu darīt nākamnedēļ?
+1557. Ko tev patīk darīt nedēļas nogalēs?
+1558. Tu gribi šovakar iet uz kino.
+1559. Vai tu gribētu ar mani šovakar iet uz kino?
+1560. Tu gribi rīt spēlēt tenisu.
+1561. Vai tu gribētu ar mani rīt spēlēt tenisu?
+1565. Vai tu gribētu aizņemties manu lietussargu?
+1566. Ko tu gribētu dzert?
+1567. Vai tu gribētu iet ārā pastaigāties?
+1569. Cikos tu gribētu šovakar vakariņot?
+1570. Vai tu gribētu kaut ko ēdamu?
+1571. Vai tev patīk tavs jaunais darbs?
+1572. Es tagad gribētu iet gulēt.
+1574. Kāda mūzika tev patīk?
+1577. Es tiešām negribu iet laukā.
+1578. Vai mums vajadzētu tagad iet? - Nē, vēl ne.
+1580. Man nepatīk kavēt.
+1581. Es visdrīzāk šonakt neiešu ārā.
+1583. Mēs neesam izsalkuši (izsalkušas).
+1584. Vai tu gribētu šonakt iet ārā? - Labāk nē.
+1585. Vai tu gribētu pienu vai sulu? - Sulu, lūdzu.
+1588. Džesika labāk neietu ārā.
+1589. Es labprātāk sēdētu nekā stāvētu.
+1591. Dzirongs labprāt neietu ārā.
+1592. Es drīzāk ietu ārā nekā paliktu mājās.
+1593. Man drīzāk būtu suns, nevis kaķis.
+1597. Vai tu gribētu tēju?
+1598. Vai mums vajadzētu tagad iet ārā?
+1599. Vai mums vajadzētu pusdienot tagad vai pagaidīt līdz vēlākam?
+1600. Vai tu gribētu glāzi sulas vai ūdeni?
+1601. Vai tu gribi iet uz kino vai tikai skatīties televizoru?
+1603. Es drīzāk paliktu šonakt mājās.
+1607. Vai es varu tev palīdzēt ar ceļasomu?
+1608. Es labāk viņam nezvanītu.
+1613. Kur tu dotu priekšroku dzīvot: lielpilsētā vai mazpilsētā?
+1614. Es labāk dzīvotu lielpilsētā nekā mazpilsētā.
+1616. Man drīzāk būtu liela māja nekā maza.
+1619. Ko tu labprātāk skatītos: futbola spēli vai filmu?
+1621. Nāc šurp un paskaties uz šo?
+1622. Es negribu ar tevi runāt.
+1623. Es neesmu vēl gatavs (gatava).
+1625. Veiksmīgu ceļojumu!
+1626. Še, paņem kādu saldumu!
+1627. Esi uzmanīgs (uzmanīga)!
+1628. Lūdzu, neej!
+1629. Esi laikā!
+1630. Ejam ārā.
+1631. Uz priekšu!
+1632. Vai tu esi gatavs (gatava)?
+1633. Šovakar vakariņās ēdīsim zivi.
+1634. Vai mums vajadzētu iet šovakar ārā? - Nē, esmu noguris.
+1635. Ir auksts.
+1636. Labāk šovakar vakariņās neēdam zivi.
+1637. Man ir apnicis strīdēties.
+1638. Vai tu vēlētos spēlēt tenisu?
+1639. Vai tu gribi iet mājās kājām?
+1640. Vai man uzlikt kādu mūziku?
+1641. Vai mums vajadzētu vakariņot mājās?
+1642. Vai tu gribētu tagad iet?
+1643. Vai man pagaidīt tevi?
+1644. Vai mums vajadzētu tagad iet mājās?
+1645. Vai mums iet ārā?
+1646. Vai tu gribi, lai es aizveru logu?
+1648. Vai tu domā, ka mums vajadzētu pagaidīt Hovardu?
+1649. Vai tu gribi, lai es ieslēdzu gaismu?
+1650. Vai mums vajadzētu braukt ar taksi?
+1651. Uz jumta ir vīrietis.
+1652. Vilciens pienāk desmitos trīsdesmit.
+1653. Nedēļā ir septiņas dienas.
+1655. Televizorā šovakar neko nerāda.
+1656. Vai tev ir kāda nauda?
+1657. Atvaino, vai tuvumā ir kāda viesnīca? - Jā, ir.
+1660. Uz ceļa notiek daudz avāriju.
+1661. Vai tuvumā ir kādi restorāni? - Jā, ir.
+1662. Šis restorāns ir ļoti kluss.
+1665. Uz galda ir grāmata.
+1666. Ir vilciens desmitos trīsdesmit.
+1667. Zupā ir daudz sāls.
+1668. Man negaršo šī zupa.
+1669. Bedforda nav sena pilsēta.
+1671. Piedodiet, vai tuvumā ir banka?
+1672. Manā ģimenē ir pieci cilvēki: mani vecāki, manas divas māsas un es.
+1673. Cik studentu ir klasē? - Divdesmit.
+1674. Ceļs ir parasti ļoti kluss.
+1675. Vai ir kāds autobuss no centra uz lidostu?
+1676. Vai tur ir kādas problēmas?
+1679. Angļu alfabētā ir divdesmit seši burti.
+1680. Septembrī ir trīsdesmit dienas.
+1681. Savienotajās Valstīs ir piecdesmit štati.
+1683. Lidojums ir desmitos trīsdesmit.
+1684. Es nepirkšu šo kreklu.
+1685. Kas noticis?
+1686. Pie tavas mājas atrodas sarkana mašīna. Vai tā ir tava?
+1687. Vai televizorā šovakar rāda kaut ko labu?
+1688. Kas šī par ēku?
+1689. Vai šajā viesnīcā ir restorāns?
+1690. Katru stundu iet vilciens.
+1691. Šobrīd ir vienpadsmit piecpadsmit.
+1692. Pa televizoru šovakar rāda labu raidījumu par dabu.
+1693. Pagājušajā naktī pa televizoru rādīja labu raidījumu par dabu.
+1696. Vai šorīt ir kādas telefona ziņas priekš manis?
+1697. Vai vakar bija kādas telefona ziņas priekš manis?
+1698. Es esmu izsalcis, bet nav nekā, ko ēst.
+1699. Es biju izsalcis, kad pārnācu mājās, bet nebija nekā, ko ēst.
+1701. Šis ceļš ir ļoti bīstams.
+1702. Pagājušajā naktī tur notika avārija.
+1703. Vai tu domā, ka sestdien ballītē būs daudz cilvēku?
+1705. Es rīt gatavojos doties ārā no pilsētas.
+1706. Rīt pēcpusdienā līs.
+1709. Uz sienas blakus logam bija pulkstenis.
+1718. Vai sapulcē bija daudz cilvēku? - Nē, tikai daži.
+1720. Es atvainojos, ka kavēju.
+1722. Dienā ir divdesmit četras stundas.
+1723. Piektdien darbā bija ballīte, bet es neaizgāju.
+1724. Kur es varu nopirkt pudeli ūdens?
+1725. Kāpēc ārā pie bankas ir policija?
+1728. Pirms desmit gadiem skolā bija piecsimt skolēni.
+1729. Pagājušajā nedēļā es devos uz pilsētu, kur esmu dzimis (dzimusi).
+1730. Es domāju, ka viss būs labi.
+1731. Vai tā ir taisnība, ka tu pārcelies uz Berlīni?
+1732. Mums ir jāiet tagad.
+1734. Kāda šodien ir diena? Otrdiena?
+1736. Vai tev var piezvanīt uz ofisu?
+1737. Vai tu gribi iet kājām uz viesnīcu?
+1738. Šodien ir Kellijas dzimšanas diena. Viņai paliek divdesmit septiņi.
+1739. Es tam neticu!
+1740. Cik tālu ir no šejienes līdz vilciena stacijai?
+1741. Cik tālu ir no viesnīcas līdz pludmalei?
+1742. Cik tālu ir no Taipejas līdz Tokijai?
+1743. Cik tālu ir no tavas mājas līdz lidostai?
+1744. Laikapstākļi šodien nav tik labi.
+1745. Vakar bija stiprs vējš.
+1746. Šajā istabā ir karsts.
+1747. Vakar bija jauka diena.
+1748. Pagājušajā naktī bija vētra.
+1749. Es biju nobijies, jo bija ļoti tumšs.
+1750. Šeit bieži ir auksti, bet daudz nelīst.
+1752. Ja tu ej gulēt vēlu, no rīta ir grūti piecelties.
+1753. Ir jauki atkal tevi redzēt.
+1754. Tajā birojā strādāt ir neiespējami.
+1755. Darbā visi ir ļoti jauki.
+1756. Man patīk ceļošana.
+1757. Dažas pilsētas nav drošas.
+1758. Viņa nav nogurusi, bet viņš ir.
+1759. Viņai garšo tēja, bet viņam ne.
+1760. Es neesmu redzējis filmu, bet mana māsa ir.
+1761. Lūdzu, palīdzi man. - Piedod, es nevaru.
+1762. Vai tu esi noguris? - Es biju, bet tagad vairs neesmu.
+1763. Vai tev šķiet, ka Lūcija piezvanīs šovakar? - Viņa varētu.
+1764. Vai tu grasies šovakar mācīties? - Man vajadzētu, bet es, iespējams, nemācīšos.
+1765. Mana māsa ir redzējusi filmu, bet es neesmu.
+1769. Vai ir kāds autobuss uz lidostu? - Jā, ir.
+1771. Martins strādā smagi, bet es nē.
+1772. Vai tev patīk tavs darbs? - Jā, man patīk.
+1773. Vai tev un Nikolai patika filma? - Man jā, bet Nikolai nē.
+1774. Es lieliski pavadīju laiku. - Es arī.
+1776. Es neesmu precējies, bet mans brālis ir.
+1778. Es neesmu lasījis grāmatu, bet Pauls ir.
+1779. Rebekas nebūs, bet būs Antonio.
+1780. Tu nenokavēji, bet es gan.
+1781. Mana māsa māk spēlēt klavieres, bet es nemāku.
+1782. Anabella šodien strādā, bet es nē.
+1783. Es strādāju, bet mani draugi nē.
+1784. Ričards ir bijis Ķīnā, bet es neesmu.
+1785. Es esmu gatavs doties, bet Sonja nav.
+1787. Man nepatīk karsti laikapstākļi, bet Cecīlijai patīk.
+1788. Stīvam patīk karsti laikapstākļi, bet man nē.
+1789. Mana mamma nēsā brilles, bet mans tētis nē.
+1790. Tu nepazīsti Vanesu tik labi, bet es gan.
+1793. Hanna dzīvo Šveicē, bet viņas vecāki nē.
+1794. Tev šorīt bija brokastis, bet man nē.
+1795. Es negāju ārā pagājušajā naktī, bet mani draugi gan.
+1796. Man patīk sports, bet manai māsai nē.
+1797. Es neēdu gaļu, bet Toms gan.
+1798. Es esmu japānis, bet mans vīrs nav.
+1799. Es neesmu bijis Meksikā, bet Zoja ir bijusi.
+1804. Es gribētu tev palīdzēt, bet, piedod, es nevaru.
+1805. Es parasti nebraucu uz darbu ar mašīnu, bet vakar es braucu.
+1809. Vai tu domā, ka Ingrīda nokārtos savu braukšanas eksāmenu?
+1811. Vai tu esi brazīlietis? - Nē, es neesmu.
+1812. Vai tev ir mašīna? - Nē, man nav.
+1813. Vai tu jūties labi? - Jā.
+1814. Vai ārā snieg? - Nē, nesnieg.
+1815. Vai tu esi izsalcis (izsalkusi)? - Jā, es esmu.
+1817. Vai tu būsi rīt Maiami? - Nē, es nebūšu.
+1818. Vai tu esi kādreiz salauzis savu roku? - Jā, es esmu.
+1819. Vai tu vakar kaut ko nopirki? - Jā, nopirku.
+1820. Vai tu biji aizmidzis trijos no rīta? - Jā, es biju.
+1821. Tu kavē. - Tiešām? Piedod.
+1822. Es biju slims (slima) pagājušajā nedēļā. - Tiešām?
+1823. Atkal līst. - Tiešām?
+1824. Tur ir ziņa priekš tevis. - Tiešām?
+1827. Emīlijas šodien nav darbā. - Tiešām?
+1828. Es runāju četrās valodās. - Tiešām? Kādās?
+1829. Lūks neēd gaļu. - Tiešām?
+1830. Nadja apprecējās pagājušajā nedēļā. - Ja? Tiešām?
+1831. Es esmu nopircis jaunu mašīnu. - O, tiešām?
+1832. Es rakstu grāmatu. - Tiešām? Par ko?
+1834. Ir jauka diena, vai ne? - Jā, tā ir perfekta.
+1835. Santo dzīvo Milānā, vai ne? - Jā, pareizi.
+1836. Tu aiztaisīji logu, vai ne? - Jā, es tā domāju.
+1837. Tās kurpes ir skaistas, vai ne? - Jā, ļoti skaistas.
+1838. Marta būs drīz šeit, vai ne? - Jā, iespējams.
+1839. Tā nav tava mašīna, vai ne? - Nē, tā ir manas mammas.
+1840. Tu neesi saticis manu mammu, vai ne? - Nē, es neesmu.
+1841. Klāra daudz neiet ballēties, vai ne? - Nē, viņa neiet.
+1842. Tu nenokavēsi, vai ne? - Nē, es nekad nekavēju.
+1843. Es strādāju bankā. - Tiešām?
+1844. Es neaizgāju vakar uz darbu. - Tiešām?
+1845. Denisam es nepatīku. - Tiešām? Kāpēc nē?
+1846. Tu izskaties noguris (nogurusi). - Tiešām? Es jūtos labi.
+1847. Lara zvanīja man pagājušajā naktī. - Tiešām?
+1848. Es esmu nopircis jaunu mašīnu. - Tiešām? Kādas firmas tā ir?
+1849. Alberts neēd gaļu. - Tiešām?
+1850. Es esmu pazaudējis savu atslēgu. - Tiešām?
+1851. Andžela nemāk braukt. - Viņa nemāk? Viņai vajadzētu iemācīties.
+1852. Es esmu dzimis (dzimusi) Itālijā.
+1853. Pagājušajā naktī es slikti gulēju. - Tiešām?
+1854. Pa televizoru šovakar rāda futbola spēli. - Tiešām?
+1855. Es neesmu laimīgs. - Tiešām? Kāpēc ne?
+1857. Šakira strādā fabrikā. - Tiešām? Kādā fabrikā?
+1858. Nākamajā nedēļā es nebūšu uz vietas. - Tiešām? Kur tu būsi?
+1859. Pulkstenis neiet. - Tiešām? Tas vakar gāja.
+1860. Jauka diena, vai ne? - Jā, skaista diena.
+1861. Šīs puķes ir jaukas, vai ne? - Jā, kas tās ir par puķēm?
+1863. Tu esi bijis Brazīlijā, vai ne? - Jā, vairākas reizes.
+1864. Tu runā ķīniski, vai ne? - Jā, bet ne visai labi.
+1865. Kerolaina izskatās nogurusi, vai ne? - Jā, viņa ļoti daudz strādā.
+1866. Tu man palīdzēsi, vai ne? - Jā, protams, ka palīdzēšu.
+1867. Tu neesi neko vēl ēdis, vai ne? - Nē, es neesmu izsalcis.
+1868. Tu neesi noguris, vai ne? - Nē, es jūtos labi.
+1870. Tu māki spēlēt klavieres, vai ne? - Jā, bet es neesmu ļoti labs.
+1873. Filma nebija visai laba, vai ne? - Nē, tā bija briesmīga.
+1874. Šarlote dzīvo tev blakām, vai ne? - Jā, tikai dažas mājas tālāk.
+1875. Tu nestāstīsi nevienam, ko es teicu, vai ne? - Nē, protams, ka nē.
+1876. Diāna strādā ļoti smagi.
+1877. Policija meklē pazudušu zēnu.
+1879. Mans draugs ir ticis arestēts.
+1881. Ejam noskatīties to filmu.
+1887. Es labāk pasteigšos.
+1890. Šis mētelis ir netīrs.
+1891. Es domāju, ka tev vajadzētu nogriezt savus matus ļoti īsus.
+1892. Cik bieži tev ir mašīnas apkope?
+1893. Man nepatīk, ka tiek uzņemtas manas fotogrāfijas.
+1897. Vai tavs lidojums ir kādreiz ticis atcelts?
+1898. Vai es tev pastāstīju par Luisu?
+1899. Huberts piedalījās kautiņā pagājušajā naktī.
+1900. Olīvija teica, ka viņa dosies prom uz dažām dienām un piezvanīs man, kad viņa atgriezīsies.
+1902. Es pazīstu daudzus cilvēkus. - Tiešām?
+1903. Izabella nākamnedēļ būs šeit. - Tiešām?
+1904. Es šovakar iešu izklaidēties. - Tiešām?
+1905. Es mazliet protu runāt franciski. - Tiešām?
+1906. Es neesmu bijis uz kino veselu mūžību. - Tiešām?
+1909. Viņa man teica, ka nākamajā gadā viņa grib doties uz Dienvidameriku.
+1910. Ārsts ieteica man dažas dienas palikt gultā.
+1911. Es teicu Lucienam lai nekliedz.
+1912. Mičiko lūdza man nevienam neteikt, kas bija noticis.
+1916. Kas notika ar tevi pagājušajā naktī?
+1917. Cik cilvēki atnāca uz tikšanos?
+1918. Kurš autobuss iet uz centru?
+1919. Ar ko tu gribi runāt?
+1920. Kādi laikapstākļi bija vakar?
+1921. Ar kuru tu vēlies runāt?
+1922. Vai mēs neesam kaut kur iepriekš tikušies?
+1923. Vai tu negribi nākt uz ballīti?
+1925. Kāpēc Nikolas vakar nebija darbā?
+1926. Mēs šonakt neredzēsim Miriamu. - Kāpēc nē?
+1927. Man būs jāaizņemas nauda. - Kāpēc?
+1928. Cik ir pulkstenis?
+1929. Kas ir šie cilvēki?
+1930. Kur es varu atrast Oliveru?
+1931. Cik tas maksās?
+1932. Cikos sākas filma?
+1934. Kāpēc viņa devās prom agri?
+1935. Cik tālu ir līdz lidostai?
+1936. Cik maksā šeit novietot automašīnu?
+1939. Viņa jautāja, cik ilgi es esmu strādājis manā pašreizējā darbā.
+1941. Viņa gribēja zināt, vai es māku runāt kādā svešvalodā.
+1944. Vai būs lietus? - Cerams, nē.
+1946. Vai Paulīne ir precējusies? - Es nedomāju.
+1947. Vai tu domā, ka tu drīz dabūsi paaugstinājumu? - Es tā ceru.
+1950. Vai tu domā, ka Džons būs ballītē? - Es ceru, ka nē.
+1953. Tu pamani, ka debesis ir zilas un spīd saule.
+1954. Tu pamani, ka restorāna cenas ir ļoti augstas.
+1955. Tu tiešām izbaudīji savus apmācības kursus.
+1956. Tu pamani, ka tava drauga mati ir daudz īsāki nekā pēdējo reizi.
+1957. Tu pamani, ka sievietei, kura dzied, ir skaista balss.
+1962. Vai tev būtu iebildumi aizvērt durvis?
+1963. Vai tev būtu iebildumi izslēgt gaismas?
+1968. Vai tu esi kādreiz apsvēris domu doties dzīvot uz citu valsti?
+1974. Es neiebilstu pagaidīt.
+1981. Tas bija ļoti jautri.
+1982. Bija vēls, tāpēc mēs nolēmām braukt mājās ar taksi.
+1984. Cik vecs tu biji, kad tu iemācījies braukt?
+1986. Laikapstākļu dēļ mēs izlēmām neiet.
+1987. Es apsolīju nebūt vēlu.
+1988. Vai tu apsver mašīnas pirkšanu?
+1999. Vai tu zinātu, ko darīt, ja ēkā būtu ugunsgrēks? - Diez vai.
+2002. Kurš tev iemācīja braukt?
+2003. Es nepārbīdīju klavieres pats (pati).
+2008. Viņi neatļauj novietot automašīnas ēkas priekšā.
+2010. Es liku viņam apsolīt, ka viņš neteiks nevienam, kas notika.
+2011. Karsti laikapstākļi liek man justies nogurušam (nogurušai).
+2012. Viņas vecāki neļautu viņai iet ārā vienai.
+2013. Ļauj man panest somu tavā vietā.
+2014. Mums lika gaidīt divas stundas.
+2016. Man teica, ka man nevajadzētu ticēt visam, ko viņš saka.
+2020. Lūdzu, pa ceļam uz darbu, atceries nosūtīt vēstuli.
+2026. Mums vajag pārmaiņas.
+2027. Nav jēgas aizslēgt durvis.
+2028. Es aizdevu tev naudu pirms dažiem mēnešiem. - Vai tu esi pārliecināts? Es neatceros, ka tu būtu man aizdevis naudu.
+2032. Es centos turēt savas acis atvērtas, bet es nevarēju.
+2033. Lūdzu, mēģini būt kluss, kad tu nāc mājās.
+2034. Mēs nevarējām atrast kur palikt.
+2036. Man vajag vairāk trenēties.
+2038. Manu telefonu vajag uzlādēt.
+2039. Vai tu domā, ka manām biksēm nepieciešama mazgāšana?
+2040. Viņiem vajadzēja palīdzību sakopšanā pēc ballīties, tāpēc ikviens palīdzēja satīrīt.
+2041. Man vajag tavu palīdzību, lai pārvietotu šo galdu.
+2042. Man nepatīk viņš, bet viņam ir daudz problēmu.
+2044. Piedodiet, ka es esmu tik nervozs. Es neko tur nevaru darīt.
+2045. Vai tev patīk agri celties?
+2047. Man patīk satikt cilvēkus.
+2048. Man nepatīk, ja man liek gaidīt.
+2049. Man nepatīk, ja draugi zvana man uz darbu.
+2050. Silvijai patīk dzīvot Londonā.
+2051. Ofiss, kurā es strādāju, bija briesmīgs.
+2053. Man patīk tīrīt virtuvi.
+2054. Es priecātos satikt tavu ģimeni.
+2055. Vai tu labprāt pusdienotu tagad vai vēlāk?
+2056. Vai tu, lūdzu, neiebilstu aizvērt durvis?
+2060. Es gribētu būt ballītē, bet tas bija neiespējami.
+2061. Es labprātāk braucu ar mašīnu, nevis ceļoju ar vilcienu.
+2065. Es salabošu tavu mašīnu rīt.
+2067. Labāk, ja tu nevienam neteiktu to, ko es teicu.
+2072. Ko tu darīji pēc skolas beigšanas?
+2076. Daudzas avārijas izraisa cilvēki, kas brauc pārāk ātri.
+2078. Tā teikt bija stulbi.
+2081. Vai tu gribētu satikties rīt pusdienlaikā? - Protams, papusdienosim.
+2082. Vai gaidi nedēļas nogali? - Jā, es gaidu.
+2086. Ramona dzīvo viena.
+2087. Viņa ir pie tā pieradusi.
+2088. Es nopirku jaunas kurpes.
+2091. Malikas vīrs ir bieži prom.
+2093. Es esmu pieradis pie braukšanas pa kreiso joslu, jo es uzaugu Anglijā.
+2094. Es mēdzu braukt uz darbu ar auto katru dienu, bet šajās dienās es parasti braucu ar riteni.
+2095. Mēs mēdzām dzīvot mazpilsētā, bet tagad mēs dzīvojam Losandželosā.
+2096. Mēs runājām par problēmu.
+2099. Vai tev jau ir izdevies atrast darbu?
+2101. Es domāju par mājas pirkšanu.
+2102. Es neuzdrošinātos pat sapņot lūgt viņiem naudu.
+2104. Mēs esam izšķīrušies pret pārvākšanos uz Austrāliju.
+2105. Vai tu gribētu šovakar iet ārā?
+2106. Es ar nepacietību gaidu tikšanos ar viņu.
+2113. Es aizmirsu viņiem pateikties par izpalīdzēšanu.
+2114. Lūdzu, piedod, ka neatbildēju uz tavu zvanu.
+2115. Nav jēgas turēt mašīnu, ja tu nekad to nelieto.
+2120. Kāda bija filma? Vai to bija vērts redzēt?
+2122. Man bija grūtības atrast vietu, kur dzīvot.
+2123. Vai tev bija kādas grūtības dabūt vīzu?
+2125. Man bija problēma atrast vietu, kur dzīvot.
+2128. Cik bieži tu ej peldēt?
+2129. Kad bija pēdējā reize, kad tu devies iepirkties?
+2130. Man ir problēma atcerēties cilvēku vārdus.
+2131. Viņai nebija nekādu grūtību dabūt darbu.
+2132. Tev nebūs nekādu grūtību dabūt biļeti uz spēli.
+2133. Es domāju, ka tu iznieko pārāk daudz laika, skatoties televīziju.
+2134. Ir grūti atrast vietu centrā, kur novietot automašīnu.
+2136. Man vajag kaut ko, ar ko atvērt šo pudeli.
+2137. Viņi iedeva mums naudu, lai mēs nopirktu pārtiku.
+2140. Tā kā tur nebija neviena krēsla uz kā sēdēt, mums bija jāsēž uz grīdas.
+2142. Izej agri, lai tu nenokavētu autobusu.
+2143. Viņa mācās angļu valodu, lai viņa varētu studēt Austrālijā.
+2144. Mēs pārcēlāmies uz pilsētu, lai mēs varētu redzēt biežāk savus bērnus.
+2150. Es palēnināju ātrumu, lai mašīna aiz manis varētu pabraukt garām.
+2151. Vai tu domā, ka ir droši dzert šo ūdeni?
+2152. Atbildēt eksāmena jautājumus bija neiespējami.
+2153. Ir interesanti runāt ar Vedu.
+2154. Šis ir pārāk sarežģīts jautājums, lai es varētu atbildēt.
+2155. Tas bija jauki no tevis aizvest mani uz lidostu.
+2159. Vai Adrians bija pārsteigts, redzot tevi?
+2160. Tas bija garš un nogurdinošs ceļojums.
+2161. Ja man būs kāda jauna ziņa, tu būsi pirmā persona, kura to uzzinās.
+2167. Tas krēsls nav drošs, lai uz tā stāvētu.
+2170. Šī pilsētas daļa ir bīstama.
+2173. Man nepatīk suņi.
+2174. Es biju nobijies lai tuvotos sunim, jo man bija bail tikt sakostam
+2177. Es biju ieinteresēts dzirdēt, ka Arturo pameta savu darbu.
+2179. Man bija žēl dzirdēt, ka Boriss zaudēja savu darbu.
+2180. Man patika šeit uzturēties.
+2181. Piedod, ka zvanu tev tik vēlu, bet man vajag tev kaut ko pajautāt.
+2182. Piedod, ka es vakar uz tevi kliedzu.
+2183. Mums nebija atļauts atstāt ēku.
+2185. Fabio apsolīja nopirkt man pusdienas.
+2186. Es redzēju, kā Donna iekāpj savā mašīnā un brauc prom.
+2188. Es redzēju, kā viņš nokrīt no sava riteņa.
+2189. Vai tu redzēji, kā notika avārija?
+2190. Es redzēju, kā viņš gāja pa ielu.
+2191. Es nedzirdēju, kā tu ienāci.
+2193. Vai tu pamanīji, ka kāds izgāja?
+2194. Es varēju dzirdēt, ka līst.
+2195. Pazudušos bērnus pēdējo reizi redzēja spēlējoties tuvu upei.
+2196. Vai tu saod, ka kaut kas deg?
+2202. Vīrietis izskrēja no mājas kliegdams.
+2203. Dari kaut ko!
+2206. Beidzot atraduši viesnīcu, mēs meklējām kādu vietu, kur paēst pusdienas.
+2209. Jūtoties noguris (nogurusi), es agri devos gulēt.
+2212. Būdams redzējis šo filmu divreiz, es negribēju atkal doties to skatīties ar saviem draugiem.
+2215. Policija grib runāt ar kādu, kurš redzēja avāriju.
+2219. Policija meklē nozagto mašīnu.
+2220. Man vajag manas brilles, bet es nevaru tās atrast.
+2222. Vai tu tikko dzirdēji troksni?
+2223. Es nevaru šeit strādāt.
+2224. Manā zupā ir mats.
+2225. Tev ir ļoti gari mati.
+2226. Tu vari palikt pie mums.
+2227. Tu nevari šeit sēdēt.
+2236. Mums bija ļoti labs brauciens.
+2237. Šodien ir jauka diena.
+2238. Mums bija daudzas somas un koferi.
+2239. Šie krēsli ir mani.
+2247. Vai es varu runātu ar tevi?
+2249. Angļu valodā ir viens alfabēts ar divdesmit sešiem burtiem.
+2252. Es esmu dabūjis jaunu darbu, un tas ir smags.
+2253. Man vajag naudu, lai nopirktu pārtiku.
+2254. Ballītē mēs satikām daudz interesantu cilvēku.
+2255. Es atvēršu logu, lai ieelpotu svaigu gaisu.
+2260. Rīt dažviet līs, bet lielākajā daļā valsts būs sauss.
+2261. Man šodien ir jāiet uz banku.
+2262. Man nepatīk iet pie zobārsta.
+2263. Man ir jāaiziet uz banku, un tad es gatavojos iet uz pastu.
+2265. Flora strādā astoņas stundas dienā, sešas dienas nedēļā.
+2267. Zemes griežas ap Sauli, un Mēness griežas apkārt Zemeslodei.
+2269. Mēs lūkojāmies uz zvaigznēm debesīs.
+2271. Kosmosā ir miljoniem zvaigžņu.
+2276. Es šodien biju skolā piecas stundas.
+2278. Vai tev kādreiz ir brokastis gultā?
+2279. Cikos tu parasti beidz darbu?
+2280. Vai tu rīt pēcpusdienā būsi mājās?
+2282. Vai tev garšo stipra melnā kafija?
+2283. Vai tev garšoja kafija, kas mums bija vakardien pēc vakariņām?
+2286. Vai tu pazīsti cilvēkus, kuri dzīvo kaimiņos?
+2287. Vēsture ir mācība par pagātni.
+2288. Ūdens baseinā neizskatījās tīrs, tāpēc mēs negājām peldēties.
+2300. Atlantijas okeāns atrodas starp Āfriku un Ameriku.
+2306. Kenija ir valsts Austrumāfrikā.
+2307. Savienotās Valstis atrodas starp Kanādu un Meksiku.
+2313. Vai tu esi kādreiz bijis Francijas dienvidos?
+2316. Lielais Ķīnas mūris atrodas Ķīnā.
+2326. Man nepatīk karsti laikapstākļi. Deviņdesmit grādi man ir par karstu.
+2328. Vai tu domā, ka divas dienas ir pietiekami ilgi, lai apmeklētu Ņujorku?
+2330. Šokolāde, kas izgatavota no piena, ir piena šokolāde.
+2332. Tavu eksāmenu rezultāti ir tavi eksāmenu rezultāti.
+2340. Vētra pagājušajā nedēļā izraisīja daudz bojājumu.
+2343. Es neesmu varējis atpūsties pat minūti visas dienas laikā.
+2344. Es negribu, lai tu maksā par mani.
+2345. Vai tu dažreiz runā pats ar sevi?
+2346. Ja jūs gribat vēl ēst, ēdienu paņemiet paši!
+2349. Es jūtos sanervozējies.
+2351. Cikos mums vajadzētu tikties?
+2355. Vai tu un Henriks dzīvojat tuvu viens otram?
+2356. Es negrasos darīt darbu tavā vietā.
+2357. Pati filma nebija īpaši laba, bet man ļoti patika mūzika.
+2363. Daži cilvēki ir ļoti savtīgi.
+2365. Viņi vairāk nerunā viens ar otru.
+2367. Mans draugs (mana draudzene) precēsies šajā sestdienā.
+2368. Mēs devāmies ceļojumā ar dažiem mūsu draugiem.
+2370. Tā sieviete ir manas māsas draudzene.
+2372. Es negribu dalīt istabu ar kādu.
+2374. Kāpēc tu gribi aizņemties manu mašīnu?
+2375. Es gribētu, lai man būtu dārzs, tad es varētu audzēt savus dārzeņus.
+2376. Es ceļoju pa Japānu viens pats.
+2377. Viņa ir vientuļā māte un audzina savus bērnus pati
+2378. Autoskolas skolniekiem nav atļauts braukt vieniem pašiem.
+2380. Preces tagad ir dārgākas.
+2381. Es negaidīju viņus atnākam.
+2383. Vai ir paredzēts lidojums uz Madridi šovakar? - Varētu būt, ļauj man pārbaudīt.
+2388. Šovakar noteikti būs lidojums uz Madridi.
+2393. Viņš atteicās no jebkāda ēdiena.
+2394. Diez vai kāds nokārtoja eksāmenu.
+2396. Dod man ziņu, ja tev kaut ko vajag.
+2397. Atvaino par jebkādām grūtībām, ko es esmu radījis.
+2398. Jebkuram, kurš vēlas kārtot eksāmenu, vajadzētu pieteikties pie manis līdz piektdienai.
+2399. Kāds ir aizmirsis savu lietussargu.
+2400. Mums bija jāiet mājās kājām, tāpēc ka nebija neviena autobusa.
+2402. Tur nebija neviena veikala, kas būtu atvērts.
+2403. Visas biļetas ir tikušas izpārdotas.
+2404. Tā visa ir tava nauda.
+2405. Neviens no veikaliem nebija atvērts.
+2407. Mums nebija nekā, ko ēst.
+2408. Hermanis neteica nevienam par saviem plāniem.
+2409. Neviens neizdarīja to, ko es lūdzu viņiem darīt, vai ne?
+2412. Mēs neiztērējām daudz naudas.
+2413. Nav vajadzības steigties.
+2415. Vai tu pazīsti daudzus cilvēkus?
+2416. Monika ir ļoti aizņemta ar savu darbu.
+2417. Kimiko ir nedaudz draugu Londonā.
+2418. Paņemsim kaut ko padzerties.
+2420. Mums ir atlicis tikai mazliet laika.
+2421. Visi bija pārsteigti, ka viņš uzvarēja.
+2422. Es nevaru tev vēl paziņot lēmumu.
+2423. Tā bija ļoti garlaicīga vieta, kur dzīvot.
+2424. Es neeju ārā ļoti bieži.
+2426. Daži no cilvēkiem, ar kuriem es strādāju, nav ļoti draudzīgi.
+2427. Vai tu esi lasījis kādu no tām grāmatām?
+2428. Es biju slims vakar, tāpēc es pavadīju lielāko dienas daļu gultā.
+2429. Visas puķes šajā dārzā ir skaistas.
+2430. Mēs varam atrisināt lielāko daļu problēmu, kas mums ir.
+2431. Vai kāds no jums grib iet uz ballīti šovakar?
+2432. Puse šīs naudas ir mana, un puse tās ir tava.
+2436. Es noskatījos lielāko daļu filmas, bet ne visu.
+2438. Abi restorāni ir ļoti labi.
+2439. Neviens no restorāniem nav dārgs.
+2440. Mēs varam iet arī uz restorānu.
+2443. Mēs abi (abas) bijām noguruši (nogurušas).
+2444. Neviens no viņiem negrib bērnus.
+2445. Es nevarēju izlemt, kuru no diviem krekliem pirkt.
+2446. Es biju gan noguris, gan izsalcis, kad es pārnācu mājās.
+2449. Tu varētu palikt abās tajās viesnīcās.
+2451. Visi izbaudīja ballīti.
+2452. Es darīšu visu, ko varu, lai palīdzētu.
+2453. Viņš domā, ka viņš zina visu.
+2456. Vai tu izlasīji visu grāmatu?
+2458. Es esmu iztērējis visu naudu, ko tu mani iedevi.
+2460. Autobusa pakalpojumi ir ļoti labi.
+2461. Mēs nesatiekamies ļoti bieži.
+2462. Mēs pavadījām visu dienu pludmalē.
+2463. Viņš nepateica nevienu vārdu visas nakts garumā.
+2464. Es meklēju tevi visu rītu.
+2465. Viņi (viņas) nekad neiet ārā.
+2466. Katru reizi, kad es tevi redzu, tu izskaties citādāk.
+2468. Es esmu lasījis visas šīs grāmatas.
+2469. Neviena no istabām nebija tāda pati kā citas.
+2471. Katram no studentiem tika iedota grāmata.
+2472. Vilciens uz pilsētu iet katru stundu.
+2474. Raksti savu atbildi uz katru jautājumu uz atsevišķas papīra lapas.
+2475. Sieviete, kura dzīvo kaimiņos, ir ārste.
+2476. Mēs pazīstam daudzus, kuri dzīvo šajā valstī.
+2481. Es nekad neesmu runājis ar sievieti, kura dzīvo kaimiņos.
+2487. Mēs dzīvojam pasaulē, kas mainās visu laiku.
+2488. Kaimiņos dzīvo sieviete. Viņa ir ārste.
+2489. Sieviete kaimiņos ir ārste.
+2494. Kleita, ko Juliana nopirka, viņai neder.
+2495. Vai šīs ir tās grāmatas, ko tu meklēji?
+2496. Sieviete, kurā viņš iemīlējās, pameta viņu pēc mēneša.
+2497. Vīrietis, kuram es sēdēju blakus lidmašīnā, visu laiku runāja.
+2498. Viss, ko viņi teica, bija patiesība.
+2499. Es iedevu viņai visu naudu, kas man bija.
+2500. Vai tu dzirdēji to, ko viņi teica?
+2501. Draudzenei ir mugurā kleita. Tev tā patīk.
+2502. Draugs gatavojas skatīties filmu. Tu gribi zināt nosaukumu.
+2504. Tavai draudzenei bija jāizdara kāds darbs. Tu gribi zināt, vai viņa ir jau pabeigusi.
+2506. Man patīk cilvēki, ar kuriem es kopā strādāju.
+2507. Kāds ir tās viesnīcas nosaukums, par kuru tu man stāstīji?
+2508. Es nedabūju darbu, kam es pieteicos.
+2510. Kur bija tas vīrietis, ar kuru kopā es tevi redzēju restorānā?
+2511. Viņi dod saviem bērniem visu, ko viņi vēlas.
+2512. Pasaki man, ko tu gribi, un es mēģināšu tev to dabūt.
+2515. Kāds ir tā vīrieša vārds, kura mašīnu tu aizņēmies?
+2516. Es satiku kādu, ar kura brāli es gāju vienā skolā.
+2517. Es sastapu vīrieti, kurš pazīst tevi.
+2518. Es satiku vīrieti, kura māsa pazīst tevi.
+2520. Cilvēki, ar kuriem es kopā strādāju, ir ļoti jauki.
+2521. Es nesen devos atpakaļ uz pilsētu, kurā es uzaugu.
+2523. Vai tu atceries to dienu, kad mēs gājām uz zooloģisko dārzu?
+2524. Es neesmu viņus redzējis kopš tā gada, kad viņi apprecējās.
+2527. Es devos vizītē pie ārsta, kurš teica man, lai es atpūšos dažas dienas.
+2528. Vai tu pazīsti kādu, kurš runā franciski un itāliski?
+2529. Valerio, kurš runā franciski un itāliski, strādā kā gids.
+2531. Šorīt es satiku kādu, ko es nebiju redzējis gadiem.
+2534. Kamilla parādīja man bildi ar savu dēlu, kurš ir policists.
+2535. Ārsts, kurš mani izmeklēja, nevarēja atrast neko sliktu.
+2537. Lopeza kungs, ar kuru es runāju sapulcē, ir ļoti ieinteresēts mūsu plānā.
+2539. Šis ir mans draugs no Itālijas, par kuru es tev stāstīju.
+2541. Priscillai ir divas māsas, kuras abas kādreiz bija skolotājas.
+2542. Mēs braucām pa ceļu, kura malas ieskāva koki.
+2552. Es nerunāju daudz ar lidmašīnā man blakus sēdošo vīrieti.
+2553. Taksis, vedot mūs uz lidostu, salūza.
+2556. Kāds bija policijas arestētā vīrieša vārds?
+2557. Man nav nekā, ko darīt.
+2559. Virtuve nav tikusi tīrīta gadiem.
+2562. Vitale ir ļoti talantīgs smieklīgu atgadījumu stāstīšanā.
+2563. Viņš ir viens no visgarlaicīgākajiem cilvēkiem, kuru es esmu saticis.
+2564. Filmai turpinoties, tā kļuva arvien garlaicīgāka.
+2565. Vakariņas smaržo labi.
+2566. Piens garšo mazliet dīvaini.
+2567. Es nevaru to ieēst.
+2570. Viņi būs prom dažas nākamās nedēļas.
+2582. Tu tagad izskaties tāpat kā tu izskatījies pirms piecpadsmit gadiem.
+2585. Es ienīstu šo pilsētu.
+2586. Stāsts bija tik muļķīgs.
+2587. Viņi (viņas) ir tik jauki (jaukas).
+2590. Mūzika bija tik skaļa, ka to varēja dzirdēt no attāluma.
+2591. Es neesmu viņu redzējis tik ilgu laiku.
+2592. Es nezināju, ka tas bija tik tālu.
+2593. Tu esi slinks (slinka).
+2594. Vai Rejs gatavojas pieteikties darbam? Vai viņam ir pietiekama pieredze?
+2595. Viņi ir pārāk jauni, lai precētos.
+2596. Ir pārāk tālu, lai no šejienes ietu mājās kājām.
+2599. Tu stāvi pārāk tuvu kamerai.
+2604. Autobusi iet daudz biežāk nekā vilcieni.
+2605. Autobusā bija daudz cilvēku.
+2612. Cikos mums vajadzētu doties?
+2615. Jo vairāk es domāju par plānu, jo mazāk man tas patīk.
+2617. Es nepazīstu tik daudz cilvēkus, cik tu.
+2618. Es nokļuvu šeit tik ātri, cik es vien varēju.
+2619. Tu vari ēst tik daudz, cik tu gribi.
+2620. Vai tu varētu atsūtīt man naudu tik drīz, cik iespējams?
+2623. Viņiem (viņām) ir vairāk nauda nekā mums.
+2624. Es nevaru skriet tikpat ātri, cik viņš.
+2625. Filma, ko mēs tikko skatījāmies, bija visgarlaicīgākā filma, ko es jebkad esmu redzējis.
+2628. Viņa vecākais dēls ir sešpadsmit gadus vecs.
+2631. Es satiku savu draugu pa ceļam uz mājām.
+2634. Es būšu tur nākamnedēļ, bet, iespējams, es tevi nesatikšu.
+2635. Gerardo un Feliciana ir abi pieteikušies darbam.
+2636. Viņš vienmēr saka, ka nebūs vēlu, bet viņš vienmēr ir.
+2639. Vai tu esi jau bijis bankā? - Vēl ne.
+2643. Vai man vajadzētu pateikt viņam, kas notika, jeb viņš jau zina?
+2644. Man tikko bija pusdienas, un es jau atkal esmu izsalcis.
+2645. Vai tu gribētu paēst ar mums, jeb tu esi jau paēdis?
+2647. Vai viņa lidmašīna ir jau nolaidusies?
+2648. Viņš vienmēr velk mēteli, pat karstā laikā.
+2651. Es zināju, ka man nav daudz naudas, bet man ir vēl mazāk nekā es domāju.
+2652. Kaut gan viņa neprot braukt, viņa tik un tā nopirka mašīnu.
+2653. Es, iespējams, redzēšu tevi rīt.
+2654. Pat ja līs mēs rīt gatavojamies doties uz pludmali.
+2664. Es atstāšu savu telefonu ieslēgtu gadījumā, ja zvana mana mamma.
+2680. Tev vajadzēja to izdarīt tā, kā es tev rādīju.
+2681. Kā vienmēr, tu kavē stundu.
+2684. Tā māja izskatās tā it kā tā gatavotos sabrukt.
+2686. Mēs paņēmām lietussargu, jo izskatījās, ka līs.
+2687. Vai tu dzirdi skanam mūziku no aiz blakus durvīm?
+2690. Viņa vienmēr lūdz man izdarīt kaut ko viņas labā, it kā es neesmu darījis jau pieteikami.
+2691. Sačiko septembrī dodas prom uz nedēļu.
+2693. Es iemigu filmas laikā.
+2700. Man ir jātiek mājās līdz pulksten pieciem.
+2701. Es šorīt gulēju līdz pusdienlaikam.
+2702. Pablo būs prom līdz sestdienai.
+2704. Ir pārāk vēls, lai tagad ietu uz banku.
+2705. Līdz brīdim, kad mēs nokļūsim kino, filma būs jau sākusies.
+2706. Silvio mašīna salūza pa ceļam uz viņa drauga māju.
+2707. Es satikšu tevi pusdienlaikā, trešdien, divdesmit piektajā decembrī.
+2708. Es satikšu tevi no rīta, divi tūkstoši četrpadsmitā gada trīsdesmit pirmajā maijā.
+2709. Man ir jāstrādā pēcpusdienās.
+2710. Vilciens aties pēc dažām minūtēm.
+2711. Es būšu atpakaļ pēc nedēļas.
+2712. Viņi precēsies sešu mēnešu laikā.
+2714. Ja es saku: "Pulksten desmitos ", tad es tieši to arī domāju.
+2715. Vai tu būsi mājās uz vakariņām? - Nē, es būšu vēlu.
+2716. Mēs paspējām uz vilcienu laikā.
+2718. No sākuma mēs nesapratāmies ļoti labi, bet beigās mēs kļuvām labi draugi.
+2719. Es gatavojos doties prom janvāra sākumā.
+2720. Es būšu atpakaļ decembra beigās.
+2722. Kāds ir pie durvīm, vai tu varētu, lūdzu, atbildēt?
+2723. Man patīk sēdēt kinoteātra pēdējās rindās.
+2725. Mūsu dzīvoklis ir mājas otrajā stāvā.
+2726. Pa kreiso joslu brauc Anglijā, Japānā un Singapūrā.
+2727. Es apstājos, lai iepildītu degvielu pa ceļam no darba uz mājām.
+2730. Vai tu esi kādreiz bijis slimnīcā?
+2734. Kad mēs iekāpām vilcienā vairs nebija brīvu sēdvietu.
+2737. Nuria vakar pabrauca man garām ar riteni.
+2738. Mani draugi ir Ķīnā.
+2739. Mani vecāki ir Zoodārzā.
+2740. Kungs, es steidzos, lai paspētu uz savu lidojumu laikā.
+2745. Vai tu esi kādreiz bijis iemīlējies kādā?
+2765. Mans tētis dažreiz dodas uz darbu ar taksi, un es dodos uz darbu ar autobusu.
+2768. Es ierados uz vilcienu pulksten septiņos.
+2779. Man ir visas ģimenes fotogrāfijas manā telefonā.
+2780. Man šķiet, ka mēs esam apmaldījušies.
+2785. Daudzi no maniem draugiem šogad precas.
+2793. Man izpalīdzēt bija ļoti laipni no tavas puses.
+2799. Vai tu esi satraukts par došanos uz Eiropu nākamnedēļ?
+2801. Man ir žēl to dzirdēt.
+2802. Vai tu biji nervozs, sniedzot runu svešvalodā?
+2809. Es jūtu līdzi zaudētājam.
+2824. Viņš atkal kavē.
+2825. Man ir apnicis ēst vienu un to pašu ēdienu katru dienu.
+2826. Viņa man teica, ka ierodas šovakar.
+2827. Šakira apprecējās ar amerikāni un tagad viņa ir ir precējusies, un viņai ir divi bērni
+2828. Muitas viņu valstī ir līdzīgas mūsējām.
+2835. Es nespēju to saprast, vai tu vari man to izskaidrot?
+2838. Neuztraucies, viņi domā, ka tu esi jautrs.
+2846. Ja tu esi uztraucies par to, nesēdi vienkārši šeit, dari kaut ko.
+2847. Viņš ir tik savtīgs, ka viņam nerūp neviens cits.
+2849. Vai tu gribētu karstu dzērienu vai karstu zupu?
+2855. Par kādu personību tu esi sapņojis kļūt?
+2856. Mans tēvs vakar saņēma ziņu no sena vidusskolas drauga.
+2858. Tā ir laba ideja.
+2875. Kad tu devies uz kino ar savu draugu, vai viņš maksāja par biļetēm?
+2893. Viņa ir ļoti vienkārša sieviete un pārtiek tikai no maizes un olām.
+2903. Es ticu, ka ir jāsaka tas, ko tu domā.
+2905. Es ceru, ka tev izdevās atrast tādu darbu, kādu tu gribēji.
+2924. Es apsolīju, ka apmeklēšu viņas kāzas, tagad vairs nevar neko darīt, lai atteiktu ielūgumu.
+2930. Labāk atrodi degvielas uzpildes staciju.
+2931. Lūdzu, nopērc jaunu tualates papīru, pirms tu izlieto iepriekšējo.
+2935. Lūdzu, nepārtrauc stāstīt savu stāstu; lūdzu, turpini.
+2937. Rīt es dodos uz Parīzi.
+2938. Oskars atstāja mājas astoņpadsmit gadu vecumā un devās prom uz Spāniju.
+2949. Sarunas starp Krieviju un Savienotajām Valstīm ir pārtrūkušas.
+2952. Policija gatavojas mums uzdot daudz jautājumu, tāpēc mums ir nepieciešams atbalstīt vienam otru.
+2967. Es būšu gatavs pēc dažām minūtēm.
+2969. Mani vecāki atkal bija lidostā, lai sagaidītu mani, kad es lidoju atpakaļ mājās.
+2971. Es krāju naudu ceļojumam apkārt pasaulei.
+2972. Formula 1 sacīkšu auto aizdegās un uzsprāga.
+2973. Manam draugam uzbruka un viņu piekāva pirms dažām dienām.
+2982. Tam, kurš izlietoja visu pienu un olas, vajadzētu aiziet un nopirkt vēl.
+2985. Lēmumu ir jāpieņem tagad.
+2993. Runājot ar policiju, tev nevajadzētu izdomāt stāstus vai melot.
+2998. Kad tu plāno atdot man naudu, ko es tev aizdevu?
+6001. Viņš ir skolā.
+6002. Viņš ir gultā.
+6003. Viņš ir deviņdesmit astoņus gadus vecs.
+6004. Viņa ir darbā.
+6006. Vai tu esi precējusies?
+6008. Vai tu esi studente?
+6009. Tās maksā vienu mārciņu.
+6010. Tās maksā vienu eiro.
+6011. Man patīk viņa un viņai patīku es.
+6012. Viņa nerunā daudz.
+6013. Viņš neēd gaļu.
+6014. Vai tev garšo šokolāde?
+6015. Vai tu spēlē tenisu?
+6016. Vai viņš dzīvo tuvu?
+6017. Vai viņi spēlē tenisu?
+6018. Vai viņš runā angliski?
+6021. Vai tu gribi būt slavens?
+6022. Vai viņa smagi strādā?
+6025. Ko tu dari?
+6026. Kāpēc tu smejies?
+6027. Vai tu vari runāt lēnāk?
+6029. Viņš parasti iet ar kājām.
+6030. Viņa dod priekšroku tējai.
+6031. Man ir zilas acis.
+6033. Mūsu mašīnai ir četras durvis.
+6036. Viņiem ir zirgs, trīs suņi un seši kaķi.
+6037. Viņiem ir daudz dzīvnieku.
+6038. Man ir ritenis, bet man nav mašīnas.
+6039. Viņiem nav bērnu.
+6041. Lilai nav darba.
+6042. Vai Nikolai ir mašīna?
+6043. Kāda viņai ir mašīna?
+6044. Kas tev somā?
+6045. Jā, viņam ir dators.
+6046. Nē, viņam nav.
+6047. Nē, viņam nav skārienjūtīga telefona.
+6048. Jā, viņam ir pulkstenis.
+6049. Jā, viņam ir brālis un divas māsas.
+6050. Viņa dodas visur ar riteni.
+6051. Viņiem ir trīs suņi un divi kaķi.
+6052. Viņam ir daudz problēmu.
+6053. Viņiem nav daudz grāmatu.
+6054. Man kaut kas ir iekritis acī.
+6056. Viņam ir daudz draugu.
+6057. Man nav atslēgas.
+6058. Vai tās bija dārgas?
+6059. Vai es varu dabūt kaut ko ēdamu?
+6060. Tās ir ļoti dārgas.
+6061. Vai tā bija dārga?
+6063. Mūsu istaba bija ļoti maza, un tā nebija tīra.
+6064. Tagad viņam ir labāk.
+6065. Anabella bija tur, bet Ričards gan nē.
+6066. Es nezinu. Tās bija uz galda, bet to tur vairs nav.
+6067. Cik maksāja tava jaunā kamera? - Divsimts eiro.
+6069. Mēs dzīvojām ļoti jaukā vietā.
+6070. Vakar viņš devās uz darbu ar mašīnu.
+6072. Viņa satika viņus pagājušajā vakarā.
+6073. Vakar es nopirku divas avīzes.
+6074. Pagājušajā svētdienā mēs devāmies uz kino.
+6075. Vakar es apēdu apelsīnu.
+6076. Šorīt viņš gāja dušā.
+6077. Viņi apciemoja mūs pagājušajā piektdienā.
+6078. Vai tu skatījies televizoru pagājušajā naktī?
+6079. Vai tev patika ballīte?
+6081. Vai tu beidzi darbu agri?
+6084. Es nezināju par sapluci.
+6085. Lukass mājās skatās televizoru.
+6087. Bija skaists rīts.
+6089. Viņi gaidīja autobusa pieturā.
+6090. Nē, taču es mēdzu peldēt katru dienu.
+6091. Nē, taču es mēdzu iet ārā trīs vakarus nedēļā.
+6093. Man nav laika, bet es kādreiz daudz lasīju.
+6095. Nē, man kādreiz bija, bet es to pārdevu.
+6098. Viņa skatās to katru vakaru.
+6099. Viņai ir bijuši dažādi darbi und viņa ir dzīvojusi daudzās vietās.
+6100. Jā, es esmu lasījis to divreiz.
+6101. Es nezinu, es nekad neesmu iepriekš viņu redzējis.
+6102. Nē, viņa nekad nav viņu satikusi.
+6103. Viņš to ir redzējis divdesmit reizes, bet es nekad neesmu to redzējis.
+6105. Viņi ir precējušies jau piecus gadus.
+6106. Cik ilgi tu viņu jau pazīsti?
+6107. Es pazīstu viņu jau ilgi.
+6108. Cik ilgi viņa jau dzīvo Tokijā?
+6109. Cik sen tev ir tava mašīna?
+6110. Cik ilgi tu esi mācījies vācu valodu?
+6111. Cik ilgi viņš jau skatās televizoru?
+6112. Viņi ir bijuši precējušies kopš tūkstoš deviņi simti deviņdesmit devītā gada.
+6113. Viņš ir bijis slims dažas pēdējās dienas.
+6114. Mēs esam tur dzīvojuši jau ilgu laiku.
+6115. Viņa jau piecus gadus ir nostrādājusi bankā.
+6117. Es esmu jau sešus mēnešus mācījies angļu valodu.
+6118. Es viņu ļoti labi pazīstu.
+6120. Cik ilgi tev bija jāgaida?
+6121. Viņam ļoti patīk savs darbs.
+6122. Viņa to lasa jau divas stundas.
+6123. Nē, šis mētelis man ir bijis jau ilgu laiku.
+6124. Viņš ir tur jau trīs dienas.
+6125. Viņa ir tur jau trīs dienas.
+6126. Viņa ir tur kopš pirmdienas.
+6127. Viņš aizgāja pirms desmit minūtēm.
+6128. Viņa ir tur kopš pulksten septiņiem.
+6129. Mēs jau esam gaidījuši divdesmit minūtes.
+6131. Viņš ir bijis slimnīcā kopš pagājušā gada oktobra.
+6134. Pagājušajā nedēļā.
+6135. Šorīt.
+6137. Viņš mazgā savu mašīnu.
+6138. Viņš ir nomazgājis savu mašīnu.
+6139. Tā tagad ir tīra.
+6140. Viņi (Viņas) iet ārā.
+6141. Viņi ir izgājuši ārā.
+6142. Viņu nav šobrīd mājās.
+6144. Viņa ir devusies gulēt.
+6145. Viņa tagad ir gultā.
+6146. Mums tagad ir jauna mašīna.
+6147. Man viņai vēl nav dāvanas.
+6148. Kur viņš ir devies?
+6149. Kur viņš ir šobrīd?
+6151. Es to pazaudēju.
+6152. Nē, viņš ir aizgājis uz mājām.
+6153. Viņš aizgāja mājās.
+6154. Mēs nopirkām jaunu mašīnu.
+6155. Viņš ir jau aizgājis uz mājām.
+6158. Viņa salauza savu roku.
+6159. Viņa ir salauzusi savu roku.
+6160. Viņi pārvācās uz Sietlu.
+6161. Viņi ir pārvākušies uz Sietlu.
+6162. Es esmu pieļāvis kļūdu.
+6164. Vai tu to esi kaut kur redzējis?
+6165. Vai tu esi dzirdējis?
+6166. Teo ir apprecējies.
+6167. Es iepirkos.
+6169. Vai tu pateici labās ziņas saviem draugiem?
+6171. Nē, es tikko biju pusdienās.
+6172. Nē, viņš tikko aizgāja.
+6173. Viņi ir jau ieradušies.
+6174. Jā, mēs jau esam tikušies.
+6175. Nē, viņi nav vēl ieradušies.
+6176. Nē, es neesmu vēl viņam pateicis.
+6177. Nē, vēl ne. Mēs joprojām viņus gaidām.
+6178. Nē, viņa sāks nākamnedēļ.
+6179. Tā ir skaista, vai tu esi jau to vilkusi?
+6180. Viņš ir jau ieradies.
+6181. Nē, viņi jau ir to redzējuši.
+6182. Es viņam jau piezvanīju.
+6183. Viņš ir jau aizgājis uz darbu.
+6184. Viņa jau ir to uzsākusi.
+6186. Pajautā viņai, vai viņa ir jau sākusi savu jauno darbu.
+6187. Pajautā viņam, vai viņš ir saticis savus jaunos kaimiņus.
+6189. Pajautā viņam, vai viņš ir jau pārdevis savu mašīnu.
+6190. Es paliku mājās.
+6191. Vai tu devies uz Spāniju pagājušajā gadā?
+6194. Mēs nodzīvojām sešus gadus Parīzē, bet tagad mēs dzīvojam Romā.
+6195. Vai tu vakar redzēji Vedu?
+6196. Es beidzu savu darbu divos.
+6197. Cikos tu beidzi savu darbu?
+6198. Viņa ir izgājusi.
+6199. Sandžita vecmāmiņa nomira pirms diviem gadiem.
+6200. Kur tu biji pagājušajā naktī?
+6201. Viņa ir apmeklējusi daudzas valstis.
+6202. Vai tā ir skaista? - Es nezinu. Es neesmu tur nekad bijis.
+6204. Viņa ir ļoti jauka.
+6205. Man to iedeva mans draugs.
+6206. Tā tika uzņemta tūkstoš deviņi simti sešdesmit piektajā (1965.) gadā.
+6207. Durvis tiek krāsotas.
+6208. Durvis ir tikušas nokrāsotas.
+6209. Mana atslēga ir tikusi nozagta.
+6210. Manas atslēgas ir tikušas nozagtas.
+6212. Vai šis krekls ir ticis izmazgāts?
+6215. Logus mazgā.
+6216. Zāli pļauj.
+6217. Ofisu tīra.
+6218. Kreklus izgludināja.
+6219. Logu saplēsa.
+6221. Mašīnu sabojāja.
+6222. Mājas nojauc.
+6223. Kokus nocirta.
+6225. Tas tiek krāsots.
+6226. Mēs nebijām ielūgti.
+6229. Kā tās sauc?
+6231. Ofisu vakar iztīrīja.
+6232. Kā saplēsa logu?
+6233. Es negribu iet šonakt ārā.
+6236. Viņi neiet ārā ļoti bieži.
+6237. Es to neskatos.
+6238. Ielas tīra katru dienu.
+6239. Vai tu vēlies?
+6240. Tā tika uzņemta pirms ilga laika.
+6241. Vai tu devies gulēt vēlu pagājušajā naktī?
+6242. Vai tu esi tās visas apēdis?
+6243. Vai tev tas patīk?
+6244. Viņa ir izbraukusi uz dažām dienām.
+6245. Vai tu vari to vēlreiz izskaidrot?
+6246. Viņš klausās mūziku.
+6248. Vai tu vari man parādīt?
+6249. Šīs istabas tīra katru dienu.
+6250. Šo logu saplēsa pagājušajā naktī.
+6252. Vai tu esi to redzējis?
+6255. Mēs nespēlējām ļoti labi, bet mēs uzvarējām spēli.
+6256. Jā, es domāju, ka tā bija ļoti laba.
+6257. Viņi parkā spēlē tenisu.
+6258. Es palikšu mājās.
+6259. Izklausās labi, kur viņi dosies?
+6261. Kāpēcgan tev nenākt ar mums?
+6262. Ar taksometru?
+6263. Pēdējais autobuss izbrauc pusnaktī.
+6264. Protams, cikos sākas filma?
+6266. Būs lietus.
+6267. Es nokavēšu.
+6268. Es negribu braukt ar autobusu.
+6269. Es iešu ar kājām.
+6270. Viņš dosies ar dažiem draugiem.
+6271. Mēs gatavojamies pirkt viņai dāvanu.
+6272. Viņa apgulsies uz stundu.
+6273. Vai tu plāno to skatīties?
+6275. Šodien viņa ir Frankfurtē.
+6278. Es būšu mājās.
+6279. Putni apēdīs to.
+6280. Vai tu gribi nākt ar mums?
+6281. Es būšu gatavs pēc piecām minūtēm.
+6282. Es izbraukšu šonakt, tāpēc es nebūšu mājās rīt.
+6284. Tas nekad neatkārtosies.
+6285. Es nedomāju, ka es būšu šeit rīt.
+6286. Es nedomāju, ka viņi apprecēsies.
+6287. Es nedomāju, ka tev patiks filma.
+6288. Mēs esam dabūjuši biļetes.
+6289. Neko, es esmu brīvs (brīva).
+6290. Viņu vilciens ir astoņos četrdesmit.
+6291. Es dodos ārā.
+6293. Tas neaizņems tik daudz laika.
+6294. Es to panesīšu tavā vietā.
+6295. Es gatavojos to skatīties.
+6296. Vai man atvērt logu?
+6297. Es tev atsūtīšu pastkarti.
+6298. Es esmu izsalcis (izsalkusi). Es to apēdīšu.
+6299. Nē, viss ir labi. Es sēdēšu uz grīdas.
+6300. Ak nē, es aizmirsu. Es piezvanīšu viņai tagad.
+6302. Iedod to man, un es tev parādīšu.
+6304. Es nedomāju, ka es šodien spēlēšu tenisu.
+6305. Es domāju, ka es to nopirkšu.
+6306. Es nedomāju, ka es to nopirkšu.
+6307. Es to darīšu vēlāk.
+6308. Es skatos daudzas sporta pārraides televizorā.
+6309. Man šķiet, ka es došos pastaigāties.
+6310. Viņš man to pateica pagājušajā nedēļā.
+6311. Labi, es to viņai iedošu.
+6312. Vai man vajadzētu ieslēgt gaismu?
+6313. Nē, nāc ar mani.
+6314. Jā, ko mēs ielūgsim?
+6316. Es nezinu. Viņš varētu zvanīt šajā pēcpusdienā.
+6317. Ārā varētu līt.
+6318. Tev varētu paveikties.
+6319. Es rīt varētu spēlēt tenisu.
+6320. Es varētu iet uz kino.
+6321. Es varētu satikt tevi rīt.
+6322. Viņš varētu aizmirst piezvanīt.
+6323. Šodien varētu snigt.
+6324. Es šovakar varētu būt vēlu.
+6325. Viņa varētu nebūt šeit nākošajā nedēļā.
+6326. Man varētu nebūt laika iet ārā.
+6327. Es neesmu pārliecināts.
+6328. Es varētu doties uz Itāliju.
+6329. Es varētu satikt viņu šovasar.
+6330. Es varētu ēst itāļu ēdienus.
+6331. Es varētu braukt ar autobusu.
+6332. Ko tu domā ar to darīt? - Es vēl neesmu izlēmis.
+6333. Ko tu domā ar to darīt? - Es varētu atvērt restorānu.
+6334. Mans brālis arī māk spēlēt klavieres.
+6335. Jā, bet es neesmu ļoti labs peldētājs.
+6336. Piedod, es nevaru.
+6337. Tagad viņa var saprast visu.
+6338. Vai tu, lūdzu varētu atvērt durvis?
+6339. Vai tu, lūdzu, varētu mirklīti pagaidīt?
+6340. Vai tu,lūdzu, varētu izmanīt eiro?
+6341. Silvio, vai es varu aizņemties tavu lietussargu?
+6342. Sveiki, vai es,lūdzu, varētu runāt ar Tomasu?
+6343. No loga paveras skats uz kalniem.
+6344. Es nevaru tevi dzirdēt.
+6345. Es nevaru to atrast.
+6346. Es nevarēju apēst vakariņas.
+6347. Viņš nevar izlemt.
+6348. Viņam ir jāstrādā.
+6349. Viņa bija slima.
+6350. Tev jābūt nogurušam.
+6351. Tev viņš jāpazīst.
+6352. Viņiem vajadzētu dzīvot tev tuvumā.
+6353. Es atvainojos. Man noteikti būs nepareizs numurs.
+6354. Viņas noteikti nav mājās.
+6355. Viņam noteikti nav mašīnas.
+6356. Viņi tajā dienā noteikti nestrādā.
+6357. Tas ir ļoti ass.
+6358. Viņiem bija jābūt uzmanīgiem.
+6359. Tev jābūt izsalkušam.
+6361. Es zinu, ka tas nav man.
+6362. Tas noteikti ir tev.
+6363. Viņai noteikti patīk zilā krāsa.
+6364. Viņiem noteikti ir liela māja.
+6365. Viņas bērni dzer daudz piena.
+6366. Viņa noteikti strādā naktī.
+6367. Man noteikti ir nepareizs telefona numurs.
+6368. Viņš noteikti daudz neēd.
+6369. Viņš noteikti dodas uz darbu ļoti agri.
+6370. Viņa laikam labi nedzird.
+6371. Viņam noteikti nav daudz drēbju.
+6373. Šoferiem ir jābrauc pa citu ceļu.
+6374. Man bija pusstundu jāgaida autobuss.
+6375. Tu nedrīksti tos pazaudēt.
+6376. Viņai vajadzētu mācīties vairāk.
+6377. Tev vajadzētu aiziet un noskatīties to.
+6378. Tev nevajadzētu skatīties tik daudz televizoru.
+6379. Man šķiet, ka man vajadzētu tagad iet mājās.
+6380. Jā, man šķiet, ka tev vajadzētu.
+6381. Ir pārāk agrs.
+6382. Es nevaru iet uz kino.
+6383. Tev vajadzētu iet gulēt.
+6384. Tas ir ļoti interesants.
+6385. Tev vajadzētu to izlasīt.
+6387. Vai tev šķiet, ka man vajadzētu iemācīties, kā braukt ar mašīnu?
+6388. Vai tev šķiet, ka man vajadzētu atrast citu darbu?
+6389. Vai tev šķiet, ka man vajadzētu ielūgt Oskaru?
+6390. Man šķiet, ka mums vajadzētu tagad iet mājās.
+6391. Es nedomāju, ka tev vajadzētu to pirkt.
+6392. Tev vajadzētu to pārdot.
+6393. Es domāju, ka viņai vajadzētu doties ceļojumā.
+6394. Es nedomāju, ka viņiem vajadzētu precēties.
+6395. Es nedomāju, ka tev vajadzētu iet uz darbu.
+6396. Es domāju, ka viņam vajadzētu aiziet pie ārsta.
+6397. Es nedomāju, ka mums vajadzētu tur palikt.
+6398. Man ir jāiet pie zobārsta.
+6399. Man bija jāiet pie zobārsta.
+6400. Nebija neviena autobusa.
+6403. Man ir jānēsā brilles.
+6404. Viņai ir jālasa daudz grāmatu.
+6408. Es satikšu tevi rīt.
+6409. Man bija jānopērk pārtika.
+6410. Tev ir jāpārsēžas nākamajā stacijā.
+6411. Mums bija jāatbild uz sešiem no desmit jautājumiem.
+6413. Viņiem ir jāpieskata Taras mazais brālis.
+6414. Cikos tev ir jāceļas?
+6415. Cik ilgi viņam bija jāgaida?
+6416. Kur viņai ir jāiet?
+6417. Cik daudz naudas jums bija jāmaksā?
+6418. Kas tieši tev ir jādara?
+6419. Kāpēc viņiem bija jādodas agri prom?
+6420. Kad viņam ir jādodas?
+6421. Tev nav jāiet ārā.
+6422. Viņai nav jāgaida.
+6423. Tev nebija jāceļas tik agri.
+6424. Viņam nav jāstrādā tik smagi.
+6425. Mums nav jādodas prom tagad.
+6426. Viņiem nebija man tas jāstāsta.
+6428. Es gribētu padzerties.
+6429. Es gribētu šonakt palikt mājās.
+6430. Jā, es daudz eju uz kino.
+6431. Vai es varu dabūt apelsīnu sulu?
+6432. Iespējams, Emīlija ies ar tevi.
+6434. Iespējams, Helēna arī nāks.
+6435. Viņai nav lietussarga, bet tev viens ir.
+6436. Viņa negrib sēdēt uz krēsla.
+6438. Es labāk paliktu mājās.
+6440. Es labāk esmu agrāk.
+6441. Viņš visdrīzāk šonakt neies ārā.
+6442. Mēs visdrīzāk vēl neēdīsim.
+6445. Es labprāt neietu ārā.
+6447. Nē, paldies. Es labāk pats.
+6449. Kas tas ir?
+6450. Ej projām!
+6451. Lūdzu, pagaidi mani!
+6452. Lai tu labi vari pavadīt laiku!
+6454. Izpriecājies!
+6455. Nenokrīti!
+6456. Paliec ar mani!
+6457. Nekavē!
+6458. Padejojam!
+6459. Ejam!
+6460. Paliekam mājās.
+6461. Neejam ārā.
+6462. Ēdam cāli.
+6463. Nedaram to vairāk.
+6464. Nē, ejam peldēt.
+6465. Nē, braucam ar autobusu.
+6466. Nē, skatamies filmu!
+6467. Nē, ejam uz restorānu.
+6468. Nē, pagaidam vēl mazliet.
+6469. Nē, negaidi mani.
+6470. Nē, neejam vēl mājās.
+6471. Nē, neejam ārā.
+6472. Nē, atstāj logu atvērtu.
+6473. Nē, zvani man no rīta.
+6474. Nē, negaidam viņu.
+6475. Nē, atstāj gaismu izslēgtu.
+6476. Nē, braucam ar autobusu.
+6478. Atvaino, vai tuvumā ir kāda viesnīca? - Nē, nav.
+6479. Ārā nemaz nav sniega.
+6480. Vai tuvumā ir kādi restorāni? - Nē, nav.
+6481. Šeit nav daudz cilvēku.
+6482. Tas ir ekspresis.
+6483. Tā ir pārāk sāļa.
+6484. Tur nav nevienas senas celtnes.
+6485. Jā, ielas beigās.
+6487. Jā, ik pēc divdesmit minūtēm.
+6488. Nē, viss ir kārtībā.
+6489. Tur nav neviena krēsla.
+6491. Tas ir pārāk dārgs.
+6492. Manā acī kaut kas ir.
+6493. Jā, astoņos ir filma.
+6494. Tā ir skola.
+6495. Nē, es baidos, ka nav.
+6496. Vienpadsmitos aizgāja vilciens.
+6497. Tur ir tūkstoš divsimt piecdesmit (1,250) istabas.
+6498. Tur bija tūkstoš divsimt piecdesmit (1,250) istabas.
+6499. Uz tā ir notikušas daudzas avārijas.
+6501. Tur iekšā nekā nebija.
+6502. Vai tur bija peldbaseins?
+6503. Nē, Veikalā to nebija.
+6504. Tajā nebija naudas.
+6505. Nebija pietiekami daudz laika.
+6507. Tagad ir daudz.
+6510. Tagad tur ir vairāk nekā tūkstotis.
+6511. Tagad tā ir citādāka.
+6512. Ir notikušas daudzas pārmaiņas.
+6513. Es nedomāju, ka būs kādas problēmas.
+6514. Ir ļoti vēls.
+6515. Nē, šodien ir trešdiena.
+6516. Es nezinu. Cik tālu tas ir?
+6517. Tas nav iespējams!
+6518. Ir mākoņains.
+6519. Atver logu!
+6520. Bija silts un saulains.
+6521. Vai tu to dzirdēji?
+6522. Kā tev iet?
+6523. Tur ir pārāk liels troksnis.
+6524. Ir viegli sadraudzēties.
+6525. Ir interesanti apmeklēt dažādas vietas.
+6526. Naktī ir bīstami.
+6528. Vai ir kāds autobuss uz lidostu? - Nē, nav.
+6530. Jā, es esmu pārliecināts, ka viņa nokārtos.
+6531. Es neesmu pārliecināta.
+6532. Es to nezināju.
+6533. Pirms desmit minūtēm bija saulains.
+6534. Kur tā ir?
+6536. Vai viņa ir slima?
+6537. Vai viņš ēd zivis?
+6538. Es arī strādāju bankā.
+6539. Vai tu bijis slims?
+6540. Ko viņa teica?
+6541. Vai viņš ēd olas?
+6542. Kad tev tā bija pēdējo reizi?
+6545. Saka, ka viņa strādā sešpadsmit stundas dienā.
+6546. Visticamāk viņš pēdējo reizi tika redzēts ejam mājās.
+6551. Tā ir privāta autostāvvieta.
+6552. Tev vajadzētu to iztīrīt.
+6554. Viņa deguns tika salauzts.
+6555. Es domāju, ka tu teici, ka viņš nenāks.
+6556. Es domāju, ka tu teici, ka tu nepazīsti nevienu.
+6557. Bet vai tu neteici, ka viņas šeit nebūs?
+6558. Bet tu teici, ka tu paliksi mājās.
+6560. Man šķita, ka tu teici, ka tu biji pirms dažām dienām.
+6562. Viņa man teica, ka nākamajā gadā viņa gribēja doties uz Dienvidameriku.
+6563. Nē, es negribu iet.
+6564. Vai viņa nenāks?
+6565. Vai tev nemaz nav?
+6566. Vai tu zini, cik ir pulkstenis?
+6567. Es nezinu, kas ir šie cilvēki.
+6568. Vai tu vari man pateikt, kur es varu atrast Oliveru?
+6569. Vai tev ir nojausma, cik tas maksās?
+6570. Vai tu zini, cikos sākas filma?
+6571. Lūdzu, izskaidro, ko tu ar to domā?
+6573. Vai tu vari man pateikt, cik tālu ir līdz lidostai?
+6574. Vai tu varētu man pateikt, cik maksā šeit novietot automašīnu?
+6575. Tu saki: "Ir skaista diena, vai ne?"
+6576. Tu saki: "Tas ir diezgan dārgi, vai ne?"
+6577. Tu saki: "Kursi bija lieliski, vai ne?"
+6578. Tu saki: "Tu biji pie friziera, vai ne?"
+6579. Tu saki: "Viņai ir laba balss, vai ne?"
+6580. Tu saki: "Tā man nepiestāv, vai ne?"
+6581. Tu saki: "Atvainojiet, vai jums nav neviena papīra maisiņa?"
+6582. Tu jautā: "Tu neesi redzējis manas atslēgas?"
+6583. Tu jautā: "Vai tu varētu mani aizvest uz staciju?"
+6584. Protams, bet es nezinu, cik tas varētu maksāt.
+6585. Viņš grib turpināt strādāt.
+6586. Nē, mums vajadzētu mēģināt doties tik drīz, cik iespējams.
+6587. Tā nemitīgi salūzt.
+6588. Es nevarēju beigt smieties.
+6589. Jā, bet es joprojām neesmu izlēmis.
+6590. Es nezināju, ko teikt.
+6591. Es dabūju kādu, kurš man palīdz.
+6593. Viņi neatļauj cilvēkiem novietot mašīnas ēkas priekšā.
+6599. Man nevajadzēja to teikt.
+6600. Mēs nevaram turpināt dzīvot tā kā tagad.
+6601. Es tūlīt būšu atpakaļ.
+6602. Es piezvanīšu viņai rīt.
+6603. Visi būs aizmiguši.
+6606. Man vajag vairāk sportot.
+6607. Manu telefonu vajag uzlādēt.
+6608. Vai tev šķiet, ka manas bikses vajag izmazgāt?
+6609. Vai tu domā, ka tu varētu man palīdzēt pārvietot šo galdu?
+6610. Es nevaru neizjust žēlumu pret viņu.
+6611. Vai tev patīk agri celties?
+6613. Man patīk satikt cilvēkus.
+6614. Man nepatīk, ja man liek gaidīt.
+6615. Man nepatīk, ja draugi zvana man uz darbu.
+6616. Man nepatika tur strādāt.
+6617. Es neiebilstu iztīrīt virtuvi.
+6618. Labāk vēlāk.
+6619. Nepavisam.
+6620. Man būtu gribējies atkal viņu satikt.
+6623. Es būtu priecīgs, ja tu izdarītu to šodien.
+6624. Nē, es pateikšu viņam.
+6626. Viņa ir dzīvojusi viena piecpadsmit gadus.Viņai tas nešķiet dīvaini.
+6627. Viņa ir pieradusi dzīvot viena.
+6628. Tās šķita dīvainas pirmajā mirklī, tāpēc ka es nebiju pie tām pieradusi.
+6630. Viņam tagad ir jāceļas daudz agrāk nekā pirms tam.
+6631. Viņam tas ir grūti, jo viņš nav pieradis celties tik agri.
+6632. Viņa neiebilst.
+6633. Viņa ir pieradusi pie viņa prombūtnes.
+6634. Man bija grūtības atrast vietu, kur dzīvot.
+6635. Vai tu domā, ka šo ūdeni dzert ir droši?
+6636. Tos bija neiespējami atbildēt.
+6637. Ar viņu ir interesanti runāt.
+6638. Mēs bijām priecīgi tikt mājās.
+6639. Es biju vienīgais, kurš ieradās laikā.
+6640. Viņa noteikti nokārtos eksāmenu.
+6641. Cilvēki šeit baidās staigāt pa nakti.
+6642. Mums bija bail nokrist.
+6643. Man ir vienmēr bail tikt sakostam (sakostai).
+6644. Es, no otras puses, biju pārsteigts to dzirdēt.
+6645. Man būtu interesanti zināt, ko viņa domā.
+6646. Man būs žēl doties prom.
+6650. Nestāvi tā vienkārši, neko nedarīdams.
+6651. Lielākajai daļai cilvēku tā nepatīk.
+6654. Te nav vietas.
+6655. Es ceru, ka laikapstākļi būs labvēlīgi.
+6656. Šodien ir labi laikapstākļi.
+6661. Vai šeit tuvumā ir banka?
+6662. Mana māsa ir zobārste.
+6665. Man vajag vairāk nekā sešus eiro. Seši eiro nav pietiekami.
+6666. Rītdienas tikšanās ir tikusi atcelta.
+6667. Pagājušās nedēļas vētra izraisīja daudz bojājumu.
+6670. Man nav bijusi minūte atpūtas visu dienu.
+6671. Es samaksāšu par sevi.
+6672. Tu nevari vainot mūs.
+6673. Mums vajadzētu vainot sevi.
+6675. Cik ilgi jūs esat pazinuši viens otru?
+6676. Viņi nepatīk viens otram.
+6677. Vai jūs abi dzīvojat tuvu viens otram?
+6678. Tu vari to izdarīt pats (pati).
+6680. Viņi domā tikai par sevi.
+6681. Viņa dzīvo atsevišķi.
+6682. Es gribu pats (pati) savu istabu.
+6683. Kāpēc tu nelieto pats savu?
+6687. Es devos tur iepriekšējā vakarā.
+6689. Nav palikusi neviena biļete.
+6690. Nekas no tās nepieder man.
+6691. Neviens tur nedzīvo.
+6694. Vai tu pazīsti daudzus cilvēkus?
+6695. Viņai ir maz laika priekš citām lietām.
+6696. Mums joprojām ir mazliet laika, pirms pienāk vilciens.
+6697. Tikai daži cilvēki gaidīja viņa uzvaru.
+6698. Man vajag vairāk laika, lai par to padomātu.
+6699. Tur bija maz, ko darīt.
+6700. Es visbiežāk palieku mājās.
+6701. Viņa neteica nevienam no saviem draugiem.
+6703. Daži no tiem bija francūži.
+6704. Abi no šiem restorāniem ir ļoti labi.
+6705. Neviens no šiem restorāniem, uz kuriem mēs devāmies, nebija dārgs.
+6706. Man ir vienalga.
+6707. Man patika abi.
+6708. Tu varētu palikt jebkurā no tām viesnīcām.
+6709. Es darīšu jebko, ko varu, lai palīdzētu.
+6710. Viss, kas varēja noiet greizi, nogāja greizi.
+6711. Autobuss iet ik pēc desmit minūtēm.
+6714. Viņi (viņas) ir mājās visu laiku.
+6716. Katra bija citādāka.
+6717. Katram šoferim vajadzētu tās izmantot.
+6722. Vai tu esi atradis atslēgas, ko tu pazaudēji?
+6723. Kleita, ko Juliana nopirka, viņai neder.
+6724. Vai šīs ir tās grāmatas, ko tu meklēji?
+6725. Sieviete, kurā viņš iemīlējās, pameta viņu pēc mēneša.
+6726. Vīrietis, kuram es sēdēju blakus lidmašīnā, nemitīgi runāja.
+6727. Viss, ko viņi teica, bija patiesība.
+6728. Es iedevu viņai visu naudu, kas man bija.
+6729. Vai tu dzirdēji, ko viņi teica?
+6730. Man patīk kleita, kas tev ir mugurā.
+6731. Kāds ir nosaukums filmai, ko tu skatīsies?
+6733. Vai tu esi pabeigusi darbu, kas tev bija jāizdara?
+6735. Man ir garlaicīgi.
+6736. Lielākā daļa studentu to nesaprata.
+6739. Viņš nekad nepārstāj runāt und viņš nekad nepasaka kaut ko interesantu.
+6741. Vai tu esi bijis ārā lietū?
+6742. Tā varēja būt bijusi daudz īsāka.
+6743. Viņš ir vienmēr labi ģērbies.
+6744. Tu gandrīz neesi mainījies.
+6745. Gandrīz nevienam viņa nepatīk.
+6746. Tur gandrīz nebija, kur sēdēt.
+6748. Tas bija tik muļķīgs stāsts.
+6749. Viņi ir tik jauki cilvēki.
+6750. Tu nepūlies pietiekami daudz.
+6752. Viņi nav pietiekami veci, lai precētos.
+6753. Vai tu vari paiet mazliet tālāk?
+6754. Tie būtu varējuši būt vienkāršāki.
+6756. Jo agrāk, jo labāk.
+6760. Viņiem (viņām) ir vairāk nauda nekā mums.
+6761. Es nevaru skriet tikpat ātri, cik viņš.
+6762. Viņš aizgāja pagājušajā mēnesī.
+6763. Bet Alans joprojām strādā šeit.
+6764. Mēs vairāk neesam draugi.
+6765. Vēl ne, tai vajadzētu nolaisties pēc apmēram trīsdesmit minūtēm.
+6766. Viņi (viņas) pat mūs nepasveicināja.
+6767. Bet, pat ja es nesatieku tevi rīt, es esmu pārliecināts, ka mēs satiksim viens otru pirms nedēļas nogales.
+6770. Kaut gan es biju ļoti noguris, es nevarēju gulēt.
+6774. Tev vajadzēja to izdarīt tāpat kā šo.
+6775. Tu kavē stundu kā parasti.
+6776. Tā māja izskatās, it kā tā gatavotos sabrukt.
+6777. Izskatās, ka viņa tomēr nenāks.
+6778. Izskatās, ka viņa tomēr nenāks.
+6779. Izklausās, ka viņiem ir ballīte.
+6780. Man bija jāgaida vesela mūžība.
+6782. Viņiem vajadzētu to saņemt ne vēlāk kā pirmdien.
+6783. Man ir jābūt mājās ne vēlāk kā pulksten piecos.
+6784. Es šorīt nepiecēlos līdz pat pusdienlaikam.
+6785. Pablo būs atpakaļ sestdienā.
+6787. Līdz brīdim, kad mēs tur nokļūsim, tā būs jau slēgta.
+6788. Līdz brīdim, kad viņš ieradās, visi jau bija aizgājuši.
+6789. Es došos prom gada sākumā.
+6790. Es gatavojos atgriezties gada beigās.
+6794. Viņi dosies atpakaļ uz Itāliju nākamnedēļ.
+6795. Mana tante dodas uz Zoodārzu, lai viņus tur satiktu.
+6796. Kad mēs ieradīsimies lidostā?
+6798. Viņa pameta skolu, kad viņai bija septiņpadsmit.
+6806. Mums ir jādabū šīs pilsētas karte.
+6807. Es pameklēšu aplikāciju.
+6810. Viņi varētu būt priekšnieki tavā nākamajā darbā.
+6813. Es satīrīšu to vēlāk.
+6814. Piedod, ka es kliedzu uz tevi vakar.
+6816. Man ir žēl zaudētāja.
+6825. Pamēģinām kaut ko jaunu.
+6826. Vai tu esi drošs (droša) par to?
+6827. Viņi nesmējās par tevi, viņi smējās par tavu joku.
+6828. Man ir vienalga, ko tu dari.
+6830. Kāpēc man tas neienāca prātā?
+6841. Mums beidzas degviela.
+6842. Tā ir izpārdota.
+6845. Darba atrašana bija grūta.
+6847. viņš nebija tas, kurš to izdarīja.
+6848. Viņs kļuva atpazīstams.
+6849. Mani uzaudzināja mani vecvecāki.
+6850. Tu ej, un es tevi panākšu.
+6852. Viņš ir bijis slimnīcā kopš tā brīža.
+6855. Kad tu gatavojies iztīrīt šo vietu?
+6857. Mēs vairs nevaram to ilgāk atlikt.
+6859. Viss būs labi.

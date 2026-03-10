@@ -138,14 +138,17 @@ Sentences scraped from the Glossika language learning platform.
 
 | File | Language | Sentences |
 |------|----------|-----------|
+| en.txt | English | 6,634 |
+| lv.txt | Latvian | 2,489 |
 | ja.txt | Japanese | 6,236 |
 | ko.txt | Korean | 4,033 |
 | zh-CN.txt | Simplified Chinese | 6,382 |
 | zh-TW.txt | Traditional Chinese | 5,964 |
+| yue.txt | Cantonese | 2,539 |
 | vi.txt | Vietnamese (Northern) | 10 (incomplete) |
 
 `sentences.json` — merged output keyed by sentence ID with all available languages.
-5,508 zh-CN/zh-TW parallel pairs; 3,089 entries with all 4 CJK languages.
+5,508 zh-CN/zh-TW parallel pairs; 1,203 entries with all 5 CJK languages.
 
 See [glossika/README.md](glossika/README.md) for full details and intended uses.
 

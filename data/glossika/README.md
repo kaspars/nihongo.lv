@@ -9,13 +9,14 @@ Do not redistribute or expose sentences verbatim in public-facing features.
 
 | File | Language | Sentences |
 |------|----------|-----------|
+| en.txt | English | 6,634 |
+| lv.txt | Latvian | 2,489 |
 | ja.txt | Japanese | 6,236 |
 | ko.txt | Korean | 4,033 |
 | zh-CN.txt | Simplified Chinese (Beijing/mainland) | 6,382 |
 | zh-TW.txt | Traditional Chinese (Taiwan) | 5,964 |
+| yue.txt | Cantonese | 2,539 |
 | vi.txt | Vietnamese (Northern) | 10 (incomplete) |
-
-Cantonese is not yet available.
 
 ## Format
 
@@ -47,9 +48,11 @@ Fields are optional — only present if the sentence exists in that language's f
 
 | Stat | Count |
 |------|-------|
-| Total unique sentence IDs | 6,863 |
+| Total unique sentence IDs | 6,895 |
 | zh-CN + zh-TW parallel pairs | 5,508 |
-| All 4 CJK languages (zh-CN + zh-TW + ja + ko) | 3,089 |
+| All CJK languages (zh-CN + zh-TW + ja + ko + yue) | 1,203 |
+| English | 6,634 |
+| Latvian | 2,489 |
 
 Use `scripts/parse-glossika.ts` to re-generate `sentences.json`.
 
@@ -66,7 +69,7 @@ Use `scripts/parse-glossika.ts` to re-generate `sentences.json`.
 
 If you obtain additional Glossika files (Cantonese, complete Vietnamese, etc.):
 1. Place the raw file in `data/glossika/` using the BCP-47 language code as filename
-   (e.g. `yue.txt` for Cantonese, `vi.txt` already reserved for Vietnamese)
+   (e.g. `vi.txt` already reserved for Vietnamese, Cantonese already at `yue.txt`)
 2. Add the file to the `FILES` array in `scripts/parse-glossika.ts`
 3. Re-run `npx tsx scripts/parse-glossika.ts` to regenerate `sentences.json`
 4. Update this README with the new counts

@@ -16,10 +16,13 @@
 import { readFileSync, writeFileSync } from "fs";
 
 const FILES: { lang: string; file: string }[] = [
+  { lang: "en",    file: "data/glossika/en.txt" },
+  { lang: "lv",    file: "data/glossika/lv.txt" },
   { lang: "ja",    file: "data/glossika/ja.txt" },
   { lang: "ko",    file: "data/glossika/ko.txt" },
   { lang: "zh-CN", file: "data/glossika/zh-CN.txt" },
   { lang: "zh-TW", file: "data/glossika/zh-TW.txt" },
+  { lang: "yue",   file: "data/glossika/yue.txt" },
   { lang: "vi",    file: "data/glossika/vi.txt" },
 ];
 
@@ -48,17 +51,20 @@ for (const map of Object.values(parsed)) {
 
 interface SentenceEntry {
   id: number;
+  en?: string;
+  lv?: string;
   ja?: string;
   ko?: string;
   "zh-CN"?: string;
   "zh-TW"?: string;
+  yue?: string;
   vi?: string;
 }
 
 const entries: SentenceEntry[] = [];
 for (const id of [...allNums].sort((a, b) => a - b)) {
   const entry: SentenceEntry = { id };
-  for (const lang of ["ja", "ko", "zh-CN", "zh-TW", "vi"] as const) {
+  for (const lang of ["en", "lv", "ja", "ko", "zh-CN", "zh-TW", "yue", "vi"] as const) {
     const val = parsed[lang]?.get(id);
     if (val) (entry as any)[lang] = val;
   }
@@ -66,13 +72,13 @@ for (const id of [...allNums].sort((a, b) => a - b)) {
 }
 
 // Stats
-const langs = ["ja", "ko", "zh-CN", "zh-TW", "vi"];
+const langs = ["en", "lv", "ja", "ko", "zh-CN", "zh-TW", "yue", "vi"];
 const zhBoth = entries.filter(e => e["zh-CN"] && e["zh-TW"]).length;
-const allCjk  = entries.filter(e => e["zh-CN"] && e["zh-TW"] && e.ja && e.ko).length;
+const allCjk  = entries.filter(e => e["zh-CN"] && e["zh-TW"] && e.ja && e.ko && e.yue).length;
 
 console.log(`\nTotal unique sentence IDs: ${entries.length}`);
 console.log(`zh-CN + zh-TW parallel pairs: ${zhBoth}`);
-console.log(`All CJK (zh-CN + zh-TW + ja + ko): ${allCjk}`);
+console.log(`All CJK (zh-CN + zh-TW + ja + ko + yue): ${allCjk}`);
 for (const lang of langs) {
   console.log(`  ${lang}: ${entries.filter(e => (e as any)[lang]).length}`);
 }
