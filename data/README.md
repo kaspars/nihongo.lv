@@ -11,6 +11,7 @@ data/
 ├── anki/                     # Anki flashcard decks (.apkg)
 ├── glossika/                 # Glossika sentence corpus — ja, ko, zh-CN, zh-TW, vi
 ├── manchester-hsk-pdfs/      # University of Manchester HSK vocabulary PDFs
+├── sentence-patterns/        # Akuzawa JLPT grammar patterns N5–N1
 ├── kanjidic2.xml             # KANJIDIC2 kanji reference database
 ├── hanzidb-hsk.json          # Scraped from hanzidb.org — character-level HSK 2.0
 ├── hskacademy-vocab.json     # Scraped from hsk.academy — word-level HSK 1–6
@@ -151,6 +152,45 @@ Sentences scraped from the Glossika language learning platform.
 5,508 zh-CN/zh-TW parallel pairs; 1,203 entries with all 5 CJK languages.
 
 See [glossika/README.md](glossika/README.md) for full details and intended uses.
+
+---
+
+## sentence-patterns/
+
+**Source:** "Japanese Sentence Patterns for Effective Communication" N5–N1 by Noboru Akuzawa
+**Script:** `scripts/parse-sentence-patterns.ts` (requires `pdftotext` via `brew install poppler`)
+**Raw PDFs:** `tmp/sentence_patterns/` (not committed — obtain separately)
+**License:** Commercial — internal reference only, do not redistribute
+
+| File | Description |
+|------|-------------|
+| `all.json` | 707 patterns across N5–N1 |
+| `flagged.json` | 8 patterns needing manual review |
+
+Fields per pattern:
+
+| Field | Description |
+|-------|-------------|
+| `jlpt` | Level: N5, N4, N3, N2, or N1 |
+| `header` | Pattern header (Japanese + romaji + English gloss) |
+| `meaning` | English meaning/explanation |
+| `formation` | Formation rules |
+| `sentences` | Array of `{ja, en}` sentence pairs (typically 6 per pattern) |
+| `vocabulary` | Array of `{word, reading, meaning}` vocabulary entries |
+| `flags` | QA flags: `no_header`, `count_mismatch`, `missing_en`, `no_sentences` |
+
+**Stats by level:**
+
+| Level | Patterns | Flagged |
+|-------|----------|---------|
+| N5 | 55 | 1 |
+| N4 | 109 | 3 |
+| N3 | 123 | 1 |
+| N2 | 201 | 1 |
+| N1 | 219 | 2 |
+| **Total** | **707** | **8** |
+
+All 8 flagged patterns are due to source book or PDF extraction artifacts (e.g., sentences concatenated on one line, sentence numbering gaps in the original).
 
 ---
 
