@@ -1,0 +1,377 @@
+[
+  {
+    "jlpt": "N5",
+    "header": "-------------------------------------------------------------① the particle \"が\" can be used as an introduction in the first sentence without the meaning of \"but\". すみませんが、トイレはどこですか。",
+    "meaning": "Excuse me, where is the toilet? sumimasen ga, toire wa doko desu ka ② the particle \" が \" is used to connect a positive-meaning phrase and a negative-meaning word into one sentence. あのレストランの料理はおいしいですが、高いです。",
+    "formation": "",
+    "sentences": [],
+    "vocabulary": [],
+    "flags": [
+      "no_sentences"
+    ]
+  },
+  {
+    "jlpt": "N4",
+    "header": "なければいけない/なければならない (nakereba ikenai/nakereba naranai): must do, have to do",
+    "meaning": "must do something; have to do something",
+    "formation": "Verb-ないform (remove い) + ければならない",
+    "sentences": [
+      {
+        "ja": "私は１時間で宿題を終えなければならない / 終えなければなりません。",
+        "en": "I must finish my homework in an hour."
+      },
+      {
+        "ja": "あなたは10時前に戻らなければならない / 戻らなければなりません。",
+        "en": "You must be back before ten."
+      },
+      {
+        "ja": "私は彼に感謝しなければならない / 感謝しなければなりません。",
+        "en": "I must be grateful toward him."
+      },
+      {
+        "ja": "私たちは結果を出さなければならない / 出さなければなりません。",
+        "en": "We have to put out results."
+      },
+      {
+        "ja": "私は家賃を払わなければいけない / 払わなければいけません。",
+        "en": "I have to pay rent."
+      },
+      {
+        "ja": "友人は助け合わなければいけない / 助け合わなければいけません。",
+        "en": "I am currently still playing tennis without getting tired of it."
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "結果を出す",
+        "reading": "けっかをだす",
+        "meaning": "to put out results"
+      },
+      {
+        "word": "家賃",
+        "reading": "やちん",
+        "meaning": "rent"
+      },
+      {
+        "word": "助け合う",
+        "reading": "たすけあう",
+        "meaning": "to help one another"
+      }
+    ],
+    "flags": [
+      "count_mismatch:ja=6,en=7"
+    ]
+  },
+  {
+    "jlpt": "N4",
+    "header": "にくい (nikui) / difficult to, hard to",
+    "meaning": "difficult to…; hard to…; not readily",
+    "formation": "Verb-stem + にくい",
+    "sentences": [
+      {
+        "ja": "この小説は理解しにくい / 理解しにくいです。",
+        "en": "This novel is difficult to understand."
+      },
+      {
+        "ja": "その薬は飲みにくい / 飲みにくいです。",
+        "en": "The medicine is hard to swallow."
+      },
+      {
+        "ja": "あの社長は近寄りにくい / 近寄りにくいです。",
+        "en": "That president is difficult of approach."
+      },
+      {
+        "ja": "それは表現しにくいですね / 表現しにくいですね。",
+        "en": "That's hard to say."
+      },
+      {
+        "ja": "その長い文章は覚えにくい / 覚えにくいです。",
+        "en": "I wasn't able to notice that."
+      },
+      {
+        "ja": "ニューヨークは物価が高くて、住みにくい / 住みにくいです。",
+        "en": "The long sentence is hard to remember."
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "小説",
+        "reading": "しょうせつ",
+        "meaning": "novel"
+      },
+      {
+        "word": "飲む",
+        "reading": "のむ",
+        "meaning": "to swallow"
+      },
+      {
+        "word": "表現する",
+        "reading": "ひょうげんする",
+        "meaning": "to express"
+      },
+      {
+        "word": "覚える",
+        "reading": "おぼえる",
+        "meaning": "to remember"
+      }
+    ],
+    "flags": [
+      "count_mismatch:ja=6,en=7"
+    ]
+  },
+  {
+    "jlpt": "N4",
+    "header": "",
+    "meaning": "the act of willing, choosing, or resolving; exercise of willing.",
+    "formation": "The volitional form of a verb is a less formal, more casual equivalent of\nましょう.\nYou can use it to suggest a plan to a close friend, for example.\nru-verbs: Drop the final --ru and add --yoo\nEx: 食べる(たべる） -> 食べよう（たべよう）\nu-verbs: Drop the final --u and add --oo\nEx: 行く(いく） -> 行こう（いこう）\n話す（はなす） -> 話そう（はなそう）",
+    "sentences": [
+      {
+        "ja": "近いうちに会おう / 会いましょう。",
+        "en": "Let's meet again soon."
+      },
+      {
+        "ja": "その機会があることを祈ろう / 祈りましょう。",
+        "en": "Let's hope you get that chance."
+      },
+      {
+        "ja": "今から散歩しよう / 散歩しましょう。",
+        "en": "I'll take a walk now."
+      },
+      {
+        "ja": "今日は何もしないでいよう / いましょう。",
+        "en": "Let's not do anything today."
+      },
+      {
+        "ja": "大会に出ようと決めた / 決めました。",
+        "en": "I decided to participate in the competition."
+      },
+      {
+        "ja": "図書館に行こうと思ってる / 思っています。",
+        "en": "I've been thinking of going to the library."
+      },
+      {
+        "ja": "もっと明るい話をしよう / しましょう。",
+        "en": "let's talk about something more cheerful."
+      },
+      {
+        "ja": "あなたが提案した価格で取引しよう / しましょう。",
+        "en": "Let's make a deal at the price you've suggested."
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "近いうちに",
+        "reading": "ちかいうちに",
+        "meaning": "soon"
+      },
+      {
+        "word": "機会",
+        "reading": "きかい",
+        "meaning": "chance"
+      },
+      {
+        "word": "祈る",
+        "reading": "いのる",
+        "meaning": "to hope, to pray"
+      },
+      {
+        "word": "大会",
+        "reading": "たいかい",
+        "meaning": "competition"
+      },
+      {
+        "word": "明るい",
+        "reading": "あかるい",
+        "meaning": "cheerful"
+      },
+      {
+        "word": "取引する",
+        "reading": "とりひきする",
+        "meaning": "to make a deal"
+      }
+    ],
+    "flags": [
+      "no_header"
+    ]
+  },
+  {
+    "jlpt": "N3",
+    "header": "くせに (kuse ni): even though, and yet, despite",
+    "meaning": "even though, and yet, in spite of",
+    "formation": "Verb-Casual + くせに\nNoun + のくせに\nなadjective + なくせに\nいadjective + くせに",
+    "sentences": [
+      {
+        "ja": "彼女は元気なくせに、病気のふりをしている / ふりをしています。",
+        "en": "Even though she’s fine, she’s pretending to be sick."
+      },
+      {
+        "ja": "彼は、医者のくせに煙草を吸っている / 吸っています。",
+        "en": "He is a doctor but he smokes."
+      },
+      {
+        "ja": "彼はギターを弾けないくせに、弾けるふりをする / ふりをします。",
+        "en": "Even though he can’t play the guitar, he pretends that he can."
+      },
+      {
+        "ja": "弟はお金がないくせに、無駄遣いしている / 無駄遣いしています。",
+        "en": "Even though my young brother doesn’t have any money, he’s wasting money."
+      },
+      {
+        "ja": "彼は金持ちのくせに乞食のような生活をしている / 生活をしています。",
+        "en": "He is rich and lives like a beggar."
+      },
+      {
+        "ja": "あの子は、子供のくせに大人びた話し方をする / 話し方をします。",
+        "en": ""
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "煙草を吸う",
+        "reading": "たばこをすう",
+        "meaning": "to smoke"
+      },
+      {
+        "word": "弾く",
+        "reading": "ひく",
+        "meaning": "play ( music instruments)"
+      },
+      {
+        "word": "無駄遣いする",
+        "reading": "むだづかいする",
+        "meaning": "to waste money"
+      },
+      {
+        "word": "乞食",
+        "reading": "こじき",
+        "meaning": "beggar"
+      }
+    ],
+    "flags": [
+      "missing_en:sentence_6"
+    ]
+  },
+  {
+    "jlpt": "N2",
+    "header": "て は another (tewa): if, since, one after",
+    "meaning": "if, when",
+    "formation": "Verb-てform + は\nNoun + では\nいadj (－い) + くては\nなadj + では",
+    "sentences": [
+      {
+        "ja": "暗い場所では、私たちは足元に注意して歩く必要がある / 必要があります。",
+        "en": "We need to walk carefully at your feet in a dark pcannot2) In bright places, moles can not live."
+      },
+      {
+        "ja": "明るい場所では、モグラたちは生きられない / 生きられません。",
+        "en": ""
+      },
+      {
+        "ja": "約束を忘れては、あなたは友達の信頼を失う / 失います。",
+        "en": "If you forget your promise, you will lose the trust of your friends."
+      },
+      {
+        "ja": "こんなにひどい雨が降っていては、私たちが外出するのは難しい/ 難しいです。",
+        "en": "When it rains so heavy, it is difficult for us to go out."
+      },
+      {
+        "ja": "もし努力するのをここでやめては、あなたの今までの努力が無駄になる / 無駄になります。",
+        "en": "If you stop making efforts here, your efforts so far will be in vain."
+      },
+      {
+        "ja": "映画館で上映中に席から立ち上がっては、後ろの人の迷惑になる/ 迷惑になります。",
+        "en": "If you stand up from the seat during a movie at the movie theater, it will be a trouble for the person behind you."
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "モグラ",
+        "reading": "もぐら",
+        "meaning": "mole"
+      },
+      {
+        "word": "無駄になる",
+        "reading": "むだになる",
+        "meaning": "be in vain"
+      },
+      {
+        "word": "上映中に",
+        "reading": "じょうえいちゅうに",
+        "meaning": "during a movie"
+      }
+    ],
+    "flags": [
+      "count_mismatch:ja=6,en=5",
+      "missing_en:sentence_2"
+    ]
+  },
+  {
+    "jlpt": "N1",
+    "header": "だの〜だの (dano~dano): and, and so forth",
+    "meaning": "and; and the like; and so forth",
+    "formation": "Verb-casual + だの + Verb-casual + だの\nNoun だの + Noun + だの\nいadj + だの + いadj + だの\nなadj + だの + なadj + だの",
+    "sentences": [
+      {
+        "ja": "日本を旅行するなら、東京だの京都だの、私は行きたいところがたくさんある / あります。",
+        "en": "If traveling in Japan, I have plenty of places I want to visit such as Tokyo, Kyoto, and so on."
+      },
+      {
+        "ja": "昨日、私は書店でビジネスマナーだのマーケティングだのたくさんのビジネス書を買った / 買いました。",
+        "en": "Yesterday, I bought a lot of business books such as business manners and marketing."
+      },
+      {
+        "ja": "彼女は給料が安いだの、休みが少ないだの、よく不平をもらす /もらします。",
+        "en": "She often makes a noise that her salary is cheap and she has few holidays."
+      },
+      {
+        "ja": "弟は風邪を引いただの、頭が痛いだのと言って、学校を欠席することが多い / 多いです。",
+        "en": "My younger brother often skips class by saying things like I've caught a cold or I've got a headache. (5) He never climbs a mountain by saying things like it is hard and dangerous."
+      },
+      {
+        "ja": "彼は大変だの危険だのと言って、山を登ったことがない / ありません。",
+        "en": ""
+      },
+      {
+        "ja": "妻はキッチンが使いにくいだの掃除が大変だのと文句をときどき言う / 言います。",
+        "en": "My wife sometimes complains that using the kitchen is hard and not easy to clean."
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "不平をもらす",
+        "reading": "ふへいをもらす",
+        "meaning": "to make a noise about"
+      },
+      {
+        "word": "文句を言う",
+        "reading": "もんくをいう",
+        "meaning": "to complain"
+      }
+    ],
+    "flags": [
+      "count_mismatch:ja=6,en=5",
+      "missing_en:sentence_5"
+    ]
+  },
+  {
+    "jlpt": "N1",
+    "header": "ってば (tteba): I said, I told you to",
+    "meaning": "I said; I told you to っ て ば is used to emphasize speakers emotion or to express annoyance with someone Formation:Phrase + ってばNoun/なadj + だってば",
+    "formation": "",
+    "sentences": [
+      {
+        "ja": "本当にいくの? 行くってば︕(2) 分かっているってば︕(3) 怒るなってば︕(4) 心配しないでってば!(5) 静かにしなさいってば!(6)無理をするなってば︕",
+        "en": "Will you really go there? I said I would go!(2) I said I got it!(3) Don't be angry！"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "無理をする",
+        "reading": "むりをする",
+        "meaning": "to strain oneself"
+      }
+    ],
+    "flags": [
+      "count_mismatch:ja=1,en=4"
+    ]
+  }
+]
