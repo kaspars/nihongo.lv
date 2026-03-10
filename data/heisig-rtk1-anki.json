@@ -1,0 +1,11002 @@
+[
+  {
+    "kanji": "一",
+    "keyword": "one",
+    "heisigV6": 1
+  },
+  {
+    "kanji": "二",
+    "keyword": "two",
+    "heisigV6": 2
+  },
+  {
+    "kanji": "三",
+    "keyword": "three",
+    "heisigV6": 3
+  },
+  {
+    "kanji": "四",
+    "keyword": "four",
+    "heisigV6": 4
+  },
+  {
+    "kanji": "五",
+    "keyword": "five",
+    "heisigV6": 5
+  },
+  {
+    "kanji": "六",
+    "keyword": "six",
+    "heisigV6": 6
+  },
+  {
+    "kanji": "七",
+    "keyword": "seven",
+    "heisigV6": 7
+  },
+  {
+    "kanji": "八",
+    "keyword": "eight",
+    "heisigV6": 8
+  },
+  {
+    "kanji": "九",
+    "keyword": "nine",
+    "heisigV6": 9
+  },
+  {
+    "kanji": "十",
+    "keyword": "ten",
+    "heisigV6": 10
+  },
+  {
+    "kanji": "口",
+    "keyword": "mouth",
+    "heisigV6": 11
+  },
+  {
+    "kanji": "日",
+    "keyword": "day",
+    "heisigV6": 12
+  },
+  {
+    "kanji": "月",
+    "keyword": "month",
+    "heisigV6": 13
+  },
+  {
+    "kanji": "田",
+    "keyword": "rice field",
+    "heisigV6": 14
+  },
+  {
+    "kanji": "目",
+    "keyword": "eye",
+    "heisigV6": 15
+  },
+  {
+    "kanji": "古",
+    "keyword": "old",
+    "heisigV6": 16
+  },
+  {
+    "kanji": "吾",
+    "keyword": "I",
+    "heisigV6": 17
+  },
+  {
+    "kanji": "冒",
+    "keyword": "Risk",
+    "heisigV6": 18
+  },
+  {
+    "kanji": "朋",
+    "keyword": "companion",
+    "heisigV6": 19
+  },
+  {
+    "kanji": "明",
+    "keyword": "bright",
+    "heisigV6": 20
+  },
+  {
+    "kanji": "唱",
+    "keyword": "Chant",
+    "heisigV6": 21
+  },
+  {
+    "kanji": "晶",
+    "keyword": "Sparkle",
+    "heisigV6": 22
+  },
+  {
+    "kanji": "品",
+    "keyword": "Goods",
+    "heisigV6": 23
+  },
+  {
+    "kanji": "呂",
+    "keyword": "Spine",
+    "heisigV6": 24
+  },
+  {
+    "kanji": "昌",
+    "keyword": "Prosperous",
+    "heisigV6": 25
+  },
+  {
+    "kanji": "早",
+    "keyword": "early",
+    "heisigV6": 26
+  },
+  {
+    "kanji": "旭",
+    "keyword": "rising sun",
+    "heisigV6": 27
+  },
+  {
+    "kanji": "世",
+    "keyword": "generation",
+    "heisigV6": 28
+  },
+  {
+    "kanji": "胃",
+    "keyword": "stomach",
+    "heisigV6": 29
+  },
+  {
+    "kanji": "旦",
+    "keyword": "nightbreak",
+    "heisigV6": 30
+  },
+  {
+    "kanji": "胆",
+    "keyword": "gall bladder",
+    "heisigV6": 31
+  },
+  {
+    "kanji": "亘",
+    "keyword": "span",
+    "heisigV6": 32
+  },
+  {
+    "kanji": "凹",
+    "keyword": "Concave*",
+    "heisigV6": 33
+  },
+  {
+    "kanji": "凸",
+    "keyword": "convex",
+    "heisigV6": 34
+  },
+  {
+    "kanji": "旧",
+    "keyword": "Former",
+    "heisigV6": 35
+  },
+  {
+    "kanji": "自",
+    "keyword": "Oneself",
+    "heisigV6": 36
+  },
+  {
+    "kanji": "白",
+    "keyword": "white",
+    "heisigV6": 37
+  },
+  {
+    "kanji": "百",
+    "keyword": "hundred",
+    "heisigV6": 38
+  },
+  {
+    "kanji": "中",
+    "keyword": "in",
+    "heisigV6": 39
+  },
+  {
+    "kanji": "千",
+    "keyword": "thousand",
+    "heisigV6": 40
+  },
+  {
+    "kanji": "舌",
+    "keyword": "tongue",
+    "heisigV6": 41
+  },
+  {
+    "kanji": "升",
+    "keyword": "measuring box",
+    "heisigV6": 42
+  },
+  {
+    "kanji": "昇",
+    "keyword": "rise up",
+    "heisigV6": 43
+  },
+  {
+    "kanji": "丸",
+    "keyword": "round",
+    "heisigV6": 44
+  },
+  {
+    "kanji": "寸",
+    "keyword": "a bit of",
+    "heisigV6": 45
+  },
+  {
+    "kanji": "肘",
+    "keyword": "elbow",
+    "heisigV6": 46
+  },
+  {
+    "kanji": "専",
+    "keyword": "Specialty",
+    "heisigV6": 47
+  },
+  {
+    "kanji": "博",
+    "keyword": "Exclusive",
+    "heisigV6": 48
+  },
+  {
+    "kanji": "占",
+    "keyword": "Occupy",
+    "heisigV6": 49
+  },
+  {
+    "kanji": "上",
+    "keyword": "Up",
+    "heisigV6": 50
+  },
+  {
+    "kanji": "下",
+    "keyword": "down",
+    "heisigV6": 51
+  },
+  {
+    "kanji": "卓",
+    "keyword": "table",
+    "heisigV6": 52
+  },
+  {
+    "kanji": "朝",
+    "keyword": "morning",
+    "heisigV6": 53
+  },
+  {
+    "kanji": "嘲",
+    "keyword": "derision",
+    "heisigV6": 54
+  },
+  {
+    "kanji": "只",
+    "keyword": "free of charge",
+    "heisigV6": 55
+  },
+  {
+    "kanji": "貝",
+    "keyword": "shellfish",
+    "heisigV6": 56
+  },
+  {
+    "kanji": "唄",
+    "keyword": "pop song",
+    "heisigV6": 57
+  },
+  {
+    "kanji": "貞",
+    "keyword": "upright",
+    "heisigV6": 58
+  },
+  {
+    "kanji": "員",
+    "keyword": "member",
+    "heisigV6": 59
+  },
+  {
+    "kanji": "貼",
+    "keyword": "post a bill",
+    "heisigV6": 60
+  },
+  {
+    "kanji": "見",
+    "keyword": "see",
+    "heisigV6": 61
+  },
+  {
+    "kanji": "児",
+    "keyword": "child*",
+    "heisigV6": 62
+  },
+  {
+    "kanji": "元",
+    "keyword": "origin",
+    "heisigV6": 63
+  },
+  {
+    "kanji": "頁",
+    "keyword": "page",
+    "heisigV6": 64
+  },
+  {
+    "kanji": "頑",
+    "keyword": "stubborn",
+    "heisigV6": 65
+  },
+  {
+    "kanji": "凡",
+    "keyword": "common place",
+    "heisigV6": 66
+  },
+  {
+    "kanji": "負",
+    "keyword": "defeat",
+    "heisigV6": 67
+  },
+  {
+    "kanji": "万",
+    "keyword": "ten thousand",
+    "heisigV6": 68
+  },
+  {
+    "kanji": "句",
+    "keyword": "Phrase",
+    "heisigV6": 69
+  },
+  {
+    "kanji": "肌",
+    "keyword": "texture",
+    "heisigV6": 70
+  },
+  {
+    "kanji": "旬",
+    "keyword": "ten day period",
+    "heisigV6": 71
+  },
+  {
+    "kanji": "勺",
+    "keyword": "ladle",
+    "heisigV6": 72
+  },
+  {
+    "kanji": "的",
+    "keyword": "Target",
+    "heisigV6": 73
+  },
+  {
+    "kanji": "首",
+    "keyword": "neck",
+    "heisigV6": 74
+  },
+  {
+    "kanji": "乙",
+    "keyword": "fish guts",
+    "heisigV6": 75
+  },
+  {
+    "kanji": "乱",
+    "keyword": "Disordered",
+    "heisigV6": 76
+  },
+  {
+    "kanji": "直",
+    "keyword": "Straight",
+    "heisigV6": 77
+  },
+  {
+    "kanji": "具",
+    "keyword": "Tools",
+    "heisigV6": 78
+  },
+  {
+    "kanji": "真",
+    "keyword": "True",
+    "heisigV6": 79
+  },
+  {
+    "kanji": "工",
+    "keyword": "craft",
+    "heisigV6": 80
+  },
+  {
+    "kanji": "左",
+    "keyword": "left",
+    "heisigV6": 81
+  },
+  {
+    "kanji": "右",
+    "keyword": "right",
+    "heisigV6": 82
+  },
+  {
+    "kanji": "有",
+    "keyword": "have",
+    "heisigV6": 83
+  },
+  {
+    "kanji": "賄",
+    "keyword": "bribe",
+    "heisigV6": 84
+  },
+  {
+    "kanji": "貢",
+    "keyword": "tribute",
+    "heisigV6": 85
+  },
+  {
+    "kanji": "項",
+    "keyword": "paragraph",
+    "heisigV6": 86
+  },
+  {
+    "kanji": "刀",
+    "keyword": "sword",
+    "heisigV6": 87
+  },
+  {
+    "kanji": "刃",
+    "keyword": "blade",
+    "heisigV6": 88
+  },
+  {
+    "kanji": "切",
+    "keyword": "cut",
+    "heisigV6": 89
+  },
+  {
+    "kanji": "召",
+    "keyword": "summon",
+    "heisigV6": 90
+  },
+  {
+    "kanji": "昭",
+    "keyword": "shining",
+    "heisigV6": 91
+  },
+  {
+    "kanji": "則",
+    "keyword": "rule",
+    "heisigV6": 92
+  },
+  {
+    "kanji": "副",
+    "keyword": "Vice-",
+    "heisigV6": 93
+  },
+  {
+    "kanji": "別",
+    "keyword": "separate",
+    "heisigV6": 94
+  },
+  {
+    "kanji": "丁",
+    "keyword": "street",
+    "heisigV6": 95
+  },
+  {
+    "kanji": "町",
+    "keyword": "village",
+    "heisigV6": 96
+  },
+  {
+    "kanji": "可",
+    "keyword": "able",
+    "heisigV6": 97
+  },
+  {
+    "kanji": "頂",
+    "keyword": "place on the head",
+    "heisigV6": 98
+  },
+  {
+    "kanji": "子",
+    "keyword": "child",
+    "heisigV6": 99
+  },
+  {
+    "kanji": "孔",
+    "keyword": "Open hole",
+    "heisigV6": 100
+  },
+  {
+    "kanji": "了",
+    "keyword": "complete",
+    "heisigV6": 101
+  },
+  {
+    "kanji": "女",
+    "keyword": "woman",
+    "heisigV6": 102
+  },
+  {
+    "kanji": "好",
+    "keyword": "like",
+    "heisigV6": 103
+  },
+  {
+    "kanji": "如",
+    "keyword": "as",
+    "heisigV6": 104
+  },
+  {
+    "kanji": "母",
+    "keyword": "mama",
+    "heisigV6": 105
+  },
+  {
+    "kanji": "貫",
+    "keyword": "pierce",
+    "heisigV6": 106
+  },
+  {
+    "kanji": "兄",
+    "keyword": "older brother",
+    "heisigV6": 107
+  },
+  {
+    "kanji": "呪",
+    "keyword": "curse",
+    "heisigV6": 108
+  },
+  {
+    "kanji": "克",
+    "keyword": "overcome",
+    "heisigV6": 109
+  },
+  {
+    "kanji": "小",
+    "keyword": "little",
+    "heisigV6": 110
+  },
+  {
+    "kanji": "少",
+    "keyword": "few",
+    "heisigV6": 111
+  },
+  {
+    "kanji": "大",
+    "keyword": "large",
+    "heisigV6": 112
+  },
+  {
+    "kanji": "多",
+    "keyword": "many",
+    "heisigV6": 113
+  },
+  {
+    "kanji": "夕",
+    "keyword": "evening",
+    "heisigV6": 114
+  },
+  {
+    "kanji": "汐",
+    "keyword": "Evening tide",
+    "heisigV6": 115
+  },
+  {
+    "kanji": "外",
+    "keyword": "outside",
+    "heisigV6": 116
+  },
+  {
+    "kanji": "名",
+    "keyword": "name",
+    "heisigV6": 117
+  },
+  {
+    "kanji": "石",
+    "keyword": "stone",
+    "heisigV6": 118
+  },
+  {
+    "kanji": "肖",
+    "keyword": "resemblance",
+    "heisigV6": 119
+  },
+  {
+    "kanji": "硝",
+    "keyword": "nitrate",
+    "heisigV6": 120
+  },
+  {
+    "kanji": "砕",
+    "keyword": "smash",
+    "heisigV6": 121
+  },
+  {
+    "kanji": "砂",
+    "keyword": "sand",
+    "heisigV6": 122
+  },
+  {
+    "kanji": "妬",
+    "keyword": "jealous",
+    "heisigV6": 123
+  },
+  {
+    "kanji": "削",
+    "keyword": "plane",
+    "heisigV6": 124
+  },
+  {
+    "kanji": "光",
+    "keyword": "ray",
+    "heisigV6": 125
+  },
+  {
+    "kanji": "太",
+    "keyword": "plump",
+    "heisigV6": 126
+  },
+  {
+    "kanji": "器",
+    "keyword": "utensil",
+    "heisigV6": 127
+  },
+  {
+    "kanji": "臭",
+    "keyword": "bad smell",
+    "heisigV6": 128
+  },
+  {
+    "kanji": "嗅",
+    "keyword": "sniff",
+    "heisigV6": 129
+  },
+  {
+    "kanji": "妙",
+    "keyword": "marvelous",
+    "heisigV6": 130
+  },
+  {
+    "kanji": "省",
+    "keyword": "focus",
+    "heisigV6": 131
+  },
+  {
+    "kanji": "厚",
+    "keyword": "thick",
+    "heisigV6": 132
+  },
+  {
+    "kanji": "奇",
+    "keyword": "strange",
+    "heisigV6": 133
+  },
+  {
+    "kanji": "川",
+    "keyword": "stream",
+    "heisigV6": 134
+  },
+  {
+    "kanji": "州",
+    "keyword": "state",
+    "heisigV6": 135
+  },
+  {
+    "kanji": "順",
+    "keyword": "obey",
+    "heisigV6": 136
+  },
+  {
+    "kanji": "水",
+    "keyword": "water",
+    "heisigV6": 137
+  },
+  {
+    "kanji": "氷",
+    "keyword": "ice",
+    "heisigV6": 138
+  },
+  {
+    "kanji": "永",
+    "keyword": "eternity",
+    "heisigV6": 139
+  },
+  {
+    "kanji": "泉",
+    "keyword": "spring",
+    "heisigV6": 140
+  },
+  {
+    "kanji": "腺",
+    "keyword": "gland",
+    "heisigV6": 141
+  },
+  {
+    "kanji": "原",
+    "keyword": "original",
+    "heisigV6": 142
+  },
+  {
+    "kanji": "願",
+    "keyword": "petition",
+    "heisigV6": 143
+  },
+  {
+    "kanji": "泳",
+    "keyword": "swim",
+    "heisigV6": 144
+  },
+  {
+    "kanji": "沼",
+    "keyword": "muddy pond",
+    "heisigV6": 145
+  },
+  {
+    "kanji": "沖",
+    "keyword": "open sea",
+    "heisigV6": 146
+  },
+  {
+    "kanji": "汎",
+    "keyword": "pan",
+    "heisigV6": 147
+  },
+  {
+    "kanji": "江",
+    "keyword": "creek",
+    "heisigV6": 148
+  },
+  {
+    "kanji": "汰",
+    "keyword": "cleanse",
+    "heisigV6": 149
+  },
+  {
+    "kanji": "汁",
+    "keyword": "soup",
+    "heisigV6": 150
+  },
+  {
+    "kanji": "沙",
+    "keyword": "grains of sand",
+    "heisigV6": 151
+  },
+  {
+    "kanji": "潮",
+    "keyword": "tide",
+    "heisigV6": 152
+  },
+  {
+    "kanji": "源",
+    "keyword": "source",
+    "heisigV6": 153
+  },
+  {
+    "kanji": "活",
+    "keyword": "lively",
+    "heisigV6": 154
+  },
+  {
+    "kanji": "消",
+    "keyword": "extinguish",
+    "heisigV6": 155
+  },
+  {
+    "kanji": "況",
+    "keyword": "but of course",
+    "heisigV6": 156
+  },
+  {
+    "kanji": "河",
+    "keyword": "river",
+    "heisigV6": 157
+  },
+  {
+    "kanji": "泊",
+    "keyword": "overnight",
+    "heisigV6": 158
+  },
+  {
+    "kanji": "湖",
+    "keyword": "lake",
+    "heisigV6": 159
+  },
+  {
+    "kanji": "測",
+    "keyword": "measure",
+    "heisigV6": 160
+  },
+  {
+    "kanji": "土",
+    "keyword": "soil",
+    "heisigV6": 161
+  },
+  {
+    "kanji": "吐",
+    "keyword": "spit",
+    "heisigV6": 162
+  },
+  {
+    "kanji": "圧",
+    "keyword": "pressure",
+    "heisigV6": 163
+  },
+  {
+    "kanji": "埼",
+    "keyword": "cape",
+    "heisigV6": 164
+  },
+  {
+    "kanji": "垣",
+    "keyword": "hedge",
+    "heisigV6": 165
+  },
+  {
+    "kanji": "填",
+    "keyword": "inlay",
+    "heisigV6": 166
+  },
+  {
+    "kanji": "圭",
+    "keyword": "squared jewel",
+    "heisigV6": 167
+  },
+  {
+    "kanji": "封",
+    "keyword": "seal",
+    "heisigV6": 168
+  },
+  {
+    "kanji": "涯",
+    "keyword": "horizon",
+    "heisigV6": 169
+  },
+  {
+    "kanji": "寺",
+    "keyword": "Buddhist temple",
+    "heisigV6": 170
+  },
+  {
+    "kanji": "時",
+    "keyword": "time",
+    "heisigV6": 171
+  },
+  {
+    "kanji": "均",
+    "keyword": "level",
+    "heisigV6": 172
+  },
+  {
+    "kanji": "火",
+    "keyword": "fire",
+    "heisigV6": 173
+  },
+  {
+    "kanji": "炎",
+    "keyword": "inflammation",
+    "heisigV6": 174
+  },
+  {
+    "kanji": "煩",
+    "keyword": "anxiety",
+    "heisigV6": 175
+  },
+  {
+    "kanji": "淡",
+    "keyword": "thin",
+    "heisigV6": 176
+  },
+  {
+    "kanji": "灯",
+    "keyword": "lamp",
+    "heisigV6": 177
+  },
+  {
+    "kanji": "畑",
+    "keyword": "farm",
+    "heisigV6": 178
+  },
+  {
+    "kanji": "災",
+    "keyword": "disaster",
+    "heisigV6": 179
+  },
+  {
+    "kanji": "灰",
+    "keyword": "ashes",
+    "heisigV6": 180
+  },
+  {
+    "kanji": "点",
+    "keyword": "spot",
+    "heisigV6": 181
+  },
+  {
+    "kanji": "照",
+    "keyword": "illuminate",
+    "heisigV6": 182
+  },
+  {
+    "kanji": "魚",
+    "keyword": "fish",
+    "heisigV6": 183
+  },
+  {
+    "kanji": "漁",
+    "keyword": "fishing",
+    "heisigV6": 184
+  },
+  {
+    "kanji": "里",
+    "keyword": "ri",
+    "heisigV6": 185
+  },
+  {
+    "kanji": "黒",
+    "keyword": "black",
+    "heisigV6": 186
+  },
+  {
+    "kanji": "墨",
+    "keyword": "black ink",
+    "heisigV6": 187
+  },
+  {
+    "kanji": "鯉",
+    "keyword": "carp",
+    "heisigV6": 188
+  },
+  {
+    "kanji": "量",
+    "keyword": "quantity",
+    "heisigV6": 189
+  },
+  {
+    "kanji": "厘",
+    "keyword": "Rin",
+    "heisigV6": 190
+  },
+  {
+    "kanji": "埋",
+    "keyword": "bury",
+    "heisigV6": 191
+  },
+  {
+    "kanji": "同",
+    "keyword": "same",
+    "heisigV6": 192
+  },
+  {
+    "kanji": "洞",
+    "keyword": "den",
+    "heisigV6": 193
+  },
+  {
+    "kanji": "胴",
+    "keyword": "trunk",
+    "heisigV6": 194
+  },
+  {
+    "kanji": "向",
+    "keyword": "yonder",
+    "heisigV6": 195
+  },
+  {
+    "kanji": "尚",
+    "keyword": "esteem",
+    "heisigV6": 196
+  },
+  {
+    "kanji": "字",
+    "keyword": "character",
+    "heisigV6": 197
+  },
+  {
+    "kanji": "守",
+    "keyword": "guard",
+    "heisigV6": 198
+  },
+  {
+    "kanji": "完",
+    "keyword": "perfect",
+    "heisigV6": 199
+  },
+  {
+    "kanji": "宣",
+    "keyword": "proclaim",
+    "heisigV6": 200
+  },
+  {
+    "kanji": "宵",
+    "keyword": "early evening",
+    "heisigV6": 201
+  },
+  {
+    "kanji": "安",
+    "keyword": "relax",
+    "heisigV6": 202
+  },
+  {
+    "kanji": "宴",
+    "keyword": "banquet",
+    "heisigV6": 203
+  },
+  {
+    "kanji": "寄",
+    "keyword": "draw near",
+    "heisigV6": 204
+  },
+  {
+    "kanji": "富",
+    "keyword": "wealth",
+    "heisigV6": 205
+  },
+  {
+    "kanji": "貯",
+    "keyword": "savings",
+    "heisigV6": 206
+  },
+  {
+    "kanji": "木",
+    "keyword": "tree",
+    "heisigV6": 207
+  },
+  {
+    "kanji": "林",
+    "keyword": "grove",
+    "heisigV6": 208
+  },
+  {
+    "kanji": "森",
+    "keyword": "forest",
+    "heisigV6": 209
+  },
+  {
+    "kanji": "桂",
+    "keyword": "Japanese Judas-tree",
+    "heisigV6": 210
+  },
+  {
+    "kanji": "柏",
+    "keyword": "oak",
+    "heisigV6": 211
+  },
+  {
+    "kanji": "枠",
+    "keyword": "frame",
+    "heisigV6": 212
+  },
+  {
+    "kanji": "梢",
+    "keyword": "treetops",
+    "heisigV6": 213
+  },
+  {
+    "kanji": "棚",
+    "keyword": "shelf",
+    "heisigV6": 214
+  },
+  {
+    "kanji": "杏",
+    "keyword": "apricot",
+    "heisigV6": 215
+  },
+  {
+    "kanji": "桐",
+    "keyword": "paulownia",
+    "heisigV6": 216
+  },
+  {
+    "kanji": "植",
+    "keyword": "plant",
+    "heisigV6": 217
+  },
+  {
+    "kanji": "椅",
+    "keyword": "chair",
+    "heisigV6": 218
+  },
+  {
+    "kanji": "枯",
+    "keyword": "wither",
+    "heisigV6": 219
+  },
+  {
+    "kanji": "朴",
+    "keyword": "crude",
+    "heisigV6": 220
+  },
+  {
+    "kanji": "村",
+    "keyword": "town",
+    "heisigV6": 221
+  },
+  {
+    "kanji": "相",
+    "keyword": "inter-",
+    "heisigV6": 222
+  },
+  {
+    "kanji": "机",
+    "keyword": "desk",
+    "heisigV6": 223
+  },
+  {
+    "kanji": "本",
+    "keyword": "book",
+    "heisigV6": 224
+  },
+  {
+    "kanji": "札",
+    "keyword": "tag",
+    "heisigV6": 225
+  },
+  {
+    "kanji": "暦",
+    "keyword": "calendar",
+    "heisigV6": 226
+  },
+  {
+    "kanji": "案",
+    "keyword": "plan",
+    "heisigV6": 227
+  },
+  {
+    "kanji": "燥",
+    "keyword": "parch",
+    "heisigV6": 228
+  },
+  {
+    "kanji": "未",
+    "keyword": "not yet",
+    "heisigV6": 229
+  },
+  {
+    "kanji": "末",
+    "keyword": "extremity",
+    "heisigV6": 230
+  },
+  {
+    "kanji": "昧",
+    "keyword": "obscure",
+    "heisigV6": 231
+  },
+  {
+    "kanji": "沫",
+    "keyword": "splash",
+    "heisigV6": 232
+  },
+  {
+    "kanji": "味",
+    "keyword": "flavor",
+    "heisigV6": 233
+  },
+  {
+    "kanji": "妹",
+    "keyword": "younger sister",
+    "heisigV6": 234
+  },
+  {
+    "kanji": "朱",
+    "keyword": "vermilion",
+    "heisigV6": 235
+  },
+  {
+    "kanji": "株",
+    "keyword": "stocks",
+    "heisigV6": 236
+  },
+  {
+    "kanji": "若",
+    "keyword": "young",
+    "heisigV6": 237
+  },
+  {
+    "kanji": "草",
+    "keyword": "grass",
+    "heisigV6": 238
+  },
+  {
+    "kanji": "苦",
+    "keyword": "suffering",
+    "heisigV6": 239
+  },
+  {
+    "kanji": "苛",
+    "keyword": "bullying",
+    "heisigV6": 240
+  },
+  {
+    "kanji": "寛",
+    "keyword": "tolerant",
+    "heisigV6": 241
+  },
+  {
+    "kanji": "薄",
+    "keyword": "dilute",
+    "heisigV6": 242
+  },
+  {
+    "kanji": "葉",
+    "keyword": "leaf",
+    "heisigV6": 243
+  },
+  {
+    "kanji": "模",
+    "keyword": "imitation",
+    "heisigV6": 244
+  },
+  {
+    "kanji": "漠",
+    "keyword": "vague",
+    "heisigV6": 245
+  },
+  {
+    "kanji": "墓",
+    "keyword": "grave",
+    "heisigV6": 246
+  },
+  {
+    "kanji": "暮",
+    "keyword": "livelihood",
+    "heisigV6": 247
+  },
+  {
+    "kanji": "膜",
+    "keyword": "membrane",
+    "heisigV6": 248
+  },
+  {
+    "kanji": "苗",
+    "keyword": "seedling",
+    "heisigV6": 249
+  },
+  {
+    "kanji": "兆",
+    "keyword": "portent",
+    "heisigV6": 250
+  },
+  {
+    "kanji": "桃",
+    "keyword": "peach tree",
+    "heisigV6": 251
+  },
+  {
+    "kanji": "眺",
+    "keyword": "stare",
+    "heisigV6": 252
+  },
+  {
+    "kanji": "犬",
+    "keyword": "dog",
+    "heisigV6": 253
+  },
+  {
+    "kanji": "状",
+    "keyword": "status quo",
+    "heisigV6": 254
+  },
+  {
+    "kanji": "黙",
+    "keyword": "silence",
+    "heisigV6": 255
+  },
+  {
+    "kanji": "然",
+    "keyword": "sort of thing",
+    "heisigV6": 256
+  },
+  {
+    "kanji": "荻",
+    "keyword": "reed",
+    "heisigV6": 257
+  },
+  {
+    "kanji": "狩",
+    "keyword": "hunt",
+    "heisigV6": 258
+  },
+  {
+    "kanji": "猫",
+    "keyword": "cat",
+    "heisigV6": 259
+  },
+  {
+    "kanji": "牛",
+    "keyword": "cow",
+    "heisigV6": 260
+  },
+  {
+    "kanji": "特",
+    "keyword": "special",
+    "heisigV6": 261
+  },
+  {
+    "kanji": "告",
+    "keyword": "revelation",
+    "heisigV6": 262
+  },
+  {
+    "kanji": "先",
+    "keyword": "before",
+    "heisigV6": 263
+  },
+  {
+    "kanji": "洗",
+    "keyword": "wash",
+    "heisigV6": 264
+  },
+  {
+    "kanji": "介",
+    "keyword": "jammed in",
+    "heisigV6": 265
+  },
+  {
+    "kanji": "界",
+    "keyword": "world",
+    "heisigV6": 266
+  },
+  {
+    "kanji": "茶",
+    "keyword": "tea",
+    "heisigV6": 267
+  },
+  {
+    "kanji": "脊",
+    "keyword": "spinal column",
+    "heisigV6": 268
+  },
+  {
+    "kanji": "合",
+    "keyword": "fit",
+    "heisigV6": 269
+  },
+  {
+    "kanji": "塔",
+    "keyword": "pagoda",
+    "heisigV6": 270
+  },
+  {
+    "kanji": "王",
+    "keyword": "king",
+    "heisigV6": 271
+  },
+  {
+    "kanji": "玉",
+    "keyword": "jewel",
+    "heisigV6": 272
+  },
+  {
+    "kanji": "宝",
+    "keyword": "treasure",
+    "heisigV6": 273
+  },
+  {
+    "kanji": "珠",
+    "keyword": "pearl",
+    "heisigV6": 274
+  },
+  {
+    "kanji": "現",
+    "keyword": "present",
+    "heisigV6": 275
+  },
+  {
+    "kanji": "玩",
+    "keyword": "toy",
+    "heisigV6": 276
+  },
+  {
+    "kanji": "狂",
+    "keyword": "lunatic",
+    "heisigV6": 277
+  },
+  {
+    "kanji": "旺",
+    "keyword": "effulgent",
+    "heisigV6": 278
+  },
+  {
+    "kanji": "皇",
+    "keyword": "emperor",
+    "heisigV6": 279
+  },
+  {
+    "kanji": "呈",
+    "keyword": "display",
+    "heisigV6": 280
+  },
+  {
+    "kanji": "全",
+    "keyword": "whole",
+    "heisigV6": 281
+  },
+  {
+    "kanji": "栓",
+    "keyword": "plug",
+    "heisigV6": 282
+  },
+  {
+    "kanji": "理",
+    "keyword": "logic",
+    "heisigV6": 283
+  },
+  {
+    "kanji": "主",
+    "keyword": "lord",
+    "heisigV6": 284
+  },
+  {
+    "kanji": "注",
+    "keyword": "pour",
+    "heisigV6": 285
+  },
+  {
+    "kanji": "柱",
+    "keyword": "pillar",
+    "heisigV6": 286
+  },
+  {
+    "kanji": "金",
+    "keyword": "gold",
+    "heisigV6": 287
+  },
+  {
+    "kanji": "銑",
+    "keyword": "pig iron",
+    "heisigV6": 288
+  },
+  {
+    "kanji": "鉢",
+    "keyword": "bowl",
+    "heisigV6": 289
+  },
+  {
+    "kanji": "銅",
+    "keyword": "copper",
+    "heisigV6": 290
+  },
+  {
+    "kanji": "釣",
+    "keyword": "angling",
+    "heisigV6": 291
+  },
+  {
+    "kanji": "針",
+    "keyword": "needle",
+    "heisigV6": 292
+  },
+  {
+    "kanji": "銘",
+    "keyword": "inscription",
+    "heisigV6": 293
+  },
+  {
+    "kanji": "鎮",
+    "keyword": "tranquillize",
+    "heisigV6": 294
+  },
+  {
+    "kanji": "道",
+    "keyword": "road-way",
+    "heisigV6": 295
+  },
+  {
+    "kanji": "導",
+    "keyword": "guidance",
+    "heisigV6": 296
+  },
+  {
+    "kanji": "辻",
+    "keyword": "crossing",
+    "heisigV6": 297
+  },
+  {
+    "kanji": "迅",
+    "keyword": "swift",
+    "heisigV6": 298
+  },
+  {
+    "kanji": "造",
+    "keyword": "create",
+    "heisigV6": 299
+  },
+  {
+    "kanji": "迫",
+    "keyword": "urge",
+    "heisigV6": 300
+  },
+  {
+    "kanji": "逃",
+    "keyword": "escape",
+    "heisigV6": 301
+  },
+  {
+    "kanji": "辺",
+    "keyword": "environs",
+    "heisigV6": 302
+  },
+  {
+    "kanji": "巡",
+    "keyword": "patrol",
+    "heisigV6": 303
+  },
+  {
+    "kanji": "車",
+    "keyword": "car",
+    "heisigV6": 304
+  },
+  {
+    "kanji": "連",
+    "keyword": "take along",
+    "heisigV6": 305
+  },
+  {
+    "kanji": "軌",
+    "keyword": "rut",
+    "heisigV6": 306
+  },
+  {
+    "kanji": "輸",
+    "keyword": "transport",
+    "heisigV6": 307
+  },
+  {
+    "kanji": "喩",
+    "keyword": "metaphor&nbsp;",
+    "heisigV6": 308
+  },
+  {
+    "kanji": "前",
+    "keyword": "in front",
+    "heisigV6": 309
+  },
+  {
+    "kanji": "煎",
+    "keyword": "roast",
+    "heisigV6": 310
+  },
+  {
+    "kanji": "各",
+    "keyword": "each",
+    "heisigV6": 311
+  },
+  {
+    "kanji": "格",
+    "keyword": "status",
+    "heisigV6": 312
+  },
+  {
+    "kanji": "賂",
+    "keyword": "graft",
+    "heisigV6": 313
+  },
+  {
+    "kanji": "略",
+    "keyword": "abbreviation",
+    "heisigV6": 314
+  },
+  {
+    "kanji": "客",
+    "keyword": "guest",
+    "heisigV6": 315
+  },
+  {
+    "kanji": "額",
+    "keyword": "forehead",
+    "heisigV6": 316
+  },
+  {
+    "kanji": "夏",
+    "keyword": "summer",
+    "heisigV6": 317
+  },
+  {
+    "kanji": "処",
+    "keyword": "dispose",
+    "heisigV6": 318
+  },
+  {
+    "kanji": "条",
+    "keyword": "twig",
+    "heisigV6": 319
+  },
+  {
+    "kanji": "落",
+    "keyword": "fall",
+    "heisigV6": 320
+  },
+  {
+    "kanji": "冗",
+    "keyword": "superfluous",
+    "heisigV6": 321
+  },
+  {
+    "kanji": "冥",
+    "keyword": "Hades",
+    "heisigV6": 322
+  },
+  {
+    "kanji": "軍",
+    "keyword": "army",
+    "heisigV6": 323
+  },
+  {
+    "kanji": "輝",
+    "keyword": "radiance",
+    "heisigV6": 324
+  },
+  {
+    "kanji": "運",
+    "keyword": "carry",
+    "heisigV6": 325
+  },
+  {
+    "kanji": "冠",
+    "keyword": "crown",
+    "heisigV6": 326
+  },
+  {
+    "kanji": "夢",
+    "keyword": "dream",
+    "heisigV6": 327
+  },
+  {
+    "kanji": "坑",
+    "keyword": "pit",
+    "heisigV6": 328
+  },
+  {
+    "kanji": "高",
+    "keyword": "tall",
+    "heisigV6": 329
+  },
+  {
+    "kanji": "享",
+    "keyword": "receive",
+    "heisigV6": 330
+  },
+  {
+    "kanji": "塾",
+    "keyword": "cram school",
+    "heisigV6": 331
+  },
+  {
+    "kanji": "熟",
+    "keyword": "mellow",
+    "heisigV6": 332
+  },
+  {
+    "kanji": "亭",
+    "keyword": "pavilion",
+    "heisigV6": 333
+  },
+  {
+    "kanji": "京",
+    "keyword": "capital",
+    "heisigV6": 334
+  },
+  {
+    "kanji": "涼",
+    "keyword": "refreshing",
+    "heisigV6": 335
+  },
+  {
+    "kanji": "景",
+    "keyword": "scenery",
+    "heisigV6": 336
+  },
+  {
+    "kanji": "鯨",
+    "keyword": "whale",
+    "heisigV6": 337
+  },
+  {
+    "kanji": "舎",
+    "keyword": "cottage",
+    "heisigV6": 338
+  },
+  {
+    "kanji": "周",
+    "keyword": "circumference",
+    "heisigV6": 339
+  },
+  {
+    "kanji": "週",
+    "keyword": "week",
+    "heisigV6": 340
+  },
+  {
+    "kanji": "士",
+    "keyword": "gentleman",
+    "heisigV6": 341
+  },
+  {
+    "kanji": "吉",
+    "keyword": "good luck",
+    "heisigV6": 342
+  },
+  {
+    "kanji": "壮",
+    "keyword": "robust",
+    "heisigV6": 343
+  },
+  {
+    "kanji": "荘",
+    "keyword": "villa",
+    "heisigV6": 344
+  },
+  {
+    "kanji": "売",
+    "keyword": "sell",
+    "heisigV6": 345
+  },
+  {
+    "kanji": "学",
+    "keyword": "study",
+    "heisigV6": 346
+  },
+  {
+    "kanji": "覚",
+    "keyword": "memorize",
+    "heisigV6": 347
+  },
+  {
+    "kanji": "栄",
+    "keyword": "flourish",
+    "heisigV6": 348
+  },
+  {
+    "kanji": "書",
+    "keyword": "write",
+    "heisigV6": 349
+  },
+  {
+    "kanji": "津",
+    "keyword": "haven",
+    "heisigV6": 350
+  },
+  {
+    "kanji": "牧",
+    "keyword": "breed",
+    "heisigV6": 351
+  },
+  {
+    "kanji": "攻",
+    "keyword": "aggression",
+    "heisigV6": 352
+  },
+  {
+    "kanji": "敗",
+    "keyword": "failure",
+    "heisigV6": 353
+  },
+  {
+    "kanji": "枚",
+    "keyword": "sheet of",
+    "heisigV6": 354
+  },
+  {
+    "kanji": "故",
+    "keyword": "happenstance",
+    "heisigV6": 355
+  },
+  {
+    "kanji": "敬",
+    "keyword": "awe",
+    "heisigV6": 356
+  },
+  {
+    "kanji": "言",
+    "keyword": "say",
+    "heisigV6": 357
+  },
+  {
+    "kanji": "警",
+    "keyword": "admonish",
+    "heisigV6": 358
+  },
+  {
+    "kanji": "計",
+    "keyword": "plot",
+    "heisigV6": 359
+  },
+  {
+    "kanji": "詮",
+    "keyword": "elucidate",
+    "heisigV6": 360
+  },
+  {
+    "kanji": "獄",
+    "keyword": "prison",
+    "heisigV6": 361
+  },
+  {
+    "kanji": "訂",
+    "keyword": "revise",
+    "heisigV6": 362
+  },
+  {
+    "kanji": "訃",
+    "keyword": "obituary",
+    "heisigV6": 363
+  },
+  {
+    "kanji": "討",
+    "keyword": "chastise",
+    "heisigV6": 364
+  },
+  {
+    "kanji": "訓",
+    "keyword": "instruction",
+    "heisigV6": 365
+  },
+  {
+    "kanji": "詔",
+    "keyword": "imperial edict",
+    "heisigV6": 366
+  },
+  {
+    "kanji": "詰",
+    "keyword": "packed",
+    "heisigV6": 367
+  },
+  {
+    "kanji": "話",
+    "keyword": "tale",
+    "heisigV6": 368
+  },
+  {
+    "kanji": "詠",
+    "keyword": "recitation",
+    "heisigV6": 369
+  },
+  {
+    "kanji": "詩",
+    "keyword": "poem",
+    "heisigV6": 370
+  },
+  {
+    "kanji": "語",
+    "keyword": "word",
+    "heisigV6": 371
+  },
+  {
+    "kanji": "読",
+    "keyword": "read",
+    "heisigV6": 372
+  },
+  {
+    "kanji": "調",
+    "keyword": "tune",
+    "heisigV6": 373
+  },
+  {
+    "kanji": "談",
+    "keyword": "discuss",
+    "heisigV6": 374
+  },
+  {
+    "kanji": "諾",
+    "keyword": "consent",
+    "heisigV6": 375
+  },
+  {
+    "kanji": "諭",
+    "keyword": "rebuke",
+    "heisigV6": 376
+  },
+  {
+    "kanji": "式",
+    "keyword": "style",
+    "heisigV6": 377
+  },
+  {
+    "kanji": "試",
+    "keyword": "test",
+    "heisigV6": 378
+  },
+  {
+    "kanji": "弐",
+    "keyword": "II (two)",
+    "heisigV6": 379
+  },
+  {
+    "kanji": "域",
+    "keyword": "range",
+    "heisigV6": 380
+  },
+  {
+    "kanji": "賊",
+    "keyword": "burglar",
+    "heisigV6": 381
+  },
+  {
+    "kanji": "栽",
+    "keyword": "plantation",
+    "heisigV6": 382
+  },
+  {
+    "kanji": "載",
+    "keyword": "load",
+    "heisigV6": 383
+  },
+  {
+    "kanji": "茂",
+    "keyword": "overgrown",
+    "heisigV6": 384
+  },
+  {
+    "kanji": "戚",
+    "keyword": "relatives",
+    "heisigV6": 385
+  },
+  {
+    "kanji": "成",
+    "keyword": "turn into",
+    "heisigV6": 386
+  },
+  {
+    "kanji": "城",
+    "keyword": "castle",
+    "heisigV6": 387
+  },
+  {
+    "kanji": "誠",
+    "keyword": "sincerity",
+    "heisigV6": 388
+  },
+  {
+    "kanji": "威",
+    "keyword": "intimidate",
+    "heisigV6": 389
+  },
+  {
+    "kanji": "滅",
+    "keyword": "destroy",
+    "heisigV6": 390
+  },
+  {
+    "kanji": "減",
+    "keyword": "dwindle",
+    "heisigV6": 391
+  },
+  {
+    "kanji": "蔑",
+    "keyword": "revile",
+    "heisigV6": 392
+  },
+  {
+    "kanji": "桟",
+    "keyword": "scaffold",
+    "heisigV6": 393
+  },
+  {
+    "kanji": "銭",
+    "keyword": "coin",
+    "heisigV6": 394
+  },
+  {
+    "kanji": "浅",
+    "keyword": "shallow",
+    "heisigV6": 395
+  },
+  {
+    "kanji": "止",
+    "keyword": "stop",
+    "heisigV6": 396
+  },
+  {
+    "kanji": "歩",
+    "keyword": "walk",
+    "heisigV6": 397
+  },
+  {
+    "kanji": "渉",
+    "keyword": "ford",
+    "heisigV6": 398
+  },
+  {
+    "kanji": "頻",
+    "keyword": "repeatedly",
+    "heisigV6": 399
+  },
+  {
+    "kanji": "肯",
+    "keyword": "agreement",
+    "heisigV6": 400
+  },
+  {
+    "kanji": "企",
+    "keyword": "undertake",
+    "heisigV6": 401
+  },
+  {
+    "kanji": "歴",
+    "keyword": "curriculum",
+    "heisigV6": 402
+  },
+  {
+    "kanji": "武",
+    "keyword": "warrior",
+    "heisigV6": 403
+  },
+  {
+    "kanji": "賦",
+    "keyword": "levy",
+    "heisigV6": 404
+  },
+  {
+    "kanji": "正",
+    "keyword": "correct",
+    "heisigV6": 405
+  },
+  {
+    "kanji": "証",
+    "keyword": "evidence",
+    "heisigV6": 406
+  },
+  {
+    "kanji": "政",
+    "keyword": "politics",
+    "heisigV6": 407
+  },
+  {
+    "kanji": "定",
+    "keyword": "determine",
+    "heisigV6": 408
+  },
+  {
+    "kanji": "錠",
+    "keyword": "lock",
+    "heisigV6": 409
+  },
+  {
+    "kanji": "走",
+    "keyword": "run",
+    "heisigV6": 410
+  },
+  {
+    "kanji": "超",
+    "keyword": "transcend",
+    "heisigV6": 411
+  },
+  {
+    "kanji": "赴",
+    "keyword": "proceed",
+    "heisigV6": 412
+  },
+  {
+    "kanji": "越",
+    "keyword": "surpass",
+    "heisigV6": 413
+  },
+  {
+    "kanji": "是",
+    "keyword": "just so",
+    "heisigV6": 414
+  },
+  {
+    "kanji": "題",
+    "keyword": "topic",
+    "heisigV6": 415
+  },
+  {
+    "kanji": "堤",
+    "keyword": "dike",
+    "heisigV6": 416
+  },
+  {
+    "kanji": "建",
+    "keyword": "build",
+    "heisigV6": 417
+  },
+  {
+    "kanji": "鍵",
+    "keyword": "key",
+    "heisigV6": 418
+  },
+  {
+    "kanji": "延",
+    "keyword": "prolong",
+    "heisigV6": 419
+  },
+  {
+    "kanji": "誕",
+    "keyword": "nativity",
+    "heisigV6": 420
+  },
+  {
+    "kanji": "礎",
+    "keyword": "cornerstone",
+    "heisigV6": 421
+  },
+  {
+    "kanji": "婿",
+    "keyword": "bridegroom",
+    "heisigV6": 422
+  },
+  {
+    "kanji": "衣",
+    "keyword": "garment",
+    "heisigV6": 423
+  },
+  {
+    "kanji": "裁",
+    "keyword": "tailor",
+    "heisigV6": 424
+  },
+  {
+    "kanji": "装",
+    "keyword": "attire",
+    "heisigV6": 425
+  },
+  {
+    "kanji": "裏",
+    "keyword": "back",
+    "heisigV6": 426
+  },
+  {
+    "kanji": "壊",
+    "keyword": "demolition",
+    "heisigV6": 427
+  },
+  {
+    "kanji": "哀",
+    "keyword": "pathetic",
+    "heisigV6": 428
+  },
+  {
+    "kanji": "遠",
+    "keyword": "distant",
+    "heisigV6": 429
+  },
+  {
+    "kanji": "猿",
+    "keyword": "monkey",
+    "heisigV6": 430
+  },
+  {
+    "kanji": "初",
+    "keyword": "first time",
+    "heisigV6": 431
+  },
+  {
+    "kanji": "巾",
+    "keyword": "towel",
+    "heisigV6": 432
+  },
+  {
+    "kanji": "布",
+    "keyword": "linen",
+    "heisigV6": 433
+  },
+  {
+    "kanji": "帆",
+    "keyword": "sail",
+    "heisigV6": 434
+  },
+  {
+    "kanji": "幅",
+    "keyword": "hanging scroll",
+    "heisigV6": 435
+  },
+  {
+    "kanji": "帽",
+    "keyword": "cap",
+    "heisigV6": 436
+  },
+  {
+    "kanji": "幕",
+    "keyword": "curtain",
+    "heisigV6": 437
+  },
+  {
+    "kanji": "幌",
+    "keyword": "canopy",
+    "heisigV6": 438
+  },
+  {
+    "kanji": "錦",
+    "keyword": "brocade",
+    "heisigV6": 439
+  },
+  {
+    "kanji": "市",
+    "keyword": "market",
+    "heisigV6": 440
+  },
+  {
+    "kanji": "柿",
+    "keyword": "persimmon",
+    "heisigV6": 441
+  },
+  {
+    "kanji": "姉",
+    "keyword": "elder sister",
+    "heisigV6": 442
+  },
+  {
+    "kanji": "肺",
+    "keyword": "lungs",
+    "heisigV6": 443
+  },
+  {
+    "kanji": "帯",
+    "keyword": "sash",
+    "heisigV6": 444
+  },
+  {
+    "kanji": "滞",
+    "keyword": "stagnate",
+    "heisigV6": 445
+  },
+  {
+    "kanji": "刺",
+    "keyword": "thorn",
+    "heisigV6": 446
+  },
+  {
+    "kanji": "制",
+    "keyword": "system",
+    "heisigV6": 447
+  },
+  {
+    "kanji": "製",
+    "keyword": "made in...",
+    "heisigV6": 448
+  },
+  {
+    "kanji": "転",
+    "keyword": "revolve",
+    "heisigV6": 449
+  },
+  {
+    "kanji": "芸",
+    "keyword": "technique",
+    "heisigV6": 450
+  },
+  {
+    "kanji": "雨",
+    "keyword": "rain",
+    "heisigV6": 451
+  },
+  {
+    "kanji": "雲",
+    "keyword": "cloud",
+    "heisigV6": 452
+  },
+  {
+    "kanji": "曇",
+    "keyword": "cloudy weather",
+    "heisigV6": 453
+  },
+  {
+    "kanji": "雷",
+    "keyword": "thunder",
+    "heisigV6": 454
+  },
+  {
+    "kanji": "霜",
+    "keyword": "frost",
+    "heisigV6": 455
+  },
+  {
+    "kanji": "冬",
+    "keyword": "winter",
+    "heisigV6": 456
+  },
+  {
+    "kanji": "天",
+    "keyword": "heavens",
+    "heisigV6": 457
+  },
+  {
+    "kanji": "妖",
+    "keyword": "bewitched",
+    "heisigV6": 458
+  },
+  {
+    "kanji": "沃",
+    "keyword": "irrigate",
+    "heisigV6": 459
+  },
+  {
+    "kanji": "橋",
+    "keyword": "bridge",
+    "heisigV6": 460
+  },
+  {
+    "kanji": "嬌",
+    "keyword": "attractive",
+    "heisigV6": 461
+  },
+  {
+    "kanji": "立",
+    "keyword": "stand up",
+    "heisigV6": 462
+  },
+  {
+    "kanji": "泣",
+    "keyword": "cry",
+    "heisigV6": 463
+  },
+  {
+    "kanji": "章",
+    "keyword": "badge",
+    "heisigV6": 464
+  },
+  {
+    "kanji": "競",
+    "keyword": "vie",
+    "heisigV6": 465
+  },
+  {
+    "kanji": "帝",
+    "keyword": "sovereign",
+    "heisigV6": 466
+  },
+  {
+    "kanji": "諦",
+    "keyword": "give up",
+    "heisigV6": 467
+  },
+  {
+    "kanji": "童",
+    "keyword": "juvenile",
+    "heisigV6": 468
+  },
+  {
+    "kanji": "瞳",
+    "keyword": "pupil",
+    "heisigV6": 469
+  },
+  {
+    "kanji": "鐘",
+    "keyword": "bell",
+    "heisigV6": 470
+  },
+  {
+    "kanji": "商",
+    "keyword": "make a deal",
+    "heisigV6": 471
+  },
+  {
+    "kanji": "嫡",
+    "keyword": "legitimate wife",
+    "heisigV6": 472
+  },
+  {
+    "kanji": "適",
+    "keyword": "suitable",
+    "heisigV6": 473
+  },
+  {
+    "kanji": "滴",
+    "keyword": "drip",
+    "heisigV6": 474
+  },
+  {
+    "kanji": "敵",
+    "keyword": "enemy",
+    "heisigV6": 475
+  },
+  {
+    "kanji": "匕",
+    "keyword": "spoon",
+    "heisigV6": 476
+  },
+  {
+    "kanji": "叱",
+    "keyword": "scold",
+    "heisigV6": 477
+  },
+  {
+    "kanji": "匂",
+    "keyword": "aroma",
+    "heisigV6": 478
+  },
+  {
+    "kanji": "頃",
+    "keyword": "about that time",
+    "heisigV6": 479
+  },
+  {
+    "kanji": "北",
+    "keyword": "north",
+    "heisigV6": 480
+  },
+  {
+    "kanji": "背",
+    "keyword": "stature",
+    "heisigV6": 481
+  },
+  {
+    "kanji": "比",
+    "keyword": "compare",
+    "heisigV6": 482
+  },
+  {
+    "kanji": "昆",
+    "keyword": "descendants",
+    "heisigV6": 483
+  },
+  {
+    "kanji": "皆",
+    "keyword": "all",
+    "heisigV6": 484
+  },
+  {
+    "kanji": "楷",
+    "keyword": "block letters",
+    "heisigV6": 485
+  },
+  {
+    "kanji": "諧",
+    "keyword": "orderliness",
+    "heisigV6": 486
+  },
+  {
+    "kanji": "混",
+    "keyword": "mix",
+    "heisigV6": 487
+  },
+  {
+    "kanji": "渇",
+    "keyword": "thirst",
+    "heisigV6": 488
+  },
+  {
+    "kanji": "謁",
+    "keyword": "audience",
+    "heisigV6": 489
+  },
+  {
+    "kanji": "褐",
+    "keyword": "brown",
+    "heisigV6": 490
+  },
+  {
+    "kanji": "喝",
+    "keyword": "hoarse",
+    "heisigV6": 491
+  },
+  {
+    "kanji": "葛",
+    "keyword": "kudzu",
+    "heisigV6": 492
+  },
+  {
+    "kanji": "旨",
+    "keyword": "delicious",
+    "heisigV6": 493
+  },
+  {
+    "kanji": "脂",
+    "keyword": "fat",
+    "heisigV6": 494
+  },
+  {
+    "kanji": "詣",
+    "keyword": "visit a shrine",
+    "heisigV6": 495
+  },
+  {
+    "kanji": "壱",
+    "keyword": "I (one)",
+    "heisigV6": 496
+  },
+  {
+    "kanji": "毎",
+    "keyword": "every",
+    "heisigV6": 497
+  },
+  {
+    "kanji": "敏",
+    "keyword": "cleverness",
+    "heisigV6": 498
+  },
+  {
+    "kanji": "梅",
+    "keyword": "plum",
+    "heisigV6": 499
+  },
+  {
+    "kanji": "海",
+    "keyword": "sea",
+    "heisigV6": 500
+  },
+  {
+    "kanji": "乞",
+    "keyword": "beg",
+    "heisigV6": 501
+  },
+  {
+    "kanji": "乾",
+    "keyword": "drought",
+    "heisigV6": 502
+  },
+  {
+    "kanji": "腹",
+    "keyword": "abdomen",
+    "heisigV6": 503
+  },
+  {
+    "kanji": "複",
+    "keyword": "duplicate",
+    "heisigV6": 504
+  },
+  {
+    "kanji": "欠",
+    "keyword": "lack",
+    "heisigV6": 505
+  },
+  {
+    "kanji": "吹",
+    "keyword": "blow",
+    "heisigV6": 506
+  },
+  {
+    "kanji": "炊",
+    "keyword": "cook",
+    "heisigV6": 507
+  },
+  {
+    "kanji": "歌",
+    "keyword": "song",
+    "heisigV6": 508
+  },
+  {
+    "kanji": "軟",
+    "keyword": "soft",
+    "heisigV6": 509
+  },
+  {
+    "kanji": "次",
+    "keyword": "next",
+    "heisigV6": 510
+  },
+  {
+    "kanji": "茨",
+    "keyword": "briar",
+    "heisigV6": 511
+  },
+  {
+    "kanji": "資",
+    "keyword": "assets",
+    "heisigV6": 512
+  },
+  {
+    "kanji": "姿",
+    "keyword": "figure",
+    "heisigV6": 513
+  },
+  {
+    "kanji": "諮",
+    "keyword": "consult with",
+    "heisigV6": 514
+  },
+  {
+    "kanji": "賠",
+    "keyword": "compensation",
+    "heisigV6": 515
+  },
+  {
+    "kanji": "培",
+    "keyword": "cultivate",
+    "heisigV6": 516
+  },
+  {
+    "kanji": "剖",
+    "keyword": "divide",
+    "heisigV6": 517
+  },
+  {
+    "kanji": "音",
+    "keyword": "sound",
+    "heisigV6": 518
+  },
+  {
+    "kanji": "暗",
+    "keyword": "darkness",
+    "heisigV6": 519
+  },
+  {
+    "kanji": "韻",
+    "keyword": "rhyme",
+    "heisigV6": 520
+  },
+  {
+    "kanji": "識",
+    "keyword": "discriminating",
+    "heisigV6": 521
+  },
+  {
+    "kanji": "鏡",
+    "keyword": "mirror",
+    "heisigV6": 522
+  },
+  {
+    "kanji": "境",
+    "keyword": "boundary",
+    "heisigV6": 523
+  },
+  {
+    "kanji": "亡",
+    "keyword": "deceased",
+    "heisigV6": 524
+  },
+  {
+    "kanji": "盲",
+    "keyword": "blind",
+    "heisigV6": 525
+  },
+  {
+    "kanji": "妄",
+    "keyword": "delusion",
+    "heisigV6": 526
+  },
+  {
+    "kanji": "荒",
+    "keyword": "laid waste",
+    "heisigV6": 527
+  },
+  {
+    "kanji": "望",
+    "keyword": "ambition",
+    "heisigV6": 528
+  },
+  {
+    "kanji": "方",
+    "keyword": "direction",
+    "heisigV6": 529
+  },
+  {
+    "kanji": "妨",
+    "keyword": "disturb",
+    "heisigV6": 530
+  },
+  {
+    "kanji": "坊",
+    "keyword": "boy",
+    "heisigV6": 531
+  },
+  {
+    "kanji": "芳",
+    "keyword": "perfumed",
+    "heisigV6": 532
+  },
+  {
+    "kanji": "肪",
+    "keyword": "obese",
+    "heisigV6": 533
+  },
+  {
+    "kanji": "訪",
+    "keyword": "call on",
+    "heisigV6": 534
+  },
+  {
+    "kanji": "放",
+    "keyword": "set free",
+    "heisigV6": 535
+  },
+  {
+    "kanji": "激",
+    "keyword": "violent",
+    "heisigV6": 536
+  },
+  {
+    "kanji": "脱",
+    "keyword": "undress",
+    "heisigV6": 537
+  },
+  {
+    "kanji": "説",
+    "keyword": "rumor",
+    "heisigV6": 538
+  },
+  {
+    "kanji": "鋭",
+    "keyword": "pointed",
+    "heisigV6": 539
+  },
+  {
+    "kanji": "曽",
+    "keyword": "formerly",
+    "heisigV6": 540
+  },
+  {
+    "kanji": "増",
+    "keyword": "increase",
+    "heisigV6": 541
+  },
+  {
+    "kanji": "贈",
+    "keyword": "presents",
+    "heisigV6": 542
+  },
+  {
+    "kanji": "東",
+    "keyword": "east",
+    "heisigV6": 543
+  },
+  {
+    "kanji": "棟",
+    "keyword": "ridgepole",
+    "heisigV6": 544
+  },
+  {
+    "kanji": "凍",
+    "keyword": "frozen",
+    "heisigV6": 545
+  },
+  {
+    "kanji": "妊",
+    "keyword": "pregnancy",
+    "heisigV6": 546
+  },
+  {
+    "kanji": "廷",
+    "keyword": "courts",
+    "heisigV6": 547
+  },
+  {
+    "kanji": "染",
+    "keyword": "dye",
+    "heisigV6": 548
+  },
+  {
+    "kanji": "燃",
+    "keyword": "burn",
+    "heisigV6": 549
+  },
+  {
+    "kanji": "賓",
+    "keyword": "V.I.P.",
+    "heisigV6": 550
+  },
+  {
+    "kanji": "歳",
+    "keyword": "year-end",
+    "heisigV6": 551
+  },
+  {
+    "kanji": "県",
+    "keyword": "prefecture",
+    "heisigV6": 552
+  },
+  {
+    "kanji": "栃",
+    "keyword": "horse chestnut",
+    "heisigV6": 553
+  },
+  {
+    "kanji": "地",
+    "keyword": "ground",
+    "heisigV6": 554
+  },
+  {
+    "kanji": "池",
+    "keyword": "pond",
+    "heisigV6": 555
+  },
+  {
+    "kanji": "虫",
+    "keyword": "insect",
+    "heisigV6": 556
+  },
+  {
+    "kanji": "蛍",
+    "keyword": "lightning bug",
+    "heisigV6": 557
+  },
+  {
+    "kanji": "蛇",
+    "keyword": "snake",
+    "heisigV6": 558
+  },
+  {
+    "kanji": "虹",
+    "keyword": "rainbow",
+    "heisigV6": 559
+  },
+  {
+    "kanji": "蝶",
+    "keyword": "butterfly",
+    "heisigV6": 560
+  },
+  {
+    "kanji": "独",
+    "keyword": "single",
+    "heisigV6": 561
+  },
+  {
+    "kanji": "蚕",
+    "keyword": "silkworm",
+    "heisigV6": 562
+  },
+  {
+    "kanji": "風",
+    "keyword": "wind",
+    "heisigV6": 563
+  },
+  {
+    "kanji": "己",
+    "keyword": "self",
+    "heisigV6": 564
+  },
+  {
+    "kanji": "起",
+    "keyword": "rouse",
+    "heisigV6": 565
+  },
+  {
+    "kanji": "妃",
+    "keyword": "queen",
+    "heisigV6": 566
+  },
+  {
+    "kanji": "改",
+    "keyword": "reformation",
+    "heisigV6": 567
+  },
+  {
+    "kanji": "記",
+    "keyword": "scribe",
+    "heisigV6": 568
+  },
+  {
+    "kanji": "包",
+    "keyword": "wrap",
+    "heisigV6": 569
+  },
+  {
+    "kanji": "胞",
+    "keyword": "placenta",
+    "heisigV6": 570
+  },
+  {
+    "kanji": "砲",
+    "keyword": "cannon",
+    "heisigV6": 571
+  },
+  {
+    "kanji": "泡",
+    "keyword": "bubble",
+    "heisigV6": 572
+  },
+  {
+    "kanji": "亀",
+    "keyword": "tortoise",
+    "heisigV6": 573
+  },
+  {
+    "kanji": "電",
+    "keyword": "electricity",
+    "heisigV6": 574
+  },
+  {
+    "kanji": "竜",
+    "keyword": "dragon",
+    "heisigV6": 575
+  },
+  {
+    "kanji": "滝",
+    "keyword": "waterfall",
+    "heisigV6": 576
+  },
+  {
+    "kanji": "豚",
+    "keyword": "pork",
+    "heisigV6": 577
+  },
+  {
+    "kanji": "逐",
+    "keyword": "pursue",
+    "heisigV6": 578
+  },
+  {
+    "kanji": "遂",
+    "keyword": "consummate",
+    "heisigV6": 579
+  },
+  {
+    "kanji": "家",
+    "keyword": "house",
+    "heisigV6": 580
+  },
+  {
+    "kanji": "嫁",
+    "keyword": "marry into",
+    "heisigV6": 581
+  },
+  {
+    "kanji": "豪",
+    "keyword": "overpowering",
+    "heisigV6": 582
+  },
+  {
+    "kanji": "腸",
+    "keyword": "intestines",
+    "heisigV6": 583
+  },
+  {
+    "kanji": "場",
+    "keyword": "location",
+    "heisigV6": 584
+  },
+  {
+    "kanji": "湯",
+    "keyword": "hot water",
+    "heisigV6": 585
+  },
+  {
+    "kanji": "羊",
+    "keyword": "sheep",
+    "heisigV6": 586
+  },
+  {
+    "kanji": "美",
+    "keyword": "beauty",
+    "heisigV6": 587
+  },
+  {
+    "kanji": "洋",
+    "keyword": "ocean",
+    "heisigV6": 588
+  },
+  {
+    "kanji": "詳",
+    "keyword": "detailed",
+    "heisigV6": 589
+  },
+  {
+    "kanji": "鮮",
+    "keyword": "fresh",
+    "heisigV6": 590
+  },
+  {
+    "kanji": "達",
+    "keyword": "accomplished",
+    "heisigV6": 591
+  },
+  {
+    "kanji": "羨",
+    "keyword": "envious",
+    "heisigV6": 592
+  },
+  {
+    "kanji": "差",
+    "keyword": "distinction",
+    "heisigV6": 593
+  },
+  {
+    "kanji": "着",
+    "keyword": "don",
+    "heisigV6": 594
+  },
+  {
+    "kanji": "唯",
+    "keyword": "solely",
+    "heisigV6": 595
+  },
+  {
+    "kanji": "堆",
+    "keyword": "piled high",
+    "heisigV6": 596
+  },
+  {
+    "kanji": "椎",
+    "keyword": "sweet oak",
+    "heisigV6": 597
+  },
+  {
+    "kanji": "誰",
+    "keyword": "who?",
+    "heisigV6": 598
+  },
+  {
+    "kanji": "焦",
+    "keyword": "char",
+    "heisigV6": 599
+  },
+  {
+    "kanji": "礁",
+    "keyword": "reef",
+    "heisigV6": 600
+  },
+  {
+    "kanji": "集",
+    "keyword": "gather",
+    "heisigV6": 601
+  },
+  {
+    "kanji": "准",
+    "keyword": "quasi-",
+    "heisigV6": 602
+  },
+  {
+    "kanji": "進",
+    "keyword": "advance",
+    "heisigV6": 603
+  },
+  {
+    "kanji": "雑",
+    "keyword": "miscellaneous",
+    "heisigV6": 604
+  },
+  {
+    "kanji": "雌",
+    "keyword": "feminine",
+    "heisigV6": 605
+  },
+  {
+    "kanji": "準",
+    "keyword": "semi-",
+    "heisigV6": 606
+  },
+  {
+    "kanji": "奮",
+    "keyword": "stirred up",
+    "heisigV6": 607
+  },
+  {
+    "kanji": "奪",
+    "keyword": "rob",
+    "heisigV6": 608
+  },
+  {
+    "kanji": "確",
+    "keyword": "assurance",
+    "heisigV6": 609
+  },
+  {
+    "kanji": "午",
+    "keyword": "noon",
+    "heisigV6": 610
+  },
+  {
+    "kanji": "許",
+    "keyword": "permit",
+    "heisigV6": 611
+  },
+  {
+    "kanji": "歓",
+    "keyword": "delight",
+    "heisigV6": 612
+  },
+  {
+    "kanji": "権",
+    "keyword": "authority",
+    "heisigV6": 613
+  },
+  {
+    "kanji": "観",
+    "keyword": "outlook",
+    "heisigV6": 614
+  },
+  {
+    "kanji": "羽",
+    "keyword": "feathers",
+    "heisigV6": 615
+  },
+  {
+    "kanji": "習",
+    "keyword": "learn",
+    "heisigV6": 616
+  },
+  {
+    "kanji": "翌",
+    "keyword": "the following",
+    "heisigV6": 617
+  },
+  {
+    "kanji": "曜",
+    "keyword": "weekday",
+    "heisigV6": 618
+  },
+  {
+    "kanji": "濯",
+    "keyword": "laundry",
+    "heisigV6": 619
+  },
+  {
+    "kanji": "曰",
+    "keyword": "sayeth",
+    "heisigV6": 620
+  },
+  {
+    "kanji": "困",
+    "keyword": "quandary",
+    "heisigV6": 621
+  },
+  {
+    "kanji": "固",
+    "keyword": "harden",
+    "heisigV6": 622
+  },
+  {
+    "kanji": "錮",
+    "keyword": "weld",
+    "heisigV6": 623
+  },
+  {
+    "kanji": "国",
+    "keyword": "country",
+    "heisigV6": 624
+  },
+  {
+    "kanji": "団",
+    "keyword": "group",
+    "heisigV6": 625
+  },
+  {
+    "kanji": "因",
+    "keyword": "cause",
+    "heisigV6": 626
+  },
+  {
+    "kanji": "姻",
+    "keyword": "matrimony",
+    "heisigV6": 627
+  },
+  {
+    "kanji": "咽",
+    "keyword": "windpipe",
+    "heisigV6": 628
+  },
+  {
+    "kanji": "園",
+    "keyword": "park",
+    "heisigV6": 629
+  },
+  {
+    "kanji": "回",
+    "keyword": "-times",
+    "heisigV6": 630
+  },
+  {
+    "kanji": "壇",
+    "keyword": "podium",
+    "heisigV6": 631
+  },
+  {
+    "kanji": "店",
+    "keyword": "store",
+    "heisigV6": 632
+  },
+  {
+    "kanji": "庫",
+    "keyword": "warehouse",
+    "heisigV6": 633
+  },
+  {
+    "kanji": "庭",
+    "keyword": "courtyard",
+    "heisigV6": 634
+  },
+  {
+    "kanji": "庁",
+    "keyword": "government office",
+    "heisigV6": 635
+  },
+  {
+    "kanji": "床",
+    "keyword": "bed",
+    "heisigV6": 636
+  },
+  {
+    "kanji": "麻",
+    "keyword": "hemp",
+    "heisigV6": 637
+  },
+  {
+    "kanji": "磨",
+    "keyword": "grind",
+    "heisigV6": 638
+  },
+  {
+    "kanji": "心",
+    "keyword": "heart",
+    "heisigV6": 639
+  },
+  {
+    "kanji": "忘",
+    "keyword": "forget",
+    "heisigV6": 640
+  },
+  {
+    "kanji": "恣",
+    "keyword": "selfish",
+    "heisigV6": 641
+  },
+  {
+    "kanji": "忍",
+    "keyword": "endure",
+    "heisigV6": 642
+  },
+  {
+    "kanji": "認",
+    "keyword": "acknowledge",
+    "heisigV6": 643
+  },
+  {
+    "kanji": "忌",
+    "keyword": "mourning",
+    "heisigV6": 644
+  },
+  {
+    "kanji": "志",
+    "keyword": "intention",
+    "heisigV6": 645
+  },
+  {
+    "kanji": "誌",
+    "keyword": "document",
+    "heisigV6": 646
+  },
+  {
+    "kanji": "芯",
+    "keyword": "wick",
+    "heisigV6": 647
+  },
+  {
+    "kanji": "忠",
+    "keyword": "loyalty",
+    "heisigV6": 648
+  },
+  {
+    "kanji": "串",
+    "keyword": "shish kebab",
+    "heisigV6": 649
+  },
+  {
+    "kanji": "患",
+    "keyword": "afflicted",
+    "heisigV6": 650
+  },
+  {
+    "kanji": "思",
+    "keyword": "think",
+    "heisigV6": 651
+  },
+  {
+    "kanji": "恩",
+    "keyword": "grace",
+    "heisigV6": 652
+  },
+  {
+    "kanji": "応",
+    "keyword": "apply",
+    "heisigV6": 653
+  },
+  {
+    "kanji": "意",
+    "keyword": "idea",
+    "heisigV6": 654
+  },
+  {
+    "kanji": "臆",
+    "keyword": "cowardice",
+    "heisigV6": 655
+  },
+  {
+    "kanji": "想",
+    "keyword": "concept",
+    "heisigV6": 656
+  },
+  {
+    "kanji": "息",
+    "keyword": "breath",
+    "heisigV6": 657
+  },
+  {
+    "kanji": "憩",
+    "keyword": "recess",
+    "heisigV6": 658
+  },
+  {
+    "kanji": "恵",
+    "keyword": "favor",
+    "heisigV6": 659
+  },
+  {
+    "kanji": "恐",
+    "keyword": "fear",
+    "heisigV6": 660
+  },
+  {
+    "kanji": "惑",
+    "keyword": "beguile",
+    "heisigV6": 661
+  },
+  {
+    "kanji": "感",
+    "keyword": "emotion",
+    "heisigV6": 662
+  },
+  {
+    "kanji": "憂",
+    "keyword": "melancholy",
+    "heisigV6": 663
+  },
+  {
+    "kanji": "寡",
+    "keyword": "widow",
+    "heisigV6": 664
+  },
+  {
+    "kanji": "忙",
+    "keyword": "busy",
+    "heisigV6": 665
+  },
+  {
+    "kanji": "悦",
+    "keyword": "ecstasy",
+    "heisigV6": 666
+  },
+  {
+    "kanji": "恒",
+    "keyword": "constancy",
+    "heisigV6": 667
+  },
+  {
+    "kanji": "悼",
+    "keyword": "lament",
+    "heisigV6": 668
+  },
+  {
+    "kanji": "悟",
+    "keyword": "enlightenment",
+    "heisigV6": 669
+  },
+  {
+    "kanji": "怖",
+    "keyword": "dreadful",
+    "heisigV6": 670
+  },
+  {
+    "kanji": "慌",
+    "keyword": "disconcerted",
+    "heisigV6": 671
+  },
+  {
+    "kanji": "悔",
+    "keyword": "repent",
+    "heisigV6": 672
+  },
+  {
+    "kanji": "憎",
+    "keyword": "hate",
+    "heisigV6": 673
+  },
+  {
+    "kanji": "慣",
+    "keyword": "accustomed",
+    "heisigV6": 674
+  },
+  {
+    "kanji": "愉",
+    "keyword": "pleasure",
+    "heisigV6": 675
+  },
+  {
+    "kanji": "惰",
+    "keyword": "lazy",
+    "heisigV6": 676
+  },
+  {
+    "kanji": "慎",
+    "keyword": "humility",
+    "heisigV6": 677
+  },
+  {
+    "kanji": "憾",
+    "keyword": "remorse",
+    "heisigV6": 678
+  },
+  {
+    "kanji": "憶",
+    "keyword": "recollection",
+    "heisigV6": 679
+  },
+  {
+    "kanji": "惧",
+    "keyword": "disquieting",
+    "heisigV6": 680
+  },
+  {
+    "kanji": "憧",
+    "keyword": "yearn",
+    "heisigV6": 681
+  },
+  {
+    "kanji": "憬",
+    "keyword": "hanker",
+    "heisigV6": 682
+  },
+  {
+    "kanji": "慕",
+    "keyword": "pining",
+    "heisigV6": 683
+  },
+  {
+    "kanji": "添",
+    "keyword": "annexed",
+    "heisigV6": 684
+  },
+  {
+    "kanji": "必",
+    "keyword": "invariably",
+    "heisigV6": 685
+  },
+  {
+    "kanji": "泌",
+    "keyword": "ooze",
+    "heisigV6": 686
+  },
+  {
+    "kanji": "手",
+    "keyword": "hand",
+    "heisigV6": 687
+  },
+  {
+    "kanji": "看",
+    "keyword": "watch over",
+    "heisigV6": 688
+  },
+  {
+    "kanji": "摩",
+    "keyword": "chafe",
+    "heisigV6": 689
+  },
+  {
+    "kanji": "我",
+    "keyword": "ego",
+    "heisigV6": 690
+  },
+  {
+    "kanji": "義",
+    "keyword": "righteousness",
+    "heisigV6": 691
+  },
+  {
+    "kanji": "議",
+    "keyword": "deliberation",
+    "heisigV6": 692
+  },
+  {
+    "kanji": "犠",
+    "keyword": "sacrifice",
+    "heisigV6": 693
+  },
+  {
+    "kanji": "抹",
+    "keyword": "rub",
+    "heisigV6": 694
+  },
+  {
+    "kanji": "拭",
+    "keyword": "wipe",
+    "heisigV6": 695
+  },
+  {
+    "kanji": "拉",
+    "keyword": "yank",
+    "heisigV6": 696
+  },
+  {
+    "kanji": "抱",
+    "keyword": "embrace",
+    "heisigV6": 697
+  },
+  {
+    "kanji": "搭",
+    "keyword": "board",
+    "heisigV6": 698
+  },
+  {
+    "kanji": "抄",
+    "keyword": "extract",
+    "heisigV6": 699
+  },
+  {
+    "kanji": "抗",
+    "keyword": "confront",
+    "heisigV6": 700
+  },
+  {
+    "kanji": "批",
+    "keyword": "criticism",
+    "heisigV6": 701
+  },
+  {
+    "kanji": "招",
+    "keyword": "beckon",
+    "heisigV6": 702
+  },
+  {
+    "kanji": "拓",
+    "keyword": "clear the land",
+    "heisigV6": 703
+  },
+  {
+    "kanji": "拍",
+    "keyword": "clap",
+    "heisigV6": 704
+  },
+  {
+    "kanji": "打",
+    "keyword": "strike",
+    "heisigV6": 705
+  },
+  {
+    "kanji": "拘",
+    "keyword": "arrest",
+    "heisigV6": 706
+  },
+  {
+    "kanji": "捨",
+    "keyword": "discard",
+    "heisigV6": 707
+  },
+  {
+    "kanji": "拐",
+    "keyword": "kidnap",
+    "heisigV6": 708
+  },
+  {
+    "kanji": "摘",
+    "keyword": "pinch",
+    "heisigV6": 709
+  },
+  {
+    "kanji": "挑",
+    "keyword": "challenge",
+    "heisigV6": 710
+  },
+  {
+    "kanji": "指",
+    "keyword": "finger",
+    "heisigV6": 711
+  },
+  {
+    "kanji": "持",
+    "keyword": "hold",
+    "heisigV6": 712
+  },
+  {
+    "kanji": "拶",
+    "keyword": "imminent",
+    "heisigV6": 713
+  },
+  {
+    "kanji": "括",
+    "keyword": "fasten",
+    "heisigV6": 714
+  },
+  {
+    "kanji": "揮",
+    "keyword": "brandish",
+    "heisigV6": 715
+  },
+  {
+    "kanji": "推",
+    "keyword": "conjecture",
+    "heisigV6": 716
+  },
+  {
+    "kanji": "揚",
+    "keyword": "hoist",
+    "heisigV6": 717
+  },
+  {
+    "kanji": "提",
+    "keyword": "propose",
+    "heisigV6": 718
+  },
+  {
+    "kanji": "損",
+    "keyword": "damage",
+    "heisigV6": 719
+  },
+  {
+    "kanji": "拾",
+    "keyword": "pick up",
+    "heisigV6": 720
+  },
+  {
+    "kanji": "担",
+    "keyword": "shouldering",
+    "heisigV6": 721
+  },
+  {
+    "kanji": "拠",
+    "keyword": "foothold",
+    "heisigV6": 722
+  },
+  {
+    "kanji": "描",
+    "keyword": "sketch",
+    "heisigV6": 723
+  },
+  {
+    "kanji": "操",
+    "keyword": "maneuver",
+    "heisigV6": 724
+  },
+  {
+    "kanji": "接",
+    "keyword": "touch",
+    "heisigV6": 725
+  },
+  {
+    "kanji": "掲",
+    "keyword": "put up a notice",
+    "heisigV6": 726
+  },
+  {
+    "kanji": "掛",
+    "keyword": "hang",
+    "heisigV6": 727
+  },
+  {
+    "kanji": "捗",
+    "keyword": "make headway",
+    "heisigV6": 728
+  },
+  {
+    "kanji": "研",
+    "keyword": "polish",
+    "heisigV6": 729
+  },
+  {
+    "kanji": "戒",
+    "keyword": "commandment",
+    "heisigV6": 730
+  },
+  {
+    "kanji": "弄",
+    "keyword": "tinker with",
+    "heisigV6": 731
+  },
+  {
+    "kanji": "械",
+    "keyword": "contraption",
+    "heisigV6": 732
+  },
+  {
+    "kanji": "鼻",
+    "keyword": "nose",
+    "heisigV6": 733
+  },
+  {
+    "kanji": "刑",
+    "keyword": "punish",
+    "heisigV6": 734
+  },
+  {
+    "kanji": "型",
+    "keyword": "mould",
+    "heisigV6": 735
+  },
+  {
+    "kanji": "才",
+    "keyword": "genius",
+    "heisigV6": 736
+  },
+  {
+    "kanji": "財",
+    "keyword": "property",
+    "heisigV6": 737
+  },
+  {
+    "kanji": "材",
+    "keyword": "lumber",
+    "heisigV6": 738
+  },
+  {
+    "kanji": "存",
+    "keyword": "suppose",
+    "heisigV6": 739
+  },
+  {
+    "kanji": "在",
+    "keyword": "exist",
+    "heisigV6": 740
+  },
+  {
+    "kanji": "乃",
+    "keyword": "from",
+    "heisigV6": 741
+  },
+  {
+    "kanji": "携",
+    "keyword": "portable",
+    "heisigV6": 742
+  },
+  {
+    "kanji": "及",
+    "keyword": "reach out",
+    "heisigV6": 743
+  },
+  {
+    "kanji": "吸",
+    "keyword": "suck",
+    "heisigV6": 744
+  },
+  {
+    "kanji": "扱",
+    "keyword": "handle",
+    "heisigV6": 745
+  },
+  {
+    "kanji": "丈",
+    "keyword": "length",
+    "heisigV6": 746
+  },
+  {
+    "kanji": "史",
+    "keyword": "history",
+    "heisigV6": 747
+  },
+  {
+    "kanji": "吏",
+    "keyword": "officer",
+    "heisigV6": 748
+  },
+  {
+    "kanji": "更",
+    "keyword": "grow late",
+    "heisigV6": 749
+  },
+  {
+    "kanji": "硬",
+    "keyword": "stiff",
+    "heisigV6": 750
+  },
+  {
+    "kanji": "梗",
+    "keyword": "spiny",
+    "heisigV6": 751
+  },
+  {
+    "kanji": "又",
+    "keyword": "or again",
+    "heisigV6": 752
+  },
+  {
+    "kanji": "双",
+    "keyword": "pair",
+    "heisigV6": 753
+  },
+  {
+    "kanji": "桑",
+    "keyword": "mulberry",
+    "heisigV6": 754
+  },
+  {
+    "kanji": "隻",
+    "keyword": "vessels",
+    "heisigV6": 755
+  },
+  {
+    "kanji": "護",
+    "keyword": "safeguard",
+    "heisigV6": 756
+  },
+  {
+    "kanji": "獲",
+    "keyword": "seize",
+    "heisigV6": 757
+  },
+  {
+    "kanji": "奴",
+    "keyword": "guy",
+    "heisigV6": 758
+  },
+  {
+    "kanji": "怒",
+    "keyword": "angry",
+    "heisigV6": 759
+  },
+  {
+    "kanji": "友",
+    "keyword": "friend",
+    "heisigV6": 760
+  },
+  {
+    "kanji": "抜",
+    "keyword": "slip out",
+    "heisigV6": 761
+  },
+  {
+    "kanji": "投",
+    "keyword": "throw",
+    "heisigV6": 762
+  },
+  {
+    "kanji": "没",
+    "keyword": "drown",
+    "heisigV6": 763
+  },
+  {
+    "kanji": "股",
+    "keyword": "thigh",
+    "heisigV6": 764
+  },
+  {
+    "kanji": "設",
+    "keyword": "establishment",
+    "heisigV6": 765
+  },
+  {
+    "kanji": "撃",
+    "keyword": "beat",
+    "heisigV6": 766
+  },
+  {
+    "kanji": "殻",
+    "keyword": "husk",
+    "heisigV6": 767
+  },
+  {
+    "kanji": "支",
+    "keyword": "branch",
+    "heisigV6": 768
+  },
+  {
+    "kanji": "技",
+    "keyword": "skill",
+    "heisigV6": 769
+  },
+  {
+    "kanji": "枝",
+    "keyword": "bough",
+    "heisigV6": 770
+  },
+  {
+    "kanji": "肢",
+    "keyword": "limb",
+    "heisigV6": 771
+  },
+  {
+    "kanji": "茎",
+    "keyword": "stalk",
+    "heisigV6": 772
+  },
+  {
+    "kanji": "怪",
+    "keyword": "suspicious",
+    "heisigV6": 773
+  },
+  {
+    "kanji": "軽",
+    "keyword": "lightly",
+    "heisigV6": 774
+  },
+  {
+    "kanji": "叔",
+    "keyword": "uncle",
+    "heisigV6": 775
+  },
+  {
+    "kanji": "督",
+    "keyword": "coach",
+    "heisigV6": 776
+  },
+  {
+    "kanji": "寂",
+    "keyword": "loneliness",
+    "heisigV6": 777
+  },
+  {
+    "kanji": "淑",
+    "keyword": "graceful",
+    "heisigV6": 778
+  },
+  {
+    "kanji": "反",
+    "keyword": "anti-",
+    "heisigV6": 779
+  },
+  {
+    "kanji": "坂",
+    "keyword": "slope",
+    "heisigV6": 780
+  },
+  {
+    "kanji": "板",
+    "keyword": "plank",
+    "heisigV6": 781
+  },
+  {
+    "kanji": "返",
+    "keyword": "return",
+    "heisigV6": 782
+  },
+  {
+    "kanji": "販",
+    "keyword": "marketing",
+    "heisigV6": 783
+  },
+  {
+    "kanji": "爪",
+    "keyword": "claw",
+    "heisigV6": 784
+  },
+  {
+    "kanji": "妥",
+    "keyword": "gentle",
+    "heisigV6": 785
+  },
+  {
+    "kanji": "乳",
+    "keyword": "milk",
+    "heisigV6": 786
+  },
+  {
+    "kanji": "浮",
+    "keyword": "floating",
+    "heisigV6": 787
+  },
+  {
+    "kanji": "淫",
+    "keyword": "lewd",
+    "heisigV6": 788
+  },
+  {
+    "kanji": "将",
+    "keyword": "leader",
+    "heisigV6": 789
+  },
+  {
+    "kanji": "奨",
+    "keyword": "exhort",
+    "heisigV6": 790
+  },
+  {
+    "kanji": "采",
+    "keyword": "grab",
+    "heisigV6": 791
+  },
+  {
+    "kanji": "採",
+    "keyword": "pick",
+    "heisigV6": 792
+  },
+  {
+    "kanji": "菜",
+    "keyword": "vegetable",
+    "heisigV6": 793
+  },
+  {
+    "kanji": "受",
+    "keyword": "accept",
+    "heisigV6": 794
+  },
+  {
+    "kanji": "授",
+    "keyword": "impart",
+    "heisigV6": 795
+  },
+  {
+    "kanji": "愛",
+    "keyword": "love",
+    "heisigV6": 796
+  },
+  {
+    "kanji": "曖",
+    "keyword": "equivocal",
+    "heisigV6": 797
+  },
+  {
+    "kanji": "払",
+    "keyword": "pay",
+    "heisigV6": 798
+  },
+  {
+    "kanji": "広",
+    "keyword": "wide",
+    "heisigV6": 799
+  },
+  {
+    "kanji": "勾",
+    "keyword": "flexed",
+    "heisigV6": 800
+  },
+  {
+    "kanji": "拡",
+    "keyword": "broaden",
+    "heisigV6": 801
+  },
+  {
+    "kanji": "鉱",
+    "keyword": "mineral",
+    "heisigV6": 802
+  },
+  {
+    "kanji": "弁",
+    "keyword": "valve",
+    "heisigV6": 803
+  },
+  {
+    "kanji": "雄",
+    "keyword": "masculine",
+    "heisigV6": 804
+  },
+  {
+    "kanji": "台",
+    "keyword": "pedestal",
+    "heisigV6": 805
+  },
+  {
+    "kanji": "怠",
+    "keyword": "neglect",
+    "heisigV6": 806
+  },
+  {
+    "kanji": "治",
+    "keyword": "reign",
+    "heisigV6": 807
+  },
+  {
+    "kanji": "冶",
+    "keyword": "metallurgy",
+    "heisigV6": 808
+  },
+  {
+    "kanji": "始",
+    "keyword": "commence",
+    "heisigV6": 809
+  },
+  {
+    "kanji": "胎",
+    "keyword": "womb",
+    "heisigV6": 810
+  },
+  {
+    "kanji": "窓",
+    "keyword": "window",
+    "heisigV6": 811
+  },
+  {
+    "kanji": "去",
+    "keyword": "gone",
+    "heisigV6": 812
+  },
+  {
+    "kanji": "法",
+    "keyword": "method",
+    "heisigV6": 813
+  },
+  {
+    "kanji": "会",
+    "keyword": "meeting",
+    "heisigV6": 814
+  },
+  {
+    "kanji": "至",
+    "keyword": "climax",
+    "heisigV6": 815
+  },
+  {
+    "kanji": "室",
+    "keyword": "room",
+    "heisigV6": 816
+  },
+  {
+    "kanji": "到",
+    "keyword": "arrival",
+    "heisigV6": 817
+  },
+  {
+    "kanji": "致",
+    "keyword": "doth",
+    "heisigV6": 818
+  },
+  {
+    "kanji": "互",
+    "keyword": "mutually",
+    "heisigV6": 819
+  },
+  {
+    "kanji": "棄",
+    "keyword": "abandon",
+    "heisigV6": 820
+  },
+  {
+    "kanji": "育",
+    "keyword": "bring up",
+    "heisigV6": 821
+  },
+  {
+    "kanji": "撤",
+    "keyword": "remove",
+    "heisigV6": 822
+  },
+  {
+    "kanji": "充",
+    "keyword": "allot",
+    "heisigV6": 823
+  },
+  {
+    "kanji": "銃",
+    "keyword": "gun",
+    "heisigV6": 824
+  },
+  {
+    "kanji": "硫",
+    "keyword": "sulfur",
+    "heisigV6": 825
+  },
+  {
+    "kanji": "流",
+    "keyword": "current",
+    "heisigV6": 826
+  },
+  {
+    "kanji": "允",
+    "keyword": "license",
+    "heisigV6": 827
+  },
+  {
+    "kanji": "唆",
+    "keyword": "tempt",
+    "heisigV6": 828
+  },
+  {
+    "kanji": "出",
+    "keyword": "exit",
+    "heisigV6": 829
+  },
+  {
+    "kanji": "山",
+    "keyword": "mountain",
+    "heisigV6": 830
+  },
+  {
+    "kanji": "拙",
+    "keyword": "bungling",
+    "heisigV6": 831
+  },
+  {
+    "kanji": "岩",
+    "keyword": "boulder",
+    "heisigV6": 832
+  },
+  {
+    "kanji": "炭",
+    "keyword": "charcoal",
+    "heisigV6": 833
+  },
+  {
+    "kanji": "岐",
+    "keyword": "branch off",
+    "heisigV6": 834
+  },
+  {
+    "kanji": "峠",
+    "keyword": "mountain peak",
+    "heisigV6": 835
+  },
+  {
+    "kanji": "崩",
+    "keyword": "crumble",
+    "heisigV6": 836
+  },
+  {
+    "kanji": "密",
+    "keyword": "secrecy",
+    "heisigV6": 837
+  },
+  {
+    "kanji": "蜜",
+    "keyword": "honey",
+    "heisigV6": 838
+  },
+  {
+    "kanji": "嵐",
+    "keyword": "storm",
+    "heisigV6": 839
+  },
+  {
+    "kanji": "崎",
+    "keyword": "promontory",
+    "heisigV6": 840
+  },
+  {
+    "kanji": "崖",
+    "keyword": "bluffs",
+    "heisigV6": 841
+  },
+  {
+    "kanji": "入",
+    "keyword": "enter",
+    "heisigV6": 842
+  },
+  {
+    "kanji": "込",
+    "keyword": "crowded",
+    "heisigV6": 843
+  },
+  {
+    "kanji": "分",
+    "keyword": "part",
+    "heisigV6": 844
+  },
+  {
+    "kanji": "貧",
+    "keyword": "poverty",
+    "heisigV6": 845
+  },
+  {
+    "kanji": "頒",
+    "keyword": "partition",
+    "heisigV6": 846
+  },
+  {
+    "kanji": "公",
+    "keyword": "public",
+    "heisigV6": 847
+  },
+  {
+    "kanji": "松",
+    "keyword": "pine tree",
+    "heisigV6": 848
+  },
+  {
+    "kanji": "翁",
+    "keyword": "venerable old man",
+    "heisigV6": 849
+  },
+  {
+    "kanji": "訟",
+    "keyword": "sue",
+    "heisigV6": 850
+  },
+  {
+    "kanji": "谷",
+    "keyword": "valley",
+    "heisigV6": 851
+  },
+  {
+    "kanji": "浴",
+    "keyword": "bathe",
+    "heisigV6": 852
+  },
+  {
+    "kanji": "容",
+    "keyword": "contain",
+    "heisigV6": 853
+  },
+  {
+    "kanji": "溶",
+    "keyword": "melt",
+    "heisigV6": 854
+  },
+  {
+    "kanji": "欲",
+    "keyword": "longing",
+    "heisigV6": 855
+  },
+  {
+    "kanji": "裕",
+    "keyword": "abundant",
+    "heisigV6": 856
+  },
+  {
+    "kanji": "鉛",
+    "keyword": "lead (metal)",
+    "heisigV6": 857
+  },
+  {
+    "kanji": "沿",
+    "keyword": "run alongside",
+    "heisigV6": 858
+  },
+  {
+    "kanji": "賞",
+    "keyword": "prize",
+    "heisigV6": 859
+  },
+  {
+    "kanji": "党",
+    "keyword": "party",
+    "heisigV6": 860
+  },
+  {
+    "kanji": "堂",
+    "keyword": "public chamber",
+    "heisigV6": 861
+  },
+  {
+    "kanji": "常",
+    "keyword": "usual",
+    "heisigV6": 862
+  },
+  {
+    "kanji": "裳",
+    "keyword": "skirt",
+    "heisigV6": 863
+  },
+  {
+    "kanji": "掌",
+    "keyword": "manipulate",
+    "heisigV6": 864
+  },
+  {
+    "kanji": "皮",
+    "keyword": "pelt",
+    "heisigV6": 865
+  },
+  {
+    "kanji": "波",
+    "keyword": "waves",
+    "heisigV6": 866
+  },
+  {
+    "kanji": "婆",
+    "keyword": "old woman",
+    "heisigV6": 867
+  },
+  {
+    "kanji": "披",
+    "keyword": "expose",
+    "heisigV6": 868
+  },
+  {
+    "kanji": "破",
+    "keyword": "rend",
+    "heisigV6": 869
+  },
+  {
+    "kanji": "被",
+    "keyword": "incur",
+    "heisigV6": 870
+  },
+  {
+    "kanji": "残",
+    "keyword": "remainder",
+    "heisigV6": 871
+  },
+  {
+    "kanji": "殉",
+    "keyword": "martyrdom",
+    "heisigV6": 872
+  },
+  {
+    "kanji": "殊",
+    "keyword": "particularly",
+    "heisigV6": 873
+  },
+  {
+    "kanji": "殖",
+    "keyword": "augment",
+    "heisigV6": 874
+  },
+  {
+    "kanji": "列",
+    "keyword": "file",
+    "heisigV6": 875
+  },
+  {
+    "kanji": "裂",
+    "keyword": "split",
+    "heisigV6": 876
+  },
+  {
+    "kanji": "烈",
+    "keyword": "ardent",
+    "heisigV6": 877
+  },
+  {
+    "kanji": "死",
+    "keyword": "death",
+    "heisigV6": 878
+  },
+  {
+    "kanji": "葬",
+    "keyword": "interment",
+    "heisigV6": 879
+  },
+  {
+    "kanji": "瞬",
+    "keyword": "wink",
+    "heisigV6": 880
+  },
+  {
+    "kanji": "耳",
+    "keyword": "ear",
+    "heisigV6": 881
+  },
+  {
+    "kanji": "取",
+    "keyword": "take",
+    "heisigV6": 882
+  },
+  {
+    "kanji": "趣",
+    "keyword": "gist",
+    "heisigV6": 883
+  },
+  {
+    "kanji": "最",
+    "keyword": "utmost",
+    "heisigV6": 884
+  },
+  {
+    "kanji": "撮",
+    "keyword": "snapshot",
+    "heisigV6": 885
+  },
+  {
+    "kanji": "恥",
+    "keyword": "shame",
+    "heisigV6": 886
+  },
+  {
+    "kanji": "職",
+    "keyword": "post",
+    "heisigV6": 887
+  },
+  {
+    "kanji": "聖",
+    "keyword": "holy",
+    "heisigV6": 888
+  },
+  {
+    "kanji": "敢",
+    "keyword": "daring",
+    "heisigV6": 889
+  },
+  {
+    "kanji": "聴",
+    "keyword": "listen",
+    "heisigV6": 890
+  },
+  {
+    "kanji": "懐",
+    "keyword": "pocket",
+    "heisigV6": 891
+  },
+  {
+    "kanji": "慢",
+    "keyword": "ridicule",
+    "heisigV6": 892
+  },
+  {
+    "kanji": "漫",
+    "keyword": "loose",
+    "heisigV6": 893
+  },
+  {
+    "kanji": "買",
+    "keyword": "buy",
+    "heisigV6": 894
+  },
+  {
+    "kanji": "置",
+    "keyword": "placement",
+    "heisigV6": 895
+  },
+  {
+    "kanji": "罰",
+    "keyword": "penalty",
+    "heisigV6": 896
+  },
+  {
+    "kanji": "寧",
+    "keyword": "rather",
+    "heisigV6": 897
+  },
+  {
+    "kanji": "濁",
+    "keyword": "voiced",
+    "heisigV6": 898
+  },
+  {
+    "kanji": "環",
+    "keyword": "ring",
+    "heisigV6": 899
+  },
+  {
+    "kanji": "還",
+    "keyword": "send back",
+    "heisigV6": 900
+  },
+  {
+    "kanji": "夫",
+    "keyword": "husband",
+    "heisigV6": 901
+  },
+  {
+    "kanji": "扶",
+    "keyword": "aid",
+    "heisigV6": 902
+  },
+  {
+    "kanji": "渓",
+    "keyword": "mountain stream",
+    "heisigV6": 903
+  },
+  {
+    "kanji": "規",
+    "keyword": "standard",
+    "heisigV6": 904
+  },
+  {
+    "kanji": "替",
+    "keyword": "exchange",
+    "heisigV6": 905
+  },
+  {
+    "kanji": "賛",
+    "keyword": "approve",
+    "heisigV6": 906
+  },
+  {
+    "kanji": "潜",
+    "keyword": "submerge",
+    "heisigV6": 907
+  },
+  {
+    "kanji": "失",
+    "keyword": "lose",
+    "heisigV6": 908
+  },
+  {
+    "kanji": "鉄",
+    "keyword": "iron",
+    "heisigV6": 909
+  },
+  {
+    "kanji": "迭",
+    "keyword": "alternate",
+    "heisigV6": 910
+  },
+  {
+    "kanji": "臣",
+    "keyword": "retainer",
+    "heisigV6": 911
+  },
+  {
+    "kanji": "姫",
+    "keyword": "princess",
+    "heisigV6": 912
+  },
+  {
+    "kanji": "蔵",
+    "keyword": "storehouse",
+    "heisigV6": 913
+  },
+  {
+    "kanji": "臓",
+    "keyword": "entrails",
+    "heisigV6": 914
+  },
+  {
+    "kanji": "賢",
+    "keyword": "intelligent",
+    "heisigV6": 915
+  },
+  {
+    "kanji": "腎",
+    "keyword": "kidney",
+    "heisigV6": 916
+  },
+  {
+    "kanji": "堅",
+    "keyword": "strict",
+    "heisigV6": 917
+  },
+  {
+    "kanji": "臨",
+    "keyword": "look to",
+    "heisigV6": 918
+  },
+  {
+    "kanji": "覧",
+    "keyword": "perusal",
+    "heisigV6": 919
+  },
+  {
+    "kanji": "巨",
+    "keyword": "gigantic",
+    "heisigV6": 920
+  },
+  {
+    "kanji": "拒",
+    "keyword": "repel",
+    "heisigV6": 921
+  },
+  {
+    "kanji": "力",
+    "keyword": "power",
+    "heisigV6": 922
+  },
+  {
+    "kanji": "男",
+    "keyword": "male",
+    "heisigV6": 923
+  },
+  {
+    "kanji": "労",
+    "keyword": "labor",
+    "heisigV6": 924
+  },
+  {
+    "kanji": "募",
+    "keyword": "recruit",
+    "heisigV6": 925
+  },
+  {
+    "kanji": "劣",
+    "keyword": "inferiority",
+    "heisigV6": 926
+  },
+  {
+    "kanji": "功",
+    "keyword": "achievement",
+    "heisigV6": 927
+  },
+  {
+    "kanji": "勧",
+    "keyword": "persuade",
+    "heisigV6": 928
+  },
+  {
+    "kanji": "努",
+    "keyword": "toil",
+    "heisigV6": 929
+  },
+  {
+    "kanji": "勃",
+    "keyword": "erection",
+    "heisigV6": 930
+  },
+  {
+    "kanji": "励",
+    "keyword": "encourage",
+    "heisigV6": 931
+  },
+  {
+    "kanji": "加",
+    "keyword": "add",
+    "heisigV6": 932
+  },
+  {
+    "kanji": "賀",
+    "keyword": "congratulations",
+    "heisigV6": 933
+  },
+  {
+    "kanji": "架",
+    "keyword": "erect",
+    "heisigV6": 934
+  },
+  {
+    "kanji": "脇",
+    "keyword": "armpit",
+    "heisigV6": 935
+  },
+  {
+    "kanji": "脅",
+    "keyword": "threaten",
+    "heisigV6": 936
+  },
+  {
+    "kanji": "協",
+    "keyword": "co-",
+    "heisigV6": 937
+  },
+  {
+    "kanji": "行",
+    "keyword": "going",
+    "heisigV6": 938
+  },
+  {
+    "kanji": "律",
+    "keyword": "rhythm",
+    "heisigV6": 939
+  },
+  {
+    "kanji": "復",
+    "keyword": "restore",
+    "heisigV6": 940
+  },
+  {
+    "kanji": "得",
+    "keyword": "gain",
+    "heisigV6": 941
+  },
+  {
+    "kanji": "従",
+    "keyword": "accompany",
+    "heisigV6": 942
+  },
+  {
+    "kanji": "徒",
+    "keyword": "junior",
+    "heisigV6": 943
+  },
+  {
+    "kanji": "待",
+    "keyword": "wait",
+    "heisigV6": 944
+  },
+  {
+    "kanji": "往",
+    "keyword": "journey",
+    "heisigV6": 945
+  },
+  {
+    "kanji": "征",
+    "keyword": "subjugate",
+    "heisigV6": 946
+  },
+  {
+    "kanji": "径",
+    "keyword": "diameter",
+    "heisigV6": 947
+  },
+  {
+    "kanji": "彼",
+    "keyword": "he",
+    "heisigV6": 948
+  },
+  {
+    "kanji": "役",
+    "keyword": "duty",
+    "heisigV6": 949
+  },
+  {
+    "kanji": "徳",
+    "keyword": "benevolence",
+    "heisigV6": 950
+  },
+  {
+    "kanji": "徹",
+    "keyword": "penetrate",
+    "heisigV6": 951
+  },
+  {
+    "kanji": "徴",
+    "keyword": "indications",
+    "heisigV6": 952
+  },
+  {
+    "kanji": "懲",
+    "keyword": "penal",
+    "heisigV6": 953
+  },
+  {
+    "kanji": "微",
+    "keyword": "delicate",
+    "heisigV6": 954
+  },
+  {
+    "kanji": "街",
+    "keyword": "boulevard",
+    "heisigV6": 955
+  },
+  {
+    "kanji": "桁",
+    "keyword": "girder",
+    "heisigV6": 956
+  },
+  {
+    "kanji": "衡",
+    "keyword": "equilibrium",
+    "heisigV6": 957
+  },
+  {
+    "kanji": "稿",
+    "keyword": "draft",
+    "heisigV6": 958
+  },
+  {
+    "kanji": "稼",
+    "keyword": "earnings",
+    "heisigV6": 959
+  },
+  {
+    "kanji": "程",
+    "keyword": "extent",
+    "heisigV6": 960
+  },
+  {
+    "kanji": "税",
+    "keyword": "tax",
+    "heisigV6": 961
+  },
+  {
+    "kanji": "稚",
+    "keyword": "immature",
+    "heisigV6": 962
+  },
+  {
+    "kanji": "和",
+    "keyword": "harmony",
+    "heisigV6": 963
+  },
+  {
+    "kanji": "移",
+    "keyword": "shift",
+    "heisigV6": 964
+  },
+  {
+    "kanji": "秒",
+    "keyword": "second",
+    "heisigV6": 965
+  },
+  {
+    "kanji": "秋",
+    "keyword": "autumn",
+    "heisigV6": 966
+  },
+  {
+    "kanji": "愁",
+    "keyword": "distress",
+    "heisigV6": 967
+  },
+  {
+    "kanji": "私",
+    "keyword": "private",
+    "heisigV6": 968
+  },
+  {
+    "kanji": "秩",
+    "keyword": "regularity",
+    "heisigV6": 969
+  },
+  {
+    "kanji": "秘",
+    "keyword": "secret",
+    "heisigV6": 970
+  },
+  {
+    "kanji": "称",
+    "keyword": "appellation",
+    "heisigV6": 971
+  },
+  {
+    "kanji": "利",
+    "keyword": "profit",
+    "heisigV6": 972
+  },
+  {
+    "kanji": "梨",
+    "keyword": "pear tree",
+    "heisigV6": 973
+  },
+  {
+    "kanji": "穫",
+    "keyword": "harvest",
+    "heisigV6": 974
+  },
+  {
+    "kanji": "穂",
+    "keyword": "ear of a plant",
+    "heisigV6": 975
+  },
+  {
+    "kanji": "稲",
+    "keyword": "rice plant",
+    "heisigV6": 976
+  },
+  {
+    "kanji": "香",
+    "keyword": "incense",
+    "heisigV6": 977
+  },
+  {
+    "kanji": "季",
+    "keyword": "seasons",
+    "heisigV6": 978
+  },
+  {
+    "kanji": "委",
+    "keyword": "committee",
+    "heisigV6": 979
+  },
+  {
+    "kanji": "秀",
+    "keyword": "excel",
+    "heisigV6": 980
+  },
+  {
+    "kanji": "透",
+    "keyword": "transparent",
+    "heisigV6": 981
+  },
+  {
+    "kanji": "誘",
+    "keyword": "entice",
+    "heisigV6": 982
+  },
+  {
+    "kanji": "稽",
+    "keyword": "training",
+    "heisigV6": 983
+  },
+  {
+    "kanji": "穀",
+    "keyword": "cereals",
+    "heisigV6": 984
+  },
+  {
+    "kanji": "菌",
+    "keyword": "germ",
+    "heisigV6": 985
+  },
+  {
+    "kanji": "萎",
+    "keyword": "numb",
+    "heisigV6": 986
+  },
+  {
+    "kanji": "米",
+    "keyword": "rice",
+    "heisigV6": 987
+  },
+  {
+    "kanji": "粉",
+    "keyword": "flour",
+    "heisigV6": 988
+  },
+  {
+    "kanji": "粘",
+    "keyword": "sticky",
+    "heisigV6": 989
+  },
+  {
+    "kanji": "粒",
+    "keyword": "grains",
+    "heisigV6": 990
+  },
+  {
+    "kanji": "粧",
+    "keyword": "cosmetics",
+    "heisigV6": 991
+  },
+  {
+    "kanji": "迷",
+    "keyword": "astray",
+    "heisigV6": 992
+  },
+  {
+    "kanji": "粋",
+    "keyword": "chic",
+    "heisigV6": 993
+  },
+  {
+    "kanji": "謎",
+    "keyword": "riddle",
+    "heisigV6": 994
+  },
+  {
+    "kanji": "糧",
+    "keyword": "provisions",
+    "heisigV6": 995
+  },
+  {
+    "kanji": "菊",
+    "keyword": "chrysanthemum",
+    "heisigV6": 996
+  },
+  {
+    "kanji": "奥",
+    "keyword": "core",
+    "heisigV6": 997
+  },
+  {
+    "kanji": "数",
+    "keyword": "number",
+    "heisigV6": 998
+  },
+  {
+    "kanji": "楼",
+    "keyword": "watchtower",
+    "heisigV6": 999
+  },
+  {
+    "kanji": "類",
+    "keyword": "sort",
+    "heisigV6": 1000
+  },
+  {
+    "kanji": "漆",
+    "keyword": "lacquer",
+    "heisigV6": 1001
+  },
+  {
+    "kanji": "膝",
+    "keyword": "knee",
+    "heisigV6": 1002
+  },
+  {
+    "kanji": "様",
+    "keyword": "Esq.",
+    "heisigV6": 1003
+  },
+  {
+    "kanji": "求",
+    "keyword": "request",
+    "heisigV6": 1004
+  },
+  {
+    "kanji": "球",
+    "keyword": "ball",
+    "heisigV6": 1005
+  },
+  {
+    "kanji": "救",
+    "keyword": "salvation",
+    "heisigV6": 1006
+  },
+  {
+    "kanji": "竹",
+    "keyword": "bamboo",
+    "heisigV6": 1007
+  },
+  {
+    "kanji": "笑",
+    "keyword": "laugh",
+    "heisigV6": 1008
+  },
+  {
+    "kanji": "笠",
+    "keyword": "bamboo hat",
+    "heisigV6": 1009
+  },
+  {
+    "kanji": "笹",
+    "keyword": "bamboo grass",
+    "heisigV6": 1010
+  },
+  {
+    "kanji": "箋",
+    "keyword": "stationary",
+    "heisigV6": 1011
+  },
+  {
+    "kanji": "筋",
+    "keyword": "muscle",
+    "heisigV6": 1012
+  },
+  {
+    "kanji": "箱",
+    "keyword": "box",
+    "heisigV6": 1013
+  },
+  {
+    "kanji": "筆",
+    "keyword": "writing brush",
+    "heisigV6": 1014
+  },
+  {
+    "kanji": "筒",
+    "keyword": "cylinder",
+    "heisigV6": 1015
+  },
+  {
+    "kanji": "等",
+    "keyword": "etc.",
+    "heisigV6": 1016
+  },
+  {
+    "kanji": "算",
+    "keyword": "calculate",
+    "heisigV6": 1017
+  },
+  {
+    "kanji": "答",
+    "keyword": "solution",
+    "heisigV6": 1018
+  },
+  {
+    "kanji": "策",
+    "keyword": "scheme",
+    "heisigV6": 1019
+  },
+  {
+    "kanji": "簿",
+    "keyword": "register",
+    "heisigV6": 1020
+  },
+  {
+    "kanji": "築",
+    "keyword": "fabricate",
+    "heisigV6": 1021
+  },
+  {
+    "kanji": "篭",
+    "keyword": "basket",
+    "heisigV6": 1022
+  },
+  {
+    "kanji": "人",
+    "keyword": "person",
+    "heisigV6": 1023
+  },
+  {
+    "kanji": "佐",
+    "keyword": "assistant",
+    "heisigV6": 1024
+  },
+  {
+    "kanji": "侶",
+    "keyword": "partner",
+    "heisigV6": 1025
+  },
+  {
+    "kanji": "但",
+    "keyword": "however",
+    "heisigV6": 1026
+  },
+  {
+    "kanji": "住",
+    "keyword": "dwell",
+    "heisigV6": 1027
+  },
+  {
+    "kanji": "位",
+    "keyword": "rank",
+    "heisigV6": 1028
+  },
+  {
+    "kanji": "仲",
+    "keyword": "go-between",
+    "heisigV6": 1029
+  },
+  {
+    "kanji": "体",
+    "keyword": "body",
+    "heisigV6": 1030
+  },
+  {
+    "kanji": "悠",
+    "keyword": "remote",
+    "heisigV6": 1031
+  },
+  {
+    "kanji": "件",
+    "keyword": "affair",
+    "heisigV6": 1032
+  },
+  {
+    "kanji": "仕",
+    "keyword": "attend",
+    "heisigV6": 1033
+  },
+  {
+    "kanji": "他",
+    "keyword": "other",
+    "heisigV6": 1034
+  },
+  {
+    "kanji": "伏",
+    "keyword": "prostrated",
+    "heisigV6": 1035
+  },
+  {
+    "kanji": "伝",
+    "keyword": "transmit",
+    "heisigV6": 1036
+  },
+  {
+    "kanji": "仏",
+    "keyword": "Buddha",
+    "heisigV6": 1037
+  },
+  {
+    "kanji": "休",
+    "keyword": "rest",
+    "heisigV6": 1038
+  },
+  {
+    "kanji": "仮",
+    "keyword": "provisional",
+    "heisigV6": 1039
+  },
+  {
+    "kanji": "伎",
+    "keyword": "performing artist",
+    "heisigV6": 1040
+  },
+  {
+    "kanji": "伯",
+    "keyword": "chief",
+    "heisigV6": 1041
+  },
+  {
+    "kanji": "俗",
+    "keyword": "vulgar",
+    "heisigV6": 1042
+  },
+  {
+    "kanji": "信",
+    "keyword": "faith",
+    "heisigV6": 1043
+  },
+  {
+    "kanji": "佳",
+    "keyword": "excellent",
+    "heisigV6": 1044
+  },
+  {
+    "kanji": "依",
+    "keyword": "reliant",
+    "heisigV6": 1045
+  },
+  {
+    "kanji": "例",
+    "keyword": "example",
+    "heisigV6": 1046
+  },
+  {
+    "kanji": "個",
+    "keyword": "individual",
+    "heisigV6": 1047
+  },
+  {
+    "kanji": "健",
+    "keyword": "healthy",
+    "heisigV6": 1048
+  },
+  {
+    "kanji": "側",
+    "keyword": "side",
+    "heisigV6": 1049
+  },
+  {
+    "kanji": "侍",
+    "keyword": "waiter",
+    "heisigV6": 1050
+  },
+  {
+    "kanji": "停",
+    "keyword": "halt",
+    "heisigV6": 1051
+  },
+  {
+    "kanji": "値",
+    "keyword": "price",
+    "heisigV6": 1052
+  },
+  {
+    "kanji": "倣",
+    "keyword": "emulate",
+    "heisigV6": 1053
+  },
+  {
+    "kanji": "傲",
+    "keyword": "arrogance",
+    "heisigV6": 1054
+  },
+  {
+    "kanji": "倒",
+    "keyword": "overthrow",
+    "heisigV6": 1055
+  },
+  {
+    "kanji": "偵",
+    "keyword": "spy",
+    "heisigV6": 1056
+  },
+  {
+    "kanji": "僧",
+    "keyword": "Buddhist priest",
+    "heisigV6": 1057
+  },
+  {
+    "kanji": "億",
+    "keyword": "hundred million",
+    "heisigV6": 1058
+  },
+  {
+    "kanji": "儀",
+    "keyword": "ceremony",
+    "heisigV6": 1059
+  },
+  {
+    "kanji": "償",
+    "keyword": "reparation",
+    "heisigV6": 1060
+  },
+  {
+    "kanji": "仙",
+    "keyword": "hermit",
+    "heisigV6": 1061
+  },
+  {
+    "kanji": "催",
+    "keyword": "sponsor",
+    "heisigV6": 1062
+  },
+  {
+    "kanji": "仁",
+    "keyword": "humanity",
+    "heisigV6": 1063
+  },
+  {
+    "kanji": "侮",
+    "keyword": "scorn",
+    "heisigV6": 1064
+  },
+  {
+    "kanji": "使",
+    "keyword": "use",
+    "heisigV6": 1065
+  },
+  {
+    "kanji": "便",
+    "keyword": "convenience",
+    "heisigV6": 1066
+  },
+  {
+    "kanji": "倍",
+    "keyword": "double",
+    "heisigV6": 1067
+  },
+  {
+    "kanji": "優",
+    "keyword": "tenderness",
+    "heisigV6": 1068
+  },
+  {
+    "kanji": "伐",
+    "keyword": "fell",
+    "heisigV6": 1069
+  },
+  {
+    "kanji": "宿",
+    "keyword": "inn",
+    "heisigV6": 1070
+  },
+  {
+    "kanji": "傷",
+    "keyword": "wound",
+    "heisigV6": 1071
+  },
+  {
+    "kanji": "保",
+    "keyword": "protect",
+    "heisigV6": 1072
+  },
+  {
+    "kanji": "褒",
+    "keyword": "praise",
+    "heisigV6": 1073
+  },
+  {
+    "kanji": "傑",
+    "keyword": "greatness",
+    "heisigV6": 1074
+  },
+  {
+    "kanji": "付",
+    "keyword": "adhere",
+    "heisigV6": 1075
+  },
+  {
+    "kanji": "符",
+    "keyword": "token",
+    "heisigV6": 1076
+  },
+  {
+    "kanji": "府",
+    "keyword": "municipality",
+    "heisigV6": 1077
+  },
+  {
+    "kanji": "任",
+    "keyword": "responsibility",
+    "heisigV6": 1078
+  },
+  {
+    "kanji": "賃",
+    "keyword": "fare",
+    "heisigV6": 1079
+  },
+  {
+    "kanji": "代",
+    "keyword": "substitute",
+    "heisigV6": 1080
+  },
+  {
+    "kanji": "袋",
+    "keyword": "sack",
+    "heisigV6": 1081
+  },
+  {
+    "kanji": "貸",
+    "keyword": "lend",
+    "heisigV6": 1082
+  },
+  {
+    "kanji": "化",
+    "keyword": "change",
+    "heisigV6": 1083
+  },
+  {
+    "kanji": "花",
+    "keyword": "flower",
+    "heisigV6": 1084
+  },
+  {
+    "kanji": "貨",
+    "keyword": "freight",
+    "heisigV6": 1085
+  },
+  {
+    "kanji": "傾",
+    "keyword": "lean",
+    "heisigV6": 1086
+  },
+  {
+    "kanji": "何",
+    "keyword": "what",
+    "heisigV6": 1087
+  },
+  {
+    "kanji": "荷",
+    "keyword": "baggage",
+    "heisigV6": 1088
+  },
+  {
+    "kanji": "俊",
+    "keyword": "sagacious",
+    "heisigV6": 1089
+  },
+  {
+    "kanji": "傍",
+    "keyword": "bystander",
+    "heisigV6": 1090
+  },
+  {
+    "kanji": "俺",
+    "keyword": "myself",
+    "heisigV6": 1091
+  },
+  {
+    "kanji": "久",
+    "keyword": "long time",
+    "heisigV6": 1092
+  },
+  {
+    "kanji": "畝",
+    "keyword": "furrow",
+    "heisigV6": 1093
+  },
+  {
+    "kanji": "囚",
+    "keyword": "captured",
+    "heisigV6": 1094
+  },
+  {
+    "kanji": "内",
+    "keyword": "inside",
+    "heisigV6": 1095
+  },
+  {
+    "kanji": "丙",
+    "keyword": "third class",
+    "heisigV6": 1096
+  },
+  {
+    "kanji": "柄",
+    "keyword": "design",
+    "heisigV6": 1097
+  },
+  {
+    "kanji": "肉",
+    "keyword": "meat",
+    "heisigV6": 1098
+  },
+  {
+    "kanji": "腐",
+    "keyword": "rot",
+    "heisigV6": 1099
+  },
+  {
+    "kanji": "座",
+    "keyword": "sit",
+    "heisigV6": 1100
+  },
+  {
+    "kanji": "挫",
+    "keyword": "sprain",
+    "heisigV6": 1101
+  },
+  {
+    "kanji": "卒",
+    "keyword": "graduate",
+    "heisigV6": 1102
+  },
+  {
+    "kanji": "傘",
+    "keyword": "umbrella",
+    "heisigV6": 1103
+  },
+  {
+    "kanji": "匁",
+    "keyword": "monme",
+    "heisigV6": 1104
+  },
+  {
+    "kanji": "以",
+    "keyword": "by means of",
+    "heisigV6": 1105
+  },
+  {
+    "kanji": "似",
+    "keyword": "similar",
+    "heisigV6": 1106
+  },
+  {
+    "kanji": "併",
+    "keyword": "join",
+    "heisigV6": 1107
+  },
+  {
+    "kanji": "瓦",
+    "keyword": "tile",
+    "heisigV6": 1108
+  },
+  {
+    "kanji": "瓶",
+    "keyword": "flower pot",
+    "heisigV6": 1109
+  },
+  {
+    "kanji": "宮",
+    "keyword": "Shinto shrine",
+    "heisigV6": 1110
+  },
+  {
+    "kanji": "営",
+    "keyword": "occupation",
+    "heisigV6": 1111
+  },
+  {
+    "kanji": "善",
+    "keyword": "virtuous",
+    "heisigV6": 1112
+  },
+  {
+    "kanji": "膳",
+    "keyword": "dining tray",
+    "heisigV6": 1113
+  },
+  {
+    "kanji": "年",
+    "keyword": "year",
+    "heisigV6": 1114
+  },
+  {
+    "kanji": "夜",
+    "keyword": "night",
+    "heisigV6": 1115
+  },
+  {
+    "kanji": "液",
+    "keyword": "fluid",
+    "heisigV6": 1116
+  },
+  {
+    "kanji": "塚",
+    "keyword": "hillock",
+    "heisigV6": 1117
+  },
+  {
+    "kanji": "幣",
+    "keyword": "cash",
+    "heisigV6": 1118
+  },
+  {
+    "kanji": "蔽",
+    "keyword": "cover over",
+    "heisigV6": 1119
+  },
+  {
+    "kanji": "弊",
+    "keyword": "abuse",
+    "heisigV6": 1120
+  },
+  {
+    "kanji": "喚",
+    "keyword": "yell",
+    "heisigV6": 1121
+  },
+  {
+    "kanji": "換",
+    "keyword": "interchange",
+    "heisigV6": 1122
+  },
+  {
+    "kanji": "融",
+    "keyword": "dissolve",
+    "heisigV6": 1123
+  },
+  {
+    "kanji": "施",
+    "keyword": "alms",
+    "heisigV6": 1124
+  },
+  {
+    "kanji": "旋",
+    "keyword": "rotation",
+    "heisigV6": 1125
+  },
+  {
+    "kanji": "遊",
+    "keyword": "play",
+    "heisigV6": 1126
+  },
+  {
+    "kanji": "旅",
+    "keyword": "trip",
+    "heisigV6": 1127
+  },
+  {
+    "kanji": "勿",
+    "keyword": "not",
+    "heisigV6": 1128
+  },
+  {
+    "kanji": "物",
+    "keyword": "thing",
+    "heisigV6": 1129
+  },
+  {
+    "kanji": "易",
+    "keyword": "easy",
+    "heisigV6": 1130
+  },
+  {
+    "kanji": "賜",
+    "keyword": "grant",
+    "heisigV6": 1131
+  },
+  {
+    "kanji": "尿",
+    "keyword": "urine",
+    "heisigV6": 1132
+  },
+  {
+    "kanji": "尼",
+    "keyword": "nun",
+    "heisigV6": 1133
+  },
+  {
+    "kanji": "尻",
+    "keyword": "buttocks",
+    "heisigV6": 1134
+  },
+  {
+    "kanji": "泥",
+    "keyword": "mud",
+    "heisigV6": 1135
+  },
+  {
+    "kanji": "塀",
+    "keyword": "fence",
+    "heisigV6": 1136
+  },
+  {
+    "kanji": "履",
+    "keyword": "footgear",
+    "heisigV6": 1137
+  },
+  {
+    "kanji": "屋",
+    "keyword": "roof",
+    "heisigV6": 1138
+  },
+  {
+    "kanji": "握",
+    "keyword": "grip",
+    "heisigV6": 1139
+  },
+  {
+    "kanji": "屈",
+    "keyword": "yield",
+    "heisigV6": 1140
+  },
+  {
+    "kanji": "掘",
+    "keyword": "dig",
+    "heisigV6": 1141
+  },
+  {
+    "kanji": "堀",
+    "keyword": "ditch",
+    "heisigV6": 1142
+  },
+  {
+    "kanji": "居",
+    "keyword": "reside",
+    "heisigV6": 1143
+  },
+  {
+    "kanji": "据",
+    "keyword": "set",
+    "heisigV6": 1144
+  },
+  {
+    "kanji": "裾",
+    "keyword": "hem",
+    "heisigV6": 1145
+  },
+  {
+    "kanji": "層",
+    "keyword": "stratum",
+    "heisigV6": 1146
+  },
+  {
+    "kanji": "局",
+    "keyword": "bureau",
+    "heisigV6": 1147
+  },
+  {
+    "kanji": "遅",
+    "keyword": "slow",
+    "heisigV6": 1148
+  },
+  {
+    "kanji": "漏",
+    "keyword": "leak",
+    "heisigV6": 1149
+  },
+  {
+    "kanji": "刷",
+    "keyword": "printing",
+    "heisigV6": 1150
+  },
+  {
+    "kanji": "尺",
+    "keyword": "shaku",
+    "heisigV6": 1151
+  },
+  {
+    "kanji": "尽",
+    "keyword": "exhaust",
+    "heisigV6": 1152
+  },
+  {
+    "kanji": "沢",
+    "keyword": "swamp",
+    "heisigV6": 1153
+  },
+  {
+    "kanji": "訳",
+    "keyword": "translate",
+    "heisigV6": 1154
+  },
+  {
+    "kanji": "択",
+    "keyword": "choose",
+    "heisigV6": 1155
+  },
+  {
+    "kanji": "昼",
+    "keyword": "daytime",
+    "heisigV6": 1156
+  },
+  {
+    "kanji": "戸",
+    "keyword": "door",
+    "heisigV6": 1157
+  },
+  {
+    "kanji": "肩",
+    "keyword": "shoulder",
+    "heisigV6": 1158
+  },
+  {
+    "kanji": "房",
+    "keyword": "tassel",
+    "heisigV6": 1159
+  },
+  {
+    "kanji": "扇",
+    "keyword": "fan",
+    "heisigV6": 1160
+  },
+  {
+    "kanji": "炉",
+    "keyword": "hearth",
+    "heisigV6": 1161
+  },
+  {
+    "kanji": "戻",
+    "keyword": "re-",
+    "heisigV6": 1162
+  },
+  {
+    "kanji": "涙",
+    "keyword": "tears",
+    "heisigV6": 1163
+  },
+  {
+    "kanji": "雇",
+    "keyword": "employ",
+    "heisigV6": 1164
+  },
+  {
+    "kanji": "顧",
+    "keyword": "look back",
+    "heisigV6": 1165
+  },
+  {
+    "kanji": "啓",
+    "keyword": "disclose",
+    "heisigV6": 1166
+  },
+  {
+    "kanji": "示",
+    "keyword": "show",
+    "heisigV6": 1167
+  },
+  {
+    "kanji": "礼",
+    "keyword": "salutation",
+    "heisigV6": 1168
+  },
+  {
+    "kanji": "祥",
+    "keyword": "auspicious",
+    "heisigV6": 1169
+  },
+  {
+    "kanji": "祝",
+    "keyword": "celebrate",
+    "heisigV6": 1170
+  },
+  {
+    "kanji": "福",
+    "keyword": "blessing",
+    "heisigV6": 1171
+  },
+  {
+    "kanji": "祉",
+    "keyword": "welfare",
+    "heisigV6": 1172
+  },
+  {
+    "kanji": "社",
+    "keyword": "company",
+    "heisigV6": 1173
+  },
+  {
+    "kanji": "視",
+    "keyword": "inspection",
+    "heisigV6": 1174
+  },
+  {
+    "kanji": "奈",
+    "keyword": "Nara",
+    "heisigV6": 1175
+  },
+  {
+    "kanji": "尉",
+    "keyword": "military officer",
+    "heisigV6": 1176
+  },
+  {
+    "kanji": "慰",
+    "keyword": "consolation",
+    "heisigV6": 1177
+  },
+  {
+    "kanji": "款",
+    "keyword": "goodwill",
+    "heisigV6": 1178
+  },
+  {
+    "kanji": "禁",
+    "keyword": "prohibition",
+    "heisigV6": 1179
+  },
+  {
+    "kanji": "襟",
+    "keyword": "collar",
+    "heisigV6": 1180
+  },
+  {
+    "kanji": "宗",
+    "keyword": "religion",
+    "heisigV6": 1181
+  },
+  {
+    "kanji": "崇",
+    "keyword": "adore",
+    "heisigV6": 1182
+  },
+  {
+    "kanji": "祭",
+    "keyword": "ritual",
+    "heisigV6": 1183
+  },
+  {
+    "kanji": "察",
+    "keyword": "guess",
+    "heisigV6": 1184
+  },
+  {
+    "kanji": "擦",
+    "keyword": "grate",
+    "heisigV6": 1185
+  },
+  {
+    "kanji": "由",
+    "keyword": "wherefore",
+    "heisigV6": 1186
+  },
+  {
+    "kanji": "抽",
+    "keyword": "pluck",
+    "heisigV6": 1187
+  },
+  {
+    "kanji": "油",
+    "keyword": "oil",
+    "heisigV6": 1188
+  },
+  {
+    "kanji": "袖",
+    "keyword": "sleeve",
+    "heisigV6": 1189
+  },
+  {
+    "kanji": "宙",
+    "keyword": "mid-air",
+    "heisigV6": 1190
+  },
+  {
+    "kanji": "届",
+    "keyword": "deliver",
+    "heisigV6": 1191
+  },
+  {
+    "kanji": "笛",
+    "keyword": "flute",
+    "heisigV6": 1192
+  },
+  {
+    "kanji": "軸",
+    "keyword": "axis",
+    "heisigV6": 1193
+  },
+  {
+    "kanji": "甲",
+    "keyword": "armor",
+    "heisigV6": 1194
+  },
+  {
+    "kanji": "押",
+    "keyword": "push",
+    "heisigV6": 1195
+  },
+  {
+    "kanji": "岬",
+    "keyword": "headland",
+    "heisigV6": 1196
+  },
+  {
+    "kanji": "挿",
+    "keyword": "insert",
+    "heisigV6": 1197
+  },
+  {
+    "kanji": "申",
+    "keyword": "speaketh",
+    "heisigV6": 1198
+  },
+  {
+    "kanji": "伸",
+    "keyword": "expand",
+    "heisigV6": 1199
+  },
+  {
+    "kanji": "神",
+    "keyword": "gods",
+    "heisigV6": 1200
+  },
+  {
+    "kanji": "捜",
+    "keyword": "search",
+    "heisigV6": 1201
+  },
+  {
+    "kanji": "果",
+    "keyword": "fruit",
+    "heisigV6": 1202
+  },
+  {
+    "kanji": "菓",
+    "keyword": "candy",
+    "heisigV6": 1203
+  },
+  {
+    "kanji": "課",
+    "keyword": "chapter",
+    "heisigV6": 1204
+  },
+  {
+    "kanji": "裸",
+    "keyword": "naked",
+    "heisigV6": 1205
+  },
+  {
+    "kanji": "斤",
+    "keyword": "ax",
+    "heisigV6": 1206
+  },
+  {
+    "kanji": "析",
+    "keyword": "chop",
+    "heisigV6": 1207
+  },
+  {
+    "kanji": "所",
+    "keyword": "place",
+    "heisigV6": 1208
+  },
+  {
+    "kanji": "祈",
+    "keyword": "pray",
+    "heisigV6": 1209
+  },
+  {
+    "kanji": "近",
+    "keyword": "near",
+    "heisigV6": 1210
+  },
+  {
+    "kanji": "折",
+    "keyword": "fold",
+    "heisigV6": 1211
+  },
+  {
+    "kanji": "哲",
+    "keyword": "philosophy",
+    "heisigV6": 1212
+  },
+  {
+    "kanji": "逝",
+    "keyword": "departed",
+    "heisigV6": 1213
+  },
+  {
+    "kanji": "誓",
+    "keyword": "vow",
+    "heisigV6": 1214
+  },
+  {
+    "kanji": "斬",
+    "keyword": "chop off",
+    "heisigV6": 1215
+  },
+  {
+    "kanji": "暫",
+    "keyword": "temporarily",
+    "heisigV6": 1216
+  },
+  {
+    "kanji": "漸",
+    "keyword": "steadily",
+    "heisigV6": 1217
+  },
+  {
+    "kanji": "断",
+    "keyword": "severance",
+    "heisigV6": 1218
+  },
+  {
+    "kanji": "質",
+    "keyword": "substance",
+    "heisigV6": 1219
+  },
+  {
+    "kanji": "斥",
+    "keyword": "reject",
+    "heisigV6": 1220
+  },
+  {
+    "kanji": "訴",
+    "keyword": "accusation",
+    "heisigV6": 1221
+  },
+  {
+    "kanji": "昨",
+    "keyword": "yesterday",
+    "heisigV6": 1222
+  },
+  {
+    "kanji": "詐",
+    "keyword": "lie",
+    "heisigV6": 1223
+  },
+  {
+    "kanji": "作",
+    "keyword": "make",
+    "heisigV6": 1224
+  },
+  {
+    "kanji": "雪",
+    "keyword": "snow",
+    "heisigV6": 1225
+  },
+  {
+    "kanji": "録",
+    "keyword": "record",
+    "heisigV6": 1226
+  },
+  {
+    "kanji": "剥",
+    "keyword": "peel off",
+    "heisigV6": 1227
+  },
+  {
+    "kanji": "尋",
+    "keyword": "inquire",
+    "heisigV6": 1228
+  },
+  {
+    "kanji": "急",
+    "keyword": "hurry",
+    "heisigV6": 1229
+  },
+  {
+    "kanji": "穏",
+    "keyword": "calm",
+    "heisigV6": 1230
+  },
+  {
+    "kanji": "侵",
+    "keyword": "encroach",
+    "heisigV6": 1231
+  },
+  {
+    "kanji": "浸",
+    "keyword": "immersed",
+    "heisigV6": 1232
+  },
+  {
+    "kanji": "寝",
+    "keyword": "lie down",
+    "heisigV6": 1233
+  },
+  {
+    "kanji": "婦",
+    "keyword": "lady",
+    "heisigV6": 1234
+  },
+  {
+    "kanji": "掃",
+    "keyword": "sweep",
+    "heisigV6": 1235
+  },
+  {
+    "kanji": "当",
+    "keyword": "hit",
+    "heisigV6": 1236
+  },
+  {
+    "kanji": "彙",
+    "keyword": "glossary",
+    "heisigV6": 1237
+  },
+  {
+    "kanji": "争",
+    "keyword": "contend",
+    "heisigV6": 1238
+  },
+  {
+    "kanji": "浄",
+    "keyword": "clean",
+    "heisigV6": 1239
+  },
+  {
+    "kanji": "事",
+    "keyword": "matter",
+    "heisigV6": 1240
+  },
+  {
+    "kanji": "唐",
+    "keyword": "T'ang",
+    "heisigV6": 1241
+  },
+  {
+    "kanji": "糖",
+    "keyword": "sugar",
+    "heisigV6": 1242
+  },
+  {
+    "kanji": "康",
+    "keyword": "sane",
+    "heisigV6": 1243
+  },
+  {
+    "kanji": "逮",
+    "keyword": "apprehend",
+    "heisigV6": 1244
+  },
+  {
+    "kanji": "伊",
+    "keyword": "Italy",
+    "heisigV6": 1245
+  },
+  {
+    "kanji": "君",
+    "keyword": "old boy",
+    "heisigV6": 1246
+  },
+  {
+    "kanji": "群",
+    "keyword": "flock",
+    "heisigV6": 1247
+  },
+  {
+    "kanji": "耐",
+    "keyword": "-proof",
+    "heisigV6": 1248
+  },
+  {
+    "kanji": "需",
+    "keyword": "demand",
+    "heisigV6": 1249
+  },
+  {
+    "kanji": "儒",
+    "keyword": "Confucian",
+    "heisigV6": 1250
+  },
+  {
+    "kanji": "端",
+    "keyword": "edge",
+    "heisigV6": 1251
+  },
+  {
+    "kanji": "両",
+    "keyword": "both",
+    "heisigV6": 1252
+  },
+  {
+    "kanji": "満",
+    "keyword": "full",
+    "heisigV6": 1253
+  },
+  {
+    "kanji": "画",
+    "keyword": "brush stroke",
+    "heisigV6": 1254
+  },
+  {
+    "kanji": "歯",
+    "keyword": "tooth",
+    "heisigV6": 1255
+  },
+  {
+    "kanji": "曲",
+    "keyword": "bend",
+    "heisigV6": 1256
+  },
+  {
+    "kanji": "曹",
+    "keyword": "cadet",
+    "heisigV6": 1257
+  },
+  {
+    "kanji": "遭",
+    "keyword": "encounter",
+    "heisigV6": 1258
+  },
+  {
+    "kanji": "漕",
+    "keyword": "rowing",
+    "heisigV6": 1259
+  },
+  {
+    "kanji": "槽",
+    "keyword": "vat",
+    "heisigV6": 1260
+  },
+  {
+    "kanji": "斗",
+    "keyword": "Big Dipper",
+    "heisigV6": 1261
+  },
+  {
+    "kanji": "料",
+    "keyword": "fee",
+    "heisigV6": 1262
+  },
+  {
+    "kanji": "科",
+    "keyword": "department",
+    "heisigV6": 1263
+  },
+  {
+    "kanji": "図",
+    "keyword": "map",
+    "heisigV6": 1264
+  },
+  {
+    "kanji": "用",
+    "keyword": "utilize",
+    "heisigV6": 1265
+  },
+  {
+    "kanji": "庸",
+    "keyword": "comfortable",
+    "heisigV6": 1266
+  },
+  {
+    "kanji": "備",
+    "keyword": "equip",
+    "heisigV6": 1267
+  },
+  {
+    "kanji": "昔",
+    "keyword": "once upon a time",
+    "heisigV6": 1268
+  },
+  {
+    "kanji": "錯",
+    "keyword": "confused",
+    "heisigV6": 1269
+  },
+  {
+    "kanji": "借",
+    "keyword": "borrow",
+    "heisigV6": 1270
+  },
+  {
+    "kanji": "惜",
+    "keyword": "pity",
+    "heisigV6": 1271
+  },
+  {
+    "kanji": "措",
+    "keyword": "set aside",
+    "heisigV6": 1272
+  },
+  {
+    "kanji": "散",
+    "keyword": "scatter",
+    "heisigV6": 1273
+  },
+  {
+    "kanji": "廿",
+    "keyword": "twenty",
+    "heisigV6": 1274
+  },
+  {
+    "kanji": "庶",
+    "keyword": "commoner",
+    "heisigV6": 1275
+  },
+  {
+    "kanji": "遮",
+    "keyword": "intercept",
+    "heisigV6": 1276
+  },
+  {
+    "kanji": "席",
+    "keyword": "seat",
+    "heisigV6": 1277
+  },
+  {
+    "kanji": "度",
+    "keyword": "degrees",
+    "heisigV6": 1278
+  },
+  {
+    "kanji": "渡",
+    "keyword": "transit",
+    "heisigV6": 1279
+  },
+  {
+    "kanji": "奔",
+    "keyword": "bustle",
+    "heisigV6": 1280
+  },
+  {
+    "kanji": "噴",
+    "keyword": "erupt",
+    "heisigV6": 1281
+  },
+  {
+    "kanji": "墳",
+    "keyword": "tomb",
+    "heisigV6": 1282
+  },
+  {
+    "kanji": "憤",
+    "keyword": "aroused",
+    "heisigV6": 1283
+  },
+  {
+    "kanji": "焼",
+    "keyword": "bake",
+    "heisigV6": 1284
+  },
+  {
+    "kanji": "暁",
+    "keyword": "daybreak",
+    "heisigV6": 1285
+  },
+  {
+    "kanji": "半",
+    "keyword": "half",
+    "heisigV6": 1286
+  },
+  {
+    "kanji": "伴",
+    "keyword": "consort",
+    "heisigV6": 1287
+  },
+  {
+    "kanji": "畔",
+    "keyword": "paddy ridge",
+    "heisigV6": 1288
+  },
+  {
+    "kanji": "判",
+    "keyword": "judgment",
+    "heisigV6": 1289
+  },
+  {
+    "kanji": "拳",
+    "keyword": "fist",
+    "heisigV6": 1290
+  },
+  {
+    "kanji": "券",
+    "keyword": "ticket",
+    "heisigV6": 1291
+  },
+  {
+    "kanji": "巻",
+    "keyword": "scroll",
+    "heisigV6": 1292
+  },
+  {
+    "kanji": "圏",
+    "keyword": "sphere",
+    "heisigV6": 1293
+  },
+  {
+    "kanji": "勝",
+    "keyword": "victory",
+    "heisigV6": 1294
+  },
+  {
+    "kanji": "藤",
+    "keyword": "wisteria",
+    "heisigV6": 1295
+  },
+  {
+    "kanji": "謄",
+    "keyword": "facsimilie",
+    "heisigV6": 1296
+  },
+  {
+    "kanji": "片",
+    "keyword": "one-sided",
+    "heisigV6": 1297
+  },
+  {
+    "kanji": "版",
+    "keyword": "printing block",
+    "heisigV6": 1298
+  },
+  {
+    "kanji": "之",
+    "keyword": "of",
+    "heisigV6": 1299
+  },
+  {
+    "kanji": "乏",
+    "keyword": "destitution",
+    "heisigV6": 1300
+  },
+  {
+    "kanji": "芝",
+    "keyword": "turf",
+    "heisigV6": 1301
+  },
+  {
+    "kanji": "不",
+    "keyword": "negative",
+    "heisigV6": 1302
+  },
+  {
+    "kanji": "否",
+    "keyword": "negate",
+    "heisigV6": 1303
+  },
+  {
+    "kanji": "杯",
+    "keyword": "cupfuls",
+    "heisigV6": 1304
+  },
+  {
+    "kanji": "矢",
+    "keyword": "dart",
+    "heisigV6": 1305
+  },
+  {
+    "kanji": "矯",
+    "keyword": "rectify",
+    "heisigV6": 1306
+  },
+  {
+    "kanji": "族",
+    "keyword": "tribe",
+    "heisigV6": 1307
+  },
+  {
+    "kanji": "知",
+    "keyword": "know",
+    "heisigV6": 1308
+  },
+  {
+    "kanji": "智",
+    "keyword": "wisdom",
+    "heisigV6": 1309
+  },
+  {
+    "kanji": "挨",
+    "keyword": "shove",
+    "heisigV6": 1310
+  },
+  {
+    "kanji": "矛",
+    "keyword": "halberd",
+    "heisigV6": 1311
+  },
+  {
+    "kanji": "柔",
+    "keyword": "tender",
+    "heisigV6": 1312
+  },
+  {
+    "kanji": "務",
+    "keyword": "task",
+    "heisigV6": 1313
+  },
+  {
+    "kanji": "霧",
+    "keyword": "fog",
+    "heisigV6": 1314
+  },
+  {
+    "kanji": "班",
+    "keyword": "squad",
+    "heisigV6": 1315
+  },
+  {
+    "kanji": "帰",
+    "keyword": "homecoming",
+    "heisigV6": 1316
+  },
+  {
+    "kanji": "弓",
+    "keyword": "bow",
+    "heisigV6": 1317
+  },
+  {
+    "kanji": "引",
+    "keyword": "pull",
+    "heisigV6": 1318
+  },
+  {
+    "kanji": "弔",
+    "keyword": "condolences",
+    "heisigV6": 1319
+  },
+  {
+    "kanji": "弘",
+    "keyword": "vast",
+    "heisigV6": 1320
+  },
+  {
+    "kanji": "強",
+    "keyword": "strong",
+    "heisigV6": 1321
+  },
+  {
+    "kanji": "弥",
+    "keyword": "more and more",
+    "heisigV6": 1322
+  },
+  {
+    "kanji": "弱",
+    "keyword": "weak",
+    "heisigV6": 1323
+  },
+  {
+    "kanji": "溺",
+    "keyword": "drowning",
+    "heisigV6": 1324
+  },
+  {
+    "kanji": "沸",
+    "keyword": "seethe",
+    "heisigV6": 1325
+  },
+  {
+    "kanji": "費",
+    "keyword": "expense",
+    "heisigV6": 1326
+  },
+  {
+    "kanji": "第",
+    "keyword": "No.",
+    "heisigV6": 1327
+  },
+  {
+    "kanji": "弟",
+    "keyword": "younger brother",
+    "heisigV6": 1328
+  },
+  {
+    "kanji": "巧",
+    "keyword": "adroit",
+    "heisigV6": 1329
+  },
+  {
+    "kanji": "号",
+    "keyword": "nickname",
+    "heisigV6": 1330
+  },
+  {
+    "kanji": "朽",
+    "keyword": "decay",
+    "heisigV6": 1331
+  },
+  {
+    "kanji": "誇",
+    "keyword": "boast",
+    "heisigV6": 1332
+  },
+  {
+    "kanji": "顎",
+    "keyword": "chin",
+    "heisigV6": 1333
+  },
+  {
+    "kanji": "汚",
+    "keyword": "dirty",
+    "heisigV6": 1334
+  },
+  {
+    "kanji": "与",
+    "keyword": "bestow",
+    "heisigV6": 1335
+  },
+  {
+    "kanji": "写",
+    "keyword": "copy",
+    "heisigV6": 1336
+  },
+  {
+    "kanji": "身",
+    "keyword": "somebody",
+    "heisigV6": 1337
+  },
+  {
+    "kanji": "射",
+    "keyword": "shoot",
+    "heisigV6": 1338
+  },
+  {
+    "kanji": "謝",
+    "keyword": "apologize",
+    "heisigV6": 1339
+  },
+  {
+    "kanji": "老",
+    "keyword": "old man",
+    "heisigV6": 1340
+  },
+  {
+    "kanji": "考",
+    "keyword": "consider",
+    "heisigV6": 1341
+  },
+  {
+    "kanji": "孝",
+    "keyword": "filial piety",
+    "heisigV6": 1342
+  },
+  {
+    "kanji": "教",
+    "keyword": "teach",
+    "heisigV6": 1343
+  },
+  {
+    "kanji": "拷",
+    "keyword": "torture",
+    "heisigV6": 1344
+  },
+  {
+    "kanji": "者",
+    "keyword": "someone",
+    "heisigV6": 1345
+  },
+  {
+    "kanji": "煮",
+    "keyword": "boil",
+    "heisigV6": 1346
+  },
+  {
+    "kanji": "著",
+    "keyword": "renowned",
+    "heisigV6": 1347
+  },
+  {
+    "kanji": "箸",
+    "keyword": "chopsticks",
+    "heisigV6": 1348
+  },
+  {
+    "kanji": "署",
+    "keyword": "signature",
+    "heisigV6": 1349
+  },
+  {
+    "kanji": "暑",
+    "keyword": "sultry",
+    "heisigV6": 1350
+  },
+  {
+    "kanji": "諸",
+    "keyword": "various",
+    "heisigV6": 1351
+  },
+  {
+    "kanji": "猪",
+    "keyword": "boar",
+    "heisigV6": 1352
+  },
+  {
+    "kanji": "渚",
+    "keyword": "strand",
+    "heisigV6": 1353
+  },
+  {
+    "kanji": "賭",
+    "keyword": "gamble",
+    "heisigV6": 1354
+  },
+  {
+    "kanji": "峡",
+    "keyword": "gorge",
+    "heisigV6": 1355
+  },
+  {
+    "kanji": "狭",
+    "keyword": "cramped",
+    "heisigV6": 1356
+  },
+  {
+    "kanji": "挟",
+    "keyword": "sandwiched",
+    "heisigV6": 1357
+  },
+  {
+    "kanji": "頬",
+    "keyword": "cheek",
+    "heisigV6": 1358
+  },
+  {
+    "kanji": "追",
+    "keyword": "chase",
+    "heisigV6": 1359
+  },
+  {
+    "kanji": "阜",
+    "keyword": "large hill",
+    "heisigV6": 1360
+  },
+  {
+    "kanji": "師",
+    "keyword": "expert",
+    "heisigV6": 1361
+  },
+  {
+    "kanji": "帥",
+    "keyword": "commander",
+    "heisigV6": 1362
+  },
+  {
+    "kanji": "官",
+    "keyword": "bureaucrat",
+    "heisigV6": 1363
+  },
+  {
+    "kanji": "棺",
+    "keyword": "coffin",
+    "heisigV6": 1364
+  },
+  {
+    "kanji": "管",
+    "keyword": "pipe",
+    "heisigV6": 1365
+  },
+  {
+    "kanji": "父",
+    "keyword": "father",
+    "heisigV6": 1366
+  },
+  {
+    "kanji": "釜",
+    "keyword": "cauldron",
+    "heisigV6": 1367
+  },
+  {
+    "kanji": "交",
+    "keyword": "mingle",
+    "heisigV6": 1368
+  },
+  {
+    "kanji": "効",
+    "keyword": "merit",
+    "heisigV6": 1369
+  },
+  {
+    "kanji": "較",
+    "keyword": "contrast",
+    "heisigV6": 1370
+  },
+  {
+    "kanji": "校",
+    "keyword": "exam",
+    "heisigV6": 1371
+  },
+  {
+    "kanji": "足",
+    "keyword": "leg",
+    "heisigV6": 1372
+  },
+  {
+    "kanji": "促",
+    "keyword": "stimulate",
+    "heisigV6": 1373
+  },
+  {
+    "kanji": "捉",
+    "keyword": "nab",
+    "heisigV6": 1374
+  },
+  {
+    "kanji": "距",
+    "keyword": "long-distance",
+    "heisigV6": 1375
+  },
+  {
+    "kanji": "路",
+    "keyword": "path",
+    "heisigV6": 1376
+  },
+  {
+    "kanji": "露",
+    "keyword": "dew",
+    "heisigV6": 1377
+  },
+  {
+    "kanji": "跳",
+    "keyword": "hop",
+    "heisigV6": 1378
+  },
+  {
+    "kanji": "躍",
+    "keyword": "leap",
+    "heisigV6": 1379
+  },
+  {
+    "kanji": "践",
+    "keyword": "tread",
+    "heisigV6": 1380
+  },
+  {
+    "kanji": "踏",
+    "keyword": "step",
+    "heisigV6": 1381
+  },
+  {
+    "kanji": "踪",
+    "keyword": "trail",
+    "heisigV6": 1382
+  },
+  {
+    "kanji": "骨",
+    "keyword": "skeleton",
+    "heisigV6": 1383
+  },
+  {
+    "kanji": "滑",
+    "keyword": "slippery",
+    "heisigV6": 1384
+  },
+  {
+    "kanji": "髄",
+    "keyword": "marrow",
+    "heisigV6": 1385
+  },
+  {
+    "kanji": "禍",
+    "keyword": "calamity",
+    "heisigV6": 1386
+  },
+  {
+    "kanji": "渦",
+    "keyword": "whirlpool",
+    "heisigV6": 1387
+  },
+  {
+    "kanji": "鍋",
+    "keyword": "pot",
+    "heisigV6": 1388
+  },
+  {
+    "kanji": "過",
+    "keyword": "overdo",
+    "heisigV6": 1389
+  },
+  {
+    "kanji": "阪",
+    "keyword": "Heights",
+    "heisigV6": 1390
+  },
+  {
+    "kanji": "阿",
+    "keyword": "Africa",
+    "heisigV6": 1391
+  },
+  {
+    "kanji": "際",
+    "keyword": "occasion",
+    "heisigV6": 1392
+  },
+  {
+    "kanji": "障",
+    "keyword": "hinder",
+    "heisigV6": 1393
+  },
+  {
+    "kanji": "隙",
+    "keyword": "chink",
+    "heisigV6": 1394
+  },
+  {
+    "kanji": "随",
+    "keyword": "follow",
+    "heisigV6": 1395
+  },
+  {
+    "kanji": "陪",
+    "keyword": "auxiliary",
+    "heisigV6": 1396
+  },
+  {
+    "kanji": "陽",
+    "keyword": "sunshine",
+    "heisigV6": 1397
+  },
+  {
+    "kanji": "陳",
+    "keyword": "line up",
+    "heisigV6": 1398
+  },
+  {
+    "kanji": "防",
+    "keyword": "ward off",
+    "heisigV6": 1399
+  },
+  {
+    "kanji": "附",
+    "keyword": "affixed",
+    "heisigV6": 1400
+  },
+  {
+    "kanji": "院",
+    "keyword": "Inst.",
+    "heisigV6": 1401
+  },
+  {
+    "kanji": "陣",
+    "keyword": "camp",
+    "heisigV6": 1402
+  },
+  {
+    "kanji": "隊",
+    "keyword": "regiment",
+    "heisigV6": 1403
+  },
+  {
+    "kanji": "墜",
+    "keyword": "crash",
+    "heisigV6": 1404
+  },
+  {
+    "kanji": "降",
+    "keyword": "descend",
+    "heisigV6": 1405
+  },
+  {
+    "kanji": "階",
+    "keyword": "story",
+    "heisigV6": 1406
+  },
+  {
+    "kanji": "陛",
+    "keyword": "highness",
+    "heisigV6": 1407
+  },
+  {
+    "kanji": "隣",
+    "keyword": "neighboring",
+    "heisigV6": 1408
+  },
+  {
+    "kanji": "隔",
+    "keyword": "isolate",
+    "heisigV6": 1409
+  },
+  {
+    "kanji": "隠",
+    "keyword": "conceal",
+    "heisigV6": 1410
+  },
+  {
+    "kanji": "堕",
+    "keyword": "degenerate",
+    "heisigV6": 1411
+  },
+  {
+    "kanji": "陥",
+    "keyword": "collapse",
+    "heisigV6": 1412
+  },
+  {
+    "kanji": "穴",
+    "keyword": "hole",
+    "heisigV6": 1413
+  },
+  {
+    "kanji": "空",
+    "keyword": "empty",
+    "heisigV6": 1414
+  },
+  {
+    "kanji": "控",
+    "keyword": "withdraw",
+    "heisigV6": 1415
+  },
+  {
+    "kanji": "突",
+    "keyword": "stab",
+    "heisigV6": 1416
+  },
+  {
+    "kanji": "究",
+    "keyword": "research",
+    "heisigV6": 1417
+  },
+  {
+    "kanji": "窒",
+    "keyword": "plug up",
+    "heisigV6": 1418
+  },
+  {
+    "kanji": "窃",
+    "keyword": "stealth",
+    "heisigV6": 1419
+  },
+  {
+    "kanji": "窟",
+    "keyword": "cavern",
+    "heisigV6": 1420
+  },
+  {
+    "kanji": "窪",
+    "keyword": "depression",
+    "heisigV6": 1421
+  },
+  {
+    "kanji": "搾",
+    "keyword": "squeeze",
+    "heisigV6": 1422
+  },
+  {
+    "kanji": "窯",
+    "keyword": "kiln",
+    "heisigV6": 1423
+  },
+  {
+    "kanji": "窮",
+    "keyword": "hard up",
+    "heisigV6": 1424
+  },
+  {
+    "kanji": "探",
+    "keyword": "grope",
+    "heisigV6": 1425
+  },
+  {
+    "kanji": "深",
+    "keyword": "deep",
+    "heisigV6": 1426
+  },
+  {
+    "kanji": "丘",
+    "keyword": "hill",
+    "heisigV6": 1427
+  },
+  {
+    "kanji": "岳",
+    "keyword": "Point",
+    "heisigV6": 1428
+  },
+  {
+    "kanji": "兵",
+    "keyword": "soldier",
+    "heisigV6": 1429
+  },
+  {
+    "kanji": "浜",
+    "keyword": "seacoast",
+    "heisigV6": 1430
+  },
+  {
+    "kanji": "糸",
+    "keyword": "thread",
+    "heisigV6": 1431
+  },
+  {
+    "kanji": "織",
+    "keyword": "weave",
+    "heisigV6": 1432
+  },
+  {
+    "kanji": "繕",
+    "keyword": "darning",
+    "heisigV6": 1433
+  },
+  {
+    "kanji": "縮",
+    "keyword": "shrink",
+    "heisigV6": 1434
+  },
+  {
+    "kanji": "繁",
+    "keyword": "luxuriant",
+    "heisigV6": 1435
+  },
+  {
+    "kanji": "縦",
+    "keyword": "vertical",
+    "heisigV6": 1436
+  },
+  {
+    "kanji": "緻",
+    "keyword": "fine",
+    "heisigV6": 1437
+  },
+  {
+    "kanji": "線",
+    "keyword": "line",
+    "heisigV6": 1438
+  },
+  {
+    "kanji": "綻",
+    "keyword": "come apart at the seams",
+    "heisigV6": 1439
+  },
+  {
+    "kanji": "締",
+    "keyword": "tighten",
+    "heisigV6": 1440
+  },
+  {
+    "kanji": "維",
+    "keyword": "fiber",
+    "heisigV6": 1441
+  },
+  {
+    "kanji": "羅",
+    "keyword": "gauze",
+    "heisigV6": 1442
+  },
+  {
+    "kanji": "練",
+    "keyword": "practice",
+    "heisigV6": 1443
+  },
+  {
+    "kanji": "緒",
+    "keyword": "thong",
+    "heisigV6": 1444
+  },
+  {
+    "kanji": "続",
+    "keyword": "continue",
+    "heisigV6": 1445
+  },
+  {
+    "kanji": "絵",
+    "keyword": "picture",
+    "heisigV6": 1446
+  },
+  {
+    "kanji": "統",
+    "keyword": "overall",
+    "heisigV6": 1447
+  },
+  {
+    "kanji": "絞",
+    "keyword": "strangle",
+    "heisigV6": 1448
+  },
+  {
+    "kanji": "給",
+    "keyword": "salary",
+    "heisigV6": 1449
+  },
+  {
+    "kanji": "絡",
+    "keyword": "entwine",
+    "heisigV6": 1450
+  },
+  {
+    "kanji": "結",
+    "keyword": "tie",
+    "heisigV6": 1451
+  },
+  {
+    "kanji": "終",
+    "keyword": "end",
+    "heisigV6": 1452
+  },
+  {
+    "kanji": "級",
+    "keyword": "class",
+    "heisigV6": 1453
+  },
+  {
+    "kanji": "紀",
+    "keyword": "chronicle",
+    "heisigV6": 1454
+  },
+  {
+    "kanji": "紅",
+    "keyword": "crimson",
+    "heisigV6": 1455
+  },
+  {
+    "kanji": "納",
+    "keyword": "settlement",
+    "heisigV6": 1456
+  },
+  {
+    "kanji": "紡",
+    "keyword": "spinning",
+    "heisigV6": 1457
+  },
+  {
+    "kanji": "紛",
+    "keyword": "distract",
+    "heisigV6": 1458
+  },
+  {
+    "kanji": "紹",
+    "keyword": "introduce",
+    "heisigV6": 1459
+  },
+  {
+    "kanji": "経",
+    "keyword": "sutra",
+    "heisigV6": 1460
+  },
+  {
+    "kanji": "紳",
+    "keyword": "sire",
+    "heisigV6": 1461
+  },
+  {
+    "kanji": "約",
+    "keyword": "promise",
+    "heisigV6": 1462
+  },
+  {
+    "kanji": "細",
+    "keyword": "dainty",
+    "heisigV6": 1463
+  },
+  {
+    "kanji": "累",
+    "keyword": "accumulate",
+    "heisigV6": 1464
+  },
+  {
+    "kanji": "索",
+    "keyword": "cord",
+    "heisigV6": 1465
+  },
+  {
+    "kanji": "総",
+    "keyword": "general",
+    "heisigV6": 1466
+  },
+  {
+    "kanji": "綿",
+    "keyword": "cotton",
+    "heisigV6": 1467
+  },
+  {
+    "kanji": "絹",
+    "keyword": "silk",
+    "heisigV6": 1468
+  },
+  {
+    "kanji": "繰",
+    "keyword": "winding",
+    "heisigV6": 1469
+  },
+  {
+    "kanji": "継",
+    "keyword": "inherit",
+    "heisigV6": 1470
+  },
+  {
+    "kanji": "緑",
+    "keyword": "green",
+    "heisigV6": 1471
+  },
+  {
+    "kanji": "縁",
+    "keyword": "affinity",
+    "heisigV6": 1472
+  },
+  {
+    "kanji": "網",
+    "keyword": "netting",
+    "heisigV6": 1473
+  },
+  {
+    "kanji": "緊",
+    "keyword": "tense",
+    "heisigV6": 1474
+  },
+  {
+    "kanji": "紫",
+    "keyword": "purple",
+    "heisigV6": 1475
+  },
+  {
+    "kanji": "縛",
+    "keyword": "truss",
+    "heisigV6": 1476
+  },
+  {
+    "kanji": "縄",
+    "keyword": "straw rope",
+    "heisigV6": 1477
+  },
+  {
+    "kanji": "幼",
+    "keyword": "infancy",
+    "heisigV6": 1478
+  },
+  {
+    "kanji": "後",
+    "keyword": "behind",
+    "heisigV6": 1479
+  },
+  {
+    "kanji": "幽",
+    "keyword": "faint",
+    "heisigV6": 1480
+  },
+  {
+    "kanji": "幾",
+    "keyword": "how many",
+    "heisigV6": 1481
+  },
+  {
+    "kanji": "機",
+    "keyword": "mechanism",
+    "heisigV6": 1482
+  },
+  {
+    "kanji": "畿",
+    "keyword": "capital suburbs",
+    "heisigV6": 1483
+  },
+  {
+    "kanji": "玄",
+    "keyword": "mysterious",
+    "heisigV6": 1484
+  },
+  {
+    "kanji": "畜",
+    "keyword": "livestock",
+    "heisigV6": 1485
+  },
+  {
+    "kanji": "蓄",
+    "keyword": "amass",
+    "heisigV6": 1486
+  },
+  {
+    "kanji": "弦",
+    "keyword": "bowstring",
+    "heisigV6": 1487
+  },
+  {
+    "kanji": "擁",
+    "keyword": "hug",
+    "heisigV6": 1488
+  },
+  {
+    "kanji": "滋",
+    "keyword": "nourishing",
+    "heisigV6": 1489
+  },
+  {
+    "kanji": "慈",
+    "keyword": "mercy",
+    "heisigV6": 1490
+  },
+  {
+    "kanji": "磁",
+    "keyword": "magnet",
+    "heisigV6": 1491
+  },
+  {
+    "kanji": "系",
+    "keyword": "lineage",
+    "heisigV6": 1492
+  },
+  {
+    "kanji": "係",
+    "keyword": "person in charge",
+    "heisigV6": 1493
+  },
+  {
+    "kanji": "孫",
+    "keyword": "grandchild",
+    "heisigV6": 1494
+  },
+  {
+    "kanji": "懸",
+    "keyword": "suspend",
+    "heisigV6": 1495
+  },
+  {
+    "kanji": "遜",
+    "keyword": "modest",
+    "heisigV6": 1496
+  },
+  {
+    "kanji": "却",
+    "keyword": "instead",
+    "heisigV6": 1497
+  },
+  {
+    "kanji": "脚",
+    "keyword": "shins",
+    "heisigV6": 1498
+  },
+  {
+    "kanji": "卸",
+    "keyword": "wholesale",
+    "heisigV6": 1499
+  },
+  {
+    "kanji": "御",
+    "keyword": "honorable",
+    "heisigV6": 1500
+  },
+  {
+    "kanji": "服",
+    "keyword": "clothing",
+    "heisigV6": 1501
+  },
+  {
+    "kanji": "命",
+    "keyword": "fate",
+    "heisigV6": 1502
+  },
+  {
+    "kanji": "令",
+    "keyword": "orders",
+    "heisigV6": 1503
+  },
+  {
+    "kanji": "零",
+    "keyword": "zero",
+    "heisigV6": 1504
+  },
+  {
+    "kanji": "齢",
+    "keyword": "age",
+    "heisigV6": 1505
+  },
+  {
+    "kanji": "冷",
+    "keyword": "cool",
+    "heisigV6": 1506
+  },
+  {
+    "kanji": "領",
+    "keyword": "jurisdiction",
+    "heisigV6": 1507
+  },
+  {
+    "kanji": "鈴",
+    "keyword": "small bell",
+    "heisigV6": 1508
+  },
+  {
+    "kanji": "勇",
+    "keyword": "courage",
+    "heisigV6": 1509
+  },
+  {
+    "kanji": "湧",
+    "keyword": "bubble up",
+    "heisigV6": 1510
+  },
+  {
+    "kanji": "通",
+    "keyword": "traffic",
+    "heisigV6": 1511
+  },
+  {
+    "kanji": "踊",
+    "keyword": "jump",
+    "heisigV6": 1512
+  },
+  {
+    "kanji": "疑",
+    "keyword": "doubt",
+    "heisigV6": 1513
+  },
+  {
+    "kanji": "擬",
+    "keyword": "mimic",
+    "heisigV6": 1514
+  },
+  {
+    "kanji": "凝",
+    "keyword": "congeal",
+    "heisigV6": 1515
+  },
+  {
+    "kanji": "範",
+    "keyword": "pattern",
+    "heisigV6": 1516
+  },
+  {
+    "kanji": "犯",
+    "keyword": "crime",
+    "heisigV6": 1517
+  },
+  {
+    "kanji": "氾",
+    "keyword": "widespread",
+    "heisigV6": 1518
+  },
+  {
+    "kanji": "厄",
+    "keyword": "unlucky",
+    "heisigV6": 1519
+  },
+  {
+    "kanji": "危",
+    "keyword": "dangerous",
+    "heisigV6": 1520
+  },
+  {
+    "kanji": "宛",
+    "keyword": "address",
+    "heisigV6": 1521
+  },
+  {
+    "kanji": "腕",
+    "keyword": "arm",
+    "heisigV6": 1522
+  },
+  {
+    "kanji": "苑",
+    "keyword": "garden",
+    "heisigV6": 1523
+  },
+  {
+    "kanji": "怨",
+    "keyword": "grudge",
+    "heisigV6": 1524
+  },
+  {
+    "kanji": "柳",
+    "keyword": "willow",
+    "heisigV6": 1525
+  },
+  {
+    "kanji": "卵",
+    "keyword": "egg",
+    "heisigV6": 1526
+  },
+  {
+    "kanji": "留",
+    "keyword": "detain",
+    "heisigV6": 1527
+  },
+  {
+    "kanji": "瑠",
+    "keyword": "marine blue",
+    "heisigV6": 1528
+  },
+  {
+    "kanji": "貿",
+    "keyword": "trade",
+    "heisigV6": 1529
+  },
+  {
+    "kanji": "印",
+    "keyword": "stamp",
+    "heisigV6": 1530
+  },
+  {
+    "kanji": "臼",
+    "keyword": "mortar",
+    "heisigV6": 1531
+  },
+  {
+    "kanji": "毀",
+    "keyword": "break",
+    "heisigV6": 1532
+  },
+  {
+    "kanji": "興",
+    "keyword": "entertain",
+    "heisigV6": 1533
+  },
+  {
+    "kanji": "酉",
+    "keyword": "sign of the bird",
+    "heisigV6": 1534
+  },
+  {
+    "kanji": "酒",
+    "keyword": "sake",
+    "heisigV6": 1535
+  },
+  {
+    "kanji": "酌",
+    "keyword": "bartending",
+    "heisigV6": 1536
+  },
+  {
+    "kanji": "酎",
+    "keyword": "hooch",
+    "heisigV6": 1537
+  },
+  {
+    "kanji": "酵",
+    "keyword": "fermentation",
+    "heisigV6": 1538
+  },
+  {
+    "kanji": "酷",
+    "keyword": "cruel",
+    "heisigV6": 1539
+  },
+  {
+    "kanji": "酬",
+    "keyword": "repay",
+    "heisigV6": 1540
+  },
+  {
+    "kanji": "酪",
+    "keyword": "dairy products",
+    "heisigV6": 1541
+  },
+  {
+    "kanji": "酢",
+    "keyword": "vinegar",
+    "heisigV6": 1542
+  },
+  {
+    "kanji": "酔",
+    "keyword": "drunk",
+    "heisigV6": 1543
+  },
+  {
+    "kanji": "配",
+    "keyword": "distribute",
+    "heisigV6": 1544
+  },
+  {
+    "kanji": "酸",
+    "keyword": "acid",
+    "heisigV6": 1545
+  },
+  {
+    "kanji": "猶",
+    "keyword": "waver",
+    "heisigV6": 1546
+  },
+  {
+    "kanji": "尊",
+    "keyword": "revered",
+    "heisigV6": 1547
+  },
+  {
+    "kanji": "豆",
+    "keyword": "beans",
+    "heisigV6": 1548
+  },
+  {
+    "kanji": "頭",
+    "keyword": "head",
+    "heisigV6": 1549
+  },
+  {
+    "kanji": "短",
+    "keyword": "short",
+    "heisigV6": 1550
+  },
+  {
+    "kanji": "豊",
+    "keyword": "bountiful",
+    "heisigV6": 1551
+  },
+  {
+    "kanji": "鼓",
+    "keyword": "drum",
+    "heisigV6": 1552
+  },
+  {
+    "kanji": "喜",
+    "keyword": "rejoice",
+    "heisigV6": 1553
+  },
+  {
+    "kanji": "樹",
+    "keyword": "timber-trees",
+    "heisigV6": 1554
+  },
+  {
+    "kanji": "皿",
+    "keyword": "dish",
+    "heisigV6": 1555
+  },
+  {
+    "kanji": "血",
+    "keyword": "blood",
+    "heisigV6": 1556
+  },
+  {
+    "kanji": "盆",
+    "keyword": "basin",
+    "heisigV6": 1557
+  },
+  {
+    "kanji": "盟",
+    "keyword": "alliance",
+    "heisigV6": 1558
+  },
+  {
+    "kanji": "盗",
+    "keyword": "steal",
+    "heisigV6": 1559
+  },
+  {
+    "kanji": "温",
+    "keyword": "warm",
+    "heisigV6": 1560
+  },
+  {
+    "kanji": "蓋",
+    "keyword": "lid",
+    "heisigV6": 1561
+  },
+  {
+    "kanji": "監",
+    "keyword": "oversee",
+    "heisigV6": 1562
+  },
+  {
+    "kanji": "濫",
+    "keyword": "overflow",
+    "heisigV6": 1563
+  },
+  {
+    "kanji": "鑑",
+    "keyword": "specimen",
+    "heisigV6": 1564
+  },
+  {
+    "kanji": "藍",
+    "keyword": "indigo",
+    "heisigV6": 1565
+  },
+  {
+    "kanji": "猛",
+    "keyword": "fierce",
+    "heisigV6": 1566
+  },
+  {
+    "kanji": "盛",
+    "keyword": "boom",
+    "heisigV6": 1567
+  },
+  {
+    "kanji": "塩",
+    "keyword": "salt",
+    "heisigV6": 1568
+  },
+  {
+    "kanji": "銀",
+    "keyword": "silver",
+    "heisigV6": 1569
+  },
+  {
+    "kanji": "恨",
+    "keyword": "resentment",
+    "heisigV6": 1570
+  },
+  {
+    "kanji": "根",
+    "keyword": "root",
+    "heisigV6": 1571
+  },
+  {
+    "kanji": "即",
+    "keyword": "instant",
+    "heisigV6": 1572
+  },
+  {
+    "kanji": "爵",
+    "keyword": "baron",
+    "heisigV6": 1573
+  },
+  {
+    "kanji": "節",
+    "keyword": "node",
+    "heisigV6": 1574
+  },
+  {
+    "kanji": "退",
+    "keyword": "retreat",
+    "heisigV6": 1575
+  },
+  {
+    "kanji": "限",
+    "keyword": "limit",
+    "heisigV6": 1576
+  },
+  {
+    "kanji": "眼",
+    "keyword": "eyeball",
+    "heisigV6": 1577
+  },
+  {
+    "kanji": "良",
+    "keyword": "good",
+    "heisigV6": 1578
+  },
+  {
+    "kanji": "朗",
+    "keyword": "melodious",
+    "heisigV6": 1579
+  },
+  {
+    "kanji": "浪",
+    "keyword": "wandering",
+    "heisigV6": 1580
+  },
+  {
+    "kanji": "娘",
+    "keyword": "daughter",
+    "heisigV6": 1581
+  },
+  {
+    "kanji": "食",
+    "keyword": "eat",
+    "heisigV6": 1582
+  },
+  {
+    "kanji": "飯",
+    "keyword": "meal",
+    "heisigV6": 1583
+  },
+  {
+    "kanji": "飲",
+    "keyword": "drink",
+    "heisigV6": 1584
+  },
+  {
+    "kanji": "飢",
+    "keyword": "hungry",
+    "heisigV6": 1585
+  },
+  {
+    "kanji": "餓",
+    "keyword": "starve",
+    "heisigV6": 1586
+  },
+  {
+    "kanji": "飾",
+    "keyword": "decorate",
+    "heisigV6": 1587
+  },
+  {
+    "kanji": "餌",
+    "keyword": "feed",
+    "heisigV6": 1588
+  },
+  {
+    "kanji": "館",
+    "keyword": "Bldg.",
+    "heisigV6": 1589
+  },
+  {
+    "kanji": "餅",
+    "keyword": "mochi",
+    "heisigV6": 1590
+  },
+  {
+    "kanji": "養",
+    "keyword": "foster",
+    "heisigV6": 1591
+  },
+  {
+    "kanji": "飽",
+    "keyword": "sated",
+    "heisigV6": 1592
+  },
+  {
+    "kanji": "既",
+    "keyword": "previously",
+    "heisigV6": 1593
+  },
+  {
+    "kanji": "概",
+    "keyword": "outline",
+    "heisigV6": 1594
+  },
+  {
+    "kanji": "慨",
+    "keyword": "rue",
+    "heisigV6": 1595
+  },
+  {
+    "kanji": "平",
+    "keyword": "even",
+    "heisigV6": 1596
+  },
+  {
+    "kanji": "呼",
+    "keyword": "call",
+    "heisigV6": 1597
+  },
+  {
+    "kanji": "坪",
+    "keyword": "two-mat area",
+    "heisigV6": 1598
+  },
+  {
+    "kanji": "評",
+    "keyword": "evaluate",
+    "heisigV6": 1599
+  },
+  {
+    "kanji": "刈",
+    "keyword": "reap",
+    "heisigV6": 1600
+  },
+  {
+    "kanji": "刹",
+    "keyword": "moment",
+    "heisigV6": 1601
+  },
+  {
+    "kanji": "希",
+    "keyword": "hope",
+    "heisigV6": 1602
+  },
+  {
+    "kanji": "凶",
+    "keyword": "villain",
+    "heisigV6": 1603
+  },
+  {
+    "kanji": "胸",
+    "keyword": "bosom",
+    "heisigV6": 1604
+  },
+  {
+    "kanji": "離",
+    "keyword": "detach",
+    "heisigV6": 1605
+  },
+  {
+    "kanji": "璃",
+    "keyword": "crystal",
+    "heisigV6": 1606
+  },
+  {
+    "kanji": "殺",
+    "keyword": "kill",
+    "heisigV6": 1607
+  },
+  {
+    "kanji": "爽",
+    "keyword": "bracing",
+    "heisigV6": 1608
+  },
+  {
+    "kanji": "純",
+    "keyword": "genuine",
+    "heisigV6": 1609
+  },
+  {
+    "kanji": "頓",
+    "keyword": "immediate",
+    "heisigV6": 1610
+  },
+  {
+    "kanji": "鈍",
+    "keyword": "dull",
+    "heisigV6": 1611
+  },
+  {
+    "kanji": "辛",
+    "keyword": "spicy",
+    "heisigV6": 1612
+  },
+  {
+    "kanji": "辞",
+    "keyword": "resign",
+    "heisigV6": 1613
+  },
+  {
+    "kanji": "梓",
+    "keyword": "catalpa",
+    "heisigV6": 1614
+  },
+  {
+    "kanji": "宰",
+    "keyword": "superintend",
+    "heisigV6": 1615
+  },
+  {
+    "kanji": "壁",
+    "keyword": "wall",
+    "heisigV6": 1616
+  },
+  {
+    "kanji": "璧",
+    "keyword": "holed gem",
+    "heisigV6": 1617
+  },
+  {
+    "kanji": "避",
+    "keyword": "evade",
+    "heisigV6": 1618
+  },
+  {
+    "kanji": "新",
+    "keyword": "new",
+    "heisigV6": 1619
+  },
+  {
+    "kanji": "薪",
+    "keyword": "firewood",
+    "heisigV6": 1620
+  },
+  {
+    "kanji": "親",
+    "keyword": "parent",
+    "heisigV6": 1621
+  },
+  {
+    "kanji": "幸",
+    "keyword": "happiness",
+    "heisigV6": 1622
+  },
+  {
+    "kanji": "執",
+    "keyword": "tenacious",
+    "heisigV6": 1623
+  },
+  {
+    "kanji": "摯",
+    "keyword": "clasp",
+    "heisigV6": 1624
+  },
+  {
+    "kanji": "報",
+    "keyword": "report",
+    "heisigV6": 1625
+  },
+  {
+    "kanji": "叫",
+    "keyword": "shout",
+    "heisigV6": 1626
+  },
+  {
+    "kanji": "糾",
+    "keyword": "twist",
+    "heisigV6": 1627
+  },
+  {
+    "kanji": "収",
+    "keyword": "income",
+    "heisigV6": 1628
+  },
+  {
+    "kanji": "卑",
+    "keyword": "lowly",
+    "heisigV6": 1629
+  },
+  {
+    "kanji": "碑",
+    "keyword": "tombstone",
+    "heisigV6": 1630
+  },
+  {
+    "kanji": "陸",
+    "keyword": "land",
+    "heisigV6": 1631
+  },
+  {
+    "kanji": "睦",
+    "keyword": "intimate",
+    "heisigV6": 1632
+  },
+  {
+    "kanji": "勢",
+    "keyword": "forces",
+    "heisigV6": 1633
+  },
+  {
+    "kanji": "熱",
+    "keyword": "heat",
+    "heisigV6": 1634
+  },
+  {
+    "kanji": "菱",
+    "keyword": "diamond",
+    "heisigV6": 1635
+  },
+  {
+    "kanji": "陵",
+    "keyword": "mausoleum",
+    "heisigV6": 1636
+  },
+  {
+    "kanji": "亥",
+    "keyword": "sign of the hog",
+    "heisigV6": 1637
+  },
+  {
+    "kanji": "核",
+    "keyword": "nucleus",
+    "heisigV6": 1638
+  },
+  {
+    "kanji": "刻",
+    "keyword": "engrave",
+    "heisigV6": 1639
+  },
+  {
+    "kanji": "該",
+    "keyword": "above-stated",
+    "heisigV6": 1640
+  },
+  {
+    "kanji": "骸",
+    "keyword": "remains",
+    "heisigV6": 1641
+  },
+  {
+    "kanji": "劾",
+    "keyword": "censure",
+    "heisigV6": 1642
+  },
+  {
+    "kanji": "述",
+    "keyword": "mention",
+    "heisigV6": 1643
+  },
+  {
+    "kanji": "術",
+    "keyword": "art",
+    "heisigV6": 1644
+  },
+  {
+    "kanji": "寒",
+    "keyword": "cold",
+    "heisigV6": 1645
+  },
+  {
+    "kanji": "塞",
+    "keyword": "block up",
+    "heisigV6": 1646
+  },
+  {
+    "kanji": "醸",
+    "keyword": "brew",
+    "heisigV6": 1647
+  },
+  {
+    "kanji": "譲",
+    "keyword": "defer",
+    "heisigV6": 1648
+  },
+  {
+    "kanji": "壌",
+    "keyword": "lot",
+    "heisigV6": 1649
+  },
+  {
+    "kanji": "嬢",
+    "keyword": "lass",
+    "heisigV6": 1650
+  },
+  {
+    "kanji": "毒",
+    "keyword": "poison",
+    "heisigV6": 1651
+  },
+  {
+    "kanji": "素",
+    "keyword": "elementary",
+    "heisigV6": 1652
+  },
+  {
+    "kanji": "麦",
+    "keyword": "barley",
+    "heisigV6": 1653
+  },
+  {
+    "kanji": "青",
+    "keyword": "blue",
+    "heisigV6": 1654
+  },
+  {
+    "kanji": "精",
+    "keyword": "refined",
+    "heisigV6": 1655
+  },
+  {
+    "kanji": "請",
+    "keyword": "solicit",
+    "heisigV6": 1656
+  },
+  {
+    "kanji": "情",
+    "keyword": "feelings",
+    "heisigV6": 1657
+  },
+  {
+    "kanji": "晴",
+    "keyword": "clear up",
+    "heisigV6": 1658
+  },
+  {
+    "kanji": "清",
+    "keyword": "pure",
+    "heisigV6": 1659
+  },
+  {
+    "kanji": "静",
+    "keyword": "quiet",
+    "heisigV6": 1660
+  },
+  {
+    "kanji": "責",
+    "keyword": "blame",
+    "heisigV6": 1661
+  },
+  {
+    "kanji": "績",
+    "keyword": "exploits",
+    "heisigV6": 1662
+  },
+  {
+    "kanji": "積",
+    "keyword": "volume",
+    "heisigV6": 1663
+  },
+  {
+    "kanji": "債",
+    "keyword": "bond",
+    "heisigV6": 1664
+  },
+  {
+    "kanji": "漬",
+    "keyword": "pickling",
+    "heisigV6": 1665
+  },
+  {
+    "kanji": "表",
+    "keyword": "surface",
+    "heisigV6": 1666
+  },
+  {
+    "kanji": "俵",
+    "keyword": "bag",
+    "heisigV6": 1667
+  },
+  {
+    "kanji": "潔",
+    "keyword": "undefiled",
+    "heisigV6": 1668
+  },
+  {
+    "kanji": "契",
+    "keyword": "pledge",
+    "heisigV6": 1669
+  },
+  {
+    "kanji": "喫",
+    "keyword": "consume",
+    "heisigV6": 1670
+  },
+  {
+    "kanji": "害",
+    "keyword": "harm",
+    "heisigV6": 1671
+  },
+  {
+    "kanji": "轄",
+    "keyword": "control",
+    "heisigV6": 1672
+  },
+  {
+    "kanji": "割",
+    "keyword": "proportion",
+    "heisigV6": 1673
+  },
+  {
+    "kanji": "憲",
+    "keyword": "constitution",
+    "heisigV6": 1674
+  },
+  {
+    "kanji": "生",
+    "keyword": "life",
+    "heisigV6": 1675
+  },
+  {
+    "kanji": "星",
+    "keyword": "star",
+    "heisigV6": 1676
+  },
+  {
+    "kanji": "醒",
+    "keyword": "awakening",
+    "heisigV6": 1677
+  },
+  {
+    "kanji": "姓",
+    "keyword": "surname",
+    "heisigV6": 1678
+  },
+  {
+    "kanji": "性",
+    "keyword": "sex",
+    "heisigV6": 1679
+  },
+  {
+    "kanji": "牲",
+    "keyword": "animal sacrifice",
+    "heisigV6": 1680
+  },
+  {
+    "kanji": "産",
+    "keyword": "products",
+    "heisigV6": 1681
+  },
+  {
+    "kanji": "隆",
+    "keyword": "hump",
+    "heisigV6": 1682
+  },
+  {
+    "kanji": "峰",
+    "keyword": "summit",
+    "heisigV6": 1683
+  },
+  {
+    "kanji": "蜂",
+    "keyword": "bee",
+    "heisigV6": 1684
+  },
+  {
+    "kanji": "縫",
+    "keyword": "sew",
+    "heisigV6": 1685
+  },
+  {
+    "kanji": "拝",
+    "keyword": "worship",
+    "heisigV6": 1686
+  },
+  {
+    "kanji": "寿",
+    "keyword": "longevity",
+    "heisigV6": 1687
+  },
+  {
+    "kanji": "鋳",
+    "keyword": "casting",
+    "heisigV6": 1688
+  },
+  {
+    "kanji": "籍",
+    "keyword": "enroll",
+    "heisigV6": 1689
+  },
+  {
+    "kanji": "春",
+    "keyword": "springtime",
+    "heisigV6": 1690
+  },
+  {
+    "kanji": "椿",
+    "keyword": "camellia",
+    "heisigV6": 1691
+  },
+  {
+    "kanji": "泰",
+    "keyword": "peaceful",
+    "heisigV6": 1692
+  },
+  {
+    "kanji": "奏",
+    "keyword": "play music",
+    "heisigV6": 1693
+  },
+  {
+    "kanji": "実",
+    "keyword": "reality",
+    "heisigV6": 1694
+  },
+  {
+    "kanji": "奉",
+    "keyword": "dedicate",
+    "heisigV6": 1695
+  },
+  {
+    "kanji": "俸",
+    "keyword": "stipend",
+    "heisigV6": 1696
+  },
+  {
+    "kanji": "棒",
+    "keyword": "rod",
+    "heisigV6": 1697
+  },
+  {
+    "kanji": "謹",
+    "keyword": "discreet",
+    "heisigV6": 1698
+  },
+  {
+    "kanji": "僅",
+    "keyword": "trifle",
+    "heisigV6": 1699
+  },
+  {
+    "kanji": "勤",
+    "keyword": "diligence",
+    "heisigV6": 1700
+  },
+  {
+    "kanji": "漢",
+    "keyword": "Sino-",
+    "heisigV6": 1701
+  },
+  {
+    "kanji": "嘆",
+    "keyword": "sigh",
+    "heisigV6": 1702
+  },
+  {
+    "kanji": "難",
+    "keyword": "difficult",
+    "heisigV6": 1703
+  },
+  {
+    "kanji": "華",
+    "keyword": "splendor",
+    "heisigV6": 1704
+  },
+  {
+    "kanji": "垂",
+    "keyword": "droop",
+    "heisigV6": 1705
+  },
+  {
+    "kanji": "唾",
+    "keyword": "saliva",
+    "heisigV6": 1706
+  },
+  {
+    "kanji": "睡",
+    "keyword": "drowsy",
+    "heisigV6": 1707
+  },
+  {
+    "kanji": "錘",
+    "keyword": "spindle",
+    "heisigV6": 1708
+  },
+  {
+    "kanji": "乗",
+    "keyword": "ride",
+    "heisigV6": 1709
+  },
+  {
+    "kanji": "剰",
+    "keyword": "surplus",
+    "heisigV6": 1710
+  },
+  {
+    "kanji": "今",
+    "keyword": "now",
+    "heisigV6": 1711
+  },
+  {
+    "kanji": "含",
+    "keyword": "include",
+    "heisigV6": 1712
+  },
+  {
+    "kanji": "貪",
+    "keyword": "covet",
+    "heisigV6": 1713
+  },
+  {
+    "kanji": "吟",
+    "keyword": "versify",
+    "heisigV6": 1714
+  },
+  {
+    "kanji": "念",
+    "keyword": "wish",
+    "heisigV6": 1715
+  },
+  {
+    "kanji": "捻",
+    "keyword": "wrenching",
+    "heisigV6": 1716
+  },
+  {
+    "kanji": "琴",
+    "keyword": "harp",
+    "heisigV6": 1717
+  },
+  {
+    "kanji": "陰",
+    "keyword": "shade",
+    "heisigV6": 1718
+  },
+  {
+    "kanji": "予",
+    "keyword": "beforehand",
+    "heisigV6": 1719
+  },
+  {
+    "kanji": "序",
+    "keyword": "preface",
+    "heisigV6": 1720
+  },
+  {
+    "kanji": "預",
+    "keyword": "deposit",
+    "heisigV6": 1721
+  },
+  {
+    "kanji": "野",
+    "keyword": "plains",
+    "heisigV6": 1722
+  },
+  {
+    "kanji": "兼",
+    "keyword": "concurrently",
+    "heisigV6": 1723
+  },
+  {
+    "kanji": "嫌",
+    "keyword": "dislike",
+    "heisigV6": 1724
+  },
+  {
+    "kanji": "鎌",
+    "keyword": "sickle",
+    "heisigV6": 1725
+  },
+  {
+    "kanji": "謙",
+    "keyword": "self-effacing",
+    "heisigV6": 1726
+  },
+  {
+    "kanji": "廉",
+    "keyword": "bargain",
+    "heisigV6": 1727
+  },
+  {
+    "kanji": "西",
+    "keyword": "west",
+    "heisigV6": 1728
+  },
+  {
+    "kanji": "価",
+    "keyword": "value",
+    "heisigV6": 1729
+  },
+  {
+    "kanji": "要",
+    "keyword": "need",
+    "heisigV6": 1730
+  },
+  {
+    "kanji": "腰",
+    "keyword": "loins",
+    "heisigV6": 1731
+  },
+  {
+    "kanji": "票",
+    "keyword": "ballot",
+    "heisigV6": 1732
+  },
+  {
+    "kanji": "漂",
+    "keyword": "drift",
+    "heisigV6": 1733
+  },
+  {
+    "kanji": "標",
+    "keyword": "signpost",
+    "heisigV6": 1734
+  },
+  {
+    "kanji": "栗",
+    "keyword": "chestnut",
+    "heisigV6": 1735
+  },
+  {
+    "kanji": "慄",
+    "keyword": "shudder",
+    "heisigV6": 1736
+  },
+  {
+    "kanji": "遷",
+    "keyword": "transition",
+    "heisigV6": 1737
+  },
+  {
+    "kanji": "覆",
+    "keyword": "capsize",
+    "heisigV6": 1738
+  },
+  {
+    "kanji": "煙",
+    "keyword": "smoke",
+    "heisigV6": 1739
+  },
+  {
+    "kanji": "南",
+    "keyword": "south",
+    "heisigV6": 1740
+  },
+  {
+    "kanji": "楠",
+    "keyword": "camphor tree",
+    "heisigV6": 1741
+  },
+  {
+    "kanji": "献",
+    "keyword": "offering",
+    "heisigV6": 1742
+  },
+  {
+    "kanji": "門",
+    "keyword": "gates",
+    "heisigV6": 1743
+  },
+  {
+    "kanji": "問",
+    "keyword": "question",
+    "heisigV6": 1744
+  },
+  {
+    "kanji": "閲",
+    "keyword": "review",
+    "heisigV6": 1745
+  },
+  {
+    "kanji": "閥",
+    "keyword": "clique",
+    "heisigV6": 1746
+  },
+  {
+    "kanji": "間",
+    "keyword": "interval",
+    "heisigV6": 1747
+  },
+  {
+    "kanji": "闇",
+    "keyword": "pitch dark",
+    "heisigV6": 1748
+  },
+  {
+    "kanji": "簡",
+    "keyword": "simplicity",
+    "heisigV6": 1749
+  },
+  {
+    "kanji": "開",
+    "keyword": "open",
+    "heisigV6": 1750
+  },
+  {
+    "kanji": "閉",
+    "keyword": "closed",
+    "heisigV6": 1751
+  },
+  {
+    "kanji": "閣",
+    "keyword": "tower",
+    "heisigV6": 1752
+  },
+  {
+    "kanji": "閑",
+    "keyword": "leisure",
+    "heisigV6": 1753
+  },
+  {
+    "kanji": "聞",
+    "keyword": "hear",
+    "heisigV6": 1754
+  },
+  {
+    "kanji": "潤",
+    "keyword": "wet",
+    "heisigV6": 1755
+  },
+  {
+    "kanji": "欄",
+    "keyword": "column",
+    "heisigV6": 1756
+  },
+  {
+    "kanji": "闘",
+    "keyword": "fight",
+    "heisigV6": 1757
+  },
+  {
+    "kanji": "倉",
+    "keyword": "godown",
+    "heisigV6": 1758
+  },
+  {
+    "kanji": "創",
+    "keyword": "genesis",
+    "heisigV6": 1759
+  },
+  {
+    "kanji": "非",
+    "keyword": "un-",
+    "heisigV6": 1760
+  },
+  {
+    "kanji": "俳",
+    "keyword": "haiku",
+    "heisigV6": 1761
+  },
+  {
+    "kanji": "排",
+    "keyword": "repudiate",
+    "heisigV6": 1762
+  },
+  {
+    "kanji": "悲",
+    "keyword": "sad",
+    "heisigV6": 1763
+  },
+  {
+    "kanji": "罪",
+    "keyword": "guilt",
+    "heisigV6": 1764
+  },
+  {
+    "kanji": "輩",
+    "keyword": "comrade",
+    "heisigV6": 1765
+  },
+  {
+    "kanji": "扉",
+    "keyword": "front door",
+    "heisigV6": 1766
+  },
+  {
+    "kanji": "侯",
+    "keyword": "marquis",
+    "heisigV6": 1767
+  },
+  {
+    "kanji": "喉",
+    "keyword": "throat",
+    "heisigV6": 1768
+  },
+  {
+    "kanji": "候",
+    "keyword": "climate",
+    "heisigV6": 1769
+  },
+  {
+    "kanji": "決",
+    "keyword": "decide",
+    "heisigV6": 1770
+  },
+  {
+    "kanji": "快",
+    "keyword": "cheerful",
+    "heisigV6": 1771
+  },
+  {
+    "kanji": "偉",
+    "keyword": "admirable",
+    "heisigV6": 1772
+  },
+  {
+    "kanji": "違",
+    "keyword": "difference",
+    "heisigV6": 1773
+  },
+  {
+    "kanji": "緯",
+    "keyword": "horizontal",
+    "heisigV6": 1774
+  },
+  {
+    "kanji": "衛",
+    "keyword": "defense",
+    "heisigV6": 1775
+  },
+  {
+    "kanji": "韓",
+    "keyword": "Korea",
+    "heisigV6": 1776
+  },
+  {
+    "kanji": "干",
+    "keyword": "dry",
+    "heisigV6": 1777
+  },
+  {
+    "kanji": "肝",
+    "keyword": "liver",
+    "heisigV6": 1778
+  },
+  {
+    "kanji": "刊",
+    "keyword": "publish",
+    "heisigV6": 1779
+  },
+  {
+    "kanji": "汗",
+    "keyword": "sweat",
+    "heisigV6": 1780
+  },
+  {
+    "kanji": "軒",
+    "keyword": "flats",
+    "heisigV6": 1781
+  },
+  {
+    "kanji": "岸",
+    "keyword": "beach",
+    "heisigV6": 1782
+  },
+  {
+    "kanji": "幹",
+    "keyword": "tree trunk",
+    "heisigV6": 1783
+  },
+  {
+    "kanji": "芋",
+    "keyword": "potato",
+    "heisigV6": 1784
+  },
+  {
+    "kanji": "宇",
+    "keyword": "eaves",
+    "heisigV6": 1785
+  },
+  {
+    "kanji": "余",
+    "keyword": "too much",
+    "heisigV6": 1786
+  },
+  {
+    "kanji": "除",
+    "keyword": "exclude",
+    "heisigV6": 1787
+  },
+  {
+    "kanji": "徐",
+    "keyword": "gradually",
+    "heisigV6": 1788
+  },
+  {
+    "kanji": "叙",
+    "keyword": "confer",
+    "heisigV6": 1789
+  },
+  {
+    "kanji": "途",
+    "keyword": "route",
+    "heisigV6": 1790
+  },
+  {
+    "kanji": "斜",
+    "keyword": "diagonal",
+    "heisigV6": 1791
+  },
+  {
+    "kanji": "塗",
+    "keyword": "paint",
+    "heisigV6": 1792
+  },
+  {
+    "kanji": "束",
+    "keyword": "bundle",
+    "heisigV6": 1793
+  },
+  {
+    "kanji": "頼",
+    "keyword": "trust",
+    "heisigV6": 1794
+  },
+  {
+    "kanji": "瀬",
+    "keyword": "rapids",
+    "heisigV6": 1795
+  },
+  {
+    "kanji": "勅",
+    "keyword": "imperial order",
+    "heisigV6": 1796
+  },
+  {
+    "kanji": "疎",
+    "keyword": "alienate",
+    "heisigV6": 1797
+  },
+  {
+    "kanji": "辣",
+    "keyword": "bitter",
+    "heisigV6": 1798
+  },
+  {
+    "kanji": "速",
+    "keyword": "quick",
+    "heisigV6": 1799
+  },
+  {
+    "kanji": "整",
+    "keyword": "organize",
+    "heisigV6": 1800
+  },
+  {
+    "kanji": "剣",
+    "keyword": "saber",
+    "heisigV6": 1801
+  },
+  {
+    "kanji": "険",
+    "keyword": "precipitous",
+    "heisigV6": 1802
+  },
+  {
+    "kanji": "検",
+    "keyword": "examination",
+    "heisigV6": 1803
+  },
+  {
+    "kanji": "倹",
+    "keyword": "frugal",
+    "heisigV6": 1804
+  },
+  {
+    "kanji": "重",
+    "keyword": "heavy",
+    "heisigV6": 1805
+  },
+  {
+    "kanji": "動",
+    "keyword": "move",
+    "heisigV6": 1806
+  },
+  {
+    "kanji": "腫",
+    "keyword": "tumor",
+    "heisigV6": 1807
+  },
+  {
+    "kanji": "勲",
+    "keyword": "meritorious deed",
+    "heisigV6": 1808
+  },
+  {
+    "kanji": "働",
+    "keyword": "work",
+    "heisigV6": 1809
+  },
+  {
+    "kanji": "種",
+    "keyword": "species",
+    "heisigV6": 1810
+  },
+  {
+    "kanji": "衝",
+    "keyword": "collide",
+    "heisigV6": 1811
+  },
+  {
+    "kanji": "薫",
+    "keyword": "fragrant",
+    "heisigV6": 1812
+  },
+  {
+    "kanji": "病",
+    "keyword": "ill",
+    "heisigV6": 1813
+  },
+  {
+    "kanji": "痴",
+    "keyword": "stupid",
+    "heisigV6": 1814
+  },
+  {
+    "kanji": "痘",
+    "keyword": "pox",
+    "heisigV6": 1815
+  },
+  {
+    "kanji": "症",
+    "keyword": "symptoms",
+    "heisigV6": 1816
+  },
+  {
+    "kanji": "瘍",
+    "keyword": "carbuncle",
+    "heisigV6": 1817
+  },
+  {
+    "kanji": "痩",
+    "keyword": "lose weight",
+    "heisigV6": 1818
+  },
+  {
+    "kanji": "疾",
+    "keyword": "rapidly",
+    "heisigV6": 1819
+  },
+  {
+    "kanji": "嫉",
+    "keyword": "envy",
+    "heisigV6": 1820
+  },
+  {
+    "kanji": "痢",
+    "keyword": "diarrhea",
+    "heisigV6": 1821
+  },
+  {
+    "kanji": "痕",
+    "keyword": "scar",
+    "heisigV6": 1822
+  },
+  {
+    "kanji": "疲",
+    "keyword": "tired",
+    "heisigV6": 1823
+  },
+  {
+    "kanji": "疫",
+    "keyword": "epidemic",
+    "heisigV6": 1824
+  },
+  {
+    "kanji": "痛",
+    "keyword": "pain",
+    "heisigV6": 1825
+  },
+  {
+    "kanji": "癖",
+    "keyword": "mannerism",
+    "heisigV6": 1826
+  },
+  {
+    "kanji": "匿",
+    "keyword": "hide",
+    "heisigV6": 1827
+  },
+  {
+    "kanji": "匠",
+    "keyword": "artisan",
+    "heisigV6": 1828
+  },
+  {
+    "kanji": "医",
+    "keyword": "doctor",
+    "heisigV6": 1829
+  },
+  {
+    "kanji": "匹",
+    "keyword": "equal",
+    "heisigV6": 1830
+  },
+  {
+    "kanji": "区",
+    "keyword": "ward",
+    "heisigV6": 1831
+  },
+  {
+    "kanji": "枢",
+    "keyword": "hinge",
+    "heisigV6": 1832
+  },
+  {
+    "kanji": "殴",
+    "keyword": "assault",
+    "heisigV6": 1833
+  },
+  {
+    "kanji": "欧",
+    "keyword": "Europe",
+    "heisigV6": 1834
+  },
+  {
+    "kanji": "抑",
+    "keyword": "repress",
+    "heisigV6": 1835
+  },
+  {
+    "kanji": "仰",
+    "keyword": "faceup",
+    "heisigV6": 1836
+  },
+  {
+    "kanji": "迎",
+    "keyword": "welcome",
+    "heisigV6": 1837
+  },
+  {
+    "kanji": "登",
+    "keyword": "ascend",
+    "heisigV6": 1838
+  },
+  {
+    "kanji": "澄",
+    "keyword": "lucidity",
+    "heisigV6": 1839
+  },
+  {
+    "kanji": "発",
+    "keyword": "discharge",
+    "heisigV6": 1840
+  },
+  {
+    "kanji": "廃",
+    "keyword": "abolish",
+    "heisigV6": 1841
+  },
+  {
+    "kanji": "僚",
+    "keyword": "colleague",
+    "heisigV6": 1842
+  },
+  {
+    "kanji": "瞭",
+    "keyword": "obvious",
+    "heisigV6": 1843
+  },
+  {
+    "kanji": "寮",
+    "keyword": "dormitory",
+    "heisigV6": 1844
+  },
+  {
+    "kanji": "療",
+    "keyword": "heal",
+    "heisigV6": 1845
+  },
+  {
+    "kanji": "彫",
+    "keyword": "carve",
+    "heisigV6": 1846
+  },
+  {
+    "kanji": "形",
+    "keyword": "shape",
+    "heisigV6": 1847
+  },
+  {
+    "kanji": "影",
+    "keyword": "shadow",
+    "heisigV6": 1848
+  },
+  {
+    "kanji": "杉",
+    "keyword": "cedar",
+    "heisigV6": 1849
+  },
+  {
+    "kanji": "彩",
+    "keyword": "coloring",
+    "heisigV6": 1850
+  },
+  {
+    "kanji": "彰",
+    "keyword": "patent",
+    "heisigV6": 1851
+  },
+  {
+    "kanji": "彦",
+    "keyword": "lad",
+    "heisigV6": 1852
+  },
+  {
+    "kanji": "顔",
+    "keyword": "face",
+    "heisigV6": 1853
+  },
+  {
+    "kanji": "須",
+    "keyword": "ought",
+    "heisigV6": 1854
+  },
+  {
+    "kanji": "膨",
+    "keyword": "swell",
+    "heisigV6": 1855
+  },
+  {
+    "kanji": "参",
+    "keyword": "visit",
+    "heisigV6": 1856
+  },
+  {
+    "kanji": "惨",
+    "keyword": "wretched",
+    "heisigV6": 1857
+  },
+  {
+    "kanji": "修",
+    "keyword": "discipline",
+    "heisigV6": 1858
+  },
+  {
+    "kanji": "珍",
+    "keyword": "rare",
+    "heisigV6": 1859
+  },
+  {
+    "kanji": "診",
+    "keyword": "checkup",
+    "heisigV6": 1860
+  },
+  {
+    "kanji": "文",
+    "keyword": "sentence",
+    "heisigV6": 1861
+  },
+  {
+    "kanji": "対",
+    "keyword": "vis-a-vis",
+    "heisigV6": 1862
+  },
+  {
+    "kanji": "紋",
+    "keyword": "family crest",
+    "heisigV6": 1863
+  },
+  {
+    "kanji": "蚊",
+    "keyword": "mosquito",
+    "heisigV6": 1864
+  },
+  {
+    "kanji": "斑",
+    "keyword": "speckled",
+    "heisigV6": 1865
+  },
+  {
+    "kanji": "斉",
+    "keyword": "adjusted",
+    "heisigV6": 1866
+  },
+  {
+    "kanji": "剤",
+    "keyword": "dose",
+    "heisigV6": 1867
+  },
+  {
+    "kanji": "済",
+    "keyword": "finish",
+    "heisigV6": 1868
+  },
+  {
+    "kanji": "斎",
+    "keyword": "purification",
+    "heisigV6": 1869
+  },
+  {
+    "kanji": "粛",
+    "keyword": "solemn",
+    "heisigV6": 1870
+  },
+  {
+    "kanji": "塁",
+    "keyword": "bases",
+    "heisigV6": 1871
+  },
+  {
+    "kanji": "楽",
+    "keyword": "music",
+    "heisigV6": 1872
+  },
+  {
+    "kanji": "薬",
+    "keyword": "medicine",
+    "heisigV6": 1873
+  },
+  {
+    "kanji": "率",
+    "keyword": "ratio",
+    "heisigV6": 1874
+  },
+  {
+    "kanji": "渋",
+    "keyword": "astringent",
+    "heisigV6": 1875
+  },
+  {
+    "kanji": "摂",
+    "keyword": "vicarious",
+    "heisigV6": 1876
+  },
+  {
+    "kanji": "央",
+    "keyword": "center",
+    "heisigV6": 1877
+  },
+  {
+    "kanji": "英",
+    "keyword": "England",
+    "heisigV6": 1878
+  },
+  {
+    "kanji": "映",
+    "keyword": "reflect",
+    "heisigV6": 1879
+  },
+  {
+    "kanji": "赤",
+    "keyword": "red",
+    "heisigV6": 1880
+  },
+  {
+    "kanji": "赦",
+    "keyword": "pardon",
+    "heisigV6": 1881
+  },
+  {
+    "kanji": "変",
+    "keyword": "unusual",
+    "heisigV6": 1882
+  },
+  {
+    "kanji": "跡",
+    "keyword": "tracks",
+    "heisigV6": 1883
+  },
+  {
+    "kanji": "蛮",
+    "keyword": "barbarian",
+    "heisigV6": 1884
+  },
+  {
+    "kanji": "恋",
+    "keyword": "romance",
+    "heisigV6": 1885
+  },
+  {
+    "kanji": "湾",
+    "keyword": "gulf",
+    "heisigV6": 1886
+  },
+  {
+    "kanji": "黄",
+    "keyword": "yellow",
+    "heisigV6": 1887
+  },
+  {
+    "kanji": "横",
+    "keyword": "sideways",
+    "heisigV6": 1888
+  },
+  {
+    "kanji": "把",
+    "keyword": "grasp",
+    "heisigV6": 1889
+  },
+  {
+    "kanji": "色",
+    "keyword": "color",
+    "heisigV6": 1890
+  },
+  {
+    "kanji": "絶",
+    "keyword": "discontinue",
+    "heisigV6": 1891
+  },
+  {
+    "kanji": "艶",
+    "keyword": "glossy",
+    "heisigV6": 1892
+  },
+  {
+    "kanji": "肥",
+    "keyword": "fertilizer",
+    "heisigV6": 1893
+  },
+  {
+    "kanji": "甘",
+    "keyword": "sweet",
+    "heisigV6": 1894
+  },
+  {
+    "kanji": "紺",
+    "keyword": "navy blue",
+    "heisigV6": 1895
+  },
+  {
+    "kanji": "某",
+    "keyword": "so-and-so",
+    "heisigV6": 1896
+  },
+  {
+    "kanji": "謀",
+    "keyword": "conspire",
+    "heisigV6": 1897
+  },
+  {
+    "kanji": "媒",
+    "keyword": "mediator",
+    "heisigV6": 1898
+  },
+  {
+    "kanji": "欺",
+    "keyword": "deceit",
+    "heisigV6": 1899
+  },
+  {
+    "kanji": "棋",
+    "keyword": "chess piece",
+    "heisigV6": 1900
+  },
+  {
+    "kanji": "旗",
+    "keyword": "national flag",
+    "heisigV6": 1901
+  },
+  {
+    "kanji": "期",
+    "keyword": "period",
+    "heisigV6": 1902
+  },
+  {
+    "kanji": "碁",
+    "keyword": "Go",
+    "heisigV6": 1903
+  },
+  {
+    "kanji": "基",
+    "keyword": "fundamentals",
+    "heisigV6": 1904
+  },
+  {
+    "kanji": "甚",
+    "keyword": "tremendously",
+    "heisigV6": 1905
+  },
+  {
+    "kanji": "勘",
+    "keyword": "intuition",
+    "heisigV6": 1906
+  },
+  {
+    "kanji": "堪",
+    "keyword": "withstand",
+    "heisigV6": 1907
+  },
+  {
+    "kanji": "貴",
+    "keyword": "precious",
+    "heisigV6": 1908
+  },
+  {
+    "kanji": "遺",
+    "keyword": "bequeath",
+    "heisigV6": 1909
+  },
+  {
+    "kanji": "遣",
+    "keyword": "dispatch",
+    "heisigV6": 1910
+  },
+  {
+    "kanji": "潰",
+    "keyword": "defile",
+    "heisigV6": 1911
+  },
+  {
+    "kanji": "舞",
+    "keyword": "dance",
+    "heisigV6": 1912
+  },
+  {
+    "kanji": "無",
+    "keyword": "nothingness",
+    "heisigV6": 1913
+  },
+  {
+    "kanji": "組",
+    "keyword": "association",
+    "heisigV6": 1914
+  },
+  {
+    "kanji": "粗",
+    "keyword": "coarse",
+    "heisigV6": 1915
+  },
+  {
+    "kanji": "租",
+    "keyword": "tariff",
+    "heisigV6": 1916
+  },
+  {
+    "kanji": "狙",
+    "keyword": "aim at",
+    "heisigV6": 1917
+  },
+  {
+    "kanji": "祖",
+    "keyword": "ancestor",
+    "heisigV6": 1918
+  },
+  {
+    "kanji": "阻",
+    "keyword": "thwart",
+    "heisigV6": 1919
+  },
+  {
+    "kanji": "査",
+    "keyword": "investigate",
+    "heisigV6": 1920
+  },
+  {
+    "kanji": "助",
+    "keyword": "help",
+    "heisigV6": 1921
+  },
+  {
+    "kanji": "宜",
+    "keyword": "best regards",
+    "heisigV6": 1922
+  },
+  {
+    "kanji": "畳",
+    "keyword": "tatami mat",
+    "heisigV6": 1923
+  },
+  {
+    "kanji": "並",
+    "keyword": "row",
+    "heisigV6": 1924
+  },
+  {
+    "kanji": "普",
+    "keyword": "universal",
+    "heisigV6": 1925
+  },
+  {
+    "kanji": "譜",
+    "keyword": "musical score",
+    "heisigV6": 1926
+  },
+  {
+    "kanji": "湿",
+    "keyword": "damp",
+    "heisigV6": 1927
+  },
+  {
+    "kanji": "顕",
+    "keyword": "appear",
+    "heisigV6": 1928
+  },
+  {
+    "kanji": "繊",
+    "keyword": "slender",
+    "heisigV6": 1929
+  },
+  {
+    "kanji": "霊",
+    "keyword": "spirits",
+    "heisigV6": 1930
+  },
+  {
+    "kanji": "業",
+    "keyword": "profession",
+    "heisigV6": 1931
+  },
+  {
+    "kanji": "撲",
+    "keyword": "slap",
+    "heisigV6": 1932
+  },
+  {
+    "kanji": "僕",
+    "keyword": "me",
+    "heisigV6": 1933
+  },
+  {
+    "kanji": "共",
+    "keyword": "together",
+    "heisigV6": 1934
+  },
+  {
+    "kanji": "供",
+    "keyword": "submit",
+    "heisigV6": 1935
+  },
+  {
+    "kanji": "異",
+    "keyword": "uncommon",
+    "heisigV6": 1936
+  },
+  {
+    "kanji": "翼",
+    "keyword": "wing",
+    "heisigV6": 1937
+  },
+  {
+    "kanji": "戴",
+    "keyword": "accept humbly",
+    "heisigV6": 1938
+  },
+  {
+    "kanji": "洪",
+    "keyword": "deluge",
+    "heisigV6": 1939
+  },
+  {
+    "kanji": "港",
+    "keyword": "harbor",
+    "heisigV6": 1940
+  },
+  {
+    "kanji": "暴",
+    "keyword": "outburst",
+    "heisigV6": 1941
+  },
+  {
+    "kanji": "爆",
+    "keyword": "bomb",
+    "heisigV6": 1942
+  },
+  {
+    "kanji": "恭",
+    "keyword": "respect",
+    "heisigV6": 1943
+  },
+  {
+    "kanji": "選",
+    "keyword": "elect",
+    "heisigV6": 1944
+  },
+  {
+    "kanji": "殿",
+    "keyword": "Mr.",
+    "heisigV6": 1945
+  },
+  {
+    "kanji": "井",
+    "keyword": "well",
+    "heisigV6": 1946
+  },
+  {
+    "kanji": "丼",
+    "keyword": "domburi",
+    "heisigV6": 1947
+  },
+  {
+    "kanji": "囲",
+    "keyword": "surround",
+    "heisigV6": 1948
+  },
+  {
+    "kanji": "耕",
+    "keyword": "till",
+    "heisigV6": 1949
+  },
+  {
+    "kanji": "亜",
+    "keyword": "Asia",
+    "heisigV6": 1950
+  },
+  {
+    "kanji": "悪",
+    "keyword": "bad",
+    "heisigV6": 1951
+  },
+  {
+    "kanji": "円",
+    "keyword": "circle",
+    "heisigV6": 1952
+  },
+  {
+    "kanji": "角",
+    "keyword": "angle",
+    "heisigV6": 1953
+  },
+  {
+    "kanji": "触",
+    "keyword": "contact",
+    "heisigV6": 1954
+  },
+  {
+    "kanji": "解",
+    "keyword": "unravel",
+    "heisigV6": 1955
+  },
+  {
+    "kanji": "再",
+    "keyword": "again",
+    "heisigV6": 1956
+  },
+  {
+    "kanji": "講",
+    "keyword": "lecture",
+    "heisigV6": 1957
+  },
+  {
+    "kanji": "購",
+    "keyword": "subscription",
+    "heisigV6": 1958
+  },
+  {
+    "kanji": "構",
+    "keyword": "posture",
+    "heisigV6": 1959
+  },
+  {
+    "kanji": "溝",
+    "keyword": "gutter",
+    "heisigV6": 1960
+  },
+  {
+    "kanji": "論",
+    "keyword": "argument",
+    "heisigV6": 1961
+  },
+  {
+    "kanji": "倫",
+    "keyword": "ethics",
+    "heisigV6": 1962
+  },
+  {
+    "kanji": "輪",
+    "keyword": "wheel",
+    "heisigV6": 1963
+  },
+  {
+    "kanji": "偏",
+    "keyword": "partial",
+    "heisigV6": 1964
+  },
+  {
+    "kanji": "遍",
+    "keyword": "everywhere",
+    "heisigV6": 1965
+  },
+  {
+    "kanji": "編",
+    "keyword": "compilation",
+    "heisigV6": 1966
+  },
+  {
+    "kanji": "冊",
+    "keyword": "tome",
+    "heisigV6": 1967
+  },
+  {
+    "kanji": "柵",
+    "keyword": "palisade",
+    "heisigV6": 1968
+  },
+  {
+    "kanji": "典",
+    "keyword": "code",
+    "heisigV6": 1969
+  },
+  {
+    "kanji": "氏",
+    "keyword": "family name",
+    "heisigV6": 1970
+  },
+  {
+    "kanji": "紙",
+    "keyword": "paper",
+    "heisigV6": 1971
+  },
+  {
+    "kanji": "婚",
+    "keyword": "marriage",
+    "heisigV6": 1972
+  },
+  {
+    "kanji": "低",
+    "keyword": "lower",
+    "heisigV6": 1973
+  },
+  {
+    "kanji": "抵",
+    "keyword": "resist",
+    "heisigV6": 1974
+  },
+  {
+    "kanji": "底",
+    "keyword": "bottom",
+    "heisigV6": 1975
+  },
+  {
+    "kanji": "民",
+    "keyword": "people",
+    "heisigV6": 1976
+  },
+  {
+    "kanji": "眠",
+    "keyword": "sleep",
+    "heisigV6": 1977
+  },
+  {
+    "kanji": "捕",
+    "keyword": "catch",
+    "heisigV6": 1978
+  },
+  {
+    "kanji": "哺",
+    "keyword": "suckle",
+    "heisigV6": 1979
+  },
+  {
+    "kanji": "浦",
+    "keyword": "bay",
+    "heisigV6": 1980
+  },
+  {
+    "kanji": "蒲",
+    "keyword": "bullrush",
+    "heisigV6": 1981
+  },
+  {
+    "kanji": "舗",
+    "keyword": "shop",
+    "heisigV6": 1982
+  },
+  {
+    "kanji": "補",
+    "keyword": "supplement",
+    "heisigV6": 1983
+  },
+  {
+    "kanji": "邸",
+    "keyword": "residence",
+    "heisigV6": 1984
+  },
+  {
+    "kanji": "郭",
+    "keyword": "enclosure",
+    "heisigV6": 1985
+  },
+  {
+    "kanji": "郡",
+    "keyword": "county",
+    "heisigV6": 1986
+  },
+  {
+    "kanji": "郊",
+    "keyword": "outskirts",
+    "heisigV6": 1987
+  },
+  {
+    "kanji": "部",
+    "keyword": "section",
+    "heisigV6": 1988
+  },
+  {
+    "kanji": "都",
+    "keyword": "metropolis",
+    "heisigV6": 1989
+  },
+  {
+    "kanji": "郵",
+    "keyword": "mail",
+    "heisigV6": 1990
+  },
+  {
+    "kanji": "邦",
+    "keyword": "home country",
+    "heisigV6": 1991
+  },
+  {
+    "kanji": "那",
+    "keyword": "interrogative",
+    "heisigV6": 1992
+  },
+  {
+    "kanji": "郷",
+    "keyword": "hometown",
+    "heisigV6": 1993
+  },
+  {
+    "kanji": "響",
+    "keyword": "echo",
+    "heisigV6": 1994
+  },
+  {
+    "kanji": "郎",
+    "keyword": "son",
+    "heisigV6": 1995
+  },
+  {
+    "kanji": "廊",
+    "keyword": "corridor",
+    "heisigV6": 1996
+  },
+  {
+    "kanji": "盾",
+    "keyword": "shield",
+    "heisigV6": 1997
+  },
+  {
+    "kanji": "循",
+    "keyword": "sequential",
+    "heisigV6": 1998
+  },
+  {
+    "kanji": "派",
+    "keyword": "faction",
+    "heisigV6": 1999
+  },
+  {
+    "kanji": "脈",
+    "keyword": "vein",
+    "heisigV6": 2000
+  },
+  {
+    "kanji": "衆",
+    "keyword": "masses",
+    "heisigV6": 2001
+  },
+  {
+    "kanji": "逓",
+    "keyword": "parcel post",
+    "heisigV6": 2002
+  },
+  {
+    "kanji": "段",
+    "keyword": "grade",
+    "heisigV6": 2003
+  },
+  {
+    "kanji": "鍛",
+    "keyword": "forge",
+    "heisigV6": 2004
+  },
+  {
+    "kanji": "后",
+    "keyword": "empress",
+    "heisigV6": 2005
+  },
+  {
+    "kanji": "幻",
+    "keyword": "phantasm",
+    "heisigV6": 2006
+  },
+  {
+    "kanji": "司",
+    "keyword": "director",
+    "heisigV6": 2007
+  },
+  {
+    "kanji": "伺",
+    "keyword": "pay respects",
+    "heisigV6": 2008
+  },
+  {
+    "kanji": "詞",
+    "keyword": "parts of speech",
+    "heisigV6": 2009
+  },
+  {
+    "kanji": "飼",
+    "keyword": "domesticate",
+    "heisigV6": 2010
+  },
+  {
+    "kanji": "嗣",
+    "keyword": "heir",
+    "heisigV6": 2011
+  },
+  {
+    "kanji": "舟",
+    "keyword": "boat",
+    "heisigV6": 2012
+  },
+  {
+    "kanji": "舶",
+    "keyword": "liner",
+    "heisigV6": 2013
+  },
+  {
+    "kanji": "航",
+    "keyword": "navigate",
+    "heisigV6": 2014
+  },
+  {
+    "kanji": "舷",
+    "keyword": "gunwale",
+    "heisigV6": 2015
+  },
+  {
+    "kanji": "般",
+    "keyword": "carrier",
+    "heisigV6": 2016
+  },
+  {
+    "kanji": "盤",
+    "keyword": "tray",
+    "heisigV6": 2017
+  },
+  {
+    "kanji": "搬",
+    "keyword": "conveyor",
+    "heisigV6": 2018
+  },
+  {
+    "kanji": "船",
+    "keyword": "ship",
+    "heisigV6": 2019
+  },
+  {
+    "kanji": "艦",
+    "keyword": "warship",
+    "heisigV6": 2020
+  },
+  {
+    "kanji": "艇",
+    "keyword": "rowboat",
+    "heisigV6": 2021
+  },
+  {
+    "kanji": "瓜",
+    "keyword": "melon",
+    "heisigV6": 2022
+  },
+  {
+    "kanji": "弧",
+    "keyword": "arc",
+    "heisigV6": 2023
+  },
+  {
+    "kanji": "孤",
+    "keyword": "orphan",
+    "heisigV6": 2024
+  },
+  {
+    "kanji": "繭",
+    "keyword": "cocoon",
+    "heisigV6": 2025
+  },
+  {
+    "kanji": "益",
+    "keyword": "benefit",
+    "heisigV6": 2026
+  },
+  {
+    "kanji": "暇",
+    "keyword": "spare time",
+    "heisigV6": 2027
+  },
+  {
+    "kanji": "敷",
+    "keyword": "spread",
+    "heisigV6": 2028
+  },
+  {
+    "kanji": "来",
+    "keyword": "come",
+    "heisigV6": 2029
+  },
+  {
+    "kanji": "気",
+    "keyword": "spirit",
+    "heisigV6": 2030
+  },
+  {
+    "kanji": "汽",
+    "keyword": "vapor",
+    "heisigV6": 2031
+  },
+  {
+    "kanji": "飛",
+    "keyword": "fly",
+    "heisigV6": 2032
+  },
+  {
+    "kanji": "沈",
+    "keyword": "sink",
+    "heisigV6": 2033
+  },
+  {
+    "kanji": "枕",
+    "keyword": "pillow",
+    "heisigV6": 2034
+  },
+  {
+    "kanji": "妻",
+    "keyword": "wife",
+    "heisigV6": 2035
+  },
+  {
+    "kanji": "凄",
+    "keyword": "nifty",
+    "heisigV6": 2036
+  },
+  {
+    "kanji": "衰",
+    "keyword": "decline",
+    "heisigV6": 2037
+  },
+  {
+    "kanji": "衷",
+    "keyword": "inmost",
+    "heisigV6": 2038
+  },
+  {
+    "kanji": "面",
+    "keyword": "mask",
+    "heisigV6": 2039
+  },
+  {
+    "kanji": "麺",
+    "keyword": "noodles",
+    "heisigV6": 2040
+  },
+  {
+    "kanji": "革",
+    "keyword": "leather",
+    "heisigV6": 2041
+  },
+  {
+    "kanji": "靴",
+    "keyword": "shoes",
+    "heisigV6": 2042
+  },
+  {
+    "kanji": "覇",
+    "keyword": "hegemony",
+    "heisigV6": 2043
+  },
+  {
+    "kanji": "声",
+    "keyword": "voice",
+    "heisigV6": 2044
+  },
+  {
+    "kanji": "眉",
+    "keyword": "eyebrow",
+    "heisigV6": 2045
+  },
+  {
+    "kanji": "呉",
+    "keyword": "give",
+    "heisigV6": 2046
+  },
+  {
+    "kanji": "娯",
+    "keyword": "recreation",
+    "heisigV6": 2047
+  },
+  {
+    "kanji": "誤",
+    "keyword": "mistake",
+    "heisigV6": 2048
+  },
+  {
+    "kanji": "蒸",
+    "keyword": "steam",
+    "heisigV6": 2049
+  },
+  {
+    "kanji": "承",
+    "keyword": "acquiesce",
+    "heisigV6": 2050
+  },
+  {
+    "kanji": "函",
+    "keyword": "bin",
+    "heisigV6": 2051
+  },
+  {
+    "kanji": "極",
+    "keyword": "poles",
+    "heisigV6": 2052
+  },
+  {
+    "kanji": "牙",
+    "keyword": "tusk",
+    "heisigV6": 2053
+  },
+  {
+    "kanji": "芽",
+    "keyword": "bud",
+    "heisigV6": 2054
+  },
+  {
+    "kanji": "邪",
+    "keyword": "wicked",
+    "heisigV6": 2055
+  },
+  {
+    "kanji": "雅",
+    "keyword": "gracious",
+    "heisigV6": 2056
+  },
+  {
+    "kanji": "釈",
+    "keyword": "explanation",
+    "heisigV6": 2057
+  },
+  {
+    "kanji": "番",
+    "keyword": "turn",
+    "heisigV6": 2058
+  },
+  {
+    "kanji": "審",
+    "keyword": "hearing",
+    "heisigV6": 2059
+  },
+  {
+    "kanji": "翻",
+    "keyword": "flip",
+    "heisigV6": 2060
+  },
+  {
+    "kanji": "藩",
+    "keyword": "clan",
+    "heisigV6": 2061
+  },
+  {
+    "kanji": "毛",
+    "keyword": "fur",
+    "heisigV6": 2062
+  },
+  {
+    "kanji": "耗",
+    "keyword": "decrease",
+    "heisigV6": 2063
+  },
+  {
+    "kanji": "尾",
+    "keyword": "tail",
+    "heisigV6": 2064
+  },
+  {
+    "kanji": "宅",
+    "keyword": "home",
+    "heisigV6": 2065
+  },
+  {
+    "kanji": "託",
+    "keyword": "consign",
+    "heisigV6": 2066
+  },
+  {
+    "kanji": "為",
+    "keyword": "do",
+    "heisigV6": 2067
+  },
+  {
+    "kanji": "偽",
+    "keyword": "falsehood",
+    "heisigV6": 2068
+  },
+  {
+    "kanji": "畏",
+    "keyword": "apprehensive",
+    "heisigV6": 2069
+  },
+  {
+    "kanji": "長",
+    "keyword": "long",
+    "heisigV6": 2070
+  },
+  {
+    "kanji": "張",
+    "keyword": "lengthen",
+    "heisigV6": 2071
+  },
+  {
+    "kanji": "帳",
+    "keyword": "notebook",
+    "heisigV6": 2072
+  },
+  {
+    "kanji": "脹",
+    "keyword": "dilate",
+    "heisigV6": 2073
+  },
+  {
+    "kanji": "髪",
+    "keyword": "hair of the head",
+    "heisigV6": 2074
+  },
+  {
+    "kanji": "展",
+    "keyword": "unfold",
+    "heisigV6": 2075
+  },
+  {
+    "kanji": "喪",
+    "keyword": "miss",
+    "heisigV6": 2076
+  },
+  {
+    "kanji": "巣",
+    "keyword": "nest",
+    "heisigV6": 2077
+  },
+  {
+    "kanji": "単",
+    "keyword": "simple",
+    "heisigV6": 2078
+  },
+  {
+    "kanji": "戦",
+    "keyword": "war",
+    "heisigV6": 2079
+  },
+  {
+    "kanji": "禅",
+    "keyword": "Zen",
+    "heisigV6": 2080
+  },
+  {
+    "kanji": "弾",
+    "keyword": "bullet",
+    "heisigV6": 2081
+  },
+  {
+    "kanji": "桜",
+    "keyword": "cherry tree",
+    "heisigV6": 2082
+  },
+  {
+    "kanji": "獣",
+    "keyword": "animal",
+    "heisigV6": 2083
+  },
+  {
+    "kanji": "脳",
+    "keyword": "brain",
+    "heisigV6": 2084
+  },
+  {
+    "kanji": "悩",
+    "keyword": "trouble",
+    "heisigV6": 2085
+  },
+  {
+    "kanji": "厳",
+    "keyword": "stern",
+    "heisigV6": 2086
+  },
+  {
+    "kanji": "鎖",
+    "keyword": "chain",
+    "heisigV6": 2087
+  },
+  {
+    "kanji": "挙",
+    "keyword": "raise",
+    "heisigV6": 2088
+  },
+  {
+    "kanji": "誉",
+    "keyword": "reputation",
+    "heisigV6": 2089
+  },
+  {
+    "kanji": "猟",
+    "keyword": "game hunting",
+    "heisigV6": 2090
+  },
+  {
+    "kanji": "鳥",
+    "keyword": "bird",
+    "heisigV6": 2091
+  },
+  {
+    "kanji": "鳴",
+    "keyword": "chirp",
+    "heisigV6": 2092
+  },
+  {
+    "kanji": "鶴",
+    "keyword": "crane",
+    "heisigV6": 2093
+  },
+  {
+    "kanji": "烏",
+    "keyword": "crow",
+    "heisigV6": 2094
+  },
+  {
+    "kanji": "蔦",
+    "keyword": "vine",
+    "heisigV6": 2095
+  },
+  {
+    "kanji": "鳩",
+    "keyword": "pigeon",
+    "heisigV6": 2096
+  },
+  {
+    "kanji": "鶏",
+    "keyword": "chicken",
+    "heisigV6": 2097
+  },
+  {
+    "kanji": "島",
+    "keyword": "island",
+    "heisigV6": 2098
+  },
+  {
+    "kanji": "暖",
+    "keyword": "warmth",
+    "heisigV6": 2099
+  },
+  {
+    "kanji": "媛",
+    "keyword": "beautiful woman",
+    "heisigV6": 2100
+  },
+  {
+    "kanji": "援",
+    "keyword": "abet",
+    "heisigV6": 2101
+  },
+  {
+    "kanji": "緩",
+    "keyword": "slacken",
+    "heisigV6": 2102
+  },
+  {
+    "kanji": "属",
+    "keyword": "belong",
+    "heisigV6": 2103
+  },
+  {
+    "kanji": "嘱",
+    "keyword": "entrust",
+    "heisigV6": 2104
+  },
+  {
+    "kanji": "偶",
+    "keyword": "accidentally",
+    "heisigV6": 2105
+  },
+  {
+    "kanji": "遇",
+    "keyword": "interview",
+    "heisigV6": 2106
+  },
+  {
+    "kanji": "愚",
+    "keyword": "foolish",
+    "heisigV6": 2107
+  },
+  {
+    "kanji": "隅",
+    "keyword": "corner",
+    "heisigV6": 2108
+  },
+  {
+    "kanji": "逆",
+    "keyword": "inverted",
+    "heisigV6": 2109
+  },
+  {
+    "kanji": "塑",
+    "keyword": "model",
+    "heisigV6": 2110
+  },
+  {
+    "kanji": "遡",
+    "keyword": "go upstream",
+    "heisigV6": 2111
+  },
+  {
+    "kanji": "岡",
+    "keyword": "Mount",
+    "heisigV6": 2112
+  },
+  {
+    "kanji": "鋼",
+    "keyword": "steel",
+    "heisigV6": 2113
+  },
+  {
+    "kanji": "綱",
+    "keyword": "hawser",
+    "heisigV6": 2114
+  },
+  {
+    "kanji": "剛",
+    "keyword": "sturdy",
+    "heisigV6": 2115
+  },
+  {
+    "kanji": "缶",
+    "keyword": "tin can",
+    "heisigV6": 2116
+  },
+  {
+    "kanji": "陶",
+    "keyword": "pottery",
+    "heisigV6": 2117
+  },
+  {
+    "kanji": "揺",
+    "keyword": "swing",
+    "heisigV6": 2118
+  },
+  {
+    "kanji": "謡",
+    "keyword": "Noh chanting",
+    "heisigV6": 2119
+  },
+  {
+    "kanji": "鬱",
+    "keyword": "gloom",
+    "heisigV6": 2120
+  },
+  {
+    "kanji": "就",
+    "keyword": "concerning",
+    "heisigV6": 2121
+  },
+  {
+    "kanji": "蹴",
+    "keyword": "kick",
+    "heisigV6": 2122
+  },
+  {
+    "kanji": "懇",
+    "keyword": "sociable",
+    "heisigV6": 2123
+  },
+  {
+    "kanji": "墾",
+    "keyword": "groundbreaking",
+    "heisigV6": 2124
+  },
+  {
+    "kanji": "貌",
+    "keyword": "countenance",
+    "heisigV6": 2125
+  },
+  {
+    "kanji": "免",
+    "keyword": "excuse",
+    "heisigV6": 2126
+  },
+  {
+    "kanji": "逸",
+    "keyword": "elude",
+    "heisigV6": 2127
+  },
+  {
+    "kanji": "晩",
+    "keyword": "nightfall",
+    "heisigV6": 2128
+  },
+  {
+    "kanji": "勉",
+    "keyword": "exertion",
+    "heisigV6": 2129
+  },
+  {
+    "kanji": "象",
+    "keyword": "elephant",
+    "heisigV6": 2130
+  },
+  {
+    "kanji": "像",
+    "keyword": "statue",
+    "heisigV6": 2131
+  },
+  {
+    "kanji": "馬",
+    "keyword": "horse",
+    "heisigV6": 2132
+  },
+  {
+    "kanji": "駒",
+    "keyword": "pony",
+    "heisigV6": 2133
+  },
+  {
+    "kanji": "験",
+    "keyword": "verification",
+    "heisigV6": 2134
+  },
+  {
+    "kanji": "騎",
+    "keyword": "equestrian",
+    "heisigV6": 2135
+  },
+  {
+    "kanji": "駐",
+    "keyword": "parking",
+    "heisigV6": 2136
+  },
+  {
+    "kanji": "駆",
+    "keyword": "drive",
+    "heisigV6": 2137
+  },
+  {
+    "kanji": "駅",
+    "keyword": "station",
+    "heisigV6": 2138
+  },
+  {
+    "kanji": "騒",
+    "keyword": "boisterous",
+    "heisigV6": 2139
+  },
+  {
+    "kanji": "駄",
+    "keyword": "burdensome",
+    "heisigV6": 2140
+  },
+  {
+    "kanji": "驚",
+    "keyword": "wonder",
+    "heisigV6": 2141
+  },
+  {
+    "kanji": "篤",
+    "keyword": "fervent",
+    "heisigV6": 2142
+  },
+  {
+    "kanji": "罵",
+    "keyword": "insult",
+    "heisigV6": 2143
+  },
+  {
+    "kanji": "騰",
+    "keyword": "inflation",
+    "heisigV6": 2144
+  },
+  {
+    "kanji": "虎",
+    "keyword": "tiger",
+    "heisigV6": 2145
+  },
+  {
+    "kanji": "虜",
+    "keyword": "captive",
+    "heisigV6": 2146
+  },
+  {
+    "kanji": "膚",
+    "keyword": "skin",
+    "heisigV6": 2147
+  },
+  {
+    "kanji": "虚",
+    "keyword": "void",
+    "heisigV6": 2148
+  },
+  {
+    "kanji": "戯",
+    "keyword": "frolic",
+    "heisigV6": 2149
+  },
+  {
+    "kanji": "虞",
+    "keyword": "uneasiness",
+    "heisigV6": 2150
+  },
+  {
+    "kanji": "慮",
+    "keyword": "prudence",
+    "heisigV6": 2151
+  },
+  {
+    "kanji": "劇",
+    "keyword": "drama",
+    "heisigV6": 2152
+  },
+  {
+    "kanji": "虐",
+    "keyword": "tyrannize",
+    "heisigV6": 2153
+  },
+  {
+    "kanji": "鹿",
+    "keyword": "deer",
+    "heisigV6": 2154
+  },
+  {
+    "kanji": "麓",
+    "keyword": "foot of a mountain",
+    "heisigV6": 2155
+  },
+  {
+    "kanji": "薦",
+    "keyword": "recommend",
+    "heisigV6": 2156
+  },
+  {
+    "kanji": "慶",
+    "keyword": "jubilation",
+    "heisigV6": 2157
+  },
+  {
+    "kanji": "麗",
+    "keyword": "lovely",
+    "heisigV6": 2158
+  },
+  {
+    "kanji": "熊",
+    "keyword": "bear",
+    "heisigV6": 2159
+  },
+  {
+    "kanji": "能",
+    "keyword": "ability",
+    "heisigV6": 2160
+  },
+  {
+    "kanji": "態",
+    "keyword": "attitude",
+    "heisigV6": 2161
+  },
+  {
+    "kanji": "寅",
+    "keyword": "sign of the tiger",
+    "heisigV6": 2162
+  },
+  {
+    "kanji": "演",
+    "keyword": "performance",
+    "heisigV6": 2163
+  },
+  {
+    "kanji": "辰",
+    "keyword": "sign of the dragon",
+    "heisigV6": 2164
+  },
+  {
+    "kanji": "辱",
+    "keyword": "embarrass",
+    "heisigV6": 2165
+  },
+  {
+    "kanji": "震",
+    "keyword": "quake",
+    "heisigV6": 2166
+  },
+  {
+    "kanji": "振",
+    "keyword": "shake",
+    "heisigV6": 2167
+  },
+  {
+    "kanji": "娠",
+    "keyword": "with child",
+    "heisigV6": 2168
+  },
+  {
+    "kanji": "唇",
+    "keyword": "lips",
+    "heisigV6": 2169
+  },
+  {
+    "kanji": "農",
+    "keyword": "agriculture",
+    "heisigV6": 2170
+  },
+  {
+    "kanji": "濃",
+    "keyword": "concentrated",
+    "heisigV6": 2171
+  },
+  {
+    "kanji": "送",
+    "keyword": "send off",
+    "heisigV6": 2172
+  },
+  {
+    "kanji": "関",
+    "keyword": "connection",
+    "heisigV6": 2173
+  },
+  {
+    "kanji": "咲",
+    "keyword": "blossom",
+    "heisigV6": 2174
+  },
+  {
+    "kanji": "鬼",
+    "keyword": "ghost",
+    "heisigV6": 2175
+  },
+  {
+    "kanji": "醜",
+    "keyword": "ugly",
+    "heisigV6": 2176
+  },
+  {
+    "kanji": "魂",
+    "keyword": "soul",
+    "heisigV6": 2177
+  },
+  {
+    "kanji": "魔",
+    "keyword": "witch",
+    "heisigV6": 2178
+  },
+  {
+    "kanji": "魅",
+    "keyword": "fascination",
+    "heisigV6": 2179
+  },
+  {
+    "kanji": "塊",
+    "keyword": "clod",
+    "heisigV6": 2180
+  },
+  {
+    "kanji": "襲",
+    "keyword": "attack",
+    "heisigV6": 2181
+  },
+  {
+    "kanji": "嚇",
+    "keyword": "upbraid",
+    "heisigV6": 2182
+  },
+  {
+    "kanji": "朕",
+    "keyword": "majestic plural",
+    "heisigV6": 2183
+  },
+  {
+    "kanji": "雰",
+    "keyword": "atmosphere",
+    "heisigV6": 2184
+  },
+  {
+    "kanji": "箇",
+    "keyword": "item",
+    "heisigV6": 2185
+  },
+  {
+    "kanji": "錬",
+    "keyword": "tempering",
+    "heisigV6": 2186
+  },
+  {
+    "kanji": "遵",
+    "keyword": "abide by",
+    "heisigV6": 2187
+  },
+  {
+    "kanji": "罷",
+    "keyword": "quit",
+    "heisigV6": 2188
+  },
+  {
+    "kanji": "屯",
+    "keyword": "barracks",
+    "heisigV6": 2189
+  },
+  {
+    "kanji": "且",
+    "keyword": "moreover",
+    "heisigV6": 2190
+  },
+  {
+    "kanji": "藻",
+    "keyword": "seaweed",
+    "heisigV6": 2191
+  },
+  {
+    "kanji": "隷",
+    "keyword": "slave",
+    "heisigV6": 2192
+  },
+  {
+    "kanji": "癒",
+    "keyword": "healing",
+    "heisigV6": 2193
+  },
+  {
+    "kanji": "璽",
+    "keyword": "imperial seal",
+    "heisigV6": 2194
+  },
+  {
+    "kanji": "潟",
+    "keyword": "lagoon",
+    "heisigV6": 2195
+  },
+  {
+    "kanji": "丹",
+    "keyword": "cinnabar",
+    "heisigV6": 2196
+  },
+  {
+    "kanji": "丑",
+    "keyword": "sign of the cow",
+    "heisigV6": 2197
+  },
+  {
+    "kanji": "羞",
+    "keyword": "humiliate",
+    "heisigV6": 2198
+  },
+  {
+    "kanji": "卯",
+    "keyword": "sign of the hare",
+    "heisigV6": 2199
+  },
+  {
+    "kanji": "巳",
+    "keyword": "sign of the snake",
+    "heisigV6": 2200
+  }
+]

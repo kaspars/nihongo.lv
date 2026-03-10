@@ -3,7 +3,7 @@
  *
  * Sources:
  *   tmp/rtk-search/rtk1-v6/   — 2200 kanji from RTK vol.1 6th edition
- *   tmp/rtk-search/rtk3-remain/ — 830 kanji from RTK vol.3 (4th edition numbering only)
+ *   tmp/rtk-search/rtk3-remain/ — 830 kanji from RTK vol.3 3rd edition (repo uses alternative index numbering)
  *
  * Output:
  *   data/heisig-rtk.json — sorted by heisigV6 (then heisigV4 for vol.3)
