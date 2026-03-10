@@ -86,6 +86,22 @@ export const japaneseKanji = pgTable("japanese_kanji", {
     .$onUpdate(() => new Date()),
 });
 
+// Simplified Chinese hanzi properties (Mainland China standard)
+export const simplifiedHanzi = pgTable("simplified_hanzi", {
+  characterId: integer("character_id")
+    .primaryKey()
+    .references(() => characters.id),
+  // HSK 2.0 (2010 revision), levels 1-6
+  hsk2Level: smallint("hsk2_level"),
+  // HSK 3.0 (2021 revision), levels 1-9 (3 stages × 3 levels)
+  hsk3Level: smallint("hsk3_level"),
+  createdAt: timestamp("created_at").notNull().defaultNow(),
+  updatedAt: timestamp("updated_at")
+    .notNull()
+    .defaultNow()
+    .$onUpdate(() => new Date()),
+});
+
 // Language-specific readings for characters
 export const characterReadings = pgTable(
   "character_readings",
