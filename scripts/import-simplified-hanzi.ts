@@ -161,7 +161,7 @@ async function main() {
     if (e.pinyin) {
       await db
         .insert(schema.characterReadings)
-        .values({ characterId: cp, language: "zh", type: "pinyin", value: e.pinyin, position: 0 })
+        .values({ characterId: cp, language: "cmn", type: "pinyin", value: e.pinyin, position: 0 })
         .onConflictDoNothing();
       upserted.readings++;
     }
@@ -170,7 +170,7 @@ async function main() {
     if (meanings.length > 0) {
       await db
         .insert(schema.characterMeanings)
-        .values({ characterId: cp, sourceLanguage: "zh", meaningLanguage: "en", meanings })
+        .values({ characterId: cp, sourceLanguage: "cmn", meaningLanguage: "en", meanings })
         .onConflictDoUpdate({
           target: [
             schema.characterMeanings.characterId,
