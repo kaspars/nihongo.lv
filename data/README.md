@@ -9,6 +9,7 @@ cross-validation, and future feature development.
 data/
 ├── texts/                    # Japanese literary texts (see texts/README.md)
 ├── anki/                     # Anki flashcard decks (.apkg)
+├── glossika/                 # Glossika sentence corpus — ja, ko, zh-CN, zh-TW, vi
 ├── manchester-hsk-pdfs/      # University of Manchester HSK vocabulary PDFs
 ├── kanjidic2.xml             # KANJIDIC2 kanji reference database
 ├── hanzidb-hsk.json          # Scraped from hanzidb.org — character-level HSK 2.0
@@ -127,6 +128,26 @@ HSK level 6 PDF includes Pinyin and English columns; only the Chinese word is ex
 Raw `.apkg` Anki deck files for HSK 1–6 (JK deck series). Each `.apkg` is a zip
 archive containing a SQLite database (`collection.anki2`). See `anki-hsk-vocab.json`
 for the extracted data. All 6 decks share the same note structure (19 fields).
+
+---
+
+## glossika/
+
+Sentences scraped from the Glossika language learning platform.
+**Internal reference only — do not redistribute.**
+
+| File | Language | Sentences |
+|------|----------|-----------|
+| ja.txt | Japanese | 6,236 |
+| ko.txt | Korean | 4,033 |
+| zh-CN.txt | Simplified Chinese | 6,382 |
+| zh-TW.txt | Traditional Chinese | 5,964 |
+| vi.txt | Vietnamese (Northern) | 10 (incomplete) |
+
+`sentences.json` — merged output keyed by sentence ID with all available languages.
+5,508 zh-CN/zh-TW parallel pairs; 3,089 entries with all 4 CJK languages.
+
+See [glossika/README.md](glossika/README.md) for full details and intended uses.
 
 ---
 
