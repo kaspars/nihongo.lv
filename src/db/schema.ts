@@ -3,6 +3,7 @@ import {
   integer,
   pgEnum,
   pgTable,
+  primaryKey,
   serial,
   smallint,
   text,
@@ -47,6 +48,14 @@ export const kanjiCategoryEnum = pgEnum("kanji_category", [
 
 // Language of meaning/translation text
 export const meaningLanguageEnum = pgEnum("meaning_language", ["lv", "en"]);
+
+// Relationship types between character forms:
+//   shinjitai_kyujitai — Japanese post-war simplification (from=shinjitai, to=kyūjitai)
+//   simplified_traditional — Chinese simplification (from=simplified, to=traditional)
+export const characterRelationshipTypeEnum = pgEnum("character_relationship_type", [
+  "shinjitai_kyujitai",
+  "simplified_traditional",
+]);
 
 // --- Tables ---
 
@@ -122,6 +131,25 @@ export const traditionalHanzi = pgTable("traditional_hanzi", {
     .defaultNow()
     .$onUpdate(() => new Date()),
 });
+
+// Relationships between different written forms of the same character.
+// Direction: from = derived/simplified form, to = source/traditional form.
+// Many-to-many: one simplified Chinese form can map to multiple traditional forms.
+export const characterRelationships = pgTable(
+  "character_relationships",
+  {
+    fromCharacterId: integer("from_character_id")
+      .notNull()
+      .references(() => characters.id),
+    toCharacterId: integer("to_character_id")
+      .notNull()
+      .references(() => characters.id),
+    type: characterRelationshipTypeEnum("type").notNull(),
+  },
+  (table) => [
+    primaryKey({ columns: [table.fromCharacterId, table.toCharacterId, table.type] }),
+  ],
+);
 
 // Language-specific readings for characters
 export const characterReadings = pgTable(
