@@ -7,36 +7,101 @@ import {
   createColumnHelper,
   VisibilityState,
 } from "@tanstack/react-table";
-import { useQueryState, parseAsInteger, parseAsString, parseAsArrayOf } from "nuqs";
-import { useEffect, useState, useTransition, useCallback } from "react";
-import type { CharacterRow, SortField, SortDir } from "./filters";
+import { useQueryState, parseAsInteger, parseAsString } from "nuqs";
+import { useEffect, useState, useTransition, useCallback, useMemo } from "react";
+import type { CharacterRow, SortField, CharacterContext } from "./filters";
 
 const col = createColumnHelper<CharacterRow>();
 
-const ALL_COLUMNS = [
-  col.accessor("literal",     { header: "Char",      size: 48 }),
-  col.accessor("heisigJa",    { header: "Heisig JA", size: 80 }),
-  col.accessor("heisigZhs",   { header: "Heisig ZHS",size: 80 }),
-  col.accessor("heisigZht",   { header: "Heisig ZHT",size: 80 }),
-  col.accessor("jlpt",        { header: "JLPT",      size: 56, cell: i => i.getValue() ? `N${i.getValue()}` : null }),
-  col.accessor("grade",       { header: "Grade",     size: 56 }),
-  col.accessor("hsk2Level",   { header: "HSK2",      size: 56 }),
-  col.accessor("strokeCount", { header: "Strokes",   size: 64 }),
-  col.accessor("radical",     { header: "Radical",   size: 64 }),
-  col.accessor("category",    { header: "Category",  size: 72 }),
-  col.accessor("keywordJa",   { header: "Keyword JA",size: 160 }),
-  col.accessor("keywordZhs",  { header: "Keyword ZHS",size: 160 }),
-  col.accessor("keywordZht",  { header: "Keyword ZHT",size: 160 }),
-  col.accessor("onyomi",      { header: "On'yomi",   size: 120 }),
-  col.accessor("kunyomi",     { header: "Kun'yomi",  size: 120 }),
-  col.accessor("pinyin",      { header: "Pinyin",    size: 100 }),
-];
+// Sort field lookup by column id (for columns that support server-side sorting)
+const COL_SORT_FIELD: Partial<Record<string, SortField>> = {
+  strokeCount: "stroke_count",
+  radical:     "radical",
+  heisigJa:    "heisig_ja",
+  heisigZhs:   "heisig_zhs",
+  heisigZht:   "heisig_zht",
+  jlpt:        "jlpt",
+  grade:       "grade",
+  hsk2Level:   "hsk2",
+};
 
-const DEFAULT_VISIBLE: VisibilityState = {
-  literal: true, heisigJa: true, heisigZhs: false, heisigZht: false,
-  jlpt: true, grade: true, hsk2Level: true, strokeCount: true, radical: false,
-  category: false, keywordJa: true, keywordZhs: false, keywordZht: false,
-  onyomi: true, kunyomi: true, pinyin: false,
+// Build context-specific columns in display order: general → specific → readings → misc
+function buildTableColumns(ctx: CharacterContext) {
+  const jlptCol = col.accessor("jlpt", {
+    header: "JLPT", size: 56,
+    cell: i => i.getValue() ? `N${i.getValue()}` : "",
+  });
+
+  switch (ctx) {
+    case "ja": return [
+      col.accessor("literal",     { header: "Char",     size: 56  }),
+      col.accessor("strokeCount", { header: "Strokes",  size: 64  }),
+      col.accessor("radical",     { header: "Radical",  size: 64  }),
+      col.accessor("keywordJa",   { header: "Keyword",  size: 160 }),
+      col.accessor("heisigJa",    { header: "Heisig",   size: 80  }),
+      col.accessor("grade",       { header: "Grade",    size: 56  }),
+      jlptCol,
+      col.accessor("onyomi",      { header: "On'yomi",  size: 120 }),
+      col.accessor("kunyomi",     { header: "Kun'yomi", size: 120 }),
+      col.accessor("category",    { header: "Category", size: 80  }),
+    ];
+    case "zhs": return [
+      col.accessor("literal",     { header: "Char",    size: 56  }),
+      col.accessor("strokeCount", { header: "Strokes", size: 64  }),
+      col.accessor("radical",     { header: "Radical", size: 64  }),
+      col.accessor("keywordZhs",  { header: "Keyword", size: 160 }),
+      col.accessor("heisigZhs",   { header: "Heisig",  size: 80  }),
+      col.accessor("hsk2Level",   { header: "HSK2",    size: 56  }),
+      col.accessor("pinyin",      { header: "Pinyin",  size: 100 }),
+    ];
+    case "zht": return [
+      col.accessor("literal",     { header: "Char",    size: 56  }),
+      col.accessor("strokeCount", { header: "Strokes", size: 64  }),
+      col.accessor("radical",     { header: "Radical", size: 64  }),
+      col.accessor("keywordZht",  { header: "Keyword", size: 160 }),
+      col.accessor("heisigZht",   { header: "Heisig",  size: 80  }),
+    ];
+    default: return [ // "all"
+      col.accessor("literal",     { header: "Char",        size: 56  }),
+      col.accessor("strokeCount", { header: "Strokes",     size: 64  }),
+      col.accessor("radical",     { header: "Radical",     size: 64  }),
+      col.accessor("heisigJa",    { header: "Heisig JA",   size: 80  }),
+      col.accessor("heisigZhs",   { header: "Heisig ZHS",  size: 80  }),
+      col.accessor("heisigZht",   { header: "Heisig ZHT",  size: 80  }),
+      jlptCol,
+      col.accessor("grade",       { header: "Grade",       size: 56  }),
+      col.accessor("hsk2Level",   { header: "HSK2",        size: 56  }),
+      col.accessor("keywordJa",   { header: "Keyword JA",  size: 160 }),
+      col.accessor("keywordZhs",  { header: "Keyword ZHS", size: 160 }),
+      col.accessor("keywordZht",  { header: "Keyword ZHT", size: 160 }),
+      col.accessor("onyomi",      { header: "On'yomi",     size: 120 }),
+      col.accessor("kunyomi",     { header: "Kun'yomi",    size: 120 }),
+      col.accessor("pinyin",      { header: "Pinyin",      size: 100 }),
+      col.accessor("category",    { header: "Category",    size: 80  }),
+    ];
+  }
+}
+
+// Which columns are visible by default per context (by accessor key)
+const DEFAULT_VISIBLE: Record<CharacterContext, Set<string>> = {
+  all: new Set(["literal", "strokeCount", "radical"]),
+  ja:  new Set(["literal", "strokeCount", "keywordJa", "heisigJa", "grade", "jlpt", "onyomi", "kunyomi"]),
+  zhs: new Set(["literal", "strokeCount", "keywordZhs", "heisigZhs", "hsk2Level", "pinyin"]),
+  zht: new Set(["literal", "strokeCount", "keywordZht", "heisigZht"]),
+};
+
+function defaultVisibility(ctx: CharacterContext): VisibilityState {
+  const visible = DEFAULT_VISIBLE[ctx];
+  return Object.fromEntries(
+    buildTableColumns(ctx).map(c => [c.accessorKey as string, visible.has(c.accessorKey as string)])
+  );
+}
+
+const CONTEXT_LABELS: Record<CharacterContext, string> = {
+  all: "All",
+  ja:  "Japanese",
+  zhs: "Chinese Simplified",
+  zht: "Chinese Traditional",
 };
 
 const JLPT_LEVELS  = [1, 2, 3, 4, 5];
@@ -44,20 +109,32 @@ const GRADE_LEVELS = ["1", "2", "3", "4", "5", "6", "S"];
 const HSK_LEVELS   = [1, 2, 3, 4, 5, 6];
 
 export default function CharacterTable() {
-  // --- Filter state (URL params) ---
+  // --- URL state ---
+  const [ctxParam,  setCtxParam]  = useQueryState("ctx",        parseAsString.withDefault("all"));
   const [jaJoyo,    setJaJoyo]    = useQueryState("ja_joyo",    parseAsInteger.withDefault(0));
   const [jaHeisig,  setJaHeisig]  = useQueryState("ja_heisig",  parseAsInteger.withDefault(0));
   const [zhsHeisig, setZhsHeisig] = useQueryState("zhs_heisig", parseAsInteger.withDefault(0));
   const [zhtHeisig, setZhtHeisig] = useQueryState("zht_heisig", parseAsInteger.withDefault(0));
   const [jlpt,      setJlpt]      = useQueryState("jlpt",       parseAsString.withDefault(""));
-  const [grade,     setGrade]     = useQueryState("grade",       parseAsString.withDefault(""));
-  const [hsk2,      setHsk2]      = useQueryState("hsk2",        parseAsString.withDefault(""));
-  const [sort,      setSort]      = useQueryState("sort",        parseAsString.withDefault("id"));
-  const [dir,       setDir]       = useQueryState("dir",         parseAsString.withDefault("asc"));
-  const [page,      setPage]      = useQueryState("page",        parseAsInteger.withDefault(1));
+  const [grade,     setGrade]     = useQueryState("grade",      parseAsString.withDefault(""));
+  const [hsk2,      setHsk2]      = useQueryState("hsk2",       parseAsString.withDefault(""));
+  const [sort,      setSort]      = useQueryState("sort",       parseAsString.withDefault("id"));
+  const [dir,       setDir]       = useQueryState("dir",        parseAsString.withDefault("asc"));
+  const [page,      setPage]      = useQueryState("page",       parseAsInteger.withDefault(1));
+
+  const context = ctxParam as CharacterContext;
+
+  function setContext(newCtx: CharacterContext) {
+    setCtxParam(newCtx);
+    setPage(1);
+    if (newCtx !== "ja")  { setJaJoyo(0); setJaHeisig(0); setJlpt(""); setGrade(""); }
+    if (newCtx !== "zhs") { setZhsHeisig(0); setHsk2(""); }
+    if (newCtx !== "zht") { setZhtHeisig(0); }
+    setColumnVisibility(defaultVisibility(newCtx));
+  }
 
   // --- Data ---
-  const [data, setData]   = useState<CharacterRow[]>([]);
+  const [data,  setData]  = useState<CharacterRow[]>([]);
   const [total, setTotal] = useState(0);
   const [isPending, startTransition] = useTransition();
 
@@ -65,6 +142,7 @@ export default function CharacterTable() {
 
   const fetchData = useCallback(() => {
     const params = new URLSearchParams();
+    params.set("ctx",  context);
     if (jaJoyo)    params.set("ja_joyo",    "1");
     if (jaHeisig)  params.set("ja_heisig",  "1");
     if (zhsHeisig) params.set("zhs_heisig", "1");
@@ -72,28 +150,31 @@ export default function CharacterTable() {
     if (jlpt)      params.set("jlpt",  jlpt);
     if (grade)     params.set("grade", grade);
     if (hsk2)      params.set("hsk2",  hsk2);
-    params.set("sort", sort);
-    params.set("dir",  dir);
-    params.set("page", String(page));
+    params.set("sort",     sort);
+    params.set("dir",      dir);
+    params.set("page",     String(page));
     params.set("per_page", String(perPage));
 
     startTransition(async () => {
-      const res = await fetch(`/api/characters?${params}`);
+      const res  = await fetch(`/api/characters?${params}`);
       const json = await res.json();
       setData(json.rows);
       setTotal(json.total);
     });
-  }, [jaJoyo, jaHeisig, zhsHeisig, zhtHeisig, jlpt, grade, hsk2, sort, dir, page]);
+  }, [context, jaJoyo, jaHeisig, zhsHeisig, zhtHeisig, jlpt, grade, hsk2, sort, dir, page]);
 
   useEffect(() => { fetchData(); }, [fetchData]);
 
-  // --- Column visibility ---
-  const [columnVisibility, setColumnVisibility] = useState<VisibilityState>(DEFAULT_VISIBLE);
+  // --- Columns & visibility ---
+  const columns = useMemo(() => buildTableColumns(context), [context]);
+  const [columnVisibility, setColumnVisibility] = useState<VisibilityState>(
+    () => defaultVisibility(context)
+  );
 
   // --- Table ---
   const table = useReactTable({
     data,
-    columns: ALL_COLUMNS,
+    columns,
     state: { columnVisibility },
     onColumnVisibilityChange: setColumnVisibility,
     getCoreRowModel: getCoreRowModel(),
@@ -111,12 +192,8 @@ export default function CharacterTable() {
   }
 
   function handleSort(field: SortField) {
-    if (sort === field) {
-      setDir(dir === "asc" ? "desc" : "asc");
-    } else {
-      setSort(field);
-      setDir("asc");
-    }
+    if (sort === field) setDir(dir === "asc" ? "desc" : "asc");
+    else { setSort(field); setDir("asc"); }
     setPage(1);
   }
 
@@ -127,95 +204,126 @@ export default function CharacterTable() {
 
   return (
     <div className="space-y-4">
-      {/* Filters */}
+      {/* Toolbar */}
       <div className="bg-white border border-gray-200 rounded-lg p-4 space-y-4">
-        <div className="flex flex-wrap gap-6">
-          {/* Set membership */}
-          <fieldset>
-            <legend className="text-xs font-semibold text-gray-500 uppercase mb-2">Character set</legend>
-            <div className="flex flex-wrap gap-3">
-              {[
-                ["Jōyō kanji",    jaJoyo,    setJaJoyo],
-                ["Heisig JA",     jaHeisig,  setJaHeisig],
-                ["Heisig ZHS",    zhsHeisig, setZhsHeisig],
-                ["Heisig ZHT",    zhtHeisig, setZhtHeisig],
-              ].map(([label, val, set]) => (
-                <label key={label as string} className="flex items-center gap-1.5 text-sm cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={!!(val as number)}
-                    onChange={() => { (set as (v: number) => void)(val ? 0 : 1); setPage(1); }}
-                  />
-                  {label as string}
-                </label>
-              ))}
-            </div>
-          </fieldset>
 
-          {/* JLPT */}
-          <fieldset>
-            <legend className="text-xs font-semibold text-gray-500 uppercase mb-2">JLPT</legend>
-            <div className="flex gap-1.5">
-              {JLPT_LEVELS.map(n => (
-                <label key={n} className="flex items-center gap-1 text-sm cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={jlpt.split(",").includes(String(n))}
-                    onChange={() => { setJlpt(toggleMulti(jlpt, String(n))); setPage(1); }}
-                  />
-                  N{n}
-                </label>
-              ))}
-            </div>
-          </fieldset>
-
-          {/* Grade */}
-          <fieldset>
-            <legend className="text-xs font-semibold text-gray-500 uppercase mb-2">Grade</legend>
-            <div className="flex gap-1.5">
-              {GRADE_LEVELS.map(g => (
-                <label key={g} className="flex items-center gap-1 text-sm cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={grade.split(",").includes(g)}
-                    onChange={() => { setGrade(toggleMulti(grade, g)); setPage(1); }}
-                  />
-                  {g}
-                </label>
-              ))}
-            </div>
-          </fieldset>
-
-          {/* HSK2 */}
-          <fieldset>
-            <legend className="text-xs font-semibold text-gray-500 uppercase mb-2">HSK2</legend>
-            <div className="flex gap-1.5">
-              {HSK_LEVELS.map(n => (
-                <label key={n} className="flex items-center gap-1 text-sm cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={hsk2.split(",").includes(String(n))}
-                    onChange={() => { setHsk2(toggleMulti(hsk2, String(n))); setPage(1); }}
-                  />
-                  {n}
-                </label>
-              ))}
-            </div>
-          </fieldset>
+        {/* Context selector */}
+        <div className="flex items-center gap-3">
+          <span className="text-xs font-semibold text-gray-500 uppercase shrink-0">Character class</span>
+          <div className="flex rounded-lg border border-gray-200 overflow-hidden text-sm">
+            {(["all", "ja", "zhs", "zht"] as CharacterContext[]).map(c => (
+              <button
+                key={c}
+                onClick={() => setContext(c)}
+                className={`px-3 py-1.5 border-r border-gray-200 last:border-r-0 transition-colors ${
+                  context === c
+                    ? "bg-gray-900 text-white"
+                    : "text-gray-900 hover:bg-gray-50"
+                }`}
+              >
+                {CONTEXT_LABELS[c]}
+              </button>
+            ))}
+          </div>
         </div>
 
-        {/* Column picker */}
+        {/* Context-specific filters */}
+        {context !== "all" && (
+          <div className="flex flex-wrap gap-6">
+
+            {context === "ja" && (<>
+              <fieldset>
+                <legend className="text-xs font-semibold text-gray-500 uppercase mb-2">Set</legend>
+                <div className="flex gap-3">
+                  <label className="flex items-center gap-1.5 text-sm text-gray-900 cursor-pointer">
+                    <input type="checkbox" checked={!!jaJoyo}
+                      onChange={() => { setJaJoyo(jaJoyo ? 0 : 1); setPage(1); }} />
+                    Jōyō
+                  </label>
+                  <label className="flex items-center gap-1.5 text-sm text-gray-900 cursor-pointer">
+                    <input type="checkbox" checked={!!jaHeisig}
+                      onChange={() => { setJaHeisig(jaHeisig ? 0 : 1); setPage(1); }} />
+                    Heisig
+                  </label>
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <legend className="text-xs font-semibold text-gray-500 uppercase mb-2">JLPT</legend>
+                <div className="flex gap-1.5">
+                  {JLPT_LEVELS.map(n => (
+                    <label key={n} className="flex items-center gap-1 text-sm text-gray-900 cursor-pointer">
+                      <input type="checkbox"
+                        checked={jlpt.split(",").includes(String(n))}
+                        onChange={() => { setJlpt(toggleMulti(jlpt, String(n))); setPage(1); }} />
+                      N{n}
+                    </label>
+                  ))}
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <legend className="text-xs font-semibold text-gray-500 uppercase mb-2">Grade</legend>
+                <div className="flex gap-1.5">
+                  {GRADE_LEVELS.map(g => (
+                    <label key={g} className="flex items-center gap-1 text-sm text-gray-900 cursor-pointer">
+                      <input type="checkbox"
+                        checked={grade.split(",").includes(g)}
+                        onChange={() => { setGrade(toggleMulti(grade, g)); setPage(1); }} />
+                      {g}
+                    </label>
+                  ))}
+                </div>
+              </fieldset>
+            </>)}
+
+            {context === "zhs" && (<>
+              <fieldset>
+                <legend className="text-xs font-semibold text-gray-500 uppercase mb-2">Set</legend>
+                <label className="flex items-center gap-1.5 text-sm text-gray-900 cursor-pointer">
+                  <input type="checkbox" checked={!!zhsHeisig}
+                    onChange={() => { setZhsHeisig(zhsHeisig ? 0 : 1); setPage(1); }} />
+                  Heisig
+                </label>
+              </fieldset>
+
+              <fieldset>
+                <legend className="text-xs font-semibold text-gray-500 uppercase mb-2">HSK2</legend>
+                <div className="flex gap-1.5">
+                  {HSK_LEVELS.map(n => (
+                    <label key={n} className="flex items-center gap-1 text-sm text-gray-900 cursor-pointer">
+                      <input type="checkbox"
+                        checked={hsk2.split(",").includes(String(n))}
+                        onChange={() => { setHsk2(toggleMulti(hsk2, String(n))); setPage(1); }} />
+                      {n}
+                    </label>
+                  ))}
+                </div>
+              </fieldset>
+            </>)}
+
+            {context === "zht" && (
+              <fieldset>
+                <legend className="text-xs font-semibold text-gray-500 uppercase mb-2">Set</legend>
+                <label className="flex items-center gap-1.5 text-sm text-gray-900 cursor-pointer">
+                  <input type="checkbox" checked={!!zhtHeisig}
+                    onChange={() => { setZhtHeisig(zhtHeisig ? 0 : 1); setPage(1); }} />
+                  Heisig
+                </label>
+              </fieldset>
+            )}
+
+          </div>
+        )}
+
+        {/* Column picker — only shows columns relevant to current context */}
         <details className="text-sm">
           <summary className="cursor-pointer text-xs font-semibold text-gray-500 uppercase">Columns</summary>
           <div className="mt-2 flex flex-wrap gap-3">
-            {table.getAllColumns().map(col => (
-              <label key={col.id} className="flex items-center gap-1.5 cursor-pointer">
-                <input
-                  type="checkbox"
-                  checked={col.getIsVisible()}
-                  onChange={col.getToggleVisibilityHandler()}
-                />
-                {String(col.columnDef.header)}
+            {table.getAllColumns().map(c => (
+              <label key={c.id} className="flex items-center gap-1.5 text-gray-900 cursor-pointer">
+                <input type="checkbox" checked={c.getIsVisible()} onChange={c.getToggleVisibilityHandler()} />
+                {String(c.columnDef.header)}
               </label>
             ))}
           </div>
@@ -233,17 +341,16 @@ export default function CharacterTable() {
             {table.getHeaderGroups().map(hg => (
               <tr key={hg.id} className="border-b border-gray-200 bg-gray-50">
                 {hg.headers.map(header => {
-                  const field = header.column.id as SortField;
-                  const sortable = ["id","stroke_count","radical","heisig_ja","heisig_zhs","heisig_zht","jlpt","grade","hsk2"].includes(header.column.id);
+                  const sortField = COL_SORT_FIELD[header.column.id];
                   return (
                     <th
                       key={header.id}
-                      className={`px-3 py-2 text-left text-xs font-semibold text-gray-600 whitespace-nowrap ${sortable ? "cursor-pointer hover:text-gray-900 select-none" : ""}`}
+                      className={`px-3 py-2 text-left text-xs font-semibold text-gray-600 whitespace-nowrap ${sortField ? "cursor-pointer hover:text-gray-900 select-none" : ""}`}
                       style={{ width: header.column.columnDef.size }}
-                      onClick={sortable ? () => handleSort(field) : undefined}
+                      onClick={sortField ? () => handleSort(sortField) : undefined}
                     >
                       {flexRender(header.column.columnDef.header, header.getContext())}
-                      {sortable && sortIndicator(field)}
+                      {sortField && sortIndicator(sortField)}
                     </th>
                   );
                 })}
@@ -256,9 +363,13 @@ export default function CharacterTable() {
                 {row.getVisibleCells().map(cell => (
                   <td
                     key={cell.id}
-                    className={`px-3 py-1.5 ${cell.column.id === "literal" ? "text-xl font-medium" : "text-gray-700"}`}
+                    className={`px-3 py-1.5 ${
+                      cell.column.id === "literal"
+                        ? "text-2xl font-medium text-gray-900"
+                        : "text-gray-700"
+                    }`}
                   >
-                    {flexRender(cell.column.columnDef.cell, cell.getContext()) ?? (cell.getValue() as any) ?? ""}
+                    {flexRender(cell.column.columnDef.cell, cell.getContext()) ?? (cell.getValue() as string) ?? ""}
                   </td>
                 ))}
               </tr>

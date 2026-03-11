@@ -1,12 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import { db } from "@/db";
 import { sql } from "drizzle-orm";
-import type { CharacterFilters, CharacterResponse } from "@/app/admin/characters/filters";
+import type { CharacterFilters, CharacterResponse, CharacterContext } from "@/app/admin/characters/filters";
 
 export async function GET(req: NextRequest) {
   const p = req.nextUrl.searchParams;
 
   const filters: CharacterFilters = {
+    ctx: (p.get("ctx") ?? "all") as CharacterContext,
     ja_joyo:    p.get("ja_joyo") === "1",
     ja_heisig:  p.get("ja_heisig") === "1",
     zhs_heisig: p.get("zhs_heisig") === "1",
@@ -30,6 +31,11 @@ export async function GET(req: NextRequest) {
   const limit  = filters.per_page ?? 50;
 
   const conditions: string[] = [];
+
+  // Context: scope to characters that exist in the relevant language table
+  if (filters.ctx === "ja")  conditions.push(`jk.character_id IS NOT NULL`);
+  if (filters.ctx === "zhs") conditions.push(`sh.character_id IS NOT NULL`);
+  if (filters.ctx === "zht") conditions.push(`th.character_id IS NOT NULL`);
 
   if (filters.ja_joyo)    conditions.push(`jk.category IS NOT NULL`);
   if (filters.ja_heisig)  conditions.push(`jk.sort_heisig IS NOT NULL`);

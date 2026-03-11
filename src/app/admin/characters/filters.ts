@@ -11,7 +11,10 @@ export type SortField =
 
 export type SortDir = "asc" | "desc";
 
+export type CharacterContext = "all" | "ja" | "zhs" | "zht";
+
 export interface CharacterFilters {
+  ctx?: CharacterContext;
   // Character set membership (each is optional — omit = no filter on that set)
   ja_joyo?: boolean;
   ja_heisig?: boolean;
