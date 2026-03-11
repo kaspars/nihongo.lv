@@ -97,6 +97,21 @@ function defaultVisibility(ctx: CharacterContext): VisibilityState {
   );
 }
 
+// Font class and lang attribute per context — drives correct glyph rendering
+// for Han-unified code points that differ by language.
+const CJK_FONT_CLASS: Record<CharacterContext, string> = {
+  all: "font-cjk-ja-sans",   // default to Japanese glyphs for mixed view
+  ja:  "font-cjk-ja-sans",
+  zhs: "font-cjk-zhs-sans",
+  zht: "font-cjk-zht-sans",
+};
+const CJK_LANG: Record<CharacterContext, string | undefined> = {
+  all: undefined,
+  ja:  "ja",
+  zhs: "zh-Hans",
+  zht: "zh-Hant",
+};
+
 const CONTEXT_LABELS: Record<CharacterContext, string> = {
   all: "All",
   ja:  "Japanese",
@@ -360,18 +375,22 @@ export default function CharacterTable() {
           <tbody>
             {table.getRowModel().rows.map(row => (
               <tr key={row.id} className="border-b border-gray-100 hover:bg-gray-50">
-                {row.getVisibleCells().map(cell => (
-                  <td
-                    key={cell.id}
-                    className={`px-3 py-1.5 ${
-                      cell.column.id === "literal"
-                        ? "text-2xl font-medium text-gray-900"
-                        : "text-gray-700"
-                    }`}
-                  >
-                    {flexRender(cell.column.columnDef.cell, cell.getContext()) ?? (cell.getValue() as string) ?? ""}
-                  </td>
-                ))}
+                {row.getVisibleCells().map(cell => {
+                  const isLiteral = cell.column.id === "literal";
+                  return (
+                    <td
+                      key={cell.id}
+                      className={`px-3 py-1.5 ${
+                        isLiteral
+                          ? `text-2xl font-medium text-gray-900 ${CJK_FONT_CLASS[context]}`
+                          : "text-gray-700"
+                      }`}
+                      lang={isLiteral ? CJK_LANG[context] : undefined}
+                    >
+                      {flexRender(cell.column.columnDef.cell, cell.getContext()) ?? (cell.getValue() as string) ?? ""}
+                    </td>
+                  );
+                })}
               </tr>
             ))}
           </tbody>

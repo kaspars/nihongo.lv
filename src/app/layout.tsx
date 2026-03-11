@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { cjkFontVariables } from "@/lib/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -12,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="lv">
+    <html lang="lv" className={cjkFontVariables}>
       <body>{children}</body>
     </html>
   );

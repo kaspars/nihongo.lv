@@ -24,3 +24,17 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* CJK font utility classes.
+ * The CSS variables are registered on <html> by next/font via src/lib/fonts.ts.
+ * Apply these classes + the matching lang attribute to get language-correct glyphs.
+ * (Same Unicode code point can have different canonical shapes per language.) */
+
+.font-cjk-ja-sans   { font-family: var(--font-cjk-ja-sans),  sans-serif; }
+.font-cjk-ja-serif  { font-family: var(--font-cjk-ja-serif), serif; }
+.font-cjk-zhs-sans  { font-family: var(--font-cjk-zhs-sans), sans-serif; }
+.font-cjk-zhs-serif { font-family: var(--font-cjk-zhs-serif),serif; }
+.font-cjk-zht-sans  { font-family: var(--font-cjk-zht-sans), sans-serif; }
+.font-cjk-zht-serif { font-family: var(--font-cjk-zht-serif),serif; }
+.font-cjk-ko-sans   { font-family: var(--font-cjk-ko-sans),  sans-serif; }
+.font-cjk-ko-serif  { font-family: var(--font-cjk-ko-serif), serif; }
