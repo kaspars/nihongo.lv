@@ -53,7 +53,9 @@ export async function GET(req: NextRequest) {
       cm_zht.keyword        AS "keywordZht",
       (SELECT value FROM character_readings WHERE character_id = c.id AND language = 'ja' AND type = 'onyomi'  ORDER BY position LIMIT 1) AS "onyomi",
       (SELECT value FROM character_readings WHERE character_id = c.id AND language = 'ja' AND type = 'kunyomi' ORDER BY position LIMIT 1) AS "kunyomi",
-      (SELECT value FROM character_readings WHERE character_id = c.id AND language = 'cmn' AND type = 'pinyin'  ORDER BY position LIMIT 1) AS "pinyin"
+      (SELECT value FROM character_readings WHERE character_id = c.id AND language = 'cmn' AND type = 'pinyin'  ORDER BY position LIMIT 1) AS "pinyin",
+      (SELECT string_agg(c2.literal, '' ORDER BY c2.id) FROM character_relationships cr JOIN characters c2 ON c2.id = cr.to_character_id WHERE cr.from_character_id = c.id AND cr.type = 'simplified_traditional') AS "traditionalVariants",
+      (SELECT string_agg(c2.literal, '' ORDER BY c2.id) FROM character_relationships cr JOIN characters c2 ON c2.id = cr.from_character_id WHERE cr.to_character_id = c.id AND cr.type = 'simplified_traditional') AS "simplifiedVariants"
     FROM characters c
     LEFT JOIN japanese_kanji jk    ON jk.character_id = c.id
     LEFT JOIN simplified_hanzi sh  ON sh.character_id = c.id

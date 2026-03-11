@@ -3,6 +3,10 @@ import type { CharacterRow, SortField, CharacterContext } from "./filters";
 
 const col = createColumnHelper<CharacterRow>();
 
+function VariantChars({ chars, lang, fontClass }: { chars: string; lang: string; fontClass: string }) {
+  return <span lang={lang} className={`${fontClass} text-2xl`}>{chars}</span>;
+}
+
 /** Maps TanStack column id (camelCase) → API sort param (snake_case). */
 export const COL_SORT_FIELD: Partial<Record<string, SortField>> = {
   strokeCount: "stroke_count",
@@ -26,8 +30,8 @@ export const CONTEXT_LABELS: Record<CharacterContext, string> = {
 export const DEFAULT_VISIBLE: Record<CharacterContext, Set<string>> = {
   all: new Set(["literal", "strokeCount", "radical"]),
   ja:  new Set(["literal", "strokeCount", "keywordJa", "heisigJa", "grade", "jlpt", "onyomi", "kunyomi"]),
-  zhs: new Set(["literal", "strokeCount", "keywordZhs", "heisigZhs", "hsk2Level", "pinyin"]),
-  zht: new Set(["literal", "strokeCount", "keywordZht", "heisigZht"]),
+  zhs: new Set(["literal", "traditionalVariants", "strokeCount", "keywordZhs", "heisigZhs", "hsk2Level", "pinyin"]),
+  zht: new Set(["literal", "simplifiedVariants", "strokeCount", "keywordZht", "heisigZht"]),
 };
 
 /** Build context-specific column definitions. Order: general → specific → readings → misc. */
@@ -35,6 +39,22 @@ export function buildTableColumns(ctx: CharacterContext) {
   const jlptCol = col.accessor("jlpt", {
     header: "JLPT", size: 56,
     cell: i => i.getValue() ? `N${i.getValue()}` : "",
+  });
+
+  const traditionalVariantsCol = col.accessor("traditionalVariants", {
+    header: "Traditional", size: 80,
+    cell: i => {
+      const v = i.getValue();
+      return v ? <VariantChars chars={v} lang="zh-Hant" fontClass="font-cjk-zht-sans" /> : null;
+    },
+  });
+
+  const simplifiedVariantsCol = col.accessor("simplifiedVariants", {
+    header: "Simplified", size: 80,
+    cell: i => {
+      const v = i.getValue();
+      return v ? <VariantChars chars={v} lang="zh-Hans" fontClass="font-cjk-zhs-sans" /> : null;
+    },
   });
 
   switch (ctx) {
@@ -52,6 +72,7 @@ export function buildTableColumns(ctx: CharacterContext) {
     ];
     case "zhs": return [
       col.accessor("literal",     { header: "Char",    size: 56  }),
+      traditionalVariantsCol,
       col.accessor("strokeCount", { header: "Strokes", size: 64  }),
       col.accessor("radical",     { header: "Radical", size: 64  }),
       col.accessor("keywordZhs",  { header: "Keyword", size: 160 }),
@@ -61,6 +82,7 @@ export function buildTableColumns(ctx: CharacterContext) {
     ];
     case "zht": return [
       col.accessor("literal",     { header: "Char",    size: 56  }),
+      simplifiedVariantsCol,
       col.accessor("strokeCount", { header: "Strokes", size: 64  }),
       col.accessor("radical",     { header: "Radical", size: 64  }),
       col.accessor("keywordZht",  { header: "Keyword", size: 160 }),

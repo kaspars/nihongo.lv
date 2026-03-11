@@ -62,6 +62,9 @@ export interface CharacterRow {
   onyomi: string | null;
   kunyomi: string | null;
   pinyin: string | null;
+  // Character variant links (populated based on context)
+  traditionalVariants: string | null;
+  simplifiedVariants: string | null;
 }
 
 export interface CharacterResponse {

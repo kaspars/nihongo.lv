@@ -51,18 +51,30 @@ describe("buildTableColumns", () => {
     expect(ids).not.toContain("pinyin");
   });
 
-  it("zhs — contains Simplified Chinese columns", () => {
+  it("zhs — contains Simplified Chinese columns and traditionalVariants", () => {
     const ids = colIds("zhs");
     expect(ids).toContain("keywordZhs");
     expect(ids).toContain("heisigZhs");
     expect(ids).toContain("hsk2Level");
     expect(ids).toContain("pinyin");
+    expect(ids).toContain("traditionalVariants");
   });
 
-  it("zht — contains Traditional Chinese columns", () => {
+  it("zht — contains Traditional Chinese columns and simplifiedVariants", () => {
     const ids = colIds("zht");
     expect(ids).toContain("keywordZht");
     expect(ids).toContain("heisigZht");
+    expect(ids).toContain("simplifiedVariants");
+  });
+
+  it("zhs — traditionalVariants comes right after literal", () => {
+    const ids = colIds("zhs");
+    expect(ids.indexOf("traditionalVariants")).toBe(ids.indexOf("literal") + 1);
+  });
+
+  it("zht — simplifiedVariants comes right after literal", () => {
+    const ids = colIds("zht");
+    expect(ids.indexOf("simplifiedVariants")).toBe(ids.indexOf("literal") + 1);
   });
 
   it("all — contains cross-context columns with qualified names", () => {
@@ -137,18 +149,20 @@ describe("defaultVisibility", () => {
     expect(vis["category"]).toBe(false);
   });
 
-  it("zhs — Simplified columns visible", () => {
+  it("zhs — Simplified columns visible, including traditionalVariants", () => {
     const vis = defaultVisibility("zhs");
     expect(vis["keywordZhs"]).toBe(true);
     expect(vis["heisigZhs"]).toBe(true);
     expect(vis["hsk2Level"]).toBe(true);
     expect(vis["pinyin"]).toBe(true);
+    expect(vis["traditionalVariants"]).toBe(true);
   });
 
-  it("zht — Traditional columns visible", () => {
+  it("zht — Traditional columns visible, including simplifiedVariants", () => {
     const vis = defaultVisibility("zht");
     expect(vis["keywordZht"]).toBe(true);
     expect(vis["heisigZht"]).toBe(true);
+    expect(vis["simplifiedVariants"]).toBe(true);
   });
 
   it("all columns in returned object match the context's built columns", () => {
