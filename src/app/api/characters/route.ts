@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { db } from "@/db";
 import { sql } from "drizzle-orm";
 import type { CharacterFilters, CharacterResponse, CharacterContext } from "@/app/admin/characters/filters";
+import { numOrUndef, buildWhereConditions, buildOrderBy } from "./query-helpers";
 
 export async function GET(req: NextRequest) {
   const p = req.nextUrl.searchParams;
@@ -30,43 +31,9 @@ export async function GET(req: NextRequest) {
   const offset = ((filters.page ?? 1) - 1) * (filters.per_page ?? 50);
   const limit  = filters.per_page ?? 50;
 
-  const conditions: string[] = [];
-
-  // Context: scope to characters that exist in the relevant language table
-  if (filters.ctx === "ja")  conditions.push(`jk.character_id IS NOT NULL`);
-  if (filters.ctx === "zhs") conditions.push(`sh.character_id IS NOT NULL`);
-  if (filters.ctx === "zht") conditions.push(`th.character_id IS NOT NULL`);
-
-  if (filters.ja_joyo)    conditions.push(`jk.category IS NOT NULL`);
-  if (filters.ja_heisig)  conditions.push(`jk.sort_heisig IS NOT NULL`);
-  if (filters.zhs_heisig) conditions.push(`sh.sort_heisig IS NOT NULL`);
-  if (filters.zht_heisig) conditions.push(`th.sort_heisig IS NOT NULL`);
-
-  if (filters.jlpt?.length)  conditions.push(`jk.jlpt IN (${filters.jlpt.join(",")})`);
-  if (filters.grade?.length) conditions.push(`jk.grade IN (${filters.grade.map(g => `'${g}'`).join(",")})`);
-  if (filters.hsk2?.length)  conditions.push(`sh.hsk2_level IN (${filters.hsk2.join(",")})`);
-
-  if (filters.heisig_ja_min)  conditions.push(`jk.sort_heisig >= ${filters.heisig_ja_min}`);
-  if (filters.heisig_ja_max)  conditions.push(`jk.sort_heisig <= ${filters.heisig_ja_max}`);
-  if (filters.heisig_zhs_min) conditions.push(`sh.sort_heisig >= ${filters.heisig_zhs_min}`);
-  if (filters.heisig_zhs_max) conditions.push(`sh.sort_heisig <= ${filters.heisig_zhs_max}`);
-  if (filters.heisig_zht_min) conditions.push(`th.sort_heisig >= ${filters.heisig_zht_min}`);
-  if (filters.heisig_zht_max) conditions.push(`th.sort_heisig <= ${filters.heisig_zht_max}`);
-
-  const where = conditions.length ? `WHERE ${conditions.join(" AND ")}` : "";
-
-  const sortCol: Record<string, string> = {
-    id:          "c.id",
-    stroke_count:"c.stroke_count",
-    radical:     "c.radical",
-    heisig_ja:   "jk.sort_heisig",
-    heisig_zhs:  "sh.sort_heisig",
-    heisig_zht:  "th.sort_heisig",
-    jlpt:        "jk.jlpt",
-    grade:       "jk.grade",
-    hsk2:        "sh.hsk2_level",
-  };
-  const orderBy = `${sortCol[filters.sort ?? "id"] ?? "c.id"} ${filters.dir === "desc" ? "DESC" : "ASC"} NULLS LAST`;
+  const conditions = buildWhereConditions(filters);
+  const where   = conditions.length ? `WHERE ${conditions.join(" AND ")}` : "";
+  const orderBy = buildOrderBy(filters.sort, filters.dir);
 
   const query = `
     SELECT
@@ -123,7 +90,3 @@ export async function GET(req: NextRequest) {
   return NextResponse.json(response);
 }
 
-function numOrUndef(s: string | null): number | undefined {
-  const n = Number(s);
-  return s && !isNaN(n) ? n : undefined;
-}

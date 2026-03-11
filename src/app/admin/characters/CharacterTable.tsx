@@ -4,98 +4,19 @@ import {
   useReactTable,
   getCoreRowModel,
   flexRender,
-  createColumnHelper,
   VisibilityState,
 } from "@tanstack/react-table";
 import { useQueryState, parseAsInteger, parseAsString } from "nuqs";
 import { useEffect, useState, useTransition, useCallback, useMemo } from "react";
 import type { CharacterRow, SortField, CharacterContext } from "./filters";
-
-const col = createColumnHelper<CharacterRow>();
-
-// Sort field lookup by column id (for columns that support server-side sorting)
-const COL_SORT_FIELD: Partial<Record<string, SortField>> = {
-  strokeCount: "stroke_count",
-  radical:     "radical",
-  heisigJa:    "heisig_ja",
-  heisigZhs:   "heisig_zhs",
-  heisigZht:   "heisig_zht",
-  jlpt:        "jlpt",
-  grade:       "grade",
-  hsk2Level:   "hsk2",
-};
-
-// Build context-specific columns in display order: general → specific → readings → misc
-function buildTableColumns(ctx: CharacterContext) {
-  const jlptCol = col.accessor("jlpt", {
-    header: "JLPT", size: 56,
-    cell: i => i.getValue() ? `N${i.getValue()}` : "",
-  });
-
-  switch (ctx) {
-    case "ja": return [
-      col.accessor("literal",     { header: "Char",     size: 56  }),
-      col.accessor("strokeCount", { header: "Strokes",  size: 64  }),
-      col.accessor("radical",     { header: "Radical",  size: 64  }),
-      col.accessor("keywordJa",   { header: "Keyword",  size: 160 }),
-      col.accessor("heisigJa",    { header: "Heisig",   size: 80  }),
-      col.accessor("grade",       { header: "Grade",    size: 56  }),
-      jlptCol,
-      col.accessor("onyomi",      { header: "On'yomi",  size: 120 }),
-      col.accessor("kunyomi",     { header: "Kun'yomi", size: 120 }),
-      col.accessor("category",    { header: "Category", size: 80  }),
-    ];
-    case "zhs": return [
-      col.accessor("literal",     { header: "Char",    size: 56  }),
-      col.accessor("strokeCount", { header: "Strokes", size: 64  }),
-      col.accessor("radical",     { header: "Radical", size: 64  }),
-      col.accessor("keywordZhs",  { header: "Keyword", size: 160 }),
-      col.accessor("heisigZhs",   { header: "Heisig",  size: 80  }),
-      col.accessor("hsk2Level",   { header: "HSK2",    size: 56  }),
-      col.accessor("pinyin",      { header: "Pinyin",  size: 100 }),
-    ];
-    case "zht": return [
-      col.accessor("literal",     { header: "Char",    size: 56  }),
-      col.accessor("strokeCount", { header: "Strokes", size: 64  }),
-      col.accessor("radical",     { header: "Radical", size: 64  }),
-      col.accessor("keywordZht",  { header: "Keyword", size: 160 }),
-      col.accessor("heisigZht",   { header: "Heisig",  size: 80  }),
-    ];
-    default: return [ // "all"
-      col.accessor("literal",     { header: "Char",        size: 56  }),
-      col.accessor("strokeCount", { header: "Strokes",     size: 64  }),
-      col.accessor("radical",     { header: "Radical",     size: 64  }),
-      col.accessor("heisigJa",    { header: "Heisig JA",   size: 80  }),
-      col.accessor("heisigZhs",   { header: "Heisig ZHS",  size: 80  }),
-      col.accessor("heisigZht",   { header: "Heisig ZHT",  size: 80  }),
-      jlptCol,
-      col.accessor("grade",       { header: "Grade",       size: 56  }),
-      col.accessor("hsk2Level",   { header: "HSK2",        size: 56  }),
-      col.accessor("keywordJa",   { header: "Keyword JA",  size: 160 }),
-      col.accessor("keywordZhs",  { header: "Keyword ZHS", size: 160 }),
-      col.accessor("keywordZht",  { header: "Keyword ZHT", size: 160 }),
-      col.accessor("onyomi",      { header: "On'yomi",     size: 120 }),
-      col.accessor("kunyomi",     { header: "Kun'yomi",    size: 120 }),
-      col.accessor("pinyin",      { header: "Pinyin",      size: 100 }),
-      col.accessor("category",    { header: "Category",    size: 80  }),
-    ];
-  }
-}
-
-// Which columns are visible by default per context (by accessor key)
-const DEFAULT_VISIBLE: Record<CharacterContext, Set<string>> = {
-  all: new Set(["literal", "strokeCount", "radical"]),
-  ja:  new Set(["literal", "strokeCount", "keywordJa", "heisigJa", "grade", "jlpt", "onyomi", "kunyomi"]),
-  zhs: new Set(["literal", "strokeCount", "keywordZhs", "heisigZhs", "hsk2Level", "pinyin"]),
-  zht: new Set(["literal", "strokeCount", "keywordZht", "heisigZht"]),
-};
-
-function defaultVisibility(ctx: CharacterContext): VisibilityState {
-  const visible = DEFAULT_VISIBLE[ctx];
-  return Object.fromEntries(
-    buildTableColumns(ctx).map(c => [c.accessorKey as string, visible.has(c.accessorKey as string)])
-  );
-}
+import {
+  COL_SORT_FIELD,
+  CONTEXT_LABELS,
+  buildTableColumns,
+  defaultVisibility,
+  toggleMulti,
+  sortIndicator,
+} from "./table-helpers";
 
 // Font class and lang attribute per context — drives correct glyph rendering
 // for Han-unified code points that differ by language.
@@ -110,13 +31,6 @@ const CJK_LANG: Record<CharacterContext, string | undefined> = {
   ja:  "ja",
   zhs: "zh-Hans",
   zht: "zh-Hant",
-};
-
-const CONTEXT_LABELS: Record<CharacterContext, string> = {
-  all: "All",
-  ja:  "Japanese",
-  zhs: "Chinese Simplified",
-  zht: "Chinese Traditional",
 };
 
 const JLPT_LEVELS  = [1, 2, 3, 4, 5];
@@ -198,22 +112,11 @@ export default function CharacterTable() {
     pageCount: Math.ceil(total / perPage),
   });
 
-  // --- Helpers ---
-  function toggleMulti(current: string, value: string): string {
-    const arr = current ? current.split(",") : [];
-    return arr.includes(String(value))
-      ? arr.filter(v => v !== String(value)).join(",")
-      : [...arr, String(value)].join(",");
-  }
-
   function handleSort(field: SortField) {
     if (sort === field) setDir(dir === "asc" ? "desc" : "asc");
     else { setSort(field); setDir("asc"); }
     setPage(1);
   }
-
-  const sortIndicator = (field: SortField) =>
-    sort === field ? (dir === "asc" ? " ↑" : " ↓") : "";
 
   const totalPages = Math.ceil(total / perPage);
 
@@ -365,7 +268,7 @@ export default function CharacterTable() {
                       onClick={sortField ? () => handleSort(sortField) : undefined}
                     >
                       {flexRender(header.column.columnDef.header, header.getContext())}
-                      {sortField && sortIndicator(sortField)}
+                      {sortField && sortIndicator(sort, dir, sortField)}
                     </th>
                   );
                 })}
