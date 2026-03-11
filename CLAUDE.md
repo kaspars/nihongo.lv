@@ -13,6 +13,8 @@ nihongo.lv — a Japanese language learning web application for Latvian speakers
 - **Database:** PostgreSQL + Drizzle ORM
 - **Auth:** Auth.js (Google OAuth)
 - **Styling:** Tailwind CSS
+- **CJK Fonts:** Noto Sans/Serif JP/SC/TC/KR via `next/font/google` (self-hosted, unicode-range subsetted)
+- **Data tables:** TanStack Table v8 with manual sorting/pagination; nuqs for URL state
 - **TTS:** AWS Polly via AWS SDK v3
 - **Kanji stroke input:** @kaspars/kaku and @kaspars/kaku-ren (author's own npm packages)
 - **Hosting:** Self-hosted — Docker, nginx reverse proxy
@@ -28,7 +30,7 @@ nihongo.lv — a Japanese language learning web application for Latvian speakers
 ### Secondary
 - **Widgets:** Weather (multiple cities), EUR exchange rates, Riga/Tokyo time
 - **Static pages:** Lightweight, for informational content when needed
-- **Admin UI:** Lightweight content editing interface (scope TBD)
+- **Admin UI:** Internal character browser at `/admin/characters` — filterable/sortable data grid with context switcher (All / Japanese / Chinese Simplified / Chinese Traditional). Context drives visible columns, filter options, and API scoping.
 
 ### Future ideas
 - **Duolingo-style drills:** Vocabulary, sentence patterns — game-like learning environment
@@ -96,10 +98,25 @@ src/
 ├── app/          # Next.js App Router (pages, layouts, API routes)
 ├── components/   # React components
 ├── db/           # Drizzle schema and database connection
-├── lib/          # Shared utilities (auth, formatting, etc.)
+├── lib/          # Shared utilities (auth, fonts, formatting, etc.)
 └── test/         # Test setup and shared test utilities
 drizzle/          # Generated migration files
+scripts/          # One-off data import/parse scripts (tsx, not type-checked by Next.js)
+data/             # Reference data files (JSON) used by import scripts
+tmp/              # Local scratch files, not committed (PDFs, Anki decks, etc.)
 ```
+
+## CJK Font Conventions
+
+Font classes and matching `lang` attributes must be applied together — the font provides the glyphs, the `lang` attribute activates the OpenType `locl` feature for Han-unified code points (same codepoint, different canonical glyph per language).
+
+- Japanese: `class="font-cjk-ja-sans"` + `lang="ja"`
+- Simplified Chinese: `class="font-cjk-zhs-sans"` + `lang="zh-Hans"`
+- Traditional Chinese: `class="font-cjk-zht-sans"` + `lang="zh-Hant"`
+- Korean: `class="font-cjk-ko-sans"` + `lang="ko"`
+- Serif variants available: `font-cjk-ja-serif` etc. — use for learning cards and literary reader.
+
+**`next/font` restriction:** font calls require literal object arguments — no spread operators. All options must be written out explicitly in each call, or the build will fail with "Unexpected spread".
 
 ## Old Codebase Reference
 
