@@ -4,6 +4,8 @@ import { db } from "@/db";
 import { sql } from "drizzle-orm";
 import CharacterDetail from "./CharacterDetail";
 import type { CharacterDetailData } from "@/app/api/characters/[id]/route";
+import type { CharacterFilters, CharacterContext } from "@/app/admin/characters/filters";
+import { numOrUndef, buildWhereConditions, buildOrderBy } from "@/app/api/characters/query-helpers";
 
 async function fetchCharacter(id: number): Promise<CharacterDetailData | null> {
   const rows = await db.execute(sql.raw(`
@@ -92,24 +94,97 @@ async function fetchCharacter(id: number): Promise<CharacterDetailData | null> {
   };
 }
 
+// Parse searchParams into CharacterFilters, applying the same defaults as the
+// CharacterTable UI (ctx=ja, ja_joyo=true) so prev/next matches what the user sees.
+function parseFilters(sp: Record<string, string>): CharacterFilters {
+  const get = (k: string) => sp[k] ?? null;
+  return {
+    ctx:        ((get("ctx") ?? "ja") as CharacterContext),
+    q:          get("q") ?? undefined,
+    ja_joyo:    "ja_joyo"    in sp ? sp.ja_joyo    === "1" : true,
+    ja_heisig:  get("ja_heisig")  === "1",
+    zhs_heisig: get("zhs_heisig") === "1",
+    zht_heisig: get("zht_heisig") === "1",
+    jlpt:  get("jlpt")  ? get("jlpt")!.split(",").map(Number)  : undefined,
+    grade: get("grade") ? get("grade")!.split(",")             : undefined,
+    hsk2:  get("hsk2")  ? get("hsk2")!.split(",").map(Number)  : undefined,
+    heisig_ja_min:  numOrUndef(get("heisig_ja_min")),
+    heisig_ja_max:  numOrUndef(get("heisig_ja_max")),
+    heisig_zhs_min: numOrUndef(get("heisig_zhs_min")),
+    heisig_zhs_max: numOrUndef(get("heisig_zhs_max")),
+    heisig_zht_min: numOrUndef(get("heisig_zht_min")),
+    heisig_zht_max: numOrUndef(get("heisig_zht_max")),
+    sort: (get("sort") as CharacterFilters["sort"]) ?? "id",
+    dir:  (get("dir") as "asc" | "desc") ?? "asc",
+    page: 1,
+    per_page: 50,
+  };
+}
+
+async function fetchAdjacentIds(charId: number, filters: CharacterFilters): Promise<{
+  prevId: number | null; prevLiteral: string | null;
+  nextId: number | null; nextLiteral: string | null;
+}> {
+  const conditions = buildWhereConditions(filters);
+  const where = conditions.length ? `WHERE ${conditions.join(" AND ")}` : "";
+  const orderBy = buildOrderBy(filters.sort, filters.dir);
+
+  try {
+    const result = await db.execute(sql.raw(`
+      WITH ranked AS (
+        SELECT c.id, c.literal,
+               ROW_NUMBER() OVER (ORDER BY ${orderBy}, c.id ASC) AS rn
+        FROM characters c
+        LEFT JOIN japanese_kanji jk ON jk.character_id = c.id
+        LEFT JOIN simplified_hanzi sh ON sh.character_id = c.id
+        LEFT JOIN traditional_hanzi th ON th.character_id = c.id
+        ${where}
+      ),
+      cur AS (SELECT rn FROM ranked WHERE id = ${charId})
+      SELECT
+        (SELECT id      FROM ranked WHERE rn = (SELECT rn FROM cur) - 1) AS prev_id,
+        (SELECT literal FROM ranked WHERE rn = (SELECT rn FROM cur) - 1) AS prev_literal,
+        (SELECT id      FROM ranked WHERE rn = (SELECT rn FROM cur) + 1) AS next_id,
+        (SELECT literal FROM ranked WHERE rn = (SELECT rn FROM cur) + 1) AS next_literal
+    `));
+    const row = result[0] as any;
+    return {
+      prevId:      row?.prev_id      != null ? Number(row.prev_id) : null,
+      prevLiteral: row?.prev_literal ?? null,
+      nextId:      row?.next_id      != null ? Number(row.next_id) : null,
+      nextLiteral: row?.next_literal ?? null,
+    };
+  } catch {
+    return { prevId: null, prevLiteral: null, nextId: null, nextLiteral: null };
+  }
+}
+
 export default async function CharacterDetailPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ id: string }>;
+  searchParams: Promise<Record<string, string>>;
 }) {
   const { id } = await params;
+  const sp = await searchParams;
   const charId = parseInt(id);
   if (isNaN(charId)) notFound();
 
-  const data = await fetchCharacter(charId);
+  const [data, adj] = await Promise.all([
+    fetchCharacter(charId),
+    fetchAdjacentIds(charId, parseFilters(sp)),
+  ]);
   if (!data) notFound();
+
+  const qs = Object.keys(sp).length ? `?${new URLSearchParams(sp).toString()}` : "";
 
   return (
     <div className="space-y-4">
       <div className="flex items-center gap-4">
         <Link
-          href="/admin/characters"
-          className="text-sm text-gray-500 hover:text-gray-900"
+          href={`/admin/characters${qs}`}
+          className="text-sm text-gray-500 hover:text-gray-900 shrink-0"
         >
           ← Characters
         </Link>
@@ -119,6 +194,28 @@ export default async function CharacterDetailPage({
         <span className="text-sm text-gray-400">
           U+{data.id.toString(16).toUpperCase().padStart(4, "0")}
         </span>
+        <div className="ml-auto flex gap-2 shrink-0">
+          {adj.prevId ? (
+            <Link
+              href={`/admin/characters/${adj.prevId}${qs}`}
+              className="flex items-center gap-1.5 px-3 py-1 text-sm text-gray-900 border border-gray-300 rounded hover:bg-gray-50"
+            >
+              ← <span className="font-cjk-ja-sans text-lg leading-none" lang="ja">{adj.prevLiteral}</span>
+            </Link>
+          ) : (
+            <span className="px-3 py-1 text-sm border border-gray-200 rounded text-gray-400 opacity-50">←</span>
+          )}
+          {adj.nextId ? (
+            <Link
+              href={`/admin/characters/${adj.nextId}${qs}`}
+              className="flex items-center gap-1.5 px-3 py-1 text-sm text-gray-900 border border-gray-300 rounded hover:bg-gray-50"
+            >
+              <span className="font-cjk-ja-sans text-lg leading-none" lang="ja">{adj.nextLiteral}</span> →
+            </Link>
+          ) : (
+            <span className="px-3 py-1 text-sm border border-gray-200 rounded text-gray-400 opacity-50">→</span>
+          )}
+        </div>
       </div>
       <CharacterDetail data={data} />
     </div>

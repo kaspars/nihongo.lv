@@ -7,6 +7,7 @@ import {
   VisibilityState,
 } from "@tanstack/react-table";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { useQueryState, parseAsInteger, parseAsString } from "nuqs";
 import { useEffect, useState, useTransition, useCallback, useMemo, useRef } from "react";
 import type { CharacterRow, SortField, CharacterContext } from "./filters";
@@ -62,6 +63,7 @@ export default function CharacterTable() {
     debounceRef.current = setTimeout(() => { setQ(value || null); setPage(1); }, 300);
   }
 
+  const searchParams = useSearchParams();
   const context = ctxParam as CharacterContext;
 
   function setContext(newCtx: CharacterContext) {
@@ -314,7 +316,7 @@ export default function CharacterTable() {
                     >
                       {isLiteral ? (
                         <Link
-                          href={`/admin/characters/${row.original.id}`}
+                          href={`/admin/characters/${row.original.id}?${searchParams.toString()}`}
                           className="hover:text-blue-600"
                         >
                           {cell.getValue() as string}
