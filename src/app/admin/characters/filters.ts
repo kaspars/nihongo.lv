@@ -65,6 +65,8 @@ export interface CharacterRow {
   // Character variant links (populated based on context)
   traditionalVariants: string | null;
   simplifiedVariants: string | null;
+  kyujitaiVariants: string | null;
+  shinjitaiVariant: string | null;
 }
 
 export interface CharacterResponse {

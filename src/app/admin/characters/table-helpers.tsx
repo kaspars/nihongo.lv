@@ -29,7 +29,7 @@ export const CONTEXT_LABELS: Record<CharacterContext, string> = {
 /** Default-visible column ids per context. */
 export const DEFAULT_VISIBLE: Record<CharacterContext, Set<string>> = {
   all: new Set(["literal", "strokeCount", "radical"]),
-  ja:  new Set(["literal", "strokeCount", "keywordJa", "heisigJa", "grade", "jlpt", "onyomi", "kunyomi"]),
+  ja:  new Set(["literal", "kyujitaiVariants", "shinjitaiVariant", "strokeCount", "keywordJa", "heisigJa", "grade", "jlpt", "onyomi", "kunyomi"]),
   zhs: new Set(["literal", "traditionalVariants", "strokeCount", "keywordZhs", "heisigZhs", "hsk2Level", "pinyin"]),
   zht: new Set(["literal", "simplifiedVariants", "strokeCount", "keywordZht", "heisigZht"]),
 };
@@ -57,9 +57,27 @@ export function buildTableColumns(ctx: CharacterContext) {
     },
   });
 
+  const kyujitaiVariantsCol = col.accessor("kyujitaiVariants", {
+    header: "Kyūjitai", size: 80,
+    cell: i => {
+      const v = i.getValue();
+      return v ? <VariantChars chars={v} lang="ja" fontClass="font-cjk-ja-sans" /> : null;
+    },
+  });
+
+  const shinjitaiVariantCol = col.accessor("shinjitaiVariant", {
+    header: "Shinjitai", size: 80,
+    cell: i => {
+      const v = i.getValue();
+      return v ? <VariantChars chars={v} lang="ja" fontClass="font-cjk-ja-sans" /> : null;
+    },
+  });
+
   switch (ctx) {
     case "ja": return [
       col.accessor("literal",     { header: "Char",     size: 56  }),
+      kyujitaiVariantsCol,
+      shinjitaiVariantCol,
       col.accessor("strokeCount", { header: "Strokes",  size: 64  }),
       col.accessor("radical",     { header: "Radical",  size: 64  }),
       col.accessor("keywordJa",   { header: "Keyword",  size: 160 }),

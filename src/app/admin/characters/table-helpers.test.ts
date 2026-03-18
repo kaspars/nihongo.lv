@@ -39,6 +39,14 @@ describe("buildTableColumns", () => {
     expect(ids).toContain("onyomi");
     expect(ids).toContain("kunyomi");
     expect(ids).toContain("category");
+    expect(ids).toContain("kyujitaiVariants");
+    expect(ids).toContain("shinjitaiVariant");
+  });
+
+  it("ja — kyujitaiVariants and shinjitaiVariant come right after literal", () => {
+    const ids = colIds("ja");
+    expect(ids.indexOf("kyujitaiVariants")).toBe(ids.indexOf("literal") + 1);
+    expect(ids.indexOf("shinjitaiVariant")).toBe(ids.indexOf("literal") + 2);
   });
 
   it("ja — does not contain Chinese or Korean columns", () => {
@@ -146,7 +154,10 @@ describe("defaultVisibility", () => {
     expect(vis["grade"]).toBe(true);
     expect(vis["onyomi"]).toBe(true);
     expect(vis["kunyomi"]).toBe(true);
+    expect(vis["kyujitaiVariants"]).toBe(true);
+    expect(vis["shinjitaiVariant"]).toBe(true);
     expect(vis["category"]).toBe(false);
+    expect(vis["radical"]).toBe(false);
   });
 
   it("zhs — Simplified columns visible, including traditionalVariants", () => {
