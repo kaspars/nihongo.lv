@@ -68,11 +68,12 @@ describe("buildTableColumns", () => {
     expect(ids).toContain("traditionalVariants");
   });
 
-  it("zht — contains Traditional Chinese columns and simplifiedVariants", () => {
+  it("zht — contains Traditional Chinese columns, simplifiedVariants and pinyin", () => {
     const ids = colIds("zht");
     expect(ids).toContain("keywordZht");
     expect(ids).toContain("heisigZht");
     expect(ids).toContain("simplifiedVariants");
+    expect(ids).toContain("pinyin");
   });
 
   it("zhs — traditionalVariants comes right after literal", () => {
@@ -169,11 +170,12 @@ describe("defaultVisibility", () => {
     expect(vis["traditionalVariants"]).toBe(true);
   });
 
-  it("zht — Traditional columns visible, including simplifiedVariants", () => {
+  it("zht — Traditional columns visible, including simplifiedVariants and pinyin", () => {
     const vis = defaultVisibility("zht");
     expect(vis["keywordZht"]).toBe(true);
     expect(vis["heisigZht"]).toBe(true);
     expect(vis["simplifiedVariants"]).toBe(true);
+    expect(vis["pinyin"]).toBe(true);
   });
 
   it("all columns in returned object match the context's built columns", () => {

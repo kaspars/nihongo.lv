@@ -31,7 +31,7 @@ export const DEFAULT_VISIBLE: Record<CharacterContext, Set<string>> = {
   all: new Set(["literal", "strokeCount", "radical"]),
   ja:  new Set(["literal", "kyujitaiVariants", "shinjitaiVariant", "strokeCount", "keywordJa", "heisigJa", "grade", "jlpt", "onyomi", "kunyomi"]),
   zhs: new Set(["literal", "traditionalVariants", "strokeCount", "keywordZhs", "heisigZhs", "hsk2Level", "pinyin"]),
-  zht: new Set(["literal", "simplifiedVariants", "strokeCount", "keywordZht", "heisigZht"]),
+  zht: new Set(["literal", "simplifiedVariants", "strokeCount", "keywordZht", "heisigZht", "pinyin"]),
 };
 
 /** Build context-specific column definitions. Order: general → specific → readings → misc. */
@@ -105,6 +105,7 @@ export function buildTableColumns(ctx: CharacterContext) {
       col.accessor("radical",     { header: "Radical", size: 64  }),
       col.accessor("keywordZht",  { header: "Keyword", size: 160 }),
       col.accessor("heisigZht",   { header: "Heisig",  size: 80  }),
+      col.accessor("pinyin",      { header: "Pinyin",  size: 100 }),
     ];
     default: return [ // "all"
       col.accessor("literal",     { header: "Char",        size: 56  }),
