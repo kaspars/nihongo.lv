@@ -1,4 +1,5 @@
 import type { CharacterFilters, SortField } from "@/app/admin/characters/filters";
+import { hasToneMarks, hasNumericTones, numericToToned, stripTones } from "@/lib/pinyin";
 
 /** Parse a query param string as a number, returning undefined for null/NaN. */
 export function numOrUndef(s: string | null): number | undefined {
@@ -9,11 +10,6 @@ export function numOrUndef(s: string | null): number | undefined {
 /** Escape a string for safe embedding in a SQL single-quoted literal. */
 export function escapeSqlString(s: string): string {
   return s.replace(/'/g, "''");
-}
-
-/** Strip diacritical marks (e.g., ō→o, ǐ→i) for tone-insensitive matching. */
-export function stripDiacritics(s: string): string {
-  return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 
 const SORT_COL: Record<string, string> = {
@@ -33,12 +29,28 @@ export function buildWhereConditions(filters: CharacterFilters): string[] {
   const conditions: string[] = [];
 
   if (filters.q) {
-    const safe = escapeSqlString(filters.q.trim());
-    const safePlain = escapeSqlString(stripDiacritics(filters.q.trim()));
+    const q = filters.q.trim();
+    const safeQ = escapeSqlString(q);
+
+    // Determine reading search strategy based on tone input:
+    //   numeric tones (e.g. "zhong1") → convert to "zhōng" → exact match
+    //   diacritic tones (e.g. "zhōng") → exact match
+    //   plain syllable (e.g. "zhong")  → tone-insensitive via unaccent()
+    let readingCondition: string;
+    if (hasNumericTones(q)) {
+      const toned = escapeSqlString(numericToToned(q));
+      readingCondition = `cr.value ILIKE '%${toned}%'`;
+    } else if (hasToneMarks(q)) {
+      readingCondition = `cr.value ILIKE '%${safeQ}%'`;
+    } else {
+      const plain = escapeSqlString(stripTones(q));
+      readingCondition = `unaccent(cr.value) ILIKE '%${plain}%'`;
+    }
+
     conditions.push(`(
-      c.literal = '${safe}'
-      OR EXISTS (SELECT 1 FROM character_meanings cm WHERE cm.character_id = c.id AND cm.keyword ILIKE '%${safe}%')
-      OR EXISTS (SELECT 1 FROM character_readings cr WHERE cr.character_id = c.id AND unaccent(cr.value) ILIKE '%${safePlain}%')
+      c.literal = '${safeQ}'
+      OR EXISTS (SELECT 1 FROM character_meanings cm WHERE cm.character_id = c.id AND cm.keyword ILIKE '%${safeQ}%')
+      OR EXISTS (SELECT 1 FROM character_readings cr WHERE cr.character_id = c.id AND ${readingCondition})
     )`);
   }
 

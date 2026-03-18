@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { numOrUndef, buildWhereConditions, buildOrderBy, escapeSqlString, stripDiacritics } from "./query-helpers";
+import { numOrUndef, buildWhereConditions, buildOrderBy, escapeSqlString } from "./query-helpers";
 import type { CharacterFilters } from "@/app/admin/characters/filters";
 
 // ─── escapeSqlString ──────────────────────────────────────────────────────────
@@ -13,25 +13,6 @@ describe("escapeSqlString", () => {
   it("escapes single quotes by doubling them", () => {
     expect(escapeSqlString("it's")).toBe("it''s");
     expect(escapeSqlString("''")).toBe("''''");
-  });
-});
-
-// ─── stripDiacritics ──────────────────────────────────────────────────────────
-
-describe("stripDiacritics", () => {
-  it("strips tone marks from pinyin", () => {
-    expect(stripDiacritics("zhōng")).toBe("zhong");
-    expect(stripDiacritics("nǐ hǎo")).toBe("ni hao");
-    expect(stripDiacritics("tú shū guǎn")).toBe("tu shu guan");
-  });
-
-  it("passes through plain ASCII unchanged", () => {
-    expect(stripDiacritics("zhong")).toBe("zhong");
-    expect(stripDiacritics("hello")).toBe("hello");
-  });
-
-  it("handles all four tones", () => {
-    expect(stripDiacritics("māmámǎmà")).toBe("mamama" + "ma");
   });
 });
 
@@ -71,35 +52,43 @@ describe("buildWhereConditions", () => {
   });
 
   it("q produces a compound condition covering literal, keyword, and reading", () => {
-    const conds = buildWhereConditions({ ...base, q: "country" });
-    expect(conds).toHaveLength(1);
-    const cond = conds[0];
+    const cond = buildWhereConditions({ ...base, q: "country" })[0];
     expect(cond).toContain("c.literal = 'country'");
     expect(cond).toContain("character_meanings");
-    expect(cond).toContain("ILIKE '%country%'");
     expect(cond).toContain("character_readings");
-    expect(cond).toContain("unaccent(cr.value)");
   });
 
-  it("q uses tone-stripped term for reading search", () => {
-    const conds = buildWhereConditions({ ...base, q: "zhōng" });
-    expect(conds[0]).toContain("unaccent(cr.value) ILIKE '%zhong%'");
+  it("q with plain pinyin — tone-insensitive via unaccent()", () => {
+    const cond = buildWhereConditions({ ...base, q: "zhong" })[0];
+    expect(cond).toContain("unaccent(cr.value) ILIKE '%zhong%'");
   });
 
-  it("q with plain pinyin also matches via unaccent", () => {
-    const conds = buildWhereConditions({ ...base, q: "zhong" });
-    expect(conds[0]).toContain("unaccent(cr.value) ILIKE '%zhong%'");
+  it("q with diacritic tones — exact reading match, no unaccent", () => {
+    const cond = buildWhereConditions({ ...base, q: "zhōng" })[0];
+    expect(cond).toContain("cr.value ILIKE '%zhōng%'");
+    expect(cond).not.toContain("unaccent");
+  });
+
+  it("q with numeric tones — converts and does exact reading match", () => {
+    const cond = buildWhereConditions({ ...base, q: "zhong1" })[0];
+    expect(cond).toContain("cr.value ILIKE '%zhōng%'");
+    expect(cond).not.toContain("unaccent");
+  });
+
+  it("q with numeric tones multi-syllable — converts all syllables", () => {
+    const cond = buildWhereConditions({ ...base, q: "ni3 hao3" })[0];
+    expect(cond).toContain("cr.value ILIKE '%nǐ hǎo%'");
   });
 
   it("q escapes single quotes in the search term", () => {
-    const conds = buildWhereConditions({ ...base, q: "it's" });
-    expect(conds[0]).toContain("it''s");
-    expect(conds[0]).not.toContain("it's");
+    const cond = buildWhereConditions({ ...base, q: "it's" })[0];
+    expect(cond).toContain("it''s");
+    expect(cond).not.toContain("it's");
   });
 
   it("q trims whitespace before searching", () => {
-    const conds = buildWhereConditions({ ...base, q: "  国  " });
-    expect(conds[0]).toContain("c.literal = '国'");
+    const cond = buildWhereConditions({ ...base, q: "  国  " })[0];
+    expect(cond).toContain("c.literal = '国'");
   });
 
   it("undefined q produces no condition", () => {
