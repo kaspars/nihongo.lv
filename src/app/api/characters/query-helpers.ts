@@ -58,7 +58,7 @@ export function buildWhereConditions(filters: CharacterFilters): string[] {
   if (filters.ctx === "zhs") conditions.push(`sh.character_id IS NOT NULL`);
   if (filters.ctx === "zht") conditions.push(`th.character_id IS NOT NULL`);
 
-  if (filters.ja_joyo)    conditions.push(`jk.category IS NOT NULL`);
+  if (filters.ja_joyo)    conditions.push(`jk.category = 'jouyou'`);
   if (filters.ja_heisig)  conditions.push(`jk.sort_heisig IS NOT NULL`);
   if (filters.zhs_heisig) conditions.push(`sh.sort_heisig IS NOT NULL`);
   if (filters.zht_heisig) conditions.push(`th.sort_heisig IS NOT NULL`);

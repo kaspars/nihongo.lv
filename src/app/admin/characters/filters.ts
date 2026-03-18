@@ -58,6 +58,7 @@ export interface CharacterRow {
   heisigZht: number | null;
   // Keywords
   keywordJa: string | null;
+  keywordJaLv: string | null;
   keywordZhs: string | null;
   keywordZht: string | null;
   // Readings (first value only for display)

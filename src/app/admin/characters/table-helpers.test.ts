@@ -33,6 +33,7 @@ describe("buildTableColumns", () => {
   it("ja — contains Japanese-specific columns", () => {
     const ids = colIds("ja");
     expect(ids).toContain("keywordJa");
+    expect(ids).toContain("keywordJaLv");
     expect(ids).toContain("heisigJa");
     expect(ids).toContain("jlpt");
     expect(ids).toContain("grade");
@@ -96,9 +97,10 @@ describe("buildTableColumns", () => {
     expect(ids).toContain("keywordZht");
   });
 
-  it("ja — uses context-specific header names (no qualifier suffix)", () => {
+  it("ja — uses language-qualified keyword headers", () => {
     const headers = colHeaders("ja");
-    expect(headers).toContain("Keyword");
+    expect(headers).toContain("Keyword EN");
+    expect(headers).toContain("Keyword LV");
     expect(headers).toContain("Heisig");
     expect(headers).not.toContain("Keyword JA");
     expect(headers).not.toContain("Heisig JA");
@@ -150,6 +152,7 @@ describe("defaultVisibility", () => {
   it("ja — Japanese columns visible, Chinese hidden", () => {
     const vis = defaultVisibility("ja");
     expect(vis["keywordJa"]).toBe(true);
+    expect(vis["keywordJaLv"]).toBe(true);
     expect(vis["heisigJa"]).toBe(true);
     expect(vis["jlpt"]).toBe(true);
     expect(vis["grade"]).toBe(true);

@@ -50,6 +50,7 @@ export async function GET(req: NextRequest) {
       sh.sort_heisig        AS "heisigZhs",
       th.sort_heisig        AS "heisigZht",
       cm_ja.keyword         AS "keywordJa",
+      cm_ja_lv.keyword      AS "keywordJaLv",
       cm_zhs.keyword        AS "keywordZhs",
       cm_zht.keyword        AS "keywordZht",
       (SELECT value FROM character_readings WHERE character_id = c.id AND language = 'ja' AND type = 'onyomi'  ORDER BY position LIMIT 1) AS "onyomi",
@@ -63,7 +64,8 @@ export async function GET(req: NextRequest) {
     LEFT JOIN japanese_kanji jk    ON jk.character_id = c.id
     LEFT JOIN simplified_hanzi sh  ON sh.character_id = c.id
     LEFT JOIN traditional_hanzi th ON th.character_id = c.id
-    LEFT JOIN character_meanings cm_ja  ON cm_ja.character_id  = c.id AND cm_ja.source_language  = 'ja'  AND cm_ja.meaning_language  = 'en'
+    LEFT JOIN character_meanings cm_ja    ON cm_ja.character_id    = c.id AND cm_ja.source_language    = 'ja' AND cm_ja.meaning_language    = 'en'
+    LEFT JOIN character_meanings cm_ja_lv ON cm_ja_lv.character_id = c.id AND cm_ja_lv.source_language = 'ja' AND cm_ja_lv.meaning_language = 'lv'
     LEFT JOIN character_meanings cm_zhs ON cm_zhs.character_id = c.id AND cm_zhs.source_language = 'zhs' AND cm_zhs.meaning_language = 'en'
     LEFT JOIN character_meanings cm_zht ON cm_zht.character_id = c.id AND cm_zht.source_language = 'zht' AND cm_zht.meaning_language = 'en'
     ${where}

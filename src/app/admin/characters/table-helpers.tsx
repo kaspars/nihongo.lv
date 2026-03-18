@@ -29,7 +29,7 @@ export const CONTEXT_LABELS: Record<CharacterContext, string> = {
 /** Default-visible column ids per context. */
 export const DEFAULT_VISIBLE: Record<CharacterContext, Set<string>> = {
   all: new Set(["literal", "strokeCount", "radical"]),
-  ja:  new Set(["literal", "kyujitaiVariants", "shinjitaiVariant", "strokeCount", "keywordJa", "heisigJa", "grade", "jlpt", "onyomi", "kunyomi"]),
+  ja:  new Set(["literal", "kyujitaiVariants", "shinjitaiVariant", "strokeCount", "keywordJa", "keywordJaLv", "heisigJa", "grade", "jlpt", "onyomi", "kunyomi"]),
   zhs: new Set(["literal", "traditionalVariants", "strokeCount", "keywordZhs", "heisigZhs", "hsk2Level", "pinyin"]),
   zht: new Set(["literal", "simplifiedVariants", "strokeCount", "keywordZht", "heisigZht", "pinyin"]),
 };
@@ -80,8 +80,9 @@ export function buildTableColumns(ctx: CharacterContext) {
       shinjitaiVariantCol,
       col.accessor("strokeCount", { header: "Strokes",  size: 64  }),
       col.accessor("radical",     { header: "Radical",  size: 64  }),
-      col.accessor("keywordJa",   { header: "Keyword",  size: 160 }),
-      col.accessor("heisigJa",    { header: "Heisig",   size: 80  }),
+      col.accessor("keywordJa",   { header: "Keyword EN", size: 160 }),
+      col.accessor("keywordJaLv", { header: "Keyword LV", size: 160 }),
+      col.accessor("heisigJa",    { header: "Heisig",     size: 80  }),
       col.accessor("grade",       { header: "Grade",    size: 56  }),
       jlptCol,
       col.accessor("onyomi",      { header: "On'yomi",  size: 120 }),

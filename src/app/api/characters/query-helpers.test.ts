@@ -114,9 +114,9 @@ describe("buildWhereConditions", () => {
     expect(conds).toContain("th.character_id IS NOT NULL");
   });
 
-  it("ja_joyo filter adds category condition", () => {
+  it("ja_joyo filter scopes to jouyou category only", () => {
     const conds = buildWhereConditions({ ...base, ja_joyo: true });
-    expect(conds).toContain("jk.category IS NOT NULL");
+    expect(conds).toContain("jk.category = 'jouyou'");
   });
 
   it("ja_heisig filter adds heisig condition", () => {
@@ -173,7 +173,7 @@ describe("buildWhereConditions", () => {
     });
     expect(conds).toHaveLength(3);
     expect(conds).toContain("jk.character_id IS NOT NULL");
-    expect(conds).toContain("jk.category IS NOT NULL");
+    expect(conds).toContain("jk.category = 'jouyou'");
     expect(conds).toContain("jk.jlpt IN (1)");
   });
 
