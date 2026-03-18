@@ -9,6 +9,7 @@ export async function GET(req: NextRequest) {
 
   const filters: CharacterFilters = {
     ctx: (p.get("ctx") ?? "all") as CharacterContext,
+    q: p.get("q") ?? undefined,
     ja_joyo:    p.get("ja_joyo") === "1",
     ja_heisig:  p.get("ja_heisig") === "1",
     zhs_heisig: p.get("zhs_heisig") === "1",

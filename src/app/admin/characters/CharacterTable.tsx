@@ -7,7 +7,7 @@ import {
   VisibilityState,
 } from "@tanstack/react-table";
 import { useQueryState, parseAsInteger, parseAsString } from "nuqs";
-import { useEffect, useState, useTransition, useCallback, useMemo } from "react";
+import { useEffect, useState, useTransition, useCallback, useMemo, useRef } from "react";
 import type { CharacterRow, SortField, CharacterContext } from "./filters";
 import {
   COL_SORT_FIELD,
@@ -47,9 +47,19 @@ export default function CharacterTable() {
   const [jlpt,      setJlpt]      = useQueryState("jlpt",       parseAsString.withDefault(""));
   const [grade,     setGrade]     = useQueryState("grade",      parseAsString.withDefault(""));
   const [hsk2,      setHsk2]      = useQueryState("hsk2",       parseAsString.withDefault(""));
+  const [q,         setQ]         = useQueryState("q",          parseAsString.withDefault(""));
   const [sort,      setSort]      = useQueryState("sort",       parseAsString.withDefault("id"));
   const [dir,       setDir]       = useQueryState("dir",        parseAsString.withDefault("asc"));
   const [page,      setPage]      = useQueryState("page",       parseAsInteger.withDefault(1));
+
+  // Local input state for debounced search
+  const [searchInput, setSearchInput] = useState(q);
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  function handleSearch(value: string) {
+    setSearchInput(value);
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(() => { setQ(value || null); setPage(1); }, 300);
+  }
 
   const context = ctxParam as CharacterContext;
 
@@ -72,6 +82,7 @@ export default function CharacterTable() {
   const fetchData = useCallback(() => {
     const params = new URLSearchParams();
     params.set("ctx",  context);
+    if (q)         params.set("q", q);
     if (jaJoyo)    params.set("ja_joyo",    "1");
     if (jaHeisig)  params.set("ja_heisig",  "1");
     if (zhsHeisig) params.set("zhs_heisig", "1");
@@ -90,7 +101,7 @@ export default function CharacterTable() {
       setData(json.rows);
       setTotal(json.total);
     });
-  }, [context, jaJoyo, jaHeisig, zhsHeisig, zhtHeisig, jlpt, grade, hsk2, sort, dir, page]);
+  }, [context, q, jaJoyo, jaHeisig, zhsHeisig, zhtHeisig, jlpt, grade, hsk2, sort, dir, page]);
 
   useEffect(() => { fetchData(); }, [fetchData]);
 
@@ -124,6 +135,15 @@ export default function CharacterTable() {
     <div className="space-y-4">
       {/* Toolbar */}
       <div className="bg-white border border-gray-200 rounded-lg p-4 space-y-4">
+
+        {/* Search */}
+        <input
+          type="search"
+          value={searchInput}
+          onChange={e => handleSearch(e.target.value)}
+          placeholder="Search by character, keyword, or reading…"
+          className="w-full px-3 py-1.5 text-sm text-gray-900 border border-gray-300 rounded-lg focus:outline-none focus:border-gray-500 focus:ring-1 focus:ring-gray-500 placeholder:text-gray-500"
+        />
 
         {/* Context selector */}
         <div className="flex items-center gap-3">

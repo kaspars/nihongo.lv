@@ -6,6 +6,11 @@ export function numOrUndef(s: string | null): number | undefined {
   return s && !isNaN(n) ? n : undefined;
 }
 
+/** Escape a string for safe embedding in a SQL single-quoted literal. */
+export function escapeSqlString(s: string): string {
+  return s.replace(/'/g, "''");
+}
+
 const SORT_COL: Record<string, string> = {
   id:           "c.id",
   stroke_count: "c.stroke_count",
@@ -21,6 +26,15 @@ const SORT_COL: Record<string, string> = {
 /** Build SQL WHERE conditions from parsed filters. Returns array of condition strings. */
 export function buildWhereConditions(filters: CharacterFilters): string[] {
   const conditions: string[] = [];
+
+  if (filters.q) {
+    const safe = escapeSqlString(filters.q.trim());
+    conditions.push(`(
+      c.literal = '${safe}'
+      OR EXISTS (SELECT 1 FROM character_meanings cm WHERE cm.character_id = c.id AND cm.keyword ILIKE '%${safe}%')
+      OR EXISTS (SELECT 1 FROM character_readings cr WHERE cr.character_id = c.id AND cr.value ILIKE '%${safe}%')
+    )`);
+  }
 
   if (filters.ctx === "ja")  conditions.push(`jk.character_id IS NOT NULL`);
   if (filters.ctx === "zhs") conditions.push(`sh.character_id IS NOT NULL`);

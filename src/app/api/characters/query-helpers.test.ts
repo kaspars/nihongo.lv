@@ -1,6 +1,20 @@
 import { describe, it, expect } from "vitest";
-import { numOrUndef, buildWhereConditions, buildOrderBy } from "./query-helpers";
+import { numOrUndef, buildWhereConditions, buildOrderBy, escapeSqlString } from "./query-helpers";
 import type { CharacterFilters } from "@/app/admin/characters/filters";
+
+// ─── escapeSqlString ──────────────────────────────────────────────────────────
+
+describe("escapeSqlString", () => {
+  it("passes through strings with no special characters", () => {
+    expect(escapeSqlString("hello")).toBe("hello");
+    expect(escapeSqlString("国")).toBe("国");
+  });
+
+  it("escapes single quotes by doubling them", () => {
+    expect(escapeSqlString("it's")).toBe("it''s");
+    expect(escapeSqlString("''")).toBe("''''");
+  });
+});
 
 // ─── numOrUndef ───────────────────────────────────────────────────────────────
 
@@ -35,6 +49,31 @@ describe("buildWhereConditions", () => {
 
   it("returns empty array when no filters set", () => {
     expect(buildWhereConditions(base)).toEqual([]);
+  });
+
+  it("q produces a compound condition covering literal, keyword, and reading", () => {
+    const conds = buildWhereConditions({ ...base, q: "country" });
+    expect(conds).toHaveLength(1);
+    const cond = conds[0];
+    expect(cond).toContain("c.literal = 'country'");
+    expect(cond).toContain("character_meanings");
+    expect(cond).toContain("ILIKE '%country%'");
+    expect(cond).toContain("character_readings");
+  });
+
+  it("q escapes single quotes in the search term", () => {
+    const conds = buildWhereConditions({ ...base, q: "it's" });
+    expect(conds[0]).toContain("it''s");
+    expect(conds[0]).not.toContain("it's");
+  });
+
+  it("q trims whitespace before searching", () => {
+    const conds = buildWhereConditions({ ...base, q: "  国  " });
+    expect(conds[0]).toContain("c.literal = '国'");
+  });
+
+  it("undefined q produces no condition", () => {
+    expect(buildWhereConditions({ ...base, q: undefined })).toEqual([]);
   });
 
   it("ctx=all produces no condition", () => {

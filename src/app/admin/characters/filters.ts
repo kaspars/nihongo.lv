@@ -15,6 +15,8 @@ export type CharacterContext = "all" | "ja" | "zhs" | "zht";
 
 export interface CharacterFilters {
   ctx?: CharacterContext;
+  // Text search (literal, keyword, or reading)
+  q?: string;
   // Character set membership (each is optional — omit = no filter on that set)
   ja_joyo?: boolean;
   ja_heisig?: boolean;
