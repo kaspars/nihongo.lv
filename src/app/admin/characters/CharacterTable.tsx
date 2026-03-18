@@ -6,6 +6,7 @@ import {
   flexRender,
   VisibilityState,
 } from "@tanstack/react-table";
+import Link from "next/link";
 import { useQueryState, parseAsInteger, parseAsString } from "nuqs";
 import { useEffect, useState, useTransition, useCallback, useMemo, useRef } from "react";
 import type { CharacterRow, SortField, CharacterContext } from "./filters";
@@ -39,8 +40,8 @@ const HSK_LEVELS   = [1, 2, 3, 4, 5, 6];
 
 export default function CharacterTable() {
   // --- URL state ---
-  const [ctxParam,  setCtxParam]  = useQueryState("ctx",        parseAsString.withDefault("all"));
-  const [jaJoyo,    setJaJoyo]    = useQueryState("ja_joyo",    parseAsInteger.withDefault(0));
+  const [ctxParam,  setCtxParam]  = useQueryState("ctx",        parseAsString.withDefault("ja"));
+  const [jaJoyo,    setJaJoyo]    = useQueryState("ja_joyo",    parseAsInteger.withDefault(1));
   const [jaHeisig,  setJaHeisig]  = useQueryState("ja_heisig",  parseAsInteger.withDefault(0));
   const [zhsHeisig, setZhsHeisig] = useQueryState("zhs_heisig", parseAsInteger.withDefault(0));
   const [zhtHeisig, setZhtHeisig] = useQueryState("zht_heisig", parseAsInteger.withDefault(0));
@@ -311,7 +312,16 @@ export default function CharacterTable() {
                       }`}
                       lang={isLiteral ? CJK_LANG[context] : undefined}
                     >
-                      {flexRender(cell.column.columnDef.cell, cell.getContext()) ?? (cell.getValue() as string) ?? ""}
+                      {isLiteral ? (
+                        <Link
+                          href={`/admin/characters/${row.original.id}`}
+                          className="hover:text-blue-600"
+                        >
+                          {cell.getValue() as string}
+                        </Link>
+                      ) : (
+                        flexRender(cell.column.columnDef.cell, cell.getContext()) ?? (cell.getValue() as string) ?? ""
+                      )}
                     </td>
                   );
                 })}
