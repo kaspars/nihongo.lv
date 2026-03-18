@@ -98,6 +98,7 @@ export default function CharacterTable() {
     startTransition(async () => {
       const res  = await fetch(`/api/characters?${params}`);
       const json = await res.json();
+      if (!res.ok) { console.error("[characters] API error:", json); return; }
       setData(json.rows);
       setTotal(json.total);
     });

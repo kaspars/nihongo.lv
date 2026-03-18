@@ -80,18 +80,23 @@ export async function GET(req: NextRequest) {
     ${where}
   `;
 
-  const [rows, countResult] = await Promise.all([
-    db.execute(sql.raw(query)),
-    db.execute(sql.raw(countQuery)),
-  ]);
+  try {
+    const [rows, countResult] = await Promise.all([
+      db.execute(sql.raw(query)),
+      db.execute(sql.raw(countQuery)),
+    ]);
 
-  const response: CharacterResponse = {
-    rows: rows as any,
-    total: Number((countResult[0] as any).total),
-    page: filters.page ?? 1,
-    perPage: limit,
-  };
+    const response: CharacterResponse = {
+      rows: rows as any,
+      total: Number((countResult[0] as any).total),
+      page: filters.page ?? 1,
+      perPage: limit,
+    };
 
-  return NextResponse.json(response);
+    return NextResponse.json(response);
+  } catch (err) {
+    console.error("[/api/characters] query failed:", err);
+    return NextResponse.json({ error: String(err) }, { status: 500 });
+  }
 }
 

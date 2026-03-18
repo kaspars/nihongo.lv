@@ -11,6 +11,11 @@ export function escapeSqlString(s: string): string {
   return s.replace(/'/g, "''");
 }
 
+/** Strip diacritical marks (e.g., ō→o, ǐ→i) for tone-insensitive matching. */
+export function stripDiacritics(s: string): string {
+  return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
 const SORT_COL: Record<string, string> = {
   id:           "c.id",
   stroke_count: "c.stroke_count",
@@ -29,10 +34,11 @@ export function buildWhereConditions(filters: CharacterFilters): string[] {
 
   if (filters.q) {
     const safe = escapeSqlString(filters.q.trim());
+    const safePlain = escapeSqlString(stripDiacritics(filters.q.trim()));
     conditions.push(`(
       c.literal = '${safe}'
       OR EXISTS (SELECT 1 FROM character_meanings cm WHERE cm.character_id = c.id AND cm.keyword ILIKE '%${safe}%')
-      OR EXISTS (SELECT 1 FROM character_readings cr WHERE cr.character_id = c.id AND cr.value ILIKE '%${safe}%')
+      OR EXISTS (SELECT 1 FROM character_readings cr WHERE cr.character_id = c.id AND unaccent(cr.value) ILIKE '%${safePlain}%')
     )`);
   }
 

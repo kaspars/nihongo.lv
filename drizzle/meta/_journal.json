@@ -36,6 +36,13 @@
       "when": 1773227151989,
       "tag": "0004_workable_kabuki",
       "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1742305200000,
+      "tag": "0005_unaccent_extension",
+      "breakpoints": true
     }
   ]
 }
