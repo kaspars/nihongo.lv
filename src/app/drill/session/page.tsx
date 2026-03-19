@@ -10,6 +10,10 @@ const KakuRenCanvas = dynamic(() => import("@/components/KakuRenCanvas"), {
   ssr: false,
 });
 
+const KakuDisplay = dynamic(() => import("@/components/KakuDisplay"), {
+  ssr: false,
+});
+
 const PASS_THRESHOLD = 0.75;
 
 type DrillCard = {
@@ -193,11 +197,22 @@ export default function SessionPage() {
   advanceRef.current = advance;
 
   // ─── Kanji→Keyword: self-assess ─────────────────────────────────────────────
+  // keyword_to_kanji mode: 900 ms so the score is briefly visible after drawing.
+  // kanji_to_keyword mode: 50 ms — just enough for React state to settle before
+  // advance() reads lastResult; the user has already seen the answer, no delay needed.
 
   const handleSelfAssessStable = useCallback(
     (rating: Rating) => {
       handleReview(rating, null);
       setTimeout(() => advanceRef.current(), 900);
+    },
+    [handleReview],
+  );
+
+  const handleSelfAssessKanjiMode = useCallback(
+    (rating: Rating) => {
+      handleReview(rating, null);
+      setTimeout(() => advanceRef.current(), 50);
     },
     [handleReview],
   );
@@ -321,9 +336,10 @@ export default function SessionPage() {
             />
           ) : (
             <KanjiToKeywordCard
+              key={attemptKey}
               card={currentCard}
               cardPhase={cardPhase}
-              onAssess={handleSelfAssessStable}
+              onAssess={handleSelfAssessKanjiMode}
             />
           )}
         </div>
@@ -418,6 +434,9 @@ function KeywordToKanjiCard({
 }
 
 // ─── Kanji → Keyword ──────────────────────────────────────────────────────────
+// Flow: show kanji → reveal button → keyword + self-assess → auto-advance.
+// `key={attemptKey}` on this component (set in the parent) resets `revealed`
+// on every card advance.
 
 function KanjiToKeywordCard({
   card, cardPhase, onAssess,
@@ -426,35 +445,42 @@ function KanjiToKeywordCard({
   cardPhase: CardPhase;
   onAssess:  (rating: Rating) => void;
 }) {
+  const [revealed, setRevealed] = useState(false);
+
   return (
     <div className="flex flex-col h-full p-4 sm:p-6">
-      <p className="text-sm text-gray-500 text-center shrink-0">Kāds ir atslēgvārds priekš:</p>
+      <p className="text-sm text-gray-500 text-center">Kāds ir atslēgvārds priekš:</p>
 
-      {/* Large kanji — fills available space */}
-      <div className="flex-1 min-h-0 flex items-center justify-center">
-        <p className="text-7xl sm:text-8xl font-cjk-ja-sans leading-none" lang="ja">{card.literal}</p>
+      {/* Kanji — anchored directly below the prompt; never moves. */}
+      <div className="flex justify-center mt-6">
+        <KakuDisplay character={card.literal} size={200} />
       </div>
 
-      {/* Action area */}
-      <div className="shrink-0">
-        {cardPhase === "input" && (
-          <>
-            <p className="text-sm text-gray-500 text-center mb-3">Cik labi atcerējies?</p>
+      {/* Action area — mt-auto pins it to the bottom; the gap above absorbs
+          height changes so the kanji position stays stable. */}
+      <div className="mt-auto">
+        {!revealed ? (
+          <button
+            onClick={() => setRevealed(true)}
+            className="w-full py-2.5 border border-gray-300 rounded text-sm font-medium text-gray-700 hover:border-gray-500 transition-colors"
+          >
+            Atklāt atbildi
+          </button>
+        ) : cardPhase === "input" ? (
+          <div className="space-y-3">
+            <div className="text-center">
+              <p className="text-sm text-gray-500 mb-1">Atslēgvārds:</p>
+              <p className="text-2xl font-bold text-gray-900">{card.keyword}</p>
+            </div>
+            <p className="text-sm text-gray-500 text-center">Cik labi atcerējies?</p>
             <div className="grid grid-cols-2 gap-2">
               <RatingButton label="Slikti"  onClick={() => onAssess(Rating.Again)} hoverClass="hover:bg-red-50 hover:border-red-400 hover:text-red-700" />
               <RatingButton label="Grūti"   onClick={() => onAssess(Rating.Hard)}  hoverClass="hover:bg-orange-50 hover:border-orange-400 hover:text-orange-700" />
               <RatingButton label="Labi"    onClick={() => onAssess(Rating.Good)}  hoverClass="hover:bg-green-50 hover:border-green-400 hover:text-green-700" />
               <RatingButton label="Viegli"  onClick={() => onAssess(Rating.Easy)}  hoverClass="hover:bg-blue-50 hover:border-blue-400 hover:text-blue-700" />
             </div>
-          </>
-        )}
-
-        {cardPhase === "feedback" && (
-          <div className="text-center py-3">
-            <p className="text-sm text-gray-500 mb-1">Atslēgvārds:</p>
-            <p className="text-2xl font-bold text-gray-900">{card.keyword}</p>
           </div>
-        )}
+        ) : null /* feedback phase: blank for ~50 ms while advance() fires */}
       </div>
     </div>
   );
