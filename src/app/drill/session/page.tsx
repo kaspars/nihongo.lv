@@ -234,13 +234,14 @@ export default function SessionPage() {
   // without the outline so the first scored attempt can begin.
 
   const handlePreviewDone = useCallback(() => {
-    const card = queue[0];
-    if (!card) return;
-    setQueue((prev) =>
-      prev.map((c) => (c.id === card.id ? { ...c, previewed: true } : c)),
-    );
-    setAttemptKey((k) => k + 1);
-  }, [queue]);
+    // Rotate the previewed card to the back of the queue so the user sees
+    // all other cards before the first real (unguided) attempt.
+    setQueue((prev) => {
+      if (prev.length === 0) return prev;
+      const [head, ...tail] = prev;
+      return [...tail, { ...head, previewed: true }];
+    });
+  }, []);
 
   // ─── Keyword→Kanji: kaku-ren complete (real attempt) ────────────────────────
 
