@@ -8,4 +8,10 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
   adapter: DrizzleAdapter(db, { usersTable: users, accountsTable: accounts }),
   providers: [Google],
   session: { strategy: "jwt" },
+  callbacks: {
+    session({ session, token }) {
+      if (token.sub) session.user.id = token.sub;
+      return session;
+    },
+  },
 });
