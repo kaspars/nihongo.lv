@@ -43,6 +43,13 @@
       "when": 1742305200000,
       "tag": "0005_unaccent_extension",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1742305200001,
+      "tag": "0006_keyword_checked",
+      "breakpoints": true
     }
   ]
 }

@@ -16,6 +16,7 @@ export interface CharacterDetailData {
     keywordEn: string | null;
     keywordLv: string | null;
     meaningsLv: string[];
+    checkedLv: boolean;
     onyomi: string[];
     kunyomi: string[];
   } | null;
@@ -61,6 +62,7 @@ export async function GET(
         cm_ja_en.keyword AS "keywordJaEn",
         cm_ja_lv.keyword AS "keywordJaLv",
         cm_ja_lv.meanings AS "meaningsJaLv",
+        cm_ja_lv.checked AS "checkedJaLv",
         cm_zhs_en.keyword AS "keywordZhsEn",
         cm_zhs_lv.keyword AS "keywordZhsLv",
         cm_zht_en.keyword AS "keywordZhtEn",
@@ -118,6 +120,7 @@ export async function GET(
             keywordEn: r.keywordJaEn ?? null,
             keywordLv: r.keywordJaLv ?? null,
             meaningsLv: r.meaningsJaLv ?? [],
+            checkedLv: r.checkedJaLv ?? false,
             onyomi: readingValues("ja", "onyomi"),
             kunyomi: readingValues("ja", "kunyomi"),
           }
@@ -188,6 +191,7 @@ export async function PATCH(
       await upsertKeyword(charId, "ja", "en", ja.keywordEn);
       await upsertKeyword(charId, "ja", "lv", ja.keywordLv);
       if (ja.meaningsLv !== undefined) await upsertMeanings(charId, "ja", "lv", ja.meaningsLv);
+      if (ja.checkedLv !== undefined) await upsertChecked(charId, "ja", "lv", ja.checkedLv);
     }
 
     // Update simplified_hanzi
@@ -220,6 +224,25 @@ export async function PATCH(
     console.error("[/api/characters/[id] PATCH]", err);
     return NextResponse.json({ error: String(err) }, { status: 500 });
   }
+}
+
+async function upsertChecked(
+  charId: number,
+  sourceLang: "ja" | "zhs" | "zht",
+  meaningLang: "en" | "lv",
+  checked: boolean,
+) {
+  await db
+    .insert(schema.characterMeanings)
+    .values({ characterId: charId, sourceLanguage: sourceLang, meaningLanguage: meaningLang, checked })
+    .onConflictDoUpdate({
+      target: [
+        schema.characterMeanings.characterId,
+        schema.characterMeanings.sourceLanguage,
+        schema.characterMeanings.meaningLanguage,
+      ],
+      set: { checked },
+    });
 }
 
 async function upsertMeanings(

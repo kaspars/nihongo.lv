@@ -124,6 +124,8 @@ export default function CharacterDetail({ data }: { data: CharacterDetailData })
   const [jaKeyEn, setJaKeyEn] = useState(data.japanese?.keywordEn ?? "");
   const [jaKeyLv, setJaKeyLv] = useState(data.japanese?.keywordLv ?? "");
   const [jaMeaningsLv, setJaMeaningsLv] = useState<string[]>(data.japanese?.meaningsLv ?? []);
+  const [jaCheckedLv, setJaCheckedLv] = useState(data.japanese?.checkedLv ?? false);
+  const [jaCheckedSaving, setJaCheckedSaving] = useState(false);
   const [jaState, setJaState] = useState<{ saving: boolean; error: string | null }>({ saving: false, error: null });
 
   // ── Simplified Chinese fields ──
@@ -180,6 +182,7 @@ export default function CharacterDetail({ data }: { data: CharacterDetailData })
               keywordEn: jaKeyEn || null,
               keywordLv: jaKeyLv || null,
               meaningsLv: jaMeaningsLv,
+              checkedLv: jaCheckedLv,
             },
           }, setJaState)}
           saving={jaState.saving}
@@ -210,7 +213,26 @@ export default function CharacterDetail({ data }: { data: CharacterDetailData })
             <TextInput value={jaKeyEn} onChange={setJaKeyEn} />
           </Field>
           <Field label="Keyword LV">
-            <TextInput value={jaKeyLv} onChange={setJaKeyLv} />
+            <div className="flex items-center gap-3">
+              <TextInput value={jaKeyLv} onChange={setJaKeyLv} />
+              <button
+                disabled={jaCheckedSaving}
+                onClick={async () => {
+                  setJaCheckedSaving(true);
+                  const next = !jaCheckedLv;
+                  await patch({ japanese: { checkedLv: next } }, () => {});
+                  setJaCheckedLv(next);
+                  setJaCheckedSaving(false);
+                }}
+                className={`shrink-0 px-3 py-1 text-sm rounded border transition-colors ${
+                  jaCheckedLv
+                    ? "bg-green-600 text-white border-green-600 hover:bg-green-700"
+                    : "bg-white text-gray-600 border-gray-300 hover:border-gray-500 hover:text-gray-900"
+                } disabled:opacity-50`}
+              >
+                {jaCheckedLv ? "✓ Approved" : "Approve"}
+              </button>
+            </div>
           </Field>
           <Field label="Meanings LV">
             <MeaningsList values={jaMeaningsLv} onChange={setJaMeaningsLv} />

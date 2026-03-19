@@ -1,4 +1,5 @@
 import {
+  boolean,
   char,
   integer,
   pgEnum,
@@ -192,6 +193,8 @@ export const characterMeanings = pgTable(
     keyword: varchar("keyword", { length: 50 }),
     // Meaning strings ordered by relevance
     meanings: text("meanings").array(),
+    // Keyword has been reviewed and approved for use in drills
+    checked: boolean("checked").default(false).notNull(),
   },
   (table) => [
     unique("character_meanings_unique").on(
