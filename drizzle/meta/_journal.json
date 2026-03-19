@@ -57,6 +57,13 @@
       "when": 1773926041757,
       "tag": "0007_careless_silhouette",
       "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1773929280612,
+      "tag": "0008_cultured_rockslide",
+      "breakpoints": true
     }
   ]
 }

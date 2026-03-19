@@ -1,10 +1,12 @@
 import {
   boolean,
   char,
+  index,
   integer,
   pgEnum,
   pgTable,
   primaryKey,
+  real,
   serial,
   smallint,
   text,
@@ -242,5 +244,66 @@ export const characterMeanings = pgTable(
       table.meaningLanguage,
       table.keyword,
     ),
+  ],
+);
+
+// --- Drill / SRS tables ---
+
+// FSRS card states: New → Learning → Review ↔ Relearning
+export const fsrsStateEnum = pgEnum("fsrs_state", [
+  "new",
+  "learning",
+  "review",
+  "relearning",
+]);
+
+// Current FSRS state per (user, item_type, item_id, drill_type).
+// item_type is a string so new content types (word, sentence, …) require no schema change.
+// drill_type is a string for the same reason (keyword_to_kanji, kanji_to_keyword, …).
+export const userCardStates = pgTable(
+  "user_card_states",
+  {
+    userId:    text("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
+    itemType:  text("item_type").notNull(),  // 'kanji' | 'word' | 'sentence' | …
+    itemId:    integer("item_id").notNull(),
+    drillType: text("drill_type").notNull(), // 'keyword_to_kanji' | 'kanji_to_keyword' | …
+
+    // FSRS algorithm state
+    fsrsState:     fsrsStateEnum("fsrs_state").notNull().default("new"),
+    stability:     real("stability"),      // retrieval half-life in days; null = never reviewed
+    difficulty:    real("difficulty"),     // card difficulty 1–10; null = never reviewed
+    elapsedDays:   integer("elapsed_days").notNull().default(0),
+    scheduledDays: integer("scheduled_days").notNull().default(0),
+    learningSteps: smallint("learning_steps").notNull().default(0), // progress through learning steps
+    reps:          integer("reps").notNull().default(0),
+    lapses:        integer("lapses").notNull().default(0),
+    dueAt:         timestamp("due_at").notNull().defaultNow(),
+    lastReviewAt:  timestamp("last_review_at"),
+  },
+  (table) => [
+    primaryKey({ columns: [table.userId, table.itemType, table.itemId, table.drillType] }),
+    // Fast lookup of cards due for review for a given user + drill type
+    index("user_card_states_due_idx").on(table.userId, table.drillType, table.dueAt),
+  ],
+);
+
+// Append-only log of every drill attempt — full history for analytics and algorithm replay.
+export const userDrillEvents = pgTable(
+  "user_drill_events",
+  {
+    id:        serial("id").primaryKey(),
+    userId:    text("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
+    itemType:  text("item_type").notNull(),
+    itemId:    integer("item_id").notNull(),
+    drillType: text("drill_type").notNull(),
+    // FSRS rating: 1=Again, 2=Hard, 3=Good, 4=Easy
+    rating:    smallint("rating").notNull(),
+    // Raw 0–1 score from auto-evaluation (kaku-ren stroke similarity, quiz correctness).
+    // null when the rating came from self-assessment.
+    rawScore:  real("raw_score"),
+    createdAt: timestamp("created_at").notNull().defaultNow(),
+  },
+  (table) => [
+    index("user_drill_events_card_idx").on(table.userId, table.itemType, table.itemId),
   ],
 );
