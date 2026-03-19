@@ -49,5 +49,5 @@ export default function KakuDisplay({ character, size = 200 }: Props) {
     };
   }, [character, size]);
 
-  return <div ref={containerRef} style={{ width: size, height: size }} />;
+  return <div ref={containerRef} className="border border-gray-200 rounded" style={{ width: size, height: size }} />;
 }
