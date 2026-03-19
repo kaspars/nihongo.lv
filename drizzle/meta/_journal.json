@@ -50,6 +50,13 @@
       "when": 1742305200001,
       "tag": "0006_keyword_checked",
       "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1773926041757,
+      "tag": "0007_careless_silhouette",
+      "breakpoints": true
     }
   ]
 }
