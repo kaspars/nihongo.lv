@@ -22,8 +22,14 @@ type DrillCard = {
   literal:   string;
   keyword:   string;
   cardState: CardState;
-  /** Number of attempts made against this card in the current session. */
+  /** Number of real (non-preview) attempts in the current session. */
   attempts:  number;
+  /**
+   * True once the guided outline preview has been completed for this card.
+   * Only relevant for new cards (reps === 0); flipped to true after the
+   * first kaku-ren run so the real (unguided) attempt can follow.
+   */
+  previewed: boolean;
 };
 
 type SessionPhase = "loading" | "drilling" | "complete" | "error";
@@ -83,10 +89,11 @@ export default function SessionPage() {
         }
 
         const initial: DrillCard[] = data.map((c) => ({
-          id:       c.id,
-          literal:  c.literal,
-          keyword:  c.keyword,
-          attempts: 0,
+          id:        c.id,
+          literal:   c.literal,
+          keyword:   c.keyword,
+          attempts:  0,
+          previewed: false,
           cardState: {
             ...c.cardState,
             dueAt:        new Date(c.cardState.dueAt as string),
@@ -222,7 +229,20 @@ export default function SessionPage() {
     [handleReview],
   );
 
-  // ─── Keyword→Kanji: kaku-ren complete ───────────────────────────────────────
+  // ─── Keyword→Kanji: outline preview done ────────────────────────────────────
+  // Not a real attempt — just mark the card as previewed and remount the canvas
+  // without the outline so the first scored attempt can begin.
+
+  const handlePreviewDone = useCallback(() => {
+    const card = queue[0];
+    if (!card) return;
+    setQueue((prev) =>
+      prev.map((c) => (c.id === card.id ? { ...c, previewed: true } : c)),
+    );
+    setAttemptKey((k) => k + 1);
+  }, [queue]);
+
+  // ─── Keyword→Kanji: kaku-ren complete (real attempt) ────────────────────────
 
   const handleKakuComplete = useCallback(
     (averageScore: number) => {
@@ -285,7 +305,8 @@ export default function SessionPage() {
 
   if (!currentCard) return null;
 
-  const showOutline = currentCard.cardState.reps === 0;
+  const isPreview  = currentCard.cardState.reps === 0 && !currentCard.previewed;
+  const showOutline = isPreview;
 
   return (
     <main className="flex min-h-screen flex-col items-center bg-gray-50 py-8 px-4">
@@ -313,10 +334,12 @@ export default function SessionPage() {
         {direction === "keyword_to_kanji" ? (
           <KeywordToKanjiCard
             card={currentCard}
+            isPreview={isPreview}
             showOutline={showOutline}
             cardPhase={cardPhase}
             attemptKey={attemptKey}
             lastResult={lastResult}
+            onPreviewDone={handlePreviewDone}
             onComplete={handleKakuComplete}
             onAdvance={advance}
           />
@@ -341,29 +364,40 @@ export default function SessionPage() {
 // ─── Keyword → Kanji ──────────────────────────────────────────────────────────
 
 function KeywordToKanjiCard({
-  card, showOutline, cardPhase, attemptKey, lastResult, onComplete, onAdvance,
+  card, isPreview, showOutline, cardPhase, attemptKey, lastResult,
+  onPreviewDone, onComplete, onAdvance,
 }: {
-  card:        DrillCard;
-  showOutline: boolean;
-  cardPhase:   CardPhase;
-  attemptKey:  number;
-  lastResult:  LastResult | null;
-  onComplete:  (score: number) => void;
-  onAdvance:   () => void;
+  card:          DrillCard;
+  isPreview:     boolean;
+  showOutline:   boolean;
+  cardPhase:     CardPhase;
+  attemptKey:    number;
+  lastResult:    LastResult | null;
+  onPreviewDone: () => void;
+  onComplete:    (score: number) => void;
+  onAdvance:     () => void;
 }) {
   return (
     <div className="flex flex-col items-center gap-4">
-      <p className="text-sm text-gray-500">Draw the kanji for:</p>
+      {isPreview ? (
+        <p className="text-sm text-gray-500">Follow the stroke order for:</p>
+      ) : (
+        <p className="text-sm text-gray-500">Draw the kanji for:</p>
+      )}
       <p className="text-3xl font-bold text-gray-900">{card.keyword}</p>
 
       <KakuRenCanvas
         key={attemptKey}
         character={card.literal}
         showOutline={showOutline}
-        onComplete={onComplete}
+        onComplete={isPreview ? onPreviewDone : onComplete}
       />
 
-      {cardPhase === "feedback" && lastResult && (
+      {isPreview && (
+        <p className="text-xs text-gray-400">Outline guide enabled — not scored</p>
+      )}
+
+      {!isPreview && cardPhase === "feedback" && lastResult && (
         <div className="w-full text-center space-y-3">
           <p className={`text-xl font-semibold ${lastResult.passed ? "text-green-600" : "text-red-600"}`}>
             {lastResult.rawScore !== null ? `${Math.round(lastResult.rawScore * 100)}% ` : ""}
