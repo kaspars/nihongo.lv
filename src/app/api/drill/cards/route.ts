@@ -46,12 +46,23 @@ export async function GET(req: NextRequest) {
       AND ucs.drill_type = ${drillType}
       AND ucs.user_id    = ${userId}
     ORDER BY
+      -- Priority bucket: due first, then new, then future
       CASE
-        WHEN ucs.user_id IS NULL   THEN 1   -- new (never seen)
-        WHEN ucs.due_at <= NOW()   THEN 0   -- due for review
-        ELSE                            2   -- reviewed but not yet due
+        WHEN ucs.user_id IS NULL   THEN 1
+        WHEN ucs.due_at <= NOW()   THEN 0
+        ELSE                            2
       END,
-      ucs.due_at ASC NULLS LAST
+      -- Within due/future: oldest due date first
+      ucs.due_at ASC NULLS LAST,
+      -- Within each bucket: kyouiku grade order (1 → 6 → S)
+      CASE jk.grade
+        WHEN '1' THEN 1  WHEN '2' THEN 2  WHEN '3' THEN 3
+        WHEN '4' THEN 4  WHEN '5' THEN 5  WHEN '6' THEN 6
+        WHEN 'S' THEN 7  ELSE            8
+      END,
+      -- Within grade: Heisig order, then character id
+      jk.sort_heisig ASC NULLS LAST,
+      c.id ASC
     LIMIT ${count}
   `);
 

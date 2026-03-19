@@ -3,22 +3,27 @@
 import { useEffect, useState, useCallback, useRef } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import dynamic from "next/dynamic";
-import { ratingFromScore, type CardState } from "@/lib/fsrs";
+import { ratingFromScore, scheduleReview, type CardState } from "@/lib/fsrs";
 import { Rating } from "ts-fsrs";
 
 const KakuRenCanvas = dynamic(() => import("@/components/KakuRenCanvas"), {
   ssr: false,
-  loading: () => <div className="flex items-center justify-center w-60 h-60 border border-gray-200 rounded text-sm text-gray-400">Loading…</div>,
+  loading: () => (
+    <div className="flex items-center justify-center w-60 h-60 border border-gray-200 rounded text-sm text-gray-400">
+      Loading…
+    </div>
+  ),
 });
 
-// A card that hasn't passed the session yet is mastered when score ≥ PASS_THRESHOLD
 const PASS_THRESHOLD = 0.75;
 
 type DrillCard = {
-  id:       number;
-  literal:  string;
-  keyword:  string;
+  id:        number;
+  literal:   string;
+  keyword:   string;
   cardState: CardState;
+  /** Number of attempts made against this card in the current session. */
+  attempts:  number;
 };
 
 type SessionPhase = "loading" | "drilling" | "complete" | "error";
@@ -26,10 +31,11 @@ type CardPhase    = "input" | "feedback";
 
 type LastResult = {
   rawScore: number | null;
+  rating:   Rating;
   passed:   boolean;
 };
 
-function isPassed(rating: number, rawScore: number | null): boolean {
+function isPassed(rating: Rating, rawScore: number | null): boolean {
   if (rawScore !== null) return rawScore >= PASS_THRESHOLD;
   return rating >= Rating.Good;
 }
@@ -42,30 +48,25 @@ export default function SessionPage() {
   const direction = searchParams.get("direction") ?? "keyword_to_kanji";
 
   // Rotating queue: queue[0] is always the current card.
-  // Passed cards are removed; failed cards are rotated to the back.
+  // Passed cards are removed; failed cards rotate to the back.
   const [queue,      setQueue]      = useState<DrillCard[]>([]);
   const [totalCount, setTotalCount] = useState(0);
   const [phase,      setPhase]      = useState<SessionPhase>("loading");
   const [cardPhase,  setCardPhase]  = useState<CardPhase>("input");
   const [lastResult, setLastResult] = useState<LastResult | null>(null);
-  // Incremented each time we advance; used as key to remount KakuRenCanvas
+  // Incremented on every advance; used as key to remount KakuRenCanvas
   const [attemptKey, setAttemptKey] = useState(0);
   const [errorMsg,   setErrorMsg]   = useState("");
 
   const directionRef = useRef(direction);
 
-  // ─── Load cards ────────────────────────────────────────────────────────────
+  // ─── Load cards ─────────────────────────────────────────────────────────────
 
   useEffect(() => {
     async function fetchCards() {
       try {
-        const res = await fetch(
-          `/api/drill/cards?count=${count}&direction=${direction}`,
-        );
-        if (res.status === 401) {
-          router.push("/api/auth/signin");
-          return;
-        }
+        const res = await fetch(`/api/drill/cards?count=${count}&direction=${direction}`);
+        if (res.status === 401) { router.push("/api/auth/signin"); return; }
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
         const data = (await res.json()) as Array<{
@@ -76,17 +77,16 @@ export default function SessionPage() {
         }>;
 
         if (data.length === 0) {
-          setErrorMsg(
-            "No cards available. Make sure there are approved Latvian keywords in the database.",
-          );
+          setErrorMsg("No cards available. Make sure there are approved Latvian keywords in the database.");
           setPhase("error");
           return;
         }
 
         const initial: DrillCard[] = data.map((c) => ({
-          id:      c.id,
-          literal: c.literal,
-          keyword: c.keyword,
+          id:       c.id,
+          literal:  c.literal,
+          keyword:  c.keyword,
+          attempts: 0,
           cardState: {
             ...c.cardState,
             dueAt:        new Date(c.cardState.dueAt as string),
@@ -107,58 +107,94 @@ export default function SessionPage() {
     fetchCards();
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // ─── Review handler ────────────────────────────────────────────────────────
+  // ─── Complete when queue drains ──────────────────────────────────────────────
 
-  const handleReview = useCallback(
-    (rating: number, rawScore: number | null) => {
-      const card = queue[0];
-      if (!card) return;
-
-      const passed = isPassed(rating, rawScore);
-      setLastResult({ rawScore, passed });
-      setCardPhase("feedback");
-
-      // Fire-and-forget: save to DB, then update local reps so next encounter
-      // has the correct outline setting
-      fetch("/api/drill/review", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          itemId:    card.id,
-          drillType: directionRef.current,
-          rating,
-          rawScore,
-        }),
-      })
-        .then(async (res) => {
-          if (!res.ok) return;
-          const { cardState: newState } = (await res.json()) as {
-            cardState: CardState;
-          };
-          // Update card state in queue wherever the card is (it may have moved)
-          setQueue((prev) =>
-            prev.map((c) =>
-              c.id === card.id ? { ...c, cardState: newState } : c,
-            ),
-          );
-        })
-        .catch(console.error);
-    },
-    [queue],
-  );
-
-  // Transition to complete when queue drains during a session
   useEffect(() => {
     if (phase === "drilling" && totalCount > 0 && queue.length === 0) {
       setPhase("complete");
     }
   }, [phase, totalCount, queue.length]);
 
-  // ─── Advance to next card ──────────────────────────────────────────────────
+  // ─── Review handler ──────────────────────────────────────────────────────────
+  //
+  // Called on every attempt. Does three things:
+  //   1. Updates local card state (reps, etc.) via a local scheduleReview call —
+  //      so the outline setting is correct on the next encounter within the session.
+  //   2. Logs the attempt to drill_events (fire-and-forget, isFinal=false).
+  //   3. Sets feedback UI state.
+  //
+  // card_states is NOT written yet — that happens in advance() when the card passes.
+
+  const handleReview = useCallback(
+    (rating: Rating, rawScore: number | null) => {
+      const card = queue[0];
+      if (!card) return;
+
+      const passed    = isPassed(rating, rawScore);
+      const newAttempts = card.attempts + 1;
+
+      // Project the new FSRS state locally so reps/outline stay accurate for
+      // any re-shows of this card later in the session.
+      const projectedState = scheduleReview(card.cardState, rating);
+
+      setLastResult({ rawScore, rating, passed });
+      setCardPhase("feedback");
+
+      // Update attempts + projected state in the queue immediately
+      setQueue((prev) =>
+        prev.map((c) =>
+          c.id === card.id
+            ? { ...c, attempts: newAttempts, cardState: projectedState }
+            : c,
+        ),
+      );
+
+      // Log attempt to drill_events only (no card_states write yet)
+      fetch("/api/drill/review", {
+        method:  "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          itemId:    card.id,
+          drillType: directionRef.current,
+          rating,
+          rawScore,
+          isFinal:   false,
+        }),
+      }).catch(console.error);
+    },
+    [queue],
+  );
+
+  // ─── Advance to next card ────────────────────────────────────────────────────
+  //
+  // On passing: writes card_states to DB once with a session-adjusted rating:
+  //   1 attempt  → natural rating
+  //   2 attempts → Hard (capped)
+  //   3+ attempts → Again
+  // This ensures harder cards get shorter FSRS intervals than easy ones.
+  //
+  // On failure: rotates the card to the back of the queue (no DB write).
 
   const advance = useCallback(() => {
     if (!lastResult) return;
-    const { passed } = lastResult;
+    const { passed, rating, rawScore } = lastResult;
+    const card = queue[0];
+    if (!card) return;
+
+    if (passed) {
+      fetch("/api/drill/review", {
+        method:  "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          itemId:          card.id,
+          drillType:       directionRef.current,
+          rating,
+          rawScore,
+          isFinal:         true,
+          sessionAttempts: card.attempts, // already incremented in handleReview
+        }),
+      }).catch(console.error);
+    }
 
     setQueue((prev) => {
       if (prev.length === 0) return prev;
@@ -169,39 +205,36 @@ export default function SessionPage() {
     setLastResult(null);
     setCardPhase("input");
     setAttemptKey((k) => k + 1);
-  }, [lastResult]);
+  }, [lastResult, queue]);
 
-  // Keep advance in a ref so the setTimeout inside handleSelfAssessStable
-  // always calls the latest version (with fresh lastResult)
+  // Keep advance in a ref so the setTimeout in handleSelfAssessStable always
+  // calls the latest closure (with updated lastResult and queue).
   const advanceRef = useRef(advance);
   advanceRef.current = advance;
 
-  // ─── Kanji→Keyword: self-assess ───────────────────────────────────────────
+  // ─── Kanji→Keyword: self-assess ─────────────────────────────────────────────
 
   const handleSelfAssessStable = useCallback(
     (rating: Rating) => {
       handleReview(rating, null);
-      // Auto-advance after brief feedback; use ref so we get the latest advance
       setTimeout(() => advanceRef.current(), 900);
     },
     [handleReview],
   );
 
-  // ─── Keyword→Kanji: kaku-ren complete ─────────────────────────────────────
+  // ─── Keyword→Kanji: kaku-ren complete ───────────────────────────────────────
 
   const handleKakuComplete = useCallback(
     (averageScore: number) => {
-      const rating = ratingFromScore(averageScore);
-      handleReview(rating, averageScore);
-      // User sees score + Continue button; advance is manual
+      handleReview(ratingFromScore(averageScore), averageScore);
     },
     [handleReview],
   );
 
-  // ─── Render ────────────────────────────────────────────────────────────────
+  // ─── Render ──────────────────────────────────────────────────────────────────
 
-  const currentCard  = queue[0] ?? null;
-  const passedCount  = totalCount - queue.length;
+  const currentCard = queue[0] ?? null;
+  const passedCount = totalCount - queue.length;
 
   if (phase === "loading") {
     return (
@@ -216,10 +249,7 @@ export default function SessionPage() {
       <main className="flex min-h-screen items-center justify-center px-4">
         <div className="text-center max-w-md">
           <p className="text-gray-800 mb-4">{errorMsg}</p>
-          <button
-            onClick={() => router.push("/drill")}
-            className="text-gray-700 underline"
-          >
+          <button onClick={() => router.push("/drill")} className="text-gray-700 underline">
             ← Back to setup
           </button>
         </div>
@@ -233,9 +263,7 @@ export default function SessionPage() {
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 text-center max-w-md w-full">
           <div className="text-5xl mb-4">✓</div>
           <h1 className="text-2xl font-bold text-gray-900 mb-2">Session Complete!</h1>
-          <p className="text-gray-600 mb-6">
-            You mastered all {totalCount} kanji in this session.
-          </p>
+          <p className="text-gray-600 mb-6">You mastered all {totalCount} kanji in this session.</p>
           <div className="flex gap-3 justify-center">
             <button
               onClick={() => router.push("/drill")}
@@ -261,7 +289,7 @@ export default function SessionPage() {
 
   return (
     <main className="flex min-h-screen flex-col items-center bg-gray-50 py-8 px-4">
-      {/* Header bar */}
+      {/* Header */}
       <div className="w-full max-w-lg mb-6">
         <div className="flex items-center justify-between mb-2">
           <button
@@ -270,9 +298,7 @@ export default function SessionPage() {
           >
             ← Exit
           </button>
-          <span className="text-sm text-gray-700">
-            {passedCount} / {totalCount} mastered
-          </span>
+          <span className="text-sm text-gray-700">{passedCount} / {totalCount} mastered</span>
         </div>
         <div className="h-1.5 bg-gray-200 rounded-full overflow-hidden">
           <div
@@ -312,24 +338,18 @@ export default function SessionPage() {
   );
 }
 
-// ─── Keyword → Kanji sub-component ────────────────────────────────────────────
+// ─── Keyword → Kanji ──────────────────────────────────────────────────────────
 
 function KeywordToKanjiCard({
-  card,
-  showOutline,
-  cardPhase,
-  attemptKey,
-  lastResult,
-  onComplete,
-  onAdvance,
+  card, showOutline, cardPhase, attemptKey, lastResult, onComplete, onAdvance,
 }: {
-  card:       DrillCard;
+  card:        DrillCard;
   showOutline: boolean;
-  cardPhase:  CardPhase;
-  attemptKey: number;
-  lastResult: LastResult | null;
-  onComplete: (score: number) => void;
-  onAdvance:  () => void;
+  cardPhase:   CardPhase;
+  attemptKey:  number;
+  lastResult:  LastResult | null;
+  onComplete:  (score: number) => void;
+  onAdvance:   () => void;
 }) {
   return (
     <div className="flex flex-col items-center gap-4">
@@ -345,15 +365,9 @@ function KeywordToKanjiCard({
 
       {cardPhase === "feedback" && lastResult && (
         <div className="w-full text-center space-y-3">
-          <p
-            className={`text-xl font-semibold ${
-              lastResult.passed ? "text-green-600" : "text-red-600"
-            }`}
-          >
-            {lastResult.rawScore !== null
-              ? `${Math.round(lastResult.rawScore * 100)}%`
-              : ""}
-            {lastResult.passed ? " ✓" : " — try again"}
+          <p className={`text-xl font-semibold ${lastResult.passed ? "text-green-600" : "text-red-600"}`}>
+            {lastResult.rawScore !== null ? `${Math.round(lastResult.rawScore * 100)}% ` : ""}
+            {lastResult.passed ? "✓" : "— try again"}
           </p>
           <button
             onClick={onAdvance}
@@ -367,12 +381,10 @@ function KeywordToKanjiCard({
   );
 }
 
-// ─── Kanji → Keyword sub-component ────────────────────────────────────────────
+// ─── Kanji → Keyword ──────────────────────────────────────────────────────────
 
 function KanjiToKeywordCard({
-  card,
-  cardPhase,
-  onAssess,
+  card, cardPhase, onAssess,
 }: {
   card:      DrillCard;
   cardPhase: CardPhase;
@@ -381,35 +393,16 @@ function KanjiToKeywordCard({
   return (
     <div className="flex flex-col items-center gap-6">
       <p className="text-sm text-gray-500">What is the keyword for:</p>
-
-      <p className="text-7xl font-cjk-ja-sans leading-none" lang="ja">
-        {card.literal}
-      </p>
+      <p className="text-7xl font-cjk-ja-sans leading-none" lang="ja">{card.literal}</p>
 
       {cardPhase === "input" && (
         <>
           <p className="text-sm text-gray-500">How well did you remember?</p>
           <div className="grid grid-cols-2 gap-2 w-full">
-            <RatingButton
-              label="Again"
-              onClick={() => onAssess(Rating.Again)}
-              hoverClass="hover:bg-red-50 hover:border-red-400 hover:text-red-700"
-            />
-            <RatingButton
-              label="Hard"
-              onClick={() => onAssess(Rating.Hard)}
-              hoverClass="hover:bg-orange-50 hover:border-orange-400 hover:text-orange-700"
-            />
-            <RatingButton
-              label="Good"
-              onClick={() => onAssess(Rating.Good)}
-              hoverClass="hover:bg-green-50 hover:border-green-400 hover:text-green-700"
-            />
-            <RatingButton
-              label="Easy"
-              onClick={() => onAssess(Rating.Easy)}
-              hoverClass="hover:bg-blue-50 hover:border-blue-400 hover:text-blue-700"
-            />
+            <RatingButton label="Again" onClick={() => onAssess(Rating.Again)} hoverClass="hover:bg-red-50 hover:border-red-400 hover:text-red-700" />
+            <RatingButton label="Hard"  onClick={() => onAssess(Rating.Hard)}  hoverClass="hover:bg-orange-50 hover:border-orange-400 hover:text-orange-700" />
+            <RatingButton label="Good"  onClick={() => onAssess(Rating.Good)}  hoverClass="hover:bg-green-50 hover:border-green-400 hover:text-green-700" />
+            <RatingButton label="Easy"  onClick={() => onAssess(Rating.Easy)}  hoverClass="hover:bg-blue-50 hover:border-blue-400 hover:text-blue-700" />
           </div>
         </>
       )}
@@ -424,11 +417,7 @@ function KanjiToKeywordCard({
   );
 }
 
-function RatingButton({
-  label,
-  onClick,
-  hoverClass,
-}: {
+function RatingButton({ label, onClick, hoverClass }: {
   label:      string;
   onClick:    () => void;
   hoverClass: string;
