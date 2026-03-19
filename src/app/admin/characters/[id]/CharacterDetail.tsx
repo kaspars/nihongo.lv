@@ -41,6 +41,31 @@ function NumberInput({ value, onChange }: { value: string; onChange: (v: string)
   );
 }
 
+function MeaningsList({ values, onChange }: { values: string[]; onChange: (v: string[]) => void }) {
+  return (
+    <div className="space-y-1.5">
+      {values.map((v, i) => (
+        <div key={i} className="flex gap-2 items-center">
+          <input
+            type="text"
+            value={v}
+            onChange={e => { const next = [...values]; next[i] = e.target.value; onChange(next); }}
+            className="flex-1 px-2 py-1 text-sm text-gray-900 border border-gray-200 rounded focus:outline-none focus:border-gray-400 focus:ring-1 focus:ring-gray-400"
+          />
+          <button
+            onClick={() => onChange(values.filter((_, j) => j !== i))}
+            className="px-1.5 text-gray-500 hover:text-gray-900"
+          >×</button>
+        </div>
+      ))}
+      <button
+        onClick={() => onChange([...values, ""])}
+        className="text-sm text-gray-500 hover:text-gray-900"
+      >+ Add meaning</button>
+    </div>
+  );
+}
+
 function ReadOnly({ value }: { value: string | null | undefined }) {
   return <span className="text-sm text-gray-700">{value ?? <span className="text-gray-400">—</span>}</span>;
 }
@@ -98,6 +123,7 @@ export default function CharacterDetail({ data }: { data: CharacterDetailData })
   const [jaHeisig, setJaHeisig] = useState(String(data.japanese?.heisig ?? ""));
   const [jaKeyEn, setJaKeyEn] = useState(data.japanese?.keywordEn ?? "");
   const [jaKeyLv, setJaKeyLv] = useState(data.japanese?.keywordLv ?? "");
+  const [jaMeaningsLv, setJaMeaningsLv] = useState<string[]>(data.japanese?.meaningsLv ?? []);
   const [jaState, setJaState] = useState<{ saving: boolean; error: string | null }>({ saving: false, error: null });
 
   // ── Simplified Chinese fields ──
@@ -153,6 +179,7 @@ export default function CharacterDetail({ data }: { data: CharacterDetailData })
               heisig: parseInt(jaHeisig) || null,
               keywordEn: jaKeyEn || null,
               keywordLv: jaKeyLv || null,
+              meaningsLv: jaMeaningsLv,
             },
           }, setJaState)}
           saving={jaState.saving}
@@ -184,6 +211,9 @@ export default function CharacterDetail({ data }: { data: CharacterDetailData })
           </Field>
           <Field label="Keyword LV">
             <TextInput value={jaKeyLv} onChange={setJaKeyLv} />
+          </Field>
+          <Field label="Meanings LV">
+            <MeaningsList values={jaMeaningsLv} onChange={setJaMeaningsLv} />
           </Field>
           {data.japanese.onyomi.length > 0 && (
             <Field label="On'yomi">

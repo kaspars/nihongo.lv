@@ -15,6 +15,7 @@ export interface CharacterDetailData {
     heisig: number | null;
     keywordEn: string | null;
     keywordLv: string | null;
+    meaningsLv: string[];
     onyomi: string[];
     kunyomi: string[];
   } | null;
@@ -59,6 +60,7 @@ export async function GET(
         th.sort_heisig AS "heisigZht",
         cm_ja_en.keyword AS "keywordJaEn",
         cm_ja_lv.keyword AS "keywordJaLv",
+        cm_ja_lv.meanings AS "meaningsJaLv",
         cm_zhs_en.keyword AS "keywordZhsEn",
         cm_zhs_lv.keyword AS "keywordZhsLv",
         cm_zht_en.keyword AS "keywordZhtEn",
@@ -115,6 +117,7 @@ export async function GET(
             heisig: r.heisigJa ?? null,
             keywordEn: r.keywordJaEn ?? null,
             keywordLv: r.keywordJaLv ?? null,
+            meaningsLv: r.meaningsJaLv ?? [],
             onyomi: readingValues("ja", "onyomi"),
             kunyomi: readingValues("ja", "kunyomi"),
           }
@@ -181,9 +184,10 @@ export async function PATCH(
       if (Object.keys(updates).length) {
         await db.update(schema.japaneseKanji).set(updates).where(eq(schema.japaneseKanji.characterId, charId));
       }
-      // Upsert keywords
+      // Upsert keywords and meanings
       await upsertKeyword(charId, "ja", "en", ja.keywordEn);
       await upsertKeyword(charId, "ja", "lv", ja.keywordLv);
+      if (ja.meaningsLv !== undefined) await upsertMeanings(charId, "ja", "lv", ja.meaningsLv);
     }
 
     // Update simplified_hanzi
@@ -216,6 +220,31 @@ export async function PATCH(
     console.error("[/api/characters/[id] PATCH]", err);
     return NextResponse.json({ error: String(err) }, { status: 500 });
   }
+}
+
+async function upsertMeanings(
+  charId: number,
+  sourceLang: "ja" | "zhs" | "zht",
+  meaningLang: "en" | "lv",
+  meanings: string[],
+) {
+  const cleaned = meanings.map(m => m.trim()).filter(Boolean);
+  await db
+    .insert(schema.characterMeanings)
+    .values({
+      characterId: charId,
+      sourceLanguage: sourceLang,
+      meaningLanguage: meaningLang,
+      meanings: cleaned.length > 0 ? cleaned : null,
+    })
+    .onConflictDoUpdate({
+      target: [
+        schema.characterMeanings.characterId,
+        schema.characterMeanings.sourceLanguage,
+        schema.characterMeanings.meaningLanguage,
+      ],
+      set: { meanings: cleaned.length > 0 ? cleaned : null },
+    });
 }
 
 async function upsertKeyword(
