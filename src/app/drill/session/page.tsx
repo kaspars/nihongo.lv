@@ -407,8 +407,8 @@ function KeywordToKanjiCard({
         )}
       </div>
 
-      {/* Action area — fixed min-height so layout doesn't shift when feedback appears */}
-      <div className="shrink-0 min-h-[60px] flex flex-col items-center justify-center gap-2">
+      {/* Action area — fixed height so the canvas container above never shifts. */}
+      <div className="shrink-0 h-20 flex flex-col items-center justify-center gap-2">
         {isPreview && (
           <p className="text-xs text-gray-400 text-center">
             Vadlīnijas ieslēgtas — netiek vērtēts

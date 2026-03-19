@@ -40,6 +40,7 @@ export default function KakuRenCanvas({ character, showOutline, onComplete, size
         showOutline,
         outlineColor: "#d8d8d8",
         strokeColor: "#1a1a1a",
+        showGrid: true,
         // Strokes must appear instantly after the morph — no re-draw animation.
         animation: { strokeEffect: "none", strokeDuration: 0, autoplay: false },
       });

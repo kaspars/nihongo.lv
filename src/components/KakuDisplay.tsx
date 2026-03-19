@@ -29,6 +29,7 @@ export default function KakuDisplay({ character, size = 200 }: Props) {
         container,
         size,
         strokeColor: "#1a1a1a",
+        showGrid: true,
         animation: { strokeEffect: "none", strokeDuration: 0, autoplay: false },
       });
 
