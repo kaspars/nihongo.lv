@@ -8,11 +8,6 @@ import { Rating } from "ts-fsrs";
 
 const KakuRenCanvas = dynamic(() => import("@/components/KakuRenCanvas"), {
   ssr: false,
-  loading: () => (
-    <div className="flex items-center justify-center w-60 h-60 border border-gray-200 rounded text-sm text-gray-400">
-      Loading…
-    </div>
-  ),
 });
 
 const PASS_THRESHOLD = 0.75;
@@ -83,7 +78,7 @@ export default function SessionPage() {
         }>;
 
         if (data.length === 0) {
-          setErrorMsg("No cards available. Make sure there are approved Latvian keywords in the database.");
+          setErrorMsg("Nav pieejamu kārtis. Pārliecinieties, ka datubāzē ir apstiprināti latviešu atslēgvārdi.");
           setPhase("error");
           return;
         }
@@ -123,14 +118,6 @@ export default function SessionPage() {
   }, [phase, totalCount, queue.length]);
 
   // ─── Review handler ──────────────────────────────────────────────────────────
-  //
-  // Called on every attempt. Does three things:
-  //   1. Updates local card state (reps, etc.) via a local scheduleReview call —
-  //      so the outline setting is correct on the next encounter within the session.
-  //   2. Logs the attempt to drill_events (fire-and-forget, isFinal=false).
-  //   3. Sets feedback UI state.
-  //
-  // card_states is NOT written yet — that happens in advance() when the card passes.
 
   const handleReview = useCallback(
     (rating: Rating, rawScore: number | null) => {
@@ -140,14 +127,11 @@ export default function SessionPage() {
       const passed    = isPassed(rating, rawScore);
       const newAttempts = card.attempts + 1;
 
-      // Project the new FSRS state locally so reps/outline stay accurate for
-      // any re-shows of this card later in the session.
       const projectedState = scheduleReview(card.cardState, rating);
 
       setLastResult({ rawScore, rating, passed });
       setCardPhase("feedback");
 
-      // Update attempts + projected state in the queue immediately
       setQueue((prev) =>
         prev.map((c) =>
           c.id === card.id
@@ -156,7 +140,6 @@ export default function SessionPage() {
         ),
       );
 
-      // Log attempt to drill_events only (no card_states write yet)
       fetch("/api/drill/review", {
         method:  "POST",
         headers: { "Content-Type": "application/json" },
@@ -173,14 +156,6 @@ export default function SessionPage() {
   );
 
   // ─── Advance to next card ────────────────────────────────────────────────────
-  //
-  // On passing: writes card_states to DB once with a session-adjusted rating:
-  //   1 attempt  → natural rating
-  //   2 attempts → Hard (capped)
-  //   3+ attempts → Again
-  // This ensures harder cards get shorter FSRS intervals than easy ones.
-  //
-  // On failure: rotates the card to the back of the queue (no DB write).
 
   const advance = useCallback(() => {
     if (!lastResult) return;
@@ -198,7 +173,7 @@ export default function SessionPage() {
           rating,
           rawScore,
           isFinal:         true,
-          sessionAttempts: card.attempts, // already incremented in handleReview
+          sessionAttempts: card.attempts,
         }),
       }).catch(console.error);
     }
@@ -214,8 +189,6 @@ export default function SessionPage() {
     setAttemptKey((k) => k + 1);
   }, [lastResult, queue]);
 
-  // Keep advance in a ref so the setTimeout in handleSelfAssessStable always
-  // calls the latest closure (with updated lastResult and queue).
   const advanceRef = useRef(advance);
   advanceRef.current = advance;
 
@@ -230,12 +203,8 @@ export default function SessionPage() {
   );
 
   // ─── Keyword→Kanji: outline preview done ────────────────────────────────────
-  // Not a real attempt — just mark the card as previewed and remount the canvas
-  // without the outline so the first scored attempt can begin.
 
   const handlePreviewDone = useCallback(() => {
-    // Rotate the previewed card to the back of the queue so the user sees
-    // all other cards before the first real (unguided) attempt.
     setQueue((prev) => {
       if (prev.length === 0) return prev;
       const [head, ...tail] = prev;
@@ -260,7 +229,7 @@ export default function SessionPage() {
   if (phase === "loading") {
     return (
       <main className="flex min-h-screen items-center justify-center">
-        <p className="text-gray-600">Loading cards…</p>
+        <p className="text-gray-600">Ielādē kārtis…</p>
       </main>
     );
   }
@@ -271,7 +240,7 @@ export default function SessionPage() {
         <div className="text-center max-w-md">
           <p className="text-gray-800 mb-4">{errorMsg}</p>
           <button onClick={() => router.push("/drill")} className="text-gray-700 underline">
-            ← Back to setup
+            ← Atpakaļ uz iestatījumiem
           </button>
         </div>
       </main>
@@ -283,20 +252,20 @@ export default function SessionPage() {
       <main className="flex min-h-screen items-center justify-center bg-gray-50 px-4">
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 text-center max-w-md w-full">
           <div className="text-5xl mb-4">✓</div>
-          <h1 className="text-2xl font-bold text-gray-900 mb-2">Session Complete!</h1>
-          <p className="text-gray-600 mb-6">You mastered all {totalCount} kanji in this session.</p>
+          <h1 className="text-2xl font-bold text-gray-900 mb-2">Sesija pabeigta!</h1>
+          <p className="text-gray-600 mb-6">Tu apguvi visus {totalCount} kanji šajā sesijā.</p>
           <div className="flex gap-3 justify-center">
             <button
               onClick={() => router.push("/drill")}
               className="px-5 py-2 border border-gray-300 rounded text-gray-700 hover:border-gray-500"
             >
-              New Session
+              Jauna sesija
             </button>
             <button
               onClick={() => router.push("/")}
               className="px-5 py-2 bg-gray-900 text-white rounded hover:bg-gray-700"
             >
-              Home
+              Sākums
             </button>
           </div>
         </div>
@@ -310,19 +279,24 @@ export default function SessionPage() {
   const showOutline = isPreview;
 
   return (
-    <main className="flex min-h-screen flex-col items-center bg-gray-50 py-8 px-4">
+    // 100dvh keeps the drill contained to the visible viewport with no scrolling.
+    // h-screen is a fallback for browsers without dvh support.
+    <main
+      className="flex flex-col overflow-hidden bg-gray-50 h-screen"
+      style={{ height: "100dvh" }}
+    >
       {/* Header */}
-      <div className="w-full max-w-lg mb-6">
-        <div className="flex items-center justify-between mb-2">
+      <div className="shrink-0 px-4 pt-3 pb-2">
+        <div className="flex items-center justify-between mb-2 max-w-lg mx-auto">
           <button
             onClick={() => router.push("/drill")}
             className="text-sm text-gray-500 hover:text-gray-700"
           >
-            ← Exit
+            ← Iziet
           </button>
-          <span className="text-sm text-gray-700">{passedCount} / {totalCount} mastered</span>
+          <span className="text-sm text-gray-700">{passedCount} / {totalCount} apgūti</span>
         </div>
-        <div className="h-1.5 bg-gray-200 rounded-full overflow-hidden">
+        <div className="h-1.5 bg-gray-200 rounded-full overflow-hidden max-w-lg mx-auto">
           <div
             className="h-full bg-green-500 transition-all duration-300"
             style={{ width: `${totalCount > 0 ? (passedCount / totalCount) * 100 : 0}%` }}
@@ -330,34 +304,30 @@ export default function SessionPage() {
         </div>
       </div>
 
-      {/* Drill card */}
-      <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 w-full max-w-lg">
-        {direction === "keyword_to_kanji" ? (
-          <KeywordToKanjiCard
-            card={currentCard}
-            isPreview={isPreview}
-            showOutline={showOutline}
-            cardPhase={cardPhase}
-            attemptKey={attemptKey}
-            lastResult={lastResult}
-            onPreviewDone={handlePreviewDone}
-            onComplete={handleKakuComplete}
-            onAdvance={advance}
-          />
-        ) : (
-          <KanjiToKeywordCard
-            card={currentCard}
-            cardPhase={cardPhase}
-            onAssess={handleSelfAssessStable}
-          />
-        )}
+      {/* Drill card — fills remaining height */}
+      <div className="flex-1 min-h-0 px-4 pb-4 flex flex-col max-w-lg mx-auto w-full">
+        <div className="flex-1 min-h-0 bg-white rounded-lg shadow-sm border border-gray-200 flex flex-col overflow-hidden">
+          {direction === "keyword_to_kanji" ? (
+            <KeywordToKanjiCard
+              card={currentCard}
+              isPreview={isPreview}
+              showOutline={showOutline}
+              cardPhase={cardPhase}
+              attemptKey={attemptKey}
+              lastResult={lastResult}
+              onPreviewDone={handlePreviewDone}
+              onComplete={handleKakuComplete}
+              onAdvance={advance}
+            />
+          ) : (
+            <KanjiToKeywordCard
+              card={currentCard}
+              cardPhase={cardPhase}
+              onAssess={handleSelfAssessStable}
+            />
+          )}
+        </div>
       </div>
-
-      {queue.length > 1 && (
-        <p className="mt-4 text-xs text-gray-400">
-          {queue.length} card{queue.length !== 1 ? "s" : ""} remaining
-        </p>
-      )}
     </main>
   );
 }
@@ -378,40 +348,71 @@ function KeywordToKanjiCard({
   onComplete:    (score: number) => void;
   onAdvance:     () => void;
 }) {
+  // Measure the canvas container so the drawing pad fills available space.
+  const canvasContainerRef = useRef<HTMLDivElement>(null);
+  const [canvasSize, setCanvasSize] = useState<number | null>(null);
+
+  useEffect(() => {
+    const el = canvasContainerRef.current;
+    if (!el) return;
+    const observer = new ResizeObserver(([entry]) => {
+      const { width, height } = entry.contentRect;
+      const available = Math.min(width, height);
+      if (available > 0) {
+        setCanvasSize(Math.max(160, Math.min(Math.floor(available), 400)));
+      }
+    });
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <div className="flex flex-col items-center gap-4">
-      {isPreview ? (
-        <p className="text-sm text-gray-500">Follow the stroke order for:</p>
-      ) : (
-        <p className="text-sm text-gray-500">Draw the kanji for:</p>
-      )}
-      <p className="text-3xl font-bold text-gray-900">{card.keyword}</p>
+    <div className="flex flex-col h-full p-4 sm:p-6">
+      <p className="text-sm text-gray-500 text-center shrink-0">
+        {isPreview ? "Seko triepienam secībai:" : "Zīmē kanji priekš:"}
+      </p>
+      <p className="text-2xl sm:text-3xl font-bold text-gray-900 text-center mt-2 shrink-0">
+        {card.keyword}
+      </p>
 
-      <KakuRenCanvas
-        key={attemptKey}
-        character={card.literal}
-        showOutline={showOutline}
-        onComplete={isPreview ? onPreviewDone : onComplete}
-      />
+      {/* Canvas container — flex-1 so the drawing pad fills all available height */}
+      <div
+        ref={canvasContainerRef}
+        className="flex-1 min-h-0 flex items-center justify-center py-2"
+      >
+        {canvasSize !== null && (
+          <KakuRenCanvas
+            key={attemptKey}
+            character={card.literal}
+            showOutline={showOutline}
+            size={canvasSize}
+            onComplete={isPreview ? onPreviewDone : onComplete}
+          />
+        )}
+      </div>
 
-      {isPreview && (
-        <p className="text-xs text-gray-400">Outline guide enabled — not scored</p>
-      )}
-
-      {!isPreview && cardPhase === "feedback" && lastResult && (
-        <div className="w-full text-center space-y-3">
-          <p className={`text-xl font-semibold ${lastResult.passed ? "text-green-600" : "text-red-600"}`}>
-            {lastResult.rawScore !== null ? `${Math.round(lastResult.rawScore * 100)}% ` : ""}
-            {lastResult.passed ? "✓" : "— try again"}
+      {/* Action area — fixed min-height so layout doesn't shift when feedback appears */}
+      <div className="shrink-0 min-h-[60px] flex flex-col items-center justify-center gap-2">
+        {isPreview && (
+          <p className="text-xs text-gray-400 text-center">
+            Vadlīnija iespējota — netiek vērtēts
           </p>
-          <button
-            onClick={onAdvance}
-            className="px-6 py-2 bg-gray-900 text-white rounded font-medium hover:bg-gray-700 transition-colors"
-          >
-            Continue
-          </button>
-        </div>
-      )}
+        )}
+        {!isPreview && cardPhase === "feedback" && lastResult && (
+          <>
+            <p className={`text-xl font-semibold ${lastResult.passed ? "text-green-600" : "text-red-600"}`}>
+              {lastResult.rawScore !== null ? `${Math.round(lastResult.rawScore * 100)}% ` : ""}
+              {lastResult.passed ? "✓" : "— mēģini vēlreiz"}
+            </p>
+            <button
+              onClick={onAdvance}
+              className="px-6 py-2 bg-gray-900 text-white rounded font-medium hover:bg-gray-700 transition-colors"
+            >
+              Turpināt
+            </button>
+          </>
+        )}
+      </div>
     </div>
   );
 }
@@ -426,28 +427,35 @@ function KanjiToKeywordCard({
   onAssess:  (rating: Rating) => void;
 }) {
   return (
-    <div className="flex flex-col items-center gap-6">
-      <p className="text-sm text-gray-500">What is the keyword for:</p>
-      <p className="text-7xl font-cjk-ja-sans leading-none" lang="ja">{card.literal}</p>
+    <div className="flex flex-col h-full p-4 sm:p-6">
+      <p className="text-sm text-gray-500 text-center shrink-0">Kāds ir atslēgvārds priekš:</p>
 
-      {cardPhase === "input" && (
-        <>
-          <p className="text-sm text-gray-500">How well did you remember?</p>
-          <div className="grid grid-cols-2 gap-2 w-full">
-            <RatingButton label="Again" onClick={() => onAssess(Rating.Again)} hoverClass="hover:bg-red-50 hover:border-red-400 hover:text-red-700" />
-            <RatingButton label="Hard"  onClick={() => onAssess(Rating.Hard)}  hoverClass="hover:bg-orange-50 hover:border-orange-400 hover:text-orange-700" />
-            <RatingButton label="Good"  onClick={() => onAssess(Rating.Good)}  hoverClass="hover:bg-green-50 hover:border-green-400 hover:text-green-700" />
-            <RatingButton label="Easy"  onClick={() => onAssess(Rating.Easy)}  hoverClass="hover:bg-blue-50 hover:border-blue-400 hover:text-blue-700" />
+      {/* Large kanji — fills available space */}
+      <div className="flex-1 min-h-0 flex items-center justify-center">
+        <p className="text-7xl sm:text-8xl font-cjk-ja-sans leading-none" lang="ja">{card.literal}</p>
+      </div>
+
+      {/* Action area */}
+      <div className="shrink-0">
+        {cardPhase === "input" && (
+          <>
+            <p className="text-sm text-gray-500 text-center mb-3">Cik labi atcerējies?</p>
+            <div className="grid grid-cols-2 gap-2">
+              <RatingButton label="Vēlreiz" onClick={() => onAssess(Rating.Again)} hoverClass="hover:bg-red-50 hover:border-red-400 hover:text-red-700" />
+              <RatingButton label="Grūti"   onClick={() => onAssess(Rating.Hard)}  hoverClass="hover:bg-orange-50 hover:border-orange-400 hover:text-orange-700" />
+              <RatingButton label="Labi"    onClick={() => onAssess(Rating.Good)}  hoverClass="hover:bg-green-50 hover:border-green-400 hover:text-green-700" />
+              <RatingButton label="Viegli"  onClick={() => onAssess(Rating.Easy)}  hoverClass="hover:bg-blue-50 hover:border-blue-400 hover:text-blue-700" />
+            </div>
+          </>
+        )}
+
+        {cardPhase === "feedback" && (
+          <div className="text-center py-3">
+            <p className="text-sm text-gray-500 mb-1">Atslēgvārds:</p>
+            <p className="text-2xl font-bold text-gray-900">{card.keyword}</p>
           </div>
-        </>
-      )}
-
-      {cardPhase === "feedback" && (
-        <div className="text-center">
-          <p className="text-sm text-gray-500 mb-1">Keyword:</p>
-          <p className="text-2xl font-bold text-gray-900">{card.keyword}</p>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 }

@@ -5,15 +5,14 @@ import { useEffect, useRef } from "react";
 const KANJIVG_BASE =
   "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji";
 
-const CANVAS_SIZE = 240;
-
 interface Props {
   character: string;
   showOutline: boolean;
   onComplete: (averageScore: number) => void;
+  size?: number;
 }
 
-export default function KakuRenCanvas({ character, showOutline, onComplete }: Props) {
+export default function KakuRenCanvas({ character, showOutline, onComplete, size = 240 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const onCompleteRef = useRef(onComplete);
   onCompleteRef.current = onComplete;
@@ -37,7 +36,7 @@ export default function KakuRenCanvas({ character, showOutline, onComplete }: Pr
       const kaku = new Kaku({
         provider,
         container,
-        size: CANVAS_SIZE,
+        size,
         showOutline,
         outlineColor: "#d8d8d8",
         strokeColor: "#1a1a1a",
@@ -48,7 +47,7 @@ export default function KakuRenCanvas({ character, showOutline, onComplete }: Pr
       const ren = new KakuRen({
         kaku,
         container,
-        size: CANVAS_SIZE,
+        size,
         strokeColor: "#1a1a1a",
         hintColor: "#cc3333",
         onComplete: (score) => onCompleteRef.current(score),
@@ -73,13 +72,13 @@ export default function KakuRenCanvas({ character, showOutline, onComplete }: Pr
       renInstance?.dispose();
       kakuInstance?.dispose();
     };
-  }, [character, showOutline]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [character, showOutline, size]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div
       ref={containerRef}
       className="relative border border-gray-200 rounded"
-      style={{ width: CANVAS_SIZE, height: CANVAS_SIZE }}
+      style={{ width: size, height: size }}
     />
   );
 }

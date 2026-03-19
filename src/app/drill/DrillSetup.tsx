@@ -17,13 +17,13 @@ export default function DrillSetup() {
   }
 
   return (
-    <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 w-full max-w-md">
-      <h1 className="text-2xl font-bold text-gray-900 mb-6">Kanji Drill</h1>
+    <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 sm:p-8 w-full max-w-md">
+      <h1 className="text-2xl font-bold text-gray-900 mb-6">Kanji treniņš</h1>
 
       <div className="space-y-5">
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">
-            Cards per session
+            Kārtis vienā sesijā
           </label>
           <div className="flex gap-2">
             {COUNTS.map((n) => (
@@ -43,7 +43,7 @@ export default function DrillSetup() {
         </div>
 
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">Direction</label>
+          <label className="block text-sm font-medium text-gray-700 mb-2">Virziens</label>
           <div className="space-y-2">
             <label className="flex items-start gap-3 cursor-pointer">
               <input
@@ -54,9 +54,9 @@ export default function DrillSetup() {
                 className="mt-0.5"
               />
               <div>
-                <div className="font-medium text-gray-900">Keyword → Kanji</div>
+                <div className="font-medium text-gray-900">Atslēgvārds → Kanji</div>
                 <div className="text-sm text-gray-500">
-                  See the Latvian keyword, draw the kanji
+                  Redzi latviešu atslēgvārdu, zīmē kanji
                 </div>
               </div>
             </label>
@@ -69,9 +69,9 @@ export default function DrillSetup() {
                 className="mt-0.5"
               />
               <div>
-                <div className="font-medium text-gray-900">Kanji → Keyword</div>
+                <div className="font-medium text-gray-900">Kanji → Atslēgvārds</div>
                 <div className="text-sm text-gray-500">
-                  See the kanji, recall the Latvian keyword
+                  Redzi kanji, atceries latviešu atslēgvārdu
                 </div>
               </div>
             </label>
@@ -82,7 +82,7 @@ export default function DrillSetup() {
           onClick={start}
           className="w-full py-3 bg-gray-900 text-white rounded font-medium hover:bg-gray-700 transition-colors"
         >
-          Start Session
+          Sākt sesiju
         </button>
       </div>
     </div>
