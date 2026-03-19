@@ -44,6 +44,11 @@ export default function KakuRenCanvas({ character, showOutline, onComplete }: Pr
         strokeColor: "#1a1a1a",
       });
 
+      // Load the character first — KakuRen's constructor calls getSvg() which
+      // requires Kaku to have already rendered the SVG.
+      await kaku.load(character);
+      if (disposed) { kaku.dispose(); return; }
+
       const ren = new KakuRen({
         kaku,
         container,
@@ -56,9 +61,6 @@ export default function KakuRenCanvas({ character, showOutline, onComplete }: Pr
 
       kakuInstance = kaku;
       renInstance = ren;
-
-      await kaku.load(character);
-      if (!disposed) ren.refresh();
     }
 
     init().catch(console.error);
