@@ -9,7 +9,7 @@ export default function Home() {
           href="/drill"
           className="px-6 py-3 bg-gray-900 text-white rounded-lg font-medium hover:bg-gray-700 transition-colors"
         >
-          Kanji treniņš
+          Kandži treniņš
         </Link>
       </nav>
     </main>

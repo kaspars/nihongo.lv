@@ -253,7 +253,7 @@ export default function SessionPage() {
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 text-center max-w-md w-full">
           <div className="text-5xl mb-4">✓</div>
           <h1 className="text-2xl font-bold text-gray-900 mb-2">Sesija pabeigta!</h1>
-          <p className="text-gray-600 mb-6">Tu apguvi visus {totalCount} kanji šajā sesijā.</p>
+          <p className="text-gray-600 mb-6">Tu apguvi visus {totalCount} kandži šajā sesijā.</p>
           <div className="flex gap-3 justify-center">
             <button
               onClick={() => router.push("/drill")}
@@ -369,7 +369,7 @@ function KeywordToKanjiCard({
   return (
     <div className="flex flex-col h-full p-4 sm:p-6">
       <p className="text-sm text-gray-500 text-center shrink-0">
-        {isPreview ? "Seko triepienam secībai:" : "Zīmē kanji priekš:"}
+        {isPreview ? "Seko triepienam secībai:" : "Zīmē kandži priekš:"}
       </p>
       <p className="text-2xl sm:text-3xl font-bold text-gray-900 text-center mt-2 shrink-0">
         {card.keyword}

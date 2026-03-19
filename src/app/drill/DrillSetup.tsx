@@ -18,7 +18,7 @@ export default function DrillSetup() {
 
   return (
     <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 sm:p-8 w-full max-w-md">
-      <h1 className="text-2xl font-bold text-gray-900 mb-6">Kanji treniņš</h1>
+      <h1 className="text-2xl font-bold text-gray-900 mb-6">Kandži treniņš</h1>
 
       <div className="space-y-5">
         <div>
@@ -54,9 +54,9 @@ export default function DrillSetup() {
                 className="mt-0.5"
               />
               <div>
-                <div className="font-medium text-gray-900">Atslēgvārds → Kanji</div>
+                <div className="font-medium text-gray-900">Atslēgvārds → Kandži</div>
                 <div className="text-sm text-gray-500">
-                  Redzi latviešu atslēgvārdu, zīmē kanji
+                  Redzi latviešu atslēgvārdu, zīmē kandži
                 </div>
               </div>
             </label>
@@ -69,9 +69,9 @@ export default function DrillSetup() {
                 className="mt-0.5"
               />
               <div>
-                <div className="font-medium text-gray-900">Kanji → Atslēgvārds</div>
+                <div className="font-medium text-gray-900">Kandži → Atslēgvārds</div>
                 <div className="text-sm text-gray-500">
-                  Redzi kanji, atceries latviešu atslēgvārdu
+                  Redzi kandži, atceries latviešu atslēgvārdu
                 </div>
               </div>
             </label>
