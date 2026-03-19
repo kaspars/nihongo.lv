@@ -369,7 +369,7 @@ function KeywordToKanjiCard({
   return (
     <div className="flex flex-col h-full p-4 sm:p-6">
       <p className="text-sm text-gray-500 text-center shrink-0">
-        {isPreview ? "Seko triepienam secībai:" : "Zīmē kandži priekš:"}
+        {isPreview ? "Ievēro līniju secību:" : "Zīmē kandži priekš:"}
       </p>
       <p className="text-2xl sm:text-3xl font-bold text-gray-900 text-center mt-2 shrink-0">
         {card.keyword}
@@ -395,7 +395,7 @@ function KeywordToKanjiCard({
       <div className="shrink-0 min-h-[60px] flex flex-col items-center justify-center gap-2">
         {isPreview && (
           <p className="text-xs text-gray-400 text-center">
-            Vadlīnija iespējota — netiek vērtēts
+            Vadlīnijas ieslēgtas — netiek vērtēts
           </p>
         )}
         {!isPreview && cardPhase === "feedback" && lastResult && (
@@ -441,7 +441,7 @@ function KanjiToKeywordCard({
           <>
             <p className="text-sm text-gray-500 text-center mb-3">Cik labi atcerējies?</p>
             <div className="grid grid-cols-2 gap-2">
-              <RatingButton label="Vēlreiz" onClick={() => onAssess(Rating.Again)} hoverClass="hover:bg-red-50 hover:border-red-400 hover:text-red-700" />
+              <RatingButton label="Slikti"  onClick={() => onAssess(Rating.Again)} hoverClass="hover:bg-red-50 hover:border-red-400 hover:text-red-700" />
               <RatingButton label="Grūti"   onClick={() => onAssess(Rating.Hard)}  hoverClass="hover:bg-orange-50 hover:border-orange-400 hover:text-orange-700" />
               <RatingButton label="Labi"    onClick={() => onAssess(Rating.Good)}  hoverClass="hover:bg-green-50 hover:border-green-400 hover:text-green-700" />
               <RatingButton label="Viegli"  onClick={() => onAssess(Rating.Easy)}  hoverClass="hover:bg-blue-50 hover:border-blue-400 hover:text-blue-700" />
