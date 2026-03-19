@@ -22,7 +22,6 @@ export default function KakuRenCanvas({ character, showOutline, onComplete }: Pr
     const container = containerRef.current;
     if (!container) return;
 
-    // Keep refs so cleanup can access the instances
     let disposed = false;
     let kakuInstance: { dispose(): void } | null = null;
     let renInstance: { dispose(): void } | null = null;
@@ -46,23 +45,25 @@ export default function KakuRenCanvas({ character, showOutline, onComplete }: Pr
         animation: { strokeEffect: "none", strokeDuration: 0, autoplay: false },
       });
 
-      // Load the character first — KakuRen's constructor calls getSvg() which
-      // requires Kaku to have already rendered the SVG.
-      await kaku.load(character);
-      if (disposed) { kaku.dispose(); return; }
-
       const ren = new KakuRen({
         kaku,
         container,
         size: CANVAS_SIZE,
-        showGuide: false,
         strokeColor: "#1a1a1a",
         hintColor: "#cc3333",
         onComplete: (score) => onCompleteRef.current(score),
       });
 
+      // Store immediately so the cleanup function can always dispose them,
+      // even if the effect is torn down while kaku.load() is in flight.
       kakuInstance = kaku;
       renInstance = ren;
+
+      await kaku.load(character);
+      if (disposed) return;
+
+      // Sync the KakuRen overlay with the freshly loaded character.
+      ren.refresh();
     }
 
     init().catch(console.error);

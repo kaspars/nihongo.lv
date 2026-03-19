@@ -17,8 +17,8 @@
   "dependencies": {
     "@auth/drizzle-adapter": "^1.11.1",
     "@aws-sdk/client-polly": "^3.1004.0",
-    "@kaspars/kaku": "^1.2.0",
-    "@kaspars/kaku-ren": "^1.2.0",
+    "@kaspars/kaku": "^1.3.0",
+    "@kaspars/kaku-ren": "^1.3.0",
     "@tanstack/react-table": "^8.21.3",
     "dotenv": "^17.3.1",
     "drizzle-orm": "^0.45.1",
