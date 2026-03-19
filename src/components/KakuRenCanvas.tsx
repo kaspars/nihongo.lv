@@ -42,6 +42,8 @@ export default function KakuRenCanvas({ character, showOutline, onComplete }: Pr
         showOutline,
         outlineColor: "#d8d8d8",
         strokeColor: "#1a1a1a",
+        // Strokes must appear instantly after the morph — no re-draw animation.
+        animation: { strokeEffect: "none", strokeDuration: 0, autoplay: false },
       });
 
       // Load the character first — KakuRen's constructor calls getSvg() which
