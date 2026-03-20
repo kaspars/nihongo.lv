@@ -365,6 +365,21 @@ function KeywordToKanjiCard({
   onComplete:    (score: number) => void;
   onAdvance:     () => void;
 }) {
+  // Space / Enter advances when the feedback ("Turpināt") is showing.
+  const onAdvanceRef = useRef(onAdvance);
+  onAdvanceRef.current = onAdvance;
+  useEffect(() => {
+    if (cardPhase !== "feedback") return;
+    function onKey(e: KeyboardEvent) {
+      if (e.key === " " || e.key === "Enter") {
+        e.preventDefault();
+        onAdvanceRef.current();
+      }
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [cardPhase]);
+
   // Measure the canvas container so the drawing pad fills available space.
   const canvasContainerRef = useRef<HTMLDivElement>(null);
   const [canvasSize, setCanvasSize] = useState<number | null>(null);
@@ -447,6 +462,23 @@ function KanjiToKeywordCard({
   onAssess:  (rating: Rating) => void;
 }) {
   const [revealed, setRevealed] = useState(false);
+
+  // Space / Enter: reveal answer if hidden, or rate Good if revealed.
+  const onAssessRef = useRef(onAssess);
+  onAssessRef.current = onAssess;
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if (e.key !== " " && e.key !== "Enter") return;
+      e.preventDefault();
+      if (!revealed) {
+        setRevealed(true);
+      } else if (cardPhase === "input") {
+        onAssessRef.current(Rating.Good);
+      }
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [revealed, cardPhase]);
 
   return (
     <div className="flex flex-col h-full p-4 sm:p-6">
