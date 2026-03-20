@@ -15,6 +15,63 @@ const KakuDisplay = dynamic(() => import("@/components/KakuDisplay"), {
   ssr: false,
 });
 
+const SESSION_KEY = "drill:session";
+
+// ─── Session persistence helpers ─────────────────────────────────────────────
+
+type PersistedSession = {
+  direction:  string;
+  totalCount: number;
+  queue:      unknown[];
+};
+
+function saveSession(direction: string, queue: DrillCard[], totalCount: number) {
+  try {
+    const data: PersistedSession = {
+      direction,
+      totalCount,
+      queue: queue.map((c) => ({
+        ...c,
+        cardState: {
+          ...c.cardState,
+          dueAt:        c.cardState.dueAt.toISOString(),
+          lastReviewAt: c.cardState.lastReviewAt?.toISOString() ?? null,
+        },
+      })),
+    };
+    sessionStorage.setItem(SESSION_KEY, JSON.stringify(data));
+  } catch {}
+}
+
+function loadSession(direction: string): { queue: DrillCard[]; totalCount: number } | null {
+  try {
+    const raw = sessionStorage.getItem(SESSION_KEY);
+    if (!raw) return null;
+    const data = JSON.parse(raw) as PersistedSession;
+    if (data.direction !== direction) return null;
+    const queue = (data.queue as Array<Record<string, unknown>>).map((c) => {
+      const cs = c.cardState as Record<string, unknown>;
+      return {
+        ...c,
+        cardState: {
+          ...cs,
+          dueAt:        new Date(cs.dueAt as string),
+          lastReviewAt: cs.lastReviewAt ? new Date(cs.lastReviewAt as string) : null,
+        },
+      } as DrillCard;
+    });
+    return { queue, totalCount: data.totalCount };
+  } catch {
+    return null;
+  }
+}
+
+function clearSession() {
+  try { sessionStorage.removeItem(SESSION_KEY); } catch {}
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+
 type DrillCard = {
   id:        number;
   literal:   string;
@@ -70,6 +127,15 @@ function SessionPageInner() {
   // ─── Load cards ─────────────────────────────────────────────────────────────
 
   useEffect(() => {
+    // Restore interrupted session if one exists for the same direction.
+    const saved = loadSession(direction);
+    if (saved) {
+      setQueue(saved.queue);
+      setTotalCount(saved.totalCount);
+      setPhase("drilling");
+      return;
+    }
+
     async function fetchCards() {
       try {
         const res = await fetch(`/api/drill/cards?count=${count}&direction=${direction}`);
@@ -106,6 +172,7 @@ function SessionPageInner() {
           } as CardState,
         }));
 
+        saveSession(direction, initial, initial.length);
         setQueue(initial);
         setTotalCount(initial.length);
         setPhase("drilling");
@@ -121,6 +188,7 @@ function SessionPageInner() {
 
   useEffect(() => {
     if (phase === "drilling" && totalCount > 0 && queue.length === 0) {
+      clearSession();
       setPhase("complete");
     }
   }, [phase, totalCount, queue.length]);
@@ -186,12 +254,14 @@ function SessionPageInner() {
       }).catch(console.error);
     }
 
-    setQueue((prev) => rotateQueue(prev, passed));
+    const next = rotateQueue(queue, passed);
+    setQueue(next);
+    saveSession(direction, next, totalCount);
 
     setLastResult(null);
     setCardPhase("input");
     setAttemptKey((k) => k + 1);
-  }, [lastResult, queue]);
+  }, [lastResult, queue, direction, totalCount]);
 
   const advanceRef = useRef(advance);
   advanceRef.current = advance;
