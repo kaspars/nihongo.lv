@@ -46,3 +46,28 @@ export const STATE_PRIORITY: Record<FsrsState, number> = {
 export function combinedState(a: FsrsState, b: FsrsState): FsrsState {
   return STATE_PRIORITY[a] <= STATE_PRIORITY[b] ? a : b;
 }
+
+/**
+ * Priority bucket for drill card ordering. Mirrors the SQL CASE expression
+ * used in the cards and overview API routes.
+ *
+ *   0 — due now   (highest priority)
+ *   1 — new       (never seen)
+ *   2 — future    (scheduled, not yet due)
+ */
+export function cardPriorityBucket(hasState: boolean, dueAt: Date | null, now: Date): 0 | 1 | 2 {
+  if (!hasState) return 1;
+  if (dueAt !== null && dueAt <= now) return 0;
+  return 2;
+}
+
+/**
+ * Advances the drill queue by one card.
+ * Passed cards are removed; failed cards rotate to the back.
+ * Returns a new array — does not mutate the input.
+ */
+export function rotateQueue<T>(queue: T[], passed: boolean): T[] {
+  if (queue.length === 0) return queue;
+  const [head, ...tail] = queue;
+  return passed ? tail : [...tail, head];
+}

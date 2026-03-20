@@ -4,7 +4,7 @@ import { useEffect, useState, useCallback, useRef } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import dynamic from "next/dynamic";
 import { ratingFromScore, scheduleReview, type CardState } from "@/lib/fsrs";
-import { isPassed, PASS_THRESHOLD } from "@/lib/drill";
+import { isPassed, PASS_THRESHOLD, rotateQueue } from "@/lib/drill";
 import { Rating } from "ts-fsrs";
 
 const KakuRenCanvas = dynamic(() => import("@/components/KakuRenCanvas"), {
@@ -178,11 +178,7 @@ export default function SessionPage() {
       }).catch(console.error);
     }
 
-    setQueue((prev) => {
-      if (prev.length === 0) return prev;
-      const [head, ...tail] = prev;
-      return passed ? tail : [...tail, head];
-    });
+    setQueue((prev) => rotateQueue(prev, passed));
 
     setLastResult(null);
     setCardPhase("input");

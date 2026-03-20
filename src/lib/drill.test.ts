@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { Rating } from "ts-fsrs";
-import { isPassed, sessionRating, combinedState, PASS_THRESHOLD } from "./drill";
+import { isPassed, sessionRating, combinedState, cardPriorityBucket, rotateQueue, PASS_THRESHOLD } from "./drill";
 
 // ─── isPassed ────────────────────────────────────────────────────────────────
 
@@ -109,5 +109,67 @@ describe("combinedState", () => {
         expect(combinedState(a, b)).toBe(combinedState(b, a));
       }
     }
+  });
+});
+
+// ─── cardPriorityBucket ──────────────────────────────────────────────────────
+
+describe("cardPriorityBucket", () => {
+  const now = new Date("2026-01-15T12:00:00Z");
+
+  it("returns 1 (new) when there is no state", () => {
+    expect(cardPriorityBucket(false, null, now)).toBe(1);
+    expect(cardPriorityBucket(false, new Date("2025-01-01"), now)).toBe(1);
+  });
+
+  it("returns 0 (due) when dueAt is in the past", () => {
+    expect(cardPriorityBucket(true, new Date("2026-01-14T00:00:00Z"), now)).toBe(0);
+  });
+
+  it("returns 0 (due) when dueAt equals now", () => {
+    expect(cardPriorityBucket(true, now, now)).toBe(0);
+  });
+
+  it("returns 2 (future) when dueAt is in the future", () => {
+    expect(cardPriorityBucket(true, new Date("2026-01-16T00:00:00Z"), now)).toBe(2);
+  });
+
+  it("returns 2 (future) when dueAt is null but state exists", () => {
+    expect(cardPriorityBucket(true, null, now)).toBe(2);
+  });
+});
+
+// ─── rotateQueue ─────────────────────────────────────────────────────────────
+
+describe("rotateQueue", () => {
+  it("removes the head when passed", () => {
+    expect(rotateQueue([1, 2, 3], true)).toEqual([2, 3]);
+  });
+
+  it("moves the head to the back when failed", () => {
+    expect(rotateQueue([1, 2, 3], false)).toEqual([2, 3, 1]);
+  });
+
+  it("returns empty array unchanged when passed", () => {
+    expect(rotateQueue([], true)).toEqual([]);
+  });
+
+  it("returns empty array unchanged when failed", () => {
+    expect(rotateQueue([], false)).toEqual([]);
+  });
+
+  it("handles a single-card queue: pass drains it", () => {
+    expect(rotateQueue(["only"], true)).toEqual([]);
+  });
+
+  it("handles a single-card queue: fail keeps the card", () => {
+    expect(rotateQueue(["only"], false)).toEqual(["only"]);
+  });
+
+  it("does not mutate the original array", () => {
+    const queue = [1, 2, 3];
+    rotateQueue(queue, true);
+    rotateQueue(queue, false);
+    expect(queue).toEqual([1, 2, 3]);
   });
 });
