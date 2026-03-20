@@ -97,6 +97,11 @@ type LastResult = {
   passed:   boolean;
 };
 
+type SessionStats = {
+  firstAttemptPasses: number;
+  retries:            number;
+};
+
 
 export default function SessionPage() {
   return (
@@ -123,6 +128,7 @@ function SessionPageInner() {
   // Incremented on every advance; used as key to remount KakuRenCanvas
   const [attemptKey, setAttemptKey] = useState(0);
   const [errorMsg,   setErrorMsg]   = useState("");
+  const [stats,      setStats]      = useState<SessionStats>({ firstAttemptPasses: 0, retries: 0 });
 
   // ─── Load cards ─────────────────────────────────────────────────────────────
 
@@ -240,6 +246,11 @@ function SessionPageInner() {
     if (!card) return;
 
     if (passed) {
+      setStats((prev) => ({
+        firstAttemptPasses: prev.firstAttemptPasses + (card.attempts === 1 ? 1 : 0),
+        retries:            prev.retries + Math.max(0, card.attempts - 1),
+      }));
+
       fetch("/api/drill/review", {
         method:  "POST",
         headers: { "Content-Type": "application/json" },
@@ -333,12 +344,36 @@ function SessionPageInner() {
   }
 
   if (phase === "complete") {
+    const allFirstTry = stats.firstAttemptPasses === totalCount;
+    const pct = totalCount > 0 ? Math.round((stats.firstAttemptPasses / totalCount) * 100) : 0;
     return (
       <main className="flex min-h-screen items-center justify-center bg-gray-50 px-4">
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 text-center max-w-md w-full">
           <div className="text-5xl mb-4">✓</div>
           <h1 className="text-2xl font-bold text-gray-900 mb-2">Sesija pabeigta!</h1>
-          <p className="text-gray-600 mb-6">Tu apguvi visus {totalCount} kandži šajā sesijā.</p>
+
+          <div className="my-6 divide-y divide-gray-100">
+            <div className="flex justify-between text-sm py-2.5">
+              <span className="text-gray-600">Apgūti kandži</span>
+              <span className="font-semibold text-gray-900">{totalCount}</span>
+            </div>
+            <div className="flex justify-between text-sm py-2.5">
+              <span className="text-gray-600">No pirmā mēģinājuma</span>
+              <span className={`font-semibold ${allFirstTry ? "text-green-600" : "text-gray-900"}`}>
+                {stats.firstAttemptPasses} / {totalCount}
+                {!allFirstTry && (
+                  <span className="text-gray-400 font-normal ml-1.5">({pct}%)</span>
+                )}
+              </span>
+            </div>
+            {stats.retries > 0 && (
+              <div className="flex justify-between text-sm py-2.5">
+                <span className="text-gray-600">Papildus mēģinājumi</span>
+                <span className="font-semibold text-gray-900">{stats.retries}</span>
+              </div>
+            )}
+          </div>
+
           <div className="flex gap-3 justify-center">
             <button
               onClick={() => router.push("/drill")}
