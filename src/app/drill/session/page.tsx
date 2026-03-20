@@ -4,6 +4,7 @@ import { useEffect, useState, useCallback, useRef } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import dynamic from "next/dynamic";
 import { ratingFromScore, scheduleReview, type CardState } from "@/lib/fsrs";
+import { isPassed, PASS_THRESHOLD } from "@/lib/drill";
 import { Rating } from "ts-fsrs";
 
 const KakuRenCanvas = dynamic(() => import("@/components/KakuRenCanvas"), {
@@ -13,8 +14,6 @@ const KakuRenCanvas = dynamic(() => import("@/components/KakuRenCanvas"), {
 const KakuDisplay = dynamic(() => import("@/components/KakuDisplay"), {
   ssr: false,
 });
-
-const PASS_THRESHOLD = 0.75;
 
 type DrillCard = {
   id:        number;
@@ -41,10 +40,6 @@ type LastResult = {
   passed:   boolean;
 };
 
-function isPassed(rating: Rating, rawScore: number | null): boolean {
-  if (rawScore !== null) return rawScore >= PASS_THRESHOLD;
-  return rating >= Rating.Good;
-}
 
 export default function SessionPage() {
   const searchParams = useSearchParams();

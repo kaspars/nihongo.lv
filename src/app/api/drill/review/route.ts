@@ -10,23 +10,8 @@ import {
   type CardState,
   type FsrsState,
 } from "@/lib/fsrs";
+import { sessionRating } from "@/lib/drill";
 import { Rating } from "ts-fsrs";
-
-/**
- * Downgrade the session rating based on how many attempts the card needed.
- *
- *   1 attempt  → natural rating (whatever the user actually scored)
- *   2 attempts → Hard (capped — needed a retry)
- *   3+ attempts → Again (needed multiple retries)
- *
- * This ensures cards that required retries get shorter FSRS intervals than
- * cards that were answered correctly on the first try.
- */
-function sessionRating(attempts: number, finalRating: Rating): Rating {
-  if (attempts <= 1) return finalRating;
-  if (attempts === 2) return Math.min(finalRating, Rating.Hard) as Rating;
-  return Rating.Again;
-}
 
 export async function POST(req: NextRequest) {
   const session = await auth();

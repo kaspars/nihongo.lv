@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { notoSansJP } from "@/lib/fonts";
 import type { FsrsState } from "@/lib/fsrs";
+import { combinedState } from "@/lib/drill";
 
 type OverviewCard = {
   id: number;
@@ -13,17 +14,6 @@ type OverviewCard = {
   ktkDueNow: boolean;
   kkDueNow: boolean;
 };
-
-const STATE_PRIORITY: Record<FsrsState, number> = {
-  relearning: 0,
-  new: 1,
-  learning: 2,
-  review: 3,
-};
-
-function combinedState(a: FsrsState, b: FsrsState): FsrsState {
-  return STATE_PRIORITY[a] <= STATE_PRIORITY[b] ? a : b;
-}
 
 const STATE_CLASSES: Record<FsrsState, string> = {
   new:        "bg-gray-100 text-gray-500 border-gray-200",
