@@ -9,6 +9,9 @@ git pull
 echo "==> Installing dependencies..."
 npm ci
 
+echo "==> Running migrations..."
+npm run db:migrate
+
 echo "==> Building..."
 npm run build
 
