@@ -298,7 +298,7 @@ function SessionPageInner() {
     // 100dvh keeps the drill contained to the visible viewport with no scrolling.
     // h-screen is a fallback for browsers without dvh support.
     <main
-      className="flex flex-col overflow-hidden bg-gray-50 h-screen"
+      className="flex flex-col overflow-hidden bg-gray-50 h-screen select-none"
       style={{ height: "100dvh" }}
     >
       {/* Header */}
