@@ -38,7 +38,7 @@ export default function DrillKanjiGrid() {
   useEffect(() => {
     fetch("/api/drill/overview")
       .then((r) => r.json())
-      .then(setCards)
+      .then((data) => setCards(Array.isArray(data) ? data : []))
       .catch(() => setCards([]));
   }, []);
 
