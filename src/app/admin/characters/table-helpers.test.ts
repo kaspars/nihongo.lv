@@ -122,6 +122,58 @@ describe("buildTableColumns", () => {
     expect(cell({ getValue: () => undefined })).toBe("");
   });
 
+  describe("variant column cells", () => {
+    type CellFn = (info: { getValue: () => unknown }) => unknown;
+
+    function variantCell(ctx: CharacterContext, key: string): CellFn {
+      const col = buildTableColumns(ctx).find(
+        c => (c as { accessorKey: string }).accessorKey === key
+      )!;
+      return col.cell as CellFn;
+    }
+
+    it("kyujitaiVariants — returns null when value is absent", () => {
+      const cell = variantCell("ja", "kyujitaiVariants");
+      expect(cell({ getValue: () => null })).toBeNull();
+      expect(cell({ getValue: () => "" })).toBeNull();
+    });
+
+    it("kyujitaiVariants — returns element when value is present", () => {
+      const cell = variantCell("ja", "kyujitaiVariants");
+      expect(cell({ getValue: () => "亞" })).not.toBeNull();
+    });
+
+    it("shinjitaiVariant — returns null when value is absent", () => {
+      const cell = variantCell("ja", "shinjitaiVariant");
+      expect(cell({ getValue: () => null })).toBeNull();
+    });
+
+    it("shinjitaiVariant — returns element when value is present", () => {
+      const cell = variantCell("ja", "shinjitaiVariant");
+      expect(cell({ getValue: () => "亜" })).not.toBeNull();
+    });
+
+    it("traditionalVariants — returns null when value is absent", () => {
+      const cell = variantCell("zhs", "traditionalVariants");
+      expect(cell({ getValue: () => null })).toBeNull();
+    });
+
+    it("traditionalVariants — returns element when value is present", () => {
+      const cell = variantCell("zhs", "traditionalVariants");
+      expect(cell({ getValue: () => "亞" })).not.toBeNull();
+    });
+
+    it("simplifiedVariants — returns null when value is absent", () => {
+      const cell = variantCell("zht", "simplifiedVariants");
+      expect(cell({ getValue: () => null })).toBeNull();
+    });
+
+    it("simplifiedVariants — returns element when value is present", () => {
+      const cell = variantCell("zht", "simplifiedVariants");
+      expect(cell({ getValue: () => "亚" })).not.toBeNull();
+    });
+  });
+
   it("columns follow general→specific order: literal before language-specific", () => {
     for (const ctx of ["ja", "zhs", "zht"] as CharacterContext[]) {
       const ids = colIds(ctx);
