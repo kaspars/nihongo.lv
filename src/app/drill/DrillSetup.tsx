@@ -1,14 +1,39 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
 const COUNTS = [5, 10, 20, 50] as const;
+const STORAGE_KEY = "drill:setup";
+
+function loadPrefs(): { count: number; direction: string } {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (raw) return JSON.parse(raw);
+  } catch {}
+  return { count: 10, direction: "keyword_to_kanji" };
+}
 
 export default function DrillSetup() {
   const router = useRouter();
   const [count, setCount] = useState<number>(10);
   const [direction, setDirection] = useState("keyword_to_kanji");
+
+  useEffect(() => {
+    const prefs = loadPrefs();
+    setCount(prefs.count);
+    setDirection(prefs.direction);
+  }, []);
+
+  function updateCount(n: number) {
+    setCount(n);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({ count: n, direction }));
+  }
+
+  function updateDirection(d: string) {
+    setDirection(d);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({ count, direction: d }));
+  }
 
   function start() {
     router.push(`/drill/session?count=${count}&direction=${direction}`);
@@ -27,7 +52,7 @@ export default function DrillSetup() {
             {COUNTS.map((n) => (
               <button
                 key={n}
-                onClick={() => setCount(n)}
+                onClick={() => updateCount(n)}
                 className={`flex-1 py-2 rounded border text-sm font-medium transition-colors ${
                   count === n
                     ? "bg-gray-900 text-white border-gray-900"
@@ -48,7 +73,7 @@ export default function DrillSetup() {
                 type="radio"
                 value="keyword_to_kanji"
                 checked={direction === "keyword_to_kanji"}
-                onChange={() => setDirection("keyword_to_kanji")}
+                onChange={() => updateDirection("keyword_to_kanji")}
                 className="mt-0.5"
               />
               <div>
@@ -63,7 +88,7 @@ export default function DrillSetup() {
                 type="radio"
                 value="kanji_to_keyword"
                 checked={direction === "kanji_to_keyword"}
-                onChange={() => setDirection("kanji_to_keyword")}
+                onChange={() => updateDirection("kanji_to_keyword")}
                 className="mt-0.5"
               />
               <div>
@@ -78,7 +103,7 @@ export default function DrillSetup() {
                 type="radio"
                 value="keyword_to_kanji,kanji_to_keyword"
                 checked={direction === "keyword_to_kanji,kanji_to_keyword"}
-                onChange={() => setDirection("keyword_to_kanji,kanji_to_keyword")}
+                onChange={() => updateDirection("keyword_to_kanji,kanji_to_keyword")}
                 className="mt-0.5"
               />
               <div>
