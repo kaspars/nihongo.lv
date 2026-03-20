@@ -8,9 +8,7 @@ const COUNTS = [5, 10, 20, 50] as const;
 export default function DrillSetup() {
   const router = useRouter();
   const [count, setCount] = useState<number>(10);
-  const [direction, setDirection] = useState<"keyword_to_kanji" | "kanji_to_keyword">(
-    "keyword_to_kanji",
-  );
+  const [direction, setDirection] = useState("keyword_to_kanji");
 
   function start() {
     router.push(`/drill/session?count=${count}&direction=${direction}`);
@@ -72,6 +70,21 @@ export default function DrillSetup() {
                 <div className="font-medium text-gray-900">Kandži → Atslēgvārds</div>
                 <div className="text-sm text-gray-500">
                   Redzi kandži, atceries latviešu atslēgvārdu
+                </div>
+              </div>
+            </label>
+            <label className="flex items-start gap-3 cursor-pointer">
+              <input
+                type="radio"
+                value="keyword_to_kanji,kanji_to_keyword"
+                checked={direction === "keyword_to_kanji,kanji_to_keyword"}
+                onChange={() => setDirection("keyword_to_kanji,kanji_to_keyword")}
+                className="mt-0.5"
+              />
+              <div>
+                <div className="font-medium text-gray-900">Jaukts</div>
+                <div className="text-sm text-gray-500">
+                  Abi virzieni jauktā secībā
                 </div>
               </div>
             </label>

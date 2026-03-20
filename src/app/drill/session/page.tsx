@@ -20,6 +20,7 @@ type DrillCard = {
   id:        number;
   literal:   string;
   keyword:   string;
+  drillType: string;
   cardState: CardState;
   /** Number of real (non-preview) attempts in the current session. */
   attempts:  number;
@@ -63,8 +64,6 @@ export default function SessionPage() {
   const [attemptKey, setAttemptKey] = useState(0);
   const [errorMsg,   setErrorMsg]   = useState("");
 
-  const directionRef = useRef(direction);
-
   // ─── Load cards ─────────────────────────────────────────────────────────────
 
   useEffect(() => {
@@ -78,6 +77,7 @@ export default function SessionPage() {
           id:        number;
           literal:   string;
           keyword:   string;
+          drillType: string;
           cardState: Record<string, unknown>;
         }>;
 
@@ -91,6 +91,7 @@ export default function SessionPage() {
           id:        c.id,
           literal:   c.literal,
           keyword:   c.keyword,
+          drillType: c.drillType,
           attempts:  0,
           previewed: false,
           cardState: {
@@ -149,7 +150,7 @@ export default function SessionPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           itemId:    card.id,
-          drillType: directionRef.current,
+          drillType: card.drillType,
           rating,
           rawScore,
           isFinal:   false,
@@ -173,7 +174,7 @@ export default function SessionPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           itemId:          card.id,
-          drillType:       directionRef.current,
+          drillType:       card.drillType,
           rating,
           rawScore,
           isFinal:         true,
@@ -290,7 +291,8 @@ export default function SessionPage() {
 
   if (!currentCard) return null;
 
-  const isPreview  = currentCard.cardState.reps === 0 && !currentCard.previewed;
+  const isPreview  = currentCard.drillType === "keyword_to_kanji" &&
+                     currentCard.cardState.reps === 0 && !currentCard.previewed;
   const showOutline = isPreview;
 
   return (
@@ -322,7 +324,7 @@ export default function SessionPage() {
       {/* Drill card — fills remaining height */}
       <div className="flex-1 min-h-0 px-4 pb-4 flex flex-col max-w-lg mx-auto w-full">
         <div className="flex-1 min-h-0 bg-white rounded-lg shadow-sm border border-gray-200 flex flex-col overflow-hidden">
-          {direction === "keyword_to_kanji" ? (
+          {currentCard.drillType === "keyword_to_kanji" ? (
             <KeywordToKanjiCard
               card={currentCard}
               isPreview={isPreview}
