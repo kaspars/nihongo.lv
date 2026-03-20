@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useCallback, useRef } from "react";
+import { Suspense, useEffect, useState, useCallback, useRef } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import dynamic from "next/dynamic";
 import { ratingFromScore, scheduleReview, type CardState } from "@/lib/fsrs";
@@ -42,6 +42,14 @@ type LastResult = {
 
 
 export default function SessionPage() {
+  return (
+    <Suspense>
+      <SessionPageInner />
+    </Suspense>
+  );
+}
+
+function SessionPageInner() {
   const searchParams = useSearchParams();
   const router       = useRouter();
 
