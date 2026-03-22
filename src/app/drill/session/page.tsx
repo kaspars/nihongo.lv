@@ -512,10 +512,13 @@ function KeywordToKanjiCard({
         {card.keyword}
       </p>
 
-      {/* Canvas container — flex-1 so the drawing pad fills all available height */}
+      {/* Canvas container — flex-1 so the drawing pad fills all available height.
+          touch-none: suppress browser pan/zoom/loupe on touch devices.
+          pointer-events-none during preview: ignore impatient strokes while
+          the animated outline is playing. */}
       <div
         ref={canvasContainerRef}
-        className="flex-1 min-h-0 flex items-center justify-center py-2"
+        className={`flex-1 min-h-0 flex items-center justify-center py-2 touch-none${isPreview ? " pointer-events-none" : ""}`}
       >
         {canvasSize !== null && (
           <KakuRenCanvas
