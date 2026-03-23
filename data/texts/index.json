@@ -18,6 +18,23 @@
   }
   ,
   {
+    "id": "tanizaki-junichiro/kagi",
+    "author": {
+      "ja": "谷崎潤一郎",
+      "romanized": "Tanizaki Jun'ichirō"
+    },
+    "title": {
+      "ja": "鍵",
+      "romanized": "Kagi"
+    },
+    "year": 1956,
+    "source": "aozora",
+    "source_url": "https://www.aozora.gr.jp/cards/001383/card56846.html",
+    "format": "aozora-ruby",
+    "license": "public-domain",
+    "file": "tanizaki-junichiro/kagi/kagi.txt"
+  },
+  {
     "id": "tanizaki-junichiro/in-ei-raisan",
     "author": {
       "ja": "谷崎潤一郎",
