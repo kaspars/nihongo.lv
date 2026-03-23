@@ -208,8 +208,14 @@ export function parseInline(line: string): InlineNode[] {
 
       if (advance > 0) {
         i += advance
-        // ／＼ is the "double iteration mark" (二倍の踊り字): always repeats
-        // exactly the 2 preceding characters. e.g. いろ／＼ → いろいろ.
+        // ／＼ is the "double iteration mark" (二倍の踊り字): repeats the
+        // 2 preceding characters. e.g. いろ／＼ → いろいろ, 高く／＼ → 高く高く.
+        //
+        // Known limitation: in rare cases the mark is used for phrase-level
+        // repetition, e.g. 「イエ何デモアリマセン／＼」 in Tanizaki's 鍵, where
+        // the entire phrase 何デモアリマセン is intended to repeat. The 2-char
+        // rule gives 何デモアリマセンセン there — wrong, but unavoidable without
+        // morphological analysis. Such cases are uncommon.
         const unit = buf.slice(Math.max(0, buf.length - 2))
         if (unit.length > 0) {
           const repeated = voiced
